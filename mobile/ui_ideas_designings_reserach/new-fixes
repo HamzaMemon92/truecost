@@ -1,0 +1,2431 @@
+# TrueCost Elite Search, Matching and Comparison Architecture
+
+## Executive finding
+
+The problem you found with:
+
+> `Noise airmax 6 headphones`
+
+is **not a small spelling-correction bug**. It exposes the most important intelligence layer TrueCost still needs to mature.
+
+The correct product is **Noise Airwave Max 6**; Flipkart currently has an explicit Airwave Max 6 listing. Yet the trace you supplied returned candidates such as Airwave Max 2, Airbuds 6, unrelated “Air 6” earbuds, and other brands. citeturn8search0turn8search3
+
+A world-class system should have interpreted:
+
+```text
+Noise airmax 6 headphones
+```
+
+approximately as:
+
+```text
+RAW QUERY
+Noise airmax 6 headphones
+
+UNDERSTANDING
+brand              = Noise
+product type       = headphones
+possible family    = Airwave Max
+model              = 6
+query specificity  = HIGH
+
+CORRECTION HYPOTHESIS
+airmax
+    ↓
+Airwave Max
+
+confidence becomes high because:
+Noise + Airwave Max + model 6 + headphones
+forms a valid catalog identity.
+
+PROTECTED TOKEN
+6
+must remain 6
+```
+
+Then it should retrieve:
+
+```text
+1. Noise Airwave Max 6       ← EXACT INTENT
+2. Noise Airwave Max 5       ← SUBSTITUTE / RELATED MODEL
+3. Noise Airwave Max 2       ← SUBSTITUTE / RELATED MODEL
+4. other Noise headphones    ← RELATED
+5. unrelated brands          ← IRRELEVANT
+```
+
+and **only the Airwave Max 6 cluster should enter exact cross-provider price comparison**.
+
+The central recommendation from the research is therefore:
+
+> **Do not make ER alone responsible for search. Build a separate Universal Search Intelligence layer in front of Entity Resolution.**
+
+TrueCost needs to distinguish four separate questions:
+
+```text
+1. WHAT DID THE USER MEAN?
+          ↓
+Query Understanding
+
+2. WHICH RESULTS ARE RELEVANT TO THAT INTENT?
+          ↓
+Search Retrieval + Ranking
+
+3. WHICH PROVIDER LISTINGS ARE ACTUALLY THE SAME ENTITY?
+          ↓
+Entity Resolution / Canonical Identity
+
+4. WHICH EXACT OFFER IS BEST?
+          ↓
+TrueCost Comparison / Decision Engine
+```
+
+Right now, those responsibilities are too close together.
+
+That is why a noisy provider search can leak into the UI even though ER exists.
+
+The research strongly supports this layered architecture. Zomato publicly describes search as a **candidate-retrieval stage followed by ranking**, while Amazon's public Shopping Queries benchmark explicitly separates query-product relevance into **Exact, Substitute, Complement, and Irrelevant**. citeturn12search9turn14search2
+
+This distinction is extremely important for TrueCost:
+
+```text
+SEARCH RELEVANCE
+Query ↔ Product
+
+is NOT the same problem as
+
+ENTITY RESOLUTION
+Provider Product ↔ Canonical Product
+```
+
+For example:
+
+```text
+Query:
+"headphones"
+
+Noise Airwave Max 6
+→ highly relevant search result
+
+Sony WH-1000XM6
+→ highly relevant search result
+
+JBL Tune 770NC
+→ highly relevant search result
+```
+
+These products should all appear in search.
+
+But:
+
+```text
+Noise Airwave Max 6 on Flipkart
+vs
+Noise Airwave Max 6 on Amazon
+```
+
+may be an exact identity comparison.
+
+Whereas:
+
+```text
+Noise Airwave Max 6
+vs
+Noise Airwave Max 2
+```
+
+must never become the same canonical product just because both are relevant to a headphone search.
+
+That separation is, in my view, the single most important architecture change for taking TrueCost from the current basic system toward an elite one.
+
+Your repository discovery suggests the foundation is already substantial: 32 target connectors and 32 mobile scraper components exist, Grocery has the deepest MCP/workflow/repository stack, Shopping has MCP/workflow infrastructure, and the other domains currently have varying levels of downstream implementation. fileciteturn0file4
+
+So I **would not rebuild the provider layer**.
+
+I would build the intelligence system above it.
+
+## What elite search systems teach us
+
+### Typo tolerance should be contextual, not blindly fuzzy
+
+Modern search cannot require users to spell everything correctly. Algolia's current documentation explicitly describes typo tolerance as fundamental to modern search because mobile typing errors are inevitable and users do not always know the exact spelling of products or services. Its ranking also puts zero-typo matches above one-typo matches and one-typo matches above two-typo matches. citeturn11search5turn11search4
+
+But there is a second lesson that matters just as much:
+
+**some tokens must not be fuzzed aggressively.**
+
+Algolia specifically recommends disabling typo tolerance on high-precision fields such as SKUs and warns that numeric typo tolerance can introduce false positives. citeturn11search0turn11search1turn11search3
+
+That maps perfectly onto TrueCost.
+
+For:
+
+```text
+Noise Airwave Max 6
+```
+
+we want:
+
+```text
+Airwaev
+→ Airwave                 ✅
+
+Airmax
+→ Airwave Max             ✅ context dependent
+
+Noize
+→ Noise                   ✅
+
+headphons
+→ headphones              ✅
+```
+
+But we usually do **not** want:
+
+```text
+Max 6
+→ Max 5                   ❌
+
+128 GB
+→ 256 GB                  ❌
+
+650 mg
+→ 500 mg                  ❌
+
+AI 2673
+→ AI 2763                 ❌
+```
+
+Those numbers can encode identity.
+
+TrueCost therefore needs **token-aware typo tolerance**, not simply Levenshtein distance over the full query.
+
+### India requires phonetic correction, transliteration and messy-language understanding
+
+This is particularly important for your market.
+
+Amazon researchers describe a production e-commerce spelling-correction system designed to handle phonetic errors in India; their reported experiment improved F1 by more than 9% and recall for phonetic errors by more than 8%. citeturn11search14
+
+Zomato has publicly described doing something similar. Its system distinguishes keyboard errors from phonetic errors, giving special treatment to phonetically similar character patterns. Examples include `Paniir → Paneer`, `Chikan → Chicken`, and keyboard errors such as `Pixxa → Pizza`. citeturn13view0turn13view2
+
+Even more importantly, Zomato does **not blindly rewrite every query**. When correction confidence is high, it shows corrected results while allowing the user to “Search instead for” the original query. When confidence is lower, it keeps the original results and offers a “did you mean” suggestion. citeturn13view0
+
+That is exactly the UX model TrueCost should use.
+
+Google's research on Indian transliteration also illustrates why purely English character-distance matching is inadequate in India: users can express the same named entity through different scripts and phonetic spellings. citeturn15search22
+
+So our query engine needs to understand things such as:
+
+```text
+paneer
+paniir
+panir
+
+doodh
+dudh
+
+atta
+aata
+
+coca cola
+coke
+
+headphone
+headphones
+headfone
+
+airwave max
+air wave max
+airwav max
+airmax
+```
+
+And eventually:
+
+```text
+English
+Hindi
+Hinglish
+regional transliteration
+voice transcription
+```
+
+without pretending they are identical purely because they “sound close.”
+
+### Query understanding should turn text into structured intent
+
+Google Shopping research is particularly relevant here. Google notes that shopping users often express vague or ambiguous queries rather than complete product specifications and proposes mapping those queries into structured concepts such as category, brand, product line, and features. citeturn15search1
+
+That should be the basis of TrueCost's Universal Query Intelligence model.
+
+Instead of handling:
+
+```text
+noise airmax 6 headphones
+```
+
+as one string, transform it into:
+
+```json
+{
+  "raw_query": "noise airmax 6 headphones",
+
+  "category": "shopping",
+
+  "entity_type": "headphones",
+
+  "attributes": {
+    "brand": {
+      "value": "Noise",
+      "confidence": 0.99
+    },
+    "product_family": {
+      "value": "Airwave Max",
+      "source": "contextual_correction",
+      "confidence": 0.94
+    },
+    "model": {
+      "value": "6",
+      "hard_constraint": true
+    }
+  },
+
+  "specificity": "HIGH",
+
+  "correction": {
+    "original": "airmax",
+    "candidate": "Airwave Max",
+    "confidence": 0.94
+  }
+}
+```
+
+The numbers above are illustrative; they need calibration against TrueCost's labelled data.
+
+The architecture is what matters.
+
+Google's ShopTalk work also provides a useful design principle: language understanding can be separated from a more deterministic state/fulfillment layer. citeturn15search2
+
+That is what I recommend for TrueCost:
+
+```text
+LLM / ML / language intelligence
+        ↓
+understand what user probably means
+
+DETERMINISTIC RULES / DOMAIN ONTOLOGY
+        ↓
+protect identity-sensitive attributes
+
+RETRIEVAL
+        ↓
+find candidates
+
+RANKER
+        ↓
+decide relevance
+
+ER
+        ↓
+prove cross-provider identity
+```
+
+### Search should understand natural language, not only keywords
+
+Zomato has publicly discussed handling natural-language queries such as restaurant+dish combinations and price-constrained requests. Its system moves beyond simple lexical matching by extracting multiple intents/entities. citeturn12search9turn12search2
+
+TrueCost should therefore eventually support:
+
+```text
+"noise headphones around 5k with anc"
+
+"best headphones under 3000"
+
+"amul toned milk 500ml"
+
+"cheapest cab to airport"
+
+"biryani under 300 near me"
+
+"dolo 650 strip of 15"
+
+"iphone 15 128 black"
+
+"delhi to mumbai tomorrow evening direct"
+
+"best credit card without annual fee"
+
+"slack for 20 people annual pricing"
+```
+
+These are **structured decisions disguised as natural language**.
+
+Amazon's 2025 research on queries containing terms such as “best” and “most popular” similarly found value in decomposing those queries into structured hints. The researchers also note that directly reranking an entire catalog with an LLM has prohibitive latency, so they transfer the interpretation into lighter-weight ranking models. citeturn18view0
+
+I recommend the same strategy:
+
+> **Use LLM intelligence for query understanding and hard cases—not as the final full-catalog ranker and never as the final identity authority.**
+
+### Popularity matters, but only after relevance
+
+You asked an important question:
+
+> If somebody searches “headphones,” shouldn't famous/high-demand products appear near the top?
+
+**Yes. Absolutely.**
+
+But with one critical rule:
+
+> **Popularity may rank relevant results. It must never make an irrelevant result relevant.**
+
+Zomato's public search architecture combines keyword affinity with regional popularity signals such as historical ordering patterns, clicks, taps and conversion. citeturn12search0turn13view0
+
+Amazon research similarly discusses e-commerce ranking as an interaction between topical relevance and behavioral popularity; more recent Amazon work uses signals including clicks, add-to-carts, purchases and ratings. citeturn14search3turn14search0
+
+But behavioral signals can create their own problems. Amazon research notes that search systems can suffer from facet mismatches caused not only by bad text but also by behavioral irregularities—users can click or purchase products that do not actually match an intended attribute. citeturn14search18
+
+Therefore this would be wrong:
+
+```text
+Query:
+Noise Airwave Max 6
+
+Airwave Max 2 has more sales
+        ↓
+Rank Max 2 first
+```
+
+No.
+
+For a highly specific query:
+
+```text
+RELEVANCE/IDENTITY >>> POPULARITY
+```
+
+For a broad query:
+
+```text
+Query:
+headphones
+
+RELEVANCE
++
+POPULARITY
++
+QUALITY
++
+AVAILABILITY
++
+VALUE
++
+PERSONALIZATION
++
+DIVERSITY
+```
+
+can jointly decide ranking.
+
+That dynamic behavior is essential.
+
+## The architecture TrueCost should implement
+
+I recommend creating a **Universal Search Intelligence Platform** shared by all eight categories.
+
+It should sit above your existing provider connectors/scrapers and below the consumer UI.
+
+```text
+                           TRUECOST SEARCH INTELLIGENCE
+
+USER
+ │
+ ▼
+Raw Query
+ │
+ ├──────────────────────────────────────────────────────────────┐
+ ▼                                                              │
+Query Normalizer                                                │
+ │                                                              │
+ ▼                                                              │
+Category / Intent Router                                        │
+ │                                                              │
+ ▼                                                              │
+Query Attribute Extractor                                       │
+ │                                                              │
+ ▼                                                              │
+Specificity Classifier                                          │
+ │                                                              │
+ ▼                                                              │
+Spelling / Phonetic / Alias / Transliteration Resolver          │
+ │                                                              │
+ ▼                                                              │
+Query Hypothesis Generator                                      │
+ │                                                              │
+ ├───────────────┬────────────────┬───────────────────┐          │
+ ▼               ▼                ▼                   ▼          │
+Original       Corrected      Structured            Alias        │
+Query          Query           Query                 Query        │
+ │               │                │                   │          │
+ └───────────────┴────────────────┴───────────────────┘          │
+                         │                                      │
+                         ▼                                      │
+                   RETRIEVAL LAYER                              │
+                         │                                      │
+            lexical + fuzzy + semantic +                        │
+              structured attributes                             │
+                         │                                      │
+                         ▼                                      │
+                 Candidate Products                             │
+                         │                                      │
+                         ▼                                      │
+               QUERY↔PRODUCT RELEVANCE                          │
+                         │                                      │
+              EXACT INTENT                                      │
+              SUBSTITUTE                                        │
+              COMPLEMENT                                        │
+              IRRELEVANT                                        │
+                         │                                      │
+                         ▼                                      │
+                    SEARCH RANKER                               │
+                         │                                      │
+                         ▼                                      │
+                  Canonical Candidates                          │
+                         │                                      │
+                         ▼                                      │
+                  ENTITY RESOLUTION                             │
+                         │                                      │
+                  provider listing                              │
+                         ↕                                      │
+                   canonical entity                             │
+                         │                                      │
+                         ▼                                      │
+                    EXACT OFFERS                                │
+                         │                                      │
+                         ▼                                      │
+               TRUECOST OFFER RANKING                           │
+                         │                                      │
+                         ▼                                      │
+             Price / Fees / ETA / Quality                       │
+                / Availability / Benefits                       │
+                         │                                      │
+                         ▼                                      │
+                    MOBILE UI                                   │
+```
+
+### The query intelligence object
+
+Every search should produce a structured internal object.
+
+Something like:
+
+```json
+{
+  "raw_query": "noise airmax 6 headphones",
+  "normalized_query": "noise airmax 6 headphones",
+  "corrected_query": "noise airwave max 6 headphones",
+
+  "category": "shopping",
+  "intent": "PRODUCT_SEARCH",
+
+  "specificity": "EXACT_MODEL",
+
+  "entities": {
+    "brand": "Noise",
+    "product_family": "Airwave Max",
+    "model": "6",
+    "product_type": "headphones"
+  },
+
+  "hard_constraints": {
+    "brand": "Noise",
+    "model": "6"
+  },
+
+  "soft_constraints": {},
+
+  "correction": {
+    "applied": true,
+    "original_span": "airmax",
+    "corrected_span": "airwave max"
+  }
+}
+```
+
+This becomes one of the most important internal contracts in the whole platform.
+
+### Do not rely on one corrected query
+
+Elite retrieval should produce a small set of hypotheses:
+
+```text
+H0
+noise airmax 6 headphones
+
+H1
+noise airwave max 6 headphones
+
+H2
+"Noise" "Airwave Max 6"
+
+H3
+Noise Airwave Max 6
+```
+
+The engine then merges/deduplicates results.
+
+But it should **not** fan out dozens of random fuzzy queries.
+
+For your architecture, these hypotheses should execute only at the already-approved acquisition boundary. They should not accidentally introduce synchronous provider calls from the backend user-query path if your zero-provider-network boundary remains frozen.
+
+### Build an alias knowledge graph
+
+A normal typo dictionary isn't enough.
+
+TrueCost needs a maintained **Entity Lexicon / Alias Graph**.
+
+Example:
+
+```text
+CANONICAL BRAND
+Noise
+
+ALIASES / OBSERVED SPELLINGS
+noise
+noize
+gonoise
+
+
+PRODUCT FAMILY
+Airwave Max
+
+ALIASES / CORRECTIONS
+airwave max
+air wave max
+airwav max
+airwavemax
+airmax                ← context-sensitive alias
+
+
+PRODUCT
+Noise Airwave Max 6
+
+OBSERVED PROVIDER TITLES
+Noise Airwave Max 6...
+Noise Airwave Max 6 2026 Launch...
+Noise Airwave Max 6 Wireless Headphones...
+...
+```
+
+The important phrase is **context-sensitive**.
+
+`airmax` globally cannot always mean `Airwave Max`.
+
+For example:
+
+```text
+Noise + airmax + headphones
+→ Airwave Max is highly plausible
+
+Nike + airmax + shoes
+→ Air Max is completely different
+```
+
+Correction therefore needs:
+
+```text
+spelling
++
+brand
++
+category
++
+known catalog
++
+nearby tokens
++
+historical query behavior
+```
+
+not spelling alone.
+
+### Build an attribute ontology per category
+
+Product titles should be transformed into structured entities.
+
+Google's product-search research emphasizes that attribute values are fundamental to ranking, retrieval and recommendations, while Amazon's work on variants emphasizes that near-identical products often differ specifically in domain-dependent variation attributes such as package size or color. citeturn15search0turn16search13
+
+So TrueCost should stop treating:
+
+```text
+"Noise Airwave Max 6 (2026 Launch) - Hi-Res LDAC Audio..."
+```
+
+primarily as text.
+
+Internally it becomes:
+
+```text
+brand            = Noise
+family           = Airwave Max
+model            = 6
+generation       = 2026
+type             = wireless over-ear headphone
+anc              = yes
+codec            = LDAC
+battery_claim    = 120h
+color            = Carbon Black
+```
+
+Then another provider can call it:
+
+```text
+Noise Airwave Max 6 Bluetooth Headphone,
+Adaptive ANC, LDAC, 120 Hours, Black
+```
+
+and we do not care that the word order is completely different.
+
+### Use multiple evidence channels for identity
+
+Cross-provider product matching should combine:
+
+```text
+global identifier
+GTIN/EAN/UPC/ISBN where available
+
+manufacturer model/part number
+
+brand
+
+product family
+
+critical variant attributes
+
+structured specifications
+
+normalized title
+
+provider taxonomy
+
+image similarity
+
+historical mappings
+
+known alias relationships
+```
+
+Multimodal evidence is legitimate here. Amazon research has shown that combining product imagery with title/category information can improve product-similarity matching, and Amazon has separately published work on matching entities across catalogs and languages. citeturn16search0turn16search1
+
+But images must remain **supporting evidence**.
+
+A black iPhone 128 GB and black iPhone 256 GB can look virtually identical.
+
+Likewise two medicine strengths may use extremely similar packaging.
+
+Therefore:
+
+```text
+image says same
++
+storage differs
+=
+NOT EXACT
+```
+
+and:
+
+```text
+image says same
++
+dosage differs
+=
+NOT EXACT
+```
+
+Critical structured conflicts always win.
+
+### Use three separate scoring systems
+
+This is a major architecture recommendation.
+
+Do **not** create one giant `similarity_score`.
+
+Use:
+
+```text
+QUERY_RELEVANCE_SCORE
+How relevant is this product to what the user asked?
+
+IDENTITY_SCORE
+Is this provider listing the exact same canonical entity?
+
+OFFER_SCORE
+Given the exact same entity, how good is this provider's offer?
+```
+
+For example:
+
+```text
+Query:
+headphones
+
+Sony XM6
+Query relevance = 0.98
+
+Noise Airwave Max 6
+Query relevance = 0.96
+```
+
+Both are fine search results.
+
+But they have:
+
+```text
+identity with each other = NOT SAME
+```
+
+Then Amazon and Flipkart listings of the Sony XM6 may have:
+
+```text
+identity = EXACT
+```
+
+And only **those provider offers** should enter one price table.
+
+That conceptual separation will eliminate an enormous class of errors.
+
+## Ranking broad searches, specific searches and the Noise case
+
+### TrueCost should first classify query specificity
+
+Search behavior should change based on how specific the user is.
+
+I recommend:
+
+| Query type | Example | Expected behavior |
+|---|---|---|
+| Broad | `headphones` | Discovery ranking |
+| Category + feature | `ANC headphones` | Relevant feature ranking |
+| Brand + category | `Noise headphones` | Noise products first |
+| Family | `Noise Airwave` | Airwave family first |
+| Exact model | `Noise Airwave Max 6` | Exact model dominates |
+| Exact model + typo | `Noise airmax 6` | Correct/resolve exact model |
+| Natural language | `best Noise headphones under 5000` | Parse constraints + rank |
+| SKU/identifier | specific model code | Very strict retrieval |
+
+The same ranker should not treat all of these identically.
+
+### For broad search, popularity absolutely belongs in ranking
+
+For:
+
+```text
+headphones
+```
+
+we should not randomly return ten products from whatever provider happened to return first.
+
+The first page should represent the strongest products for that user/context.
+
+I would initially rank broad discovery with a model conceptually based on:
+
+```text
+Eligibility:
+Must genuinely be headphones
+        ↓
+Relevance
+        ↓
+Demand / popularity evidence
+        ↓
+Review quality + review confidence
+        ↓
+Availability
+        ↓
+Value
+        ↓
+Freshness
+        ↓
+Personalization
+        ↓
+Result diversity
+```
+
+Zomato has publicly described using regional popularity, historical ordering, keyword match and preferences in search ranking, while Amazon research uses behavioral signals such as clicks, add-to-carts, purchases and ratings. citeturn13view0turn14search0
+
+TrueCost initially may not have Amazon-scale click/purchase history.
+
+That is okay.
+
+We can bootstrap a **Demand Prior** from observable evidence:
+
+```text
+provider organic rank
+
+how many providers carry the product
+
+ratings count
+
+review count
+
+rating quality
+
+bestseller/popular/trending badge
+ONLY if actually observed
+
+stock/availability
+
+recent TrueCost clicks
+
+comparison opens
+
+outbound provider opens
+
+saved/favorited
+
+repeat searches
+```
+
+Over time, TrueCost develops its own behavioral ranking model.
+
+A particularly useful cold-start signal is **provider rank consensus**.
+
+Suppose `headphones` returns:
+
+```text
+Amazon:
+1 Sony XM6
+2 boAt Rockerz...
+3 JBL...
+
+Flipkart:
+1 boAt...
+2 Sony XM6
+3 Noise...
+
+Myntra:
+...
+
+Meesho:
+...
+```
+
+We can calculate a neutral consensus prior such as:
+
+```text
+Consensus(product)
+=
+Σ provider_weight / (constant + provider_rank)
+```
+
+after canonicalizing products.
+
+That gives TrueCost a useful early popularity/relevance signal **without inventing sales numbers**.
+
+Sponsored results should be tagged separately whenever the source supplies that evidence; provider-paid placement should not silently become TrueCost's organic popularity score.
+
+### For specific search, relevance dominates popularity
+
+Now consider:
+
+```text
+Noise Airwave Max 6
+```
+
+The ranker must radically change.
+
+Something conceptually like:
+
+```text
+brand exactness               HARD
+family exactness              VERY HIGH
+model number exactness        HARD
+product type                  HIGH
+variant                       HIGH
+lexical similarity            MEDIUM
+semantic similarity           MEDIUM
+popularity                    LOW / tie-breaker
+ratings                       LOW / post-match
+price                         NOT SEARCH RELEVANCE
+```
+
+Therefore:
+
+```text
+Noise Airwave Max 6
+4.3 stars
+136 ratings
+
+beats
+
+Noise Airwave Max 2
+4.8 stars
+50,000 ratings
+```
+
+for this query.
+
+Popularity cannot repair a model mismatch.
+
+### What should happen with your exact query
+
+The ideal processing should be:
+
+```text
+USER
+Noise airmax 6 headphones
+```
+
+First:
+
+```text
+NORMALIZE
+
+noise airmax 6 headphones
+```
+
+Then:
+
+```text
+TOKEN TYPE
+
+Noise       BRAND
+airmax      UNKNOWN / POSSIBLE FAMILY
+6           MODEL_NUMBER
+headphones  PRODUCT_TYPE
+```
+
+Then contextual correction:
+
+```text
+Known brand:
+Noise
+
+Known Noise headphone families:
+Airwave Max ...
+
+Known catalog candidate:
+Airwave Max 6
+
+Observed:
+airmax
+
+Candidate correction:
+Airwave Max
+
+Contextual confidence:
+HIGH
+```
+
+Then UI:
+
+> **Showing results for Noise Airwave Max 6**  
+> Search instead for “Noise airmax 6 headphones”
+
+This is essentially the high-confidence correction pattern Zomato publicly describes. citeturn13view0
+
+Then candidate classification:
+
+```text
+Noise Airwave Max 6
+EXACT INTENT
+
+Noise Airwave Max 5
+SUBSTITUTE
+
+Noise Airwave Max 2
+SUBSTITUTE
+
+Noise Airbuds 6
+IRRELEVANT or distant RELATED
+
+Fonixx Air 6
+IRRELEVANT
+
+GREE MATT Air 6
+IRRELEVANT
+
+Digimore D-190
+IRRELEVANT
+```
+
+Amazon's ESCI scheme is an excellent conceptual model for this search-stage classification. citeturn14search2turn14search14
+
+Then canonicalization:
+
+```text
+               CANONICAL PRODUCT
+             Noise Airwave Max 6
+                      │
+       ┌──────────────┼───────────────┐
+       ▼              ▼               ▼
+ Amazon offer     Flipkart offer    other offer
+       │              │               │
+       └──────────────┴───────────────┘
+                      │
+                   EXACT ER
+                      │
+                      ▼
+                 PRICE COMPARE
+```
+
+The current Flipkart catalog evidence confirms that Airwave Max 6 exists as a specific listing, so the Max 2 results in your trace are a **missed-recall/retrieval-quality problem**, not evidence that Max 2 should be promoted into an exact match. citeturn8search0turn8search3
+
+### If exact retrieval fails, the UX must remain truthful
+
+Suppose we still cannot retrieve Airwave Max 6.
+
+Then:
+
+```text
+We couldn't verify the exact
+Noise Airwave Max 6 right now.
+
+Related Noise headphones
+
+Airwave Max 5
+Airwave Max 2
+...
+```
+
+Not:
+
+```text
+Noise Airwave Max 2
+Amazon ₹...
+Flipkart ₹...
+BEST PRICE
+```
+
+as though Max 2 were what the user requested.
+
+That boundary will protect user trust.
+
+### Reviews need ranking intelligence too
+
+You are correct that reviews should be incorporated.
+
+But this is also easy to do badly.
+
+Do not simply sort:
+
+```text
+5.0 ★ — 3 reviews
+
+above
+
+4.6 ★ — 48,000 reviews
+```
+
+Instead retain:
+
+```text
+rating
+rating count
+review count
+provider
+review freshness if available
+verification metadata if available
+canonical entity
+```
+
+For broad discovery, use a confidence-adjusted rating.
+
+An initial Bayesian form could be:
+
+```text
+quality_score
+=
+(v / (v + m)) × R
++
+(m / (v + m)) × C
+```
+
+where:
+
+```text
+R = product rating
+v = number of trustworthy ratings
+C = category average
+m = confidence threshold
+```
+
+The exact parameters should be learned and calibrated.
+
+Also, do not blindly average ratings across providers unless they refer to the **same canonical product** and we understand the rating semantics.
+
+A better UI might show:
+
+```text
+Noise Airwave Max 6
+
+4.3 ★ Flipkart · 136 ratings
+4.4 ★ Amazon   · 742 ratings
+
+Across matched sources
+strong review evidence
+```
+
+instead of manufacturing:
+
+```text
+4.35 ★ TrueCost Rating
+```
+
+without explaining how it was derived.
+
+## How this changes across all eight categories
+
+One universal search engine can share the pipeline, but **identity rules and ranking objectives must be domain-specific**.
+
+| Category | Typo-tolerant concepts | Identity-critical concepts | Broad-search ranking | Exact comparison |
+|---|---|---|---|---|
+| Grocery | brand/product/flavour aliases | brand, variant, quantity, unit, pack | relevance, local demand, value, availability | exact SKU-like grocery identity |
+| Food | dish/cuisine/restaurant phonetics | restaurant, branch, dish, size, customization | local popularity, rating, ETA, delivered cost | same branch + dish configuration |
+| Pharmacy | brand/molecule spelling | molecule, strength, form, manufacturer, pack | relevance and verified commercial availability | exact medicine product only |
+| Shopping | brands, families, feature synonyms | model, generation, storage, color, bundle, part number | relevance, demand, reviews, value | exact model/variant |
+| Mobility | locations, landmarks, transliteration | pickup, destination, time, ride class | contextual options | equivalent route/time/class offers |
+| Travel | city/airport aliases, airline names | date, route, flight, cabin, fare family | itinerary relevance, time, stops, price | same itinerary/fare context |
+| Finance | issuer/product aliases | issuer, product type, variant, rates/fees | suitability, authoritative terms | exact financial product |
+| SaaS | product/tier aliases | product, plan, seats, cadence, region/currency | use-case fit, TCO | exact plan/configuration |
+
+### Grocery
+
+Grocery needs aggressive natural-language tolerance but strict variant resolution.
+
+Good:
+
+```text
+amul taja milk
+→ Amul Taaza Milk
+```
+
+Possible:
+
+```text
+coke zero
+→ Coca-Cola Zero Sugar
+```
+
+But:
+
+```text
+Amul Taaza
+vs
+Amul Gold
+```
+
+must remain different.
+
+Likewise:
+
+```text
+500 ml
+vs
+1 L
+
+single
+vs
+pack of 6
+
+regular
+vs
+zero sugar
+```
+
+Price-per-unit can be shown for **value discovery**, but it does not make different pack sizes the exact same provider offer.
+
+For broad:
+
+```text
+milk
+```
+
+ranking should be local and availability-aware.
+
+For exact:
+
+```text
+Amul Taaza 500ml pouch
+```
+
+the canonical exact product should dominate.
+
+### Food
+
+Zomato's own public search work is highly instructive here. It uses popularity at regional level and explicitly identifies dish/restaurant/cuisine intents; it has also moved toward natural-language queries such as dish+restaurant and budget constraints. citeturn12search0turn12search9
+
+So:
+
+```text
+briyani
+biriyani
+biryani
+```
+
+should resolve cleanly.
+
+But:
+
+```text
+Chicken Biryani
+Restaurant A
+
+vs
+
+Chicken Biryani
+Restaurant B
+```
+
+are **not the same exact entity**.
+
+Food canonical identity needs:
+
+```text
+restaurant
+branch
+dish
+size
+variant
+customization/composition
+```
+
+A broad query:
+
+```text
+biryani
+```
+
+can rank by:
+
+```text
+local relevance
+popularity
+review confidence
+ETA
+delivered total
+preference
+```
+
+A specific query:
+
+```text
+Behrouz Lazeez Bhuna Murgh Biryani serves 1
+```
+
+must compare only the corresponding branch/menu item/configuration.
+
+### Pharmacy
+
+Search correction should be friendly:
+
+```text
+dolo
+dollo
+dolo 650
+```
+
+But identity must be extremely conservative.
+
+```text
+Dolo 650
+vs
+Dolo 500
+→ NOT SAME
+
+tablet
+vs
+syrup
+→ NOT SAME
+
+15 tablets
+vs
+30 tablets
+→ different pack
+```
+
+The search engine can show related commercial products, but **TrueCost must never convert text similarity into medical equivalence**.
+
+The UI should clearly expose:
+
+```text
+brand
+molecule
+strength
+dosage form
+manufacturer
+pack size
+prescription requirement
+```
+
+before showing price superiority.
+
+### Shopping
+
+Shopping needs the richest search intelligence.
+
+Critical fields include:
+
+```text
+brand
+product family
+model
+generation
+manufacturer part number
+storage
+RAM
+color if SKU-defining
+region
+bundle
+pack contents
+```
+
+Amazon's work on entity variations is especially relevant because near-identical products can share brand and product family while differing in exactly these variation attributes. citeturn16search13turn16search3
+
+For:
+
+```text
+iphone
+```
+
+show popular/relevant iPhones.
+
+For:
+
+```text
+iphone 15
+```
+
+show the iPhone 15 family.
+
+For:
+
+```text
+iphone 15 128 black
+```
+
+the first authoritative result should respect all three critical attributes.
+
+For:
+
+```text
+iphone 15 256 black
+```
+
+128 GB cannot win because it is cheaper.
+
+### Mobility
+
+Do not apply a shopping-product mental model to Uber/Ola/Rapido.
+
+Mobility search has two tasks:
+
+```text
+PLACE UNDERSTANDING
+        ↓
+OFFER COMPARISON
+```
+
+User:
+
+```text
+koramangla to banglore airport
+```
+
+should tolerate:
+
+```text
+koramangla
+→ Koramangala
+
+banglore
+→ Bengaluru
+```
+
+Then geocode/resolve actual locations.
+
+After that:
+
+```text
+same pickup
+same destination
+same request time
+equivalent ride class
+```
+
+creates a comparable scenario.
+
+The UI then compares:
+
+```text
+Rapido Cab
+Uber Go
+Ola Mini
+```
+
+as **offers serving the same user need**, not as identical products.
+
+### Travel
+
+Travel search needs excellent alias handling:
+
+```text
+Bombay
+Mumbai
+BOM
+
+Delhi
+New Delhi
+DEL
+```
+
+and spelling correction.
+
+But comparison identity needs:
+
+```text
+date
+origin
+destination
+operating carrier
+flight
+departure
+arrival
+cabin
+fare family
+baggage
+refund/change conditions
+```
+
+A cheap DEL→BOM fare tomorrow does not belong in the same exact comparison as the same route next week.
+
+### Finance
+
+Finance should not use “most popular” as the dominant default.
+
+Search correction can resolve:
+
+```text
+regelia
+→ Regalia
+
+millenia
+→ Millennia
+```
+
+but ranking should prioritize:
+
+```text
+user objective
+product type
+authoritative eligibility/terms
+annual fee
+APR/rates when relevant
+reward economics
+effective date
+provenance
+```
+
+Popularity may be a discovery signal, not proof that a product is suitable.
+
+### SaaS
+
+SaaS needs plan-level normalization:
+
+```text
+slak pro
+→ Slack Pro
+
+figma profesional
+→ Figma Professional
+```
+
+Then:
+
+```text
+product
+plan
+seat count
+billing cadence
+currency
+region
+commitment
+```
+
+determines the commercial comparison.
+
+A plan may have the same name while monthly and annual economics differ substantially.
+
+## Competitors and where TrueCost can beat them
+
+The comparison-app market has evolved quickly.
+
+Comparify's current App Store listing says it compares grocery prices across Blinkit, Instamart, Zepto, BigBasket, Flipkart Minutes, JioMart and DMart; cab fares across Uber, Ola, Rapido and others; and food totals across Zomato, Swiggy and Toing. It emphasizes account-specific prices, fees/coupons, per-gram/ml comparisons and cart transfer. citeturn10search0
+
+Its own site also advertises smart grocery search, product suggestions, price comparison and cab comparison. citeturn10search2turn10search6
+
+Interestingly, one current App Store review explicitly mentions occasional incorrect product matching or similar listings being mixed up. That is only **one user report**, not proof of a systemic Comparify defect, but it demonstrates that the same identity-resolution problem you are tackling is visible to users in this product category. citeturn10search0
+
+BuyHatke takes a different strength: its current product emphasizes cross-site price comparison, price history, price-drop alerts, coupons and a “Ditto” feature intended to locate the same product for a lower price on another platform. citeturn9search7turn10search10
+
+Other emerging Indian comparison products now emphasize combinations of exact grocery matching, basket optimization, fees, live ETAs, price history, barcode search and rides. For example, current public descriptions from Comparoo and SastaDekho emphasize same-item grocery comparison and basket optimization; Rozmo advertises barcode/voice search and multi-store basket comparison. These are self-described product capabilities, not independently audited technical guarantees. citeturn9search6turn9search0turn9search2
+
+TrueCost should not win by merely adding more providers.
+
+It should win by solving a deeper problem:
+
+| Capability | Typical comparator direction | TrueCost elite target |
+|---|---|---|
+| Price comparison | ✅ | ✅ |
+| Final fees | Some | ✅ deterministic |
+| Basket comparison | Some | ✅ |
+| Price history | BuyHatke strength | ✅ eventual |
+| Price alerts | Common | ✅ eventual |
+| Rides | Some | ✅ |
+| Food | Some | ✅ |
+| Eight domains | Rare | **Core differentiation** |
+| Typo-aware universal intent | Variable | **Core** |
+| Structured entity understanding | Mostly invisible | **Core** |
+| Exact vs substitute separation | Variable | **Explicit** |
+| Explainable entity match | Rare | **Core** |
+| Provider provenance | Variable | **Core** |
+| Identity-critical variant protection | Frequent industry challenge | **Hard gate** |
+| Cross-domain decision engine | Rare | **Core differentiation** |
+| User-objective ranking | Limited | **Core** |
+| Search confidence UX | Limited | **Core** |
+
+Your repository's target footprint is already substantially broader than the current public category scope described by Comparify and BuyHatke, although the implementation/certification maturity across those TrueCost categories is still uneven. fileciteturn0file4 citeturn10search0turn10search10
+
+So I would define TrueCost's real moat as:
+
+> **Universal Intent → Canonical Entity → Exact Offers → True Cost → Decision.**
+
+Not:
+
+> “We scrape more websites.”
+
+The second can be copied.
+
+The first is a platform.
+
+## The build and evaluation plan I recommend
+
+### Build a Universal Query Intelligence service first
+
+I would create something conceptually like:
+
+```text
+backend/app/services/search_intelligence/
+
+    query_normalizer.py
+    query_router.py
+    query_parser.py
+    query_specificity.py
+    spell_corrector.py
+    phonetic_resolver.py
+    transliteration_resolver.py
+    alias_resolver.py
+    hypothesis_generator.py
+
+    retrieval.py
+    relevance_classifier.py
+    ranking.py
+    diversity.py
+
+    entity_lexicon.py
+    query_feedback.py
+
+    models.py
+
+    domains/
+        grocery.py
+        food.py
+        pharmacy.py
+        shopping.py
+        mobility.py
+        travel.py
+        finance.py
+        saas.py
+```
+
+Do not create eight completely independent search engines.
+
+The shared pipeline should be universal.
+
+Domain plugins define:
+
+```text
+critical attributes
+query vocabulary
+aliases
+hard constraints
+ranking features
+identity rules
+```
+
+### Introduce a dedicated search relevance relation
+
+Keep your ER statuses if they are already established:
+
+```text
+EXACT
+PROBABLE
+RELATED
+REJECTED
+NONE
+```
+
+but add a **separate query-product relevance label**.
+
+I recommend adopting the Amazon-style conceptual classes:
+
+```text
+EXACT_INTENT
+SUBSTITUTE
+COMPLEMENT
+IRRELEVANT
+```
+
+Amazon uses the equivalent Exact/Substitute/Complement/Irrelevant framework in its public e-commerce search benchmark. citeturn14search2
+
+Then a result object can say:
+
+```json
+{
+  "query_relevance": "SUBSTITUTE",
+  "entity_resolution": "EXACT"
+}
+```
+
+That sounds strange initially, but it is valid.
+
+Example:
+
+```text
+Query:
+"headphones under 5000"
+
+Product:
+Noise Airwave Max 5
+
+QUERY RELEVANCE:
+EXACT_INTENT
+
+Amazon listing ↔ Flipkart listing:
+ENTITY RESOLUTION:
+EXACT
+```
+
+Another example:
+
+```text
+Query:
+Noise Airwave Max 6
+
+Product:
+Noise Airwave Max 5
+
+QUERY RELEVANCE:
+SUBSTITUTE
+
+Amazon Max 5 ↔ Flipkart Max 5:
+ENTITY RESOLUTION:
+EXACT
+```
+
+It is an exact identity **of the wrong requested model**.
+
+Therefore it belongs in Related Alternatives, not the requested-product comparison.
+
+This distinction is powerful.
+
+### Add a correction confidence policy
+
+Implement three levels.
+
+**High confidence**
+
+```text
+noise airmax 6
+→ Noise Airwave Max 6
+```
+
+UI:
+
+```text
+Showing results for
+Noise Airwave Max 6
+
+Search instead for "Noise airmax 6"
+```
+
+**Medium confidence**
+
+```text
+Did you mean
+Noise Airwave Max?
+```
+
+Keep original results until user chooses or show both intelligently.
+
+**Low confidence**
+
+Do not rewrite.
+
+Search original query.
+
+This follows the same fundamental pattern Zomato publicly describes. citeturn13view0
+
+### Protect identity tokens
+
+Build a token policy.
+
+| Token type | Fuzziness |
+|---|---:|
+| Ordinary nouns | High |
+| Common adjectives | Medium/high |
+| Brand | Medium + alias/phonetic |
+| Product family | Contextual |
+| Model number | Very low |
+| SKU/MPN | Exact |
+| Storage | Strict |
+| Dosage strength | Strict |
+| Quantity | Strict for exact identity |
+| Pack count | Strict |
+| Flight number | Strict |
+| Airport/location | High contextual |
+| Restaurant/dish | Phonetic + local alias |
+| SaaS tier | Contextual but identity-critical |
+
+This is consistent with modern search guidance that supports fuzzy natural-language matching while protecting SKU/numeric precision. citeturn11search0turn11search3
+
+### Build ranking in two generations
+
+Do not jump directly to an enormous neural ranker.
+
+**First generation: explainable weighted ranker**
+
+Use explicit features:
+
+```text
+lexical relevance
+structured attribute match
+semantic relevance
+correction confidence
+provider rank consensus
+review confidence
+availability
+freshness
+price/value where appropriate
+location relevance
+user preferences
+```
+
+Log all features.
+
+This makes debugging possible.
+
+**Second generation: Learning-to-Rank**
+
+Once TrueCost has enough interaction data:
+
+```text
+search
+impression
+click
+comparison open
+provider offer open
+reformulation
+save/favorite
+purchase/booking confirmation if legitimately observable
+```
+
+train an LTR model.
+
+Zomato publicly reports using LTR with regional popularity and behavioral signals, while Amazon has extensive production research around behavioral signals and multi-objective ranking. citeturn12search0turn14search0turn14search8
+
+Do not train from raw clicks without quality controls; popularity feedback loops can amplify already-visible items.
+
+### Add result diversity for broad queries
+
+For:
+
+```text
+headphones
+```
+
+we should not return:
+
+```text
+Noise Airwave Max 6 Black
+Noise Airwave Max 6 Blue
+Noise Airwave Max 6 Green
+Noise Airwave Max 6 White
+Noise Airwave Max 6 another seller
+...
+```
+
+Canonicalize first.
+
+Then diversify:
+
+```text
+Sony
+Noise
+JBL
+boAt
+Sennheiser
+...
+```
+
+according to relevance.
+
+Variants belong inside a product family/detail interface.
+
+### Build a provider-consensus signal
+
+Because TrueCost already observes multiple providers, it has a unique signal Amazon or Flipkart individually do not have:
+
+```text
+CROSS-PROVIDER CONSENSUS
+```
+
+For a broad query:
+
+```text
+headphones
+```
+
+if the same canonical product appears:
+
+```text
+Amazon rank 2
+Flipkart rank 1
+Meesho rank 8
+Myntra unavailable
+```
+
+that itself is useful evidence.
+
+Not absolute truth.
+
+But useful.
+
+Store:
+
+```text
+provider_search_rank
+provider
+query
+location/context
+timestamp
+sponsored status if observed
+```
+
+Then calculate:
+
+```text
+organic_provider_consensus
+```
+
+separately from TrueCost's own behavioral popularity.
+
+That can help bootstrap ranking before you have millions of TrueCost users.
+
+### Build an elite review layer after identity works
+
+Do this **after canonical product matching is accurate**.
+
+Otherwise reviews from different variants may be aggregated into the wrong entity.
+
+Sequence:
+
+```text
+ENTITY FIRST
+      ↓
+REVIEWS SECOND
+```
+
+Store ratings as source evidence:
+
+```json
+{
+  "provider": "flipkart",
+  "canonical_entity_id": "...",
+  "rating": 4.3,
+  "rating_count": 136,
+  "observed_at": "...",
+  "source_id": "..."
+}
+```
+
+Then UI can show both provider-level and synthesized confidence.
+
+### Redesign the search UI around intent confidence
+
+The screen should behave differently for broad and exact searches.
+
+For:
+
+```text
+headphones
+```
+
+show:
+
+```text
+HEADPHONES
+
+Popular & relevant
+
+[product]
+[product]
+[product]
+
+Filters
+Brand • Type • ANC • Price • Rating
+```
+
+Each card represents a **canonical product**, not a provider listing.
+
+Tap:
+
+```text
+Noise Airwave Max 6
+```
+
+and then:
+
+```text
+Compare prices
+
+Flipkart    ₹...
+Amazon      ₹...
+Meesho      ...
+```
+
+For:
+
+```text
+Noise airmax 6 headphones
+```
+
+show:
+
+```text
+Showing results for
+Noise Airwave Max 6
+
+Search instead for "Noise airmax 6 headphones"
+
+
+EXACT MATCH
+
+Noise Airwave Max 6
+[image]
+
+Compare across providers
+────────────────────────
+Flipkart
+Amazon
+...
+
+
+RELATED MODELS
+
+Airwave Max 5
+Airwave Max 2
+...
+```
+
+That UX alone would make the system feel dramatically more intelligent.
+
+### Build a serious search benchmark
+
+This is just as important as writing code.
+
+Amazon's 2026 PROBES research makes a useful distinction between precision errors—bad products surfaced—and **missed recall**, where a genuinely relevant product existed but retrieval failed to surface it. citeturn14search1
+
+Your Noise example is exactly this diagnostic pattern:
+
+```text
+Product exists
+        ↓
+Provider/search candidate set misses it
+        ↓
+Wrong candidates returned
+        ↓
+MISSED RECALL
+
+Then wrong candidate reaches UI
+        ↓
+PRECISION FAILURE
+```
+
+Create a frozen human-labelled benchmark for all eight categories covering:
+
+| Test family | Examples |
+|---|---|
+| Perfect spelling | `Noise Airwave Max 6` |
+| Missing character | `airwav max 6` |
+| Extra character | `airwaave max 6` |
+| Transposition | `ariwave max 6` |
+| Keyboard typo | adjacent-key mistakes |
+| Phonetic | `paniir`, `chikan` style |
+| Joined words | `airwavemax` |
+| Split words | `air wave max` |
+| Alias | `coke` vs Coca-Cola |
+| Hinglish | mixed-language queries |
+| Transliteration | regional-script/Latin variants |
+| Voice/ASR | speech transcription errors |
+| Broad | `headphones` |
+| Brand | `Noise headphones` |
+| Feature | `ANC headphones` |
+| Exact | brand + model |
+| Numerical constraint | `128GB`, `650mg` |
+| Natural language | `best ANC headphones under 5k` |
+| No-match | nonexistent model |
+| Hard negative | almost-identical wrong variant |
+
+Google research on voice search also demonstrates that ASR errors can materially degrade search relevance and that query-text post-correction can improve the resulting search experience, so voice-transcription errors deserve their own benchmark family. citeturn15search17
+
+### Measure the correct metrics
+
+Do **not** certify search with:
+
+```text
+HTTP 200
+```
+
+or:
+
+```text
+10 products returned
+```
+
+Those say nothing about relevance.
+
+Measure:
+
+```text
+QUERY UNDERSTANDING
+
+Category accuracy
+Intent accuracy
+Attribute extraction precision/recall
+Spell correction accuracy
+False correction rate
+
+
+RETRIEVAL
+
+Exact-product Recall@1
+Exact-product Recall@5
+Exact-product Recall@10
+Missed Recall Rate
+
+
+RANKING
+
+MRR
+NDCG@5
+NDCG@10
+Top-1 relevance
+Top-3 relevance
+
+
+SEARCH QUALITY
+
+Irrelevant@5
+Zero-result rate
+Reformulation rate
+Wrong-model rate
+
+
+ENTITY RESOLUTION
+
+EXACT precision
+EXACT recall
+False exact merges
+Variant confusion rate
+
+
+COMPARISON
+
+Wrong cross-provider cluster count
+Wrong price comparison count
+Wrong winner count
+
+
+UX
+
+Correction acceptance rate
+Search-instead rate
+Time to exact product
+Time to comparison
+```
+
+Amazon uses nDCG in its public ESCI ranking challenge and explicitly evaluates Exact/Substitute/Complement/Irrelevant classification. citeturn14search14
+
+### I would set hard production gates
+
+These would be my proposed TrueCost quality rules:
+
+```text
+FALSE_EXACT_MERGES = 0
+
+WRONG_MODEL_IN_EXACT_COMPARISON = 0
+
+WRONG_DOSAGE_IN_EXACT_COMPARISON = 0
+
+WRONG_STORAGE_VARIANT_IN_EXACT_COMPARISON = 0
+
+WRONG_ROUTE_IN_EXACT_COMPARISON = 0
+
+WRONG_FLIGHT_CONTEXT_IN_EXACT_COMPARISON = 0
+
+IRRELEVANT_PRODUCT_AS_AUTHORITATIVE_RESULT = 0
+
+UNKNOWN_ATTRIBUTE_FABRICATED = 0
+```
+
+Then aspirational search targets for a large frozen benchmark could begin around:
+
+```text
+Exact-query Recall@10       ≥ 98%
+Exact-query MRR             ≥ 0.95
+Common-typo recovery        ≥ 95%
+False autocorrection        < 0.5%
+Broad-query NDCG@10         ≥ 0.90
+```
+
+Those are **proposed engineering targets**, not claims about current TrueCost performance. They should be adjusted once the first proper benchmark gives us a realistic baseline.
+
+Most importantly:
+
+```text
+FALSE_EXACT_MERGES = 0
+```
+
+remains a hard invariant even if relaxing it could improve recall.
+
+### Roll it out in controlled phases
+
+I would implement this in the following sequence rather than fixing individual bad queries one at a time:
+
+```text
+PHASE A
+Universal Query Model
+raw query
+normalized query
+structured attributes
+specificity
+hard/soft constraints
+
+
+PHASE B
+Spell + Phonetic + Alias Engine
+keyboard
+phonetics
+joins/splits
+catalog aliases
+Indian transliteration
+
+
+PHASE C
+Shopping Search Relevance
+because the Noise failure gives us a concrete testbed
+
+
+PHASE D
+Query ↔ Product Relevance Classification
+EXACT_INTENT
+SUBSTITUTE
+COMPLEMENT
+IRRELEVANT
+
+
+PHASE E
+Strict Search-to-ER Boundary
+search relevance ≠ canonical identity
+
+
+PHASE F
+Cross-Provider Canonical Product Clustering
+structured attributes
+IDs
+text
+multimodal evidence
+
+
+PHASE G
+Broad-Query Ranking
+relevance
+provider consensus
+reviews
+demand
+availability
+value
+diversity
+
+
+PHASE H
+Search UX
+Showing results for...
+Did you mean...
+Exact Match
+Related Alternatives
+
+
+PHASE I
+Grocery adaptation
+
+
+PHASE J
+Food + Pharmacy
+
+
+PHASE K
+Mobility + Travel
+
+
+PHASE L
+Finance + SaaS
+
+
+PHASE M
+Behavioral Learning-to-Rank
+
+
+PHASE N
+Voice + multilingual/Hinglish intelligence
+
+
+PHASE O
+Search certification across all 8 categories
+```
+
+And I would **not change production ER from shadow simply to solve this**.
+
+Search intelligence can be developed, tested and evaluated while ER continues its controlled rollout.
+
+The LLM can help understand:
+
+```text
+"noise airmax 6 headphones"
+```
+
+but the deterministic identity layer remains responsible for proving:
+
+```text
+this is actually Airwave Max 6
+```
+
+### The final architecture to aim for
+
+This is what I would consider the elite version of TrueCost:
+
+```text
+                         USER
+                          │
+                          ▼
+               "whatever they type"
+                          │
+       typo / phonetic / Hinglish / voice /
+       vague / specific / natural language
+                          │
+                          ▼
+             UNIVERSAL QUERY INTELLIGENCE
+                          │
+           ┌──────────────┼──────────────┐
+           ▼              ▼              ▼
+       category        attributes     specificity
+           │              │              │
+           └──────────────┼──────────────┘
+                          ▼
+                 CORRECTION ENGINE
+                          │
+           original + corrected intent
+                          │
+                          ▼
+                  HYBRID RETRIEVAL
+                          │
+       lexical + fuzzy + semantic + structured
+                          │
+                          ▼
+              QUERY-PRODUCT RELEVANCE
+                          │
+          Exact / Substitute / Complement
+                    / Irrelevant
+                          │
+                          ▼
+                   META RANKER
+                          │
+       relevance + demand + reviews + availability
+            + personalization + diversity
+                          │
+                          ▼
+                 CANONICAL ENTITIES
+                          │
+                          ▼
+                 ENTITY RESOLUTION
+                          │
+          exact cross-provider identity
+                          │
+                          ▼
+                PROVIDER OFFER GRAPH
+                          │
+              price / fees / ETA /
+           availability / payment / terms
+                          │
+                          ▼
+              DETERMINISTIC TRUECOST
+                          │
+                          ▼
+                   RECOMMENDATION
+                          │
+                          ▼
+              BEAUTIFUL, HONEST UI
+```
+
+That system gives you both things you want.
+
+For a broad user:
+
+```text
+"headphones"
+```
+
+TrueCost behaves like an elite discovery engine:
+
+> Here are the most relevant, high-confidence, popular, well-reviewed products worth considering.
+
+For a specific but badly spelled user:
+
+```text
+"noise airmax 6 hedphones"
+```
+
+TrueCost behaves like an intelligent assistant:
+
+> I believe you mean **Noise Airwave Max 6 Headphones**. Here is the exact product and its prices across providers.
+
+For uncertainty:
+
+```text
+"I couldn't confidently identify the exact model."
+```
+
+TrueCost remains honest:
+
+> Here are related alternatives, but I have not mixed them into the exact-price comparison.
+
+And that is the real target.
+
+**Do not make TrueCost merely better at scraping Amazon, Flipkart, Blinkit, Zomato, Uber, Ola and the other providers. Make it better than any individual provider at understanding the user's intent across all of them.**
+
+Amazon or Flipkart knows its own catalog extremely well. Zomato understands food search extremely well. Uber understands mobility context extremely well. A comparator such as BuyHatke specializes in shopping price intelligence, while Comparify currently emphasizes groceries, food and rides. citeturn10search0turn10search10
+
+TrueCost's opportunity is different:
+
+> **One universal intent engine, eight domain-aware identity models, one cross-provider evidence graph, and one deterministic decision layer.**
+
+That is the architecture I would build to move TrueCost from its current search behavior to an genuinely elite multi-category decision system.

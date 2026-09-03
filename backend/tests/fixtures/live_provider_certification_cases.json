@@ -1,0 +1,164 @@
+[
+  {
+    "test_case_id": "grocery_exact_known_product",
+    "domains": ["grocery"],
+    "severity": "CRITICAL",
+    "query": "Amul Taaza Toned Fresh Milk",
+    "expected_invariants": ["results_exist", "price_valid", "price_required", "live_provenance"]
+  },
+  {
+    "test_case_id": "grocery_generic_category",
+    "domains": ["grocery"],
+    "severity": "REQUIRED",
+    "query": "milk",
+    "expected_invariants": ["multiple_results", "price_valid", "deeplink_valid", "live_provenance"]
+  },
+  {
+    "test_case_id": "grocery_brand_broad_intent",
+    "domains": ["grocery"],
+    "severity": "REQUIRED",
+    "query": "Amul",
+    "expected_invariants": ["multiple_results", "live_provenance"]
+  },
+  {
+    "test_case_id": "grocery_conflicting_variant",
+    "domains": ["grocery"],
+    "severity": "CRITICAL",
+    "query": "Lays Magic Masala 50g vs 90g",
+    "expected_invariants": ["no_false_exact_merge", "live_provenance"],
+    "entity_test_config": {
+      "candidate_a_index": 0,
+      "candidate_b_index": 1,
+      "expected_decision_not": "EXACT",
+      "category": "Packaged Food"
+    }
+  },
+  {
+    "test_case_id": "grocery_pack_count",
+    "domains": ["grocery"],
+    "severity": "REQUIRED",
+    "query": "Maggi 2-Minute Noodles 4 Pack",
+    "expected_invariants": ["results_exist", "live_provenance"]
+  },
+  {
+    "test_case_id": "grocery_clearly_nonexistent",
+    "domains": ["grocery", "shopping"],
+    "severity": "REQUIRED",
+    "query": "xkcd_fake_product_xyz_9999",
+    "expected_invariants": ["empty_results"]
+  },
+  {
+    "test_case_id": "grocery_location_required",
+    "domains": ["grocery"],
+    "severity": "CRITICAL",
+    "query": "bread",
+    "location_strategy": "valid_explicit",
+    "expected_invariants": ["results_exist", "location_passed_unchanged"]
+  },
+  {
+    "test_case_id": "grocery_location_missing",
+    "domains": ["grocery"],
+    "severity": "CRITICAL",
+    "query": "bread",
+    "location_strategy": "missing",
+    "expected_invariants": ["empty_or_unavailable", "no_fabricated_location"]
+  },
+  {
+    "test_case_id": "grocery_timeout_simulation",
+    "domains": ["grocery"],
+    "severity": "OPTIONAL",
+    "query": "timeout_test_query",
+    "simulate_timeout": true,
+    "expected_invariants": []
+  },
+  {
+    "test_case_id": "grocery_auth_failure_simulation",
+    "domains": ["grocery"],
+    "severity": "OPTIONAL",
+    "query": "milk",
+    "simulate_401": true,
+    "expected_invariants": []
+  },
+  {
+    "test_case_id": "shopping_smartphone_identity",
+    "domains": ["shopping"],
+    "severity": "CRITICAL",
+    "query": "Samsung Galaxy S24 256GB",
+    "expected_invariants": ["results_exist", "price_valid", "price_required", "live_provenance"]
+  },
+  {
+    "test_case_id": "shopping_smartphone_conflict",
+    "domains": ["shopping"],
+    "severity": "CRITICAL",
+    "query": "Samsung Galaxy S24 256GB vs 512GB",
+    "expected_invariants": ["no_false_exact_merge", "live_provenance"],
+    "entity_test_config": {
+      "candidate_a_index": 0,
+      "candidate_b_index": 1,
+      "expected_decision_not": "EXACT",
+      "category": "Electronics"
+    }
+  },
+  {
+    "test_case_id": "shopping_shoes_conflict",
+    "domains": ["shopping"],
+    "severity": "CRITICAL",
+    "query": "Nike Air Force 1 Size 10 vs 11",
+    "expected_invariants": ["no_false_exact_merge", "live_provenance"],
+    "entity_test_config": {
+      "candidate_a_index": 0,
+      "candidate_b_index": 1,
+      "expected_decision_not": "EXACT",
+      "category": "Apparel"
+    }
+  },
+  {
+    "test_case_id": "shopping_laptop_identity",
+    "domains": ["shopping"],
+    "severity": "REQUIRED",
+    "query": "Apple MacBook Air M3 16GB RAM",
+    "expected_invariants": ["results_exist", "deeplink_valid", "live_provenance"]
+  },
+  {
+    "test_case_id": "shopping_headphones_broad",
+    "domains": ["shopping"],
+    "severity": "REQUIRED",
+    "query": "Sony WH-1000XM5",
+    "expected_invariants": ["multiple_results", "live_provenance"]
+  },
+  {
+    "test_case_id": "shopping_price_validation",
+    "domains": ["shopping"],
+    "severity": "CRITICAL",
+    "query": "iPhone 15",
+    "expected_invariants": ["multiple_results", "price_valid", "price_required", "live_provenance"]
+  },
+  {
+    "test_case_id": "shopping_book_isbn_conflict",
+    "domains": ["shopping"],
+    "severity": "REQUIRED",
+    "query": "Clean Code Paperback",
+    "expected_invariants": ["results_exist"]
+  },
+  {
+    "test_case_id": "shopping_typo",
+    "domains": ["shopping"],
+    "severity": "OPTIONAL",
+    "query": "samnsug galxy s24 ulttra",
+    "expected_invariants": ["results_exist"]
+  },
+  {
+    "test_case_id": "shopping_tv_identity",
+    "domains": ["shopping"],
+    "severity": "REQUIRED",
+    "query": "LG C3 OLED 55 inch",
+    "expected_invariants": ["results_exist", "deeplink_valid", "live_provenance"]
+  },
+  {
+    "test_case_id": "shopping_broad_intent",
+    "domains": ["shopping"],
+    "severity": "REQUIRED",
+    "query": "Bluetooth Speaker",
+    "expected_invariants": ["multiple_results", "price_valid", "price_required"]
+  }
+]

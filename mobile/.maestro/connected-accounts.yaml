@@ -1,0 +1,7 @@
+appId: com.anonymous.truecost
+---
+- launchApp
+- tapOn: "Profile"
+- tapOn: "Connected accounts"
+- assertVisible: "Connected accounts"
+- assertVisible: "TrueCost never reads passwords, OTPs, browser cookies or full account sessions."

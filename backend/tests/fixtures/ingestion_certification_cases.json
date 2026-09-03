@@ -1,0 +1,122 @@
+[
+  {
+    "case_id": "ingest_exact_sku",
+    "provider": "Blinkit",
+    "domain": "grocery",
+    "execution_mode": "REAL_CAPTURE_REPLAY",
+    "query_or_page_target": "Amul Taaza Milk 500ml",
+    "location_profile": "bangalore_central",
+    "expected_observations": 1,
+    "required_fields": ["price", "availability", "brand", "quantity_value", "quantity_unit"],
+    "identity_expectation": "EXACT",
+    "severity": "CRITICAL"
+  },
+  {
+    "case_id": "ingest_diff_pack_size",
+    "provider": "Zepto",
+    "domain": "grocery",
+    "execution_mode": "REAL_CAPTURE_REPLAY",
+    "query_or_page_target": "Amul Taaza Milk 1L",
+    "location_profile": "bangalore_central",
+    "expected_observations": 1,
+    "required_fields": ["price"],
+    "identity_expectation": "DIFFERENT_ENTITY",
+    "severity": "CRITICAL"
+  },
+  {
+    "case_id": "ingest_diff_variant",
+    "provider": "SwiggyInstamart",
+    "domain": "grocery",
+    "execution_mode": "REAL_CAPTURE_REPLAY",
+    "query_or_page_target": "Good Day Butter Cookies 75g",
+    "location_profile": "mumbai_bandra",
+    "expected_observations": 1,
+    "required_fields": ["price", "availability"],
+    "identity_expectation": "DIFFERENT_ENTITY",
+    "severity": "CRITICAL"
+  },
+  {
+    "case_id": "ingest_missing_price",
+    "provider": "BigBasket",
+    "domain": "grocery",
+    "execution_mode": "REAL_CAPTURE_REPLAY",
+    "query_or_page_target": "Out of stock item missing price",
+    "location_profile": "delhi_cp",
+    "expected_observations": 1,
+    "required_fields": ["availability"],
+    "identity_expectation": "RELATED",
+    "severity": "HIGH"
+  },
+  {
+    "case_id": "ingest_stale_obs",
+    "provider": "Blinkit",
+    "domain": "grocery",
+    "execution_mode": "REAL_CAPTURE_REPLAY",
+    "query_or_page_target": "Onion 1kg",
+    "location_profile": "bangalore_central",
+    "expected_observations": 1,
+    "required_fields": ["price", "observed_at"],
+    "identity_expectation": "EXACT",
+    "severity": "HIGH"
+  },
+  {
+    "case_id": "ingest_sku_collision",
+    "provider": "Zepto",
+    "domain": "grocery",
+    "execution_mode": "REAL_CAPTURE_REPLAY",
+    "query_or_page_target": "Generic Tomato 500g",
+    "location_profile": "mumbai_bandra",
+    "expected_observations": 1,
+    "required_fields": ["provider_sku"],
+    "identity_expectation": "PROBABLE",
+    "severity": "CRITICAL"
+  },
+  {
+    "case_id": "ingest_missing_eta",
+    "provider": "SwiggyInstamart",
+    "domain": "grocery",
+    "execution_mode": "REAL_CAPTURE_REPLAY",
+    "query_or_page_target": "Bread 400g",
+    "location_profile": "delhi_cp",
+    "expected_observations": 1,
+    "required_fields": ["price"],
+    "identity_expectation": "EXACT",
+    "severity": "MEDIUM"
+  },
+  {
+    "case_id": "ingest_location_provenance",
+    "provider": "BigBasket",
+    "domain": "grocery",
+    "execution_mode": "REAL_CAPTURE_REPLAY",
+    "query_or_page_target": "Local Bananas 1kg",
+    "location_profile": "pune_koregaon",
+    "expected_observations": 1,
+    "required_fields": ["location"],
+    "identity_expectation": "EXACT",
+    "severity": "CRITICAL"
+  },
+  {
+    "case_id": "ingest_duplicate_in_page",
+    "provider": "Blinkit",
+    "domain": "grocery",
+    "execution_mode": "REAL_CAPTURE_REPLAY",
+    "query_or_page_target": "Lays Classic Salted",
+    "location_profile": "bangalore_central",
+    "expected_observations": 1,
+    "required_fields": ["price"],
+    "identity_expectation": "EXACT",
+    "severity": "HIGH"
+  },
+  {
+    "case_id": "ingest_unicode_title",
+    "provider": "Zepto",
+    "domain": "grocery",
+    "execution_mode": "REAL_CAPTURE_REPLAY",
+    "query_or_page_target": "Haldiram's Bhujia 400g (हल्दीराम)",
+    "location_profile": "mumbai_bandra",
+    "expected_observations": 1,
+    "required_fields": ["title", "price"],
+    "identity_expectation": "EXACT",
+    "severity": "HIGH"
+  }
+]

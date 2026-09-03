@@ -1,0 +1,276 @@
+{
+  "capture_version": "truecost.source.capture.v1",
+  "run_id": "blinkit_variant",
+  "case_id": "variant",
+  "provider": "blinkit",
+  "domain": "grocery",
+  "query": "Amul Gold Milk 500ml",
+  "captured_at": "2026-08-25T15:57:42.880Z",
+  "execution_mode": "REAL_LIVE_SCRAPE",
+  "scraper_component": "BlinkitScraper",
+  "message_type": "SEARCH_SUCCESS",
+  "requested_location_profile": "default",
+  "observed_location_evidence": "NOT_AVAILABLE",
+  "location_verified": false,
+  "payload": {
+    "additional_charges_config": null,
+    "analytics_properties": {
+      "merchant_id": 31719,
+      "merchant_name": null,
+      "city_id": 1849,
+      "city_name": "HR-NCR",
+      "chain_id": 1383,
+      "min_order": null,
+      "delivery_type": null,
+      "services": {
+        "merchants": [
+          {
+            "id": "31719",
+            "type": "express"
+          },
+          {
+            "id": "31719",
+            "type": "longtail"
+          },
+          {
+            "id": "31719",
+            "type": "unicorn"
+          },
+          {
+            "id": "46421",
+            "type": "super_longtail"
+          },
+          {
+            "id": "35940",
+            "type": "instant"
+          }
+        ],
+        "emergency": [
+          {
+            "type": "ambulance",
+            "id": "118"
+          },
+          {
+            "type": "ambulance",
+            "id": "9"
+          },
+          {
+            "type": "ambulance",
+            "id": "6"
+          },
+          {
+            "type": "ambulance",
+            "id": "54"
+          },
+          {
+            "type": "ambulance",
+            "id": "11"
+          },
+          {
+            "type": "ambulance",
+            "id": "8"
+          },
+          {
+            "type": "ambulance",
+            "id": "10"
+          },
+          {
+            "type": "ambulance",
+            "id": "96"
+          },
+          {
+            "type": "ambulance",
+            "id": "46"
+          },
+          {
+            "type": "ambulance",
+            "id": "53"
+          },
+          {
+            "type": "ambulance",
+            "id": "12"
+          },
+          {
+            "type": "ambulance",
+            "id": "47"
+          }
+        ]
+      },
+      "segment_type": null,
+      "user_type": null,
+      "lifetime_orders": null,
+      "monthly_orders": null,
+      "traits_middleware": null,
+      "user_experiment_buckets": [
+        "RANDOM#bucket1",
+        "INCREASING_ROLLOUT#bucket2",
+        "DECREASING_ROLLOUT#bucket1"
+      ],
+      "latitude": 28.413333,
+      "longitude": 77.072833,
+      "is_restricted_mode_enabled": false
+    },
+    "referral_benefits_data": null,
+    "splash_ads": [],
+    "prefetch_media": [
+      {
+        "media_type": "image",
+        "storage_type": "app",
+        "urls": [
+          "https://cdn.grofers.com/assets/ui/ofse_happy_happy_thankyou_v2.png?disable_resizing=true",
+          "https://cdn.grofers.com/layout-engine/v2/2024-03/1711617518471-nqr_bottomsheet_1.png?disable_resizing=true"
+        ]
+      },
+      {
+        "media_type": "video",
+        "storage_type": "app",
+        "urls": []
+      },
+      {
+        "media_type": "lottie",
+        "storage_type": "app",
+        "urls": []
+      },
+      {
+        "media_type": "web_resource",
+        "storage_type": "app",
+        "urls": []
+      }
+    ],
+    "show_product_recommendations": true,
+    "trending_searches_list": [],
+    "user_log_properties": {
+      "is_employee": false
+    },
+    "add_to_cart_animation_config": {
+      "enabled": false,
+      "max_counter": 3
+    },
+    "live_activity_ads": [],
+    "loading_overlay_config": [
+      {
+        "variants": [
+          {
+            "image": {
+              "animation": {
+                "url": "https://cdn.grofers.com/layout-engine/v2/2025-03/circularLoader3.json",
+                "repeat": true,
+                "height": "100",
+                "aspect_ratio": 1
+              }
+            },
+            "title": {
+              "text": "Everything you need, delivered at your doorstep"
+            }
+          }
+        ],
+        "selection_type": "shuffle",
+        "schedule": {
+          "offset_in_mins": 0,
+          "duration_in_mins": 2041920,
+          "recurrence_expr": "DTSTART;TZID=Asia/Kolkata:20260112T075928"
+        }
+      }
+    ],
+    "sbc_auto_renewal_data": {
+      "text": "Membership will auto renew at \u00e2\u201a\u00b9%s after %s for card payments.",
+      "tooltip": {
+        "heading": "Auto - renewal details",
+        "items": [
+          {
+            "key": "Membership Plan (%s)",
+            "value": "\u00e2\u201a\u00b9%s"
+          }
+        ]
+      }
+    },
+    "cart_sbc_details": null,
+    "sbc_free_delivery_details": {
+      "free_delivery_count": 0,
+      "minimum_order_value": 0,
+      "order_limit": 30
+    },
+    "template_version": 0,
+    "profile_image_banner": {
+      "url": "https://cdn.grofers.com/layout-engine/v2/2025-04/Birthday_Light-(1)/Birthday_Light-(1)_light.png",
+      "aspect_ratio": 6,
+      "click_action": {
+        "open_bottom_sheet": {
+          "data": null,
+          "height": {},
+          "page_identifier": "birthday_input_bottom_sheet"
+        },
+        "type": "open_bottom_sheet"
+      },
+      "accessibility_text": {
+        "text": "Birthday Image Banner"
+      }
+    },
+    "search_bar_ui_config_map": {
+      "default_search": {
+        "version": "v1",
+        "data": {
+          "hint": {
+            "text": "Search for atta, dal, coke and more"
+          },
+          "left_icon": {
+            "code": "e804",
+            "click_action": {
+              "dismiss_page": {},
+              "type": "dismiss_page"
+            },
+            "secondary_click_actions": [
+              {
+                "trigger_observers": {
+                  "trigger": "AMTC"
+                },
+                "type": "trigger_observers"
+              }
+            ],
+            "accessibility_text": {
+              "text": "Navigate up"
+            }
+          },
+          "mic_data": {
+            "is_visible": true,
+            "icon_color": {
+              "type": "black",
+              "tint": "900"
+            }
+          },
+          "margin": "4,12,4,12",
+          "bg_color": {
+            "type": "accent",
+            "tint": "900"
+          }
+        }
+      },
+      "order_history_search": {
+        "version": "v1",
+        "data": {
+          "hint": {
+            "text": "Start typing..."
+          },
+          "left_icon": {
+            "code": "e804",
+            "click_action": {
+              "dismiss_page": {},
+              "type": "dismiss_page"
+            },
+            "accessibility_text": {
+              "text": "Navigate up"
+            }
+          },
+          "mic_data": {
+            "is_visible": false
+          },
+          "margin": "4,12,4,12",
+          "bg_color": {
+            "type": "white",
+            "tint": "900"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "fixture_type": "synthetic",
+  "payload": {
+    "widgets": [
+      {
+        "data": {
+          "displayName": "Saffola Muesli Choco Crunch with Flavour Pops",
+          "brandName": "Saffola",
+          "skuId": "swiggy-sku-1",
+          "quantityDescription": "700 g",
+          "delivery_time": "12 mins",
+          "productUrl": "https://www.swiggy.com/instamart/item/swiggy-sku-1",
+          "imageIds": [
+            "saffola-muesli"
+          ],
+          "price": {
+            "offerPrice": {
+              "units": 318
+            },
+            "mrp": {
+              "units": 445
+            }
+          }
+        }
+      }
+    ]
+  }
+}

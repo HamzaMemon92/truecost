@@ -1,0 +1,13 @@
+appId: com.anonymous.truecost
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Know the real cost before you choose."
+- tapOn: "Sign in"
+- assertVisible: "Welcome back"
+- tapOn: "Email"
+- inputText: ${TRUECOST_E2E_EMAIL}
+- tapOn: "Password"
+- inputText: ${TRUECOST_E2E_PASSWORD}
+- tapOn: "Continue"
+- assertVisible: "What do you want?"

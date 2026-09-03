@@ -1,0 +1,1811 @@
+You are now the Principal AI Systems Architect + Staff/Principal Backend Engineer responsible for IMPLEMENTING Phase 1 of Common Master.
+
+Act as an elite production system architect with decades of experience designing large-scale AI platforms, agentic systems, recommendation engines, API platforms, distributed systems, and consumer products.
+
+IMPORTANT:
+Do not merely explain the architecture.
+Do not produce a theoretical plan only.
+DO THE IMPLEMENTATION in the existing repository.
+
+The frontend/UI for Common Master has already been designed and built in this repository.
+
+Your job is to inspect the existing codebase first and then build the complete Phase 1 backend + AI orchestration + MCP + provider integration foundation underneath the existing frontend.
+
+Do NOT redesign the existing frontend unless a small integration change is absolutely required.
+
+============================================================
+0. PRODUCT CONTEXT
+============================================================
+
+Product:
+
+COMMON MASTER
+
+Vision:
+
+Common Master is an intelligent comparison and recommendation platform.
+
+The user enters a request inside a specialized category page.
+
+Examples:
+
+Shopping:
+"Best laptop under ₹1 lakh for AI development"
+
+Grocery:
+"Milk, bread, eggs and bananas"
+
+Mobility:
+"Go from Surat railway station to Vesu"
+
+Travel:
+"Best flight from Mumbai to Toronto"
+
+Finance:
+"Which card should I use for this purchase?"
+
+Food:
+"Best dinner options near me"
+
+The frontend already has specialized category pages.
+
+Therefore:
+
+DO NOT build a global natural-language domain classifier.
+
+The frontend already knows the category.
+
+The backend receives:
+
+category
++
+user query
++
+user/session context
+
+and routes directly into the correct category workflow.
+
+============================================================
+1. PHASE 1 GOAL
+============================================================
+
+Phase 1 is NOT:
+
+- building every category
+- building dozens of autonomous agents
+- A2A
+- agent swarm
+- autonomous purchasing
+- autonomous booking
+- private provider API reverse engineering
+- fake live provider data
+- giant microservice architecture
+- LLM fine-tuning
+
+Phase 1 IS:
+
+Build a reusable Common Master AI/comparison platform foundation and prove it with ONE production-quality vertical:
+
+SHOPPING.
+
+The Phase 1 vertical must support:
+
+User
+→ Existing Shopping UI
+→ API/BFF
+→ LangGraph Shopping Workflow
+→ complexity decision
+→ direct tools OR Shopping Agent
+→ MCP
+→ Provider Adapter
+→ authorized provider API/data
+→ canonical data
+→ product matching
+→ recommendation engine
+→ payment intelligence
+→ verification
+→ response
+→ existing UI
+→ provider/affiliate/deep-link handoff
+
+The architecture must be reusable for Grocery, Mobility, Travel, Food and Finance later without redesigning the core.
+
+============================================================
+2. FIRST ACTION — INSPECT THE EXISTING REPOSITORY
+============================================================
+
+Before writing code:
+
+1. Inspect the complete repository.
+2. Identify:
+   - frontend framework
+   - routing
+   - existing API layer
+   - existing backend
+   - environment configuration
+   - database
+   - authentication
+   - existing state management
+   - existing category pages
+   - existing Shopping page
+   - existing search components
+   - existing result cards
+   - existing recommendation UI
+   - existing API contracts
+3. Understand the existing design system.
+4. Understand existing folder structure.
+5. Reuse existing components and conventions.
+6. Do NOT replace the frontend architecture.
+7. Do NOT introduce duplicate frameworks.
+8. Do NOT create a second backend architecture if one already exists unless the existing architecture is fundamentally unsuitable.
+
+Create a concise internal implementation map before coding.
+
+Then IMPLEMENT.
+
+Do not stop after analysis.
+
+============================================================
+3. ARCHITECTURAL PRINCIPLE
+============================================================
+
+The core architecture must be:
+
+USER
+ ↓
+SPECIALIZED CATEGORY PAGE
+ ↓
+API / BFF
+ ↓
+LANGGRAPH CATEGORY WORKFLOW
+ ↓
+QUERY VALIDATION
+ ↓
+USER CONTEXT
+ ↓
+COMPLEXITY GATE
+ ↓
+ ┌─────────────────────────────┐
+ │ SIMPLE                      │
+ │ → deterministic/direct tools│
+ │                             │
+ │ MODERATE                    │
+ │ → specialist agent         │
+ │                             │
+ │ COMPLEX                     │
+ │ → specialist agent +       │
+ │   structured multi-step    │
+ │   reasoning                │
+ └─────────────────────────────┘
+ ↓
+PROVIDER TOOL EXECUTION
+ ↓
+MCP
+ ↓
+PROVIDER ADAPTER
+ ↓
+AUTHORIZED DATA SOURCE
+ ↓
+CANONICAL DATA MODEL
+ ↓
+MATCH / NORMALIZE / DEDUPLICATE
+ ↓
+RECOMMENDATION ENGINE
+ ↓
+PAYMENT INTELLIGENCE
+ ↓
+VERIFICATION
+ ↓
+RANKING
+ ↓
+RESPONSE
+ ↓
+UI
+ ↓
+PROVIDER HANDOFF
+
+============================================================
+4. VERY IMPORTANT ARCHITECTURAL RULE
+============================================================
+
+Do NOT treat provider companies as agents.
+
+Amazon is NOT an agent.
+Flipkart is NOT an agent.
+Uber is NOT an agent.
+Ola is NOT an agent.
+Blinkit is NOT an agent.
+
+They are providers/data sources.
+
+The architecture is:
+
+Provider
+→ Provider Adapter
+→ MCP Tool
+→ Specialist Agent / Workflow
+
+NOT:
+
+Provider = Agent
+
+============================================================
+5. LANGGRAPH RESPONSIBILITY
+============================================================
+
+Use LangGraph for ORCHESTRATION.
+
+LangGraph should manage the workflow state and transitions.
+
+LangGraph nodes/functions should handle:
+
+1. receive request
+2. validate request
+3. load user/session context
+4. determine execution complexity
+5. route
+6. invoke specialist agent when needed
+7. execute tools
+8. normalize results
+9. match products
+10. calculate recommendation
+11. invoke payment intelligence
+12. verify evidence
+13. rank
+14. produce structured response
+15. stream progress/events where supported
+16. finish
+
+DO NOT turn every function into an agent.
+
+Functions should remain deterministic where possible.
+
+Example:
+
+validate_query()
+load_context()
+complexity_gate()
+route_category()
+normalize_products()
+match_products()
+calculate_effective_price()
+rank_products()
+verify_results()
+format_response()
+
+These are FUNCTIONS/NODES.
+
+The Shopping Agent should only be invoked when actual reasoning is required.
+
+============================================================
+6. SHOPPING WORKFLOW
+============================================================
+
+Implement this LangGraph workflow:
+
+START
+ ↓
+load_request
+ ↓
+validate_query
+ ↓
+load_user_context
+ ↓
+complexity_gate
+ ↓
+conditional_route
+
+SIMPLE:
+
+search providers
+ ↓
+normalize
+ ↓
+match
+ ↓
+rank
+ ↓
+verify
+ ↓
+response
+
+COMPLEX:
+
+Shopping Agent
+ ↓
+tool selection
+ ↓
+provider search
+ ↓
+normalize
+ ↓
+product matching
+ ↓
+recommendation
+ ↓
+payment intelligence
+ ↓
+verification
+ ↓
+rank
+ ↓
+response
+
+The graph must have explicit typed state.
+
+Use a typed state object.
+
+Do NOT pass arbitrary unstructured dictionaries everywhere.
+
+============================================================
+7. COMPLEXITY GATE
+============================================================
+
+Implement a deterministic-first complexity gate.
+
+Example:
+
+SIMPLE:
+
+"iPhone 17"
+"MacBook Air"
+"Search Sony headphones"
+
+MODERATE:
+
+"Best laptop under ₹1 lakh"
+"Compare these phones"
+"Which one is better?"
+
+COMPLEX:
+
+"Find me the best laptop under ₹1 lakh for Python, local LLMs and computer vision, prioritize GPU and battery, and tell me which card gives the best effective price."
+
+The complexity gate may use deterministic rules + structured LLM classification if required.
+
+Output:
+
+{
+  complexity: "simple" | "moderate" | "complex",
+  reasoning_required: boolean,
+  agent_required: boolean,
+  tool_strategy: ...
+}
+
+Do NOT invoke an LLM for every trivial request if it can be avoided.
+
+============================================================
+8. SHOPPING AGENT
+============================================================
+
+Build ONE specialist agent:
+
+ShoppingAgent
+
+Responsibilities:
+
+- understand shopping intent
+- identify constraints
+- identify preferences
+- decide what information is necessary
+- select available tools
+- compare products
+- reason about trade-offs
+- explain recommendations
+
+The Shopping Agent must NOT:
+
+- directly access provider secrets
+- directly call arbitrary URLs
+- directly execute payment
+- bypass authorization
+- invent provider data
+- invent prices
+- invent availability
+- invent discounts
+
+The Shopping Agent accesses tools only through its permitted MCP tool surface.
+
+============================================================
+9. MCP ARCHITECTURE
+============================================================
+
+Implement MCP correctly.
+
+Architecture:
+
+LangGraph
+ ↓
+Shopping Agent
+ ↓
+MCP Client
+ ↓
+Shopping MCP Server
+ ↓
+Provider Adapter
+ ↓
+Provider API
+
+MCP is the TOOL INTERFACE.
+
+MCP is NOT the provider itself.
+
+Create capability-scoped tools such as:
+
+search_products
+get_product_details
+get_price
+get_offers
+get_availability
+get_delivery_estimate
+get_reviews
+get_provider_link
+
+Use structured input/output schemas.
+
+Each tool must have:
+
+- name
+- description
+- input schema
+- output schema
+- permissions/capability metadata
+- timeout
+- retry policy
+- provider metadata
+
+============================================================
+10. PROVIDER ADAPTER ARCHITECTURE
+============================================================
+
+This is extremely important.
+
+Build a provider abstraction.
+
+Example:
+
+ProductProvider interface:
+
+search()
+get_details()
+get_price()
+get_offers()
+get_availability()
+get_reviews()
+get_delivery()
+get_deep_link()
+
+Then:
+
+FlipkartAdapter
+AmazonAdapter
+FutureProviderAdapter
+
+The agent must NEVER contain provider-specific implementation logic.
+
+Bad:
+
+if provider == "flipkart":
+    ...
+
+Good:
+
+provider_registry.get("flipkart")
+provider.search(...)
+
+============================================================
+11. PROVIDER REGISTRY
+============================================================
+
+Implement:
+
+ProviderRegistry
+
+It must know:
+
+provider_id
+category
+status
+capabilities
+integration_type
+rate_limit
+health
+credentials_reference
+deep_link support
+affiliate support
+last_sync/health status
+
+Example:
+
+Flipkart:
+
+status = active
+integration = affiliate_api
+
+Amazon:
+
+status = pending
+integration = creators_api
+
+Future:
+
+status = unavailable/not_connected
+
+The system must gracefully handle unavailable providers.
+
+Do NOT crash the entire search because one provider is unavailable.
+
+============================================================
+12. IMPORTANT PROVIDER DATA RULE
+============================================================
+
+NEVER invent APIs.
+
+NEVER scrape private APIs.
+
+NEVER capture or replay:
+
+- bearer tokens
+- cookies
+- device fingerprints
+- internal session credentials
+- undocumented private endpoints
+
+unless an explicit authorized integration exists.
+
+Use only:
+
+- official APIs
+- official affiliate APIs
+- official partner APIs
+- licensed aggregators
+- authorized network APIs
+- sanctioned deep links
+
+If a provider has no approved integration:
+
+return:
+
+provider_status = unavailable
+
+and continue with available providers.
+
+============================================================
+13. PHASE 1 PROVIDER STRATEGY
+============================================================
+
+Primary live target:
+
+FLIPKART
+
+Reason:
+
+Flipkart has an official affiliate API and explicitly supports comparison-shopping use cases.
+
+Build FlipkartAdapter cleanly.
+
+Credentials must come from environment variables/secrets.
+
+DO NOT hardcode credentials.
+
+Amazon:
+
+Build AmazonAdapter interface and configuration support.
+
+Do not pretend it is live if credentials/access are not available.
+
+Amazon integration must remain:
+
+PENDING / CONFIGURABLE
+
+until valid authorized credentials exist.
+
+DO NOT fake Amazon live results.
+
+For development without credentials:
+
+use a clearly labeled deterministic mock provider behind the SAME ProviderAdapter interface.
+
+The UI must never label mock data as live.
+
+============================================================
+14. DEVELOPMENT PROVIDER
+============================================================
+
+Create:
+
+MockShoppingProvider
+
+This exists only for local development/testing.
+
+It must use deterministic fixture data.
+
+Clearly mark:
+
+source_type = mock
+
+Never:
+
+source_type = live
+
+This allows the complete agentic workflow to be tested without provider credentials.
+
+============================================================
+15. CANONICAL PRODUCT SCHEMA
+============================================================
+
+Create a canonical product model.
+
+Example:
+
+CanonicalProduct:
+
+id
+canonical_product_id
+provider
+provider_product_id
+title
+brand
+category
+description
+images
+variants
+price
+currency
+availability
+seller
+seller_rating
+product_rating
+review_count
+delivery
+delivery_eta
+return_policy
+warranty
+offers
+source_url
+affiliate_url
+source_type
+retrieved_at
+expires_at
+
+All provider data must be transformed into this schema BEFORE recommendation.
+
+============================================================
+16. PRODUCT MATCHING
+============================================================
+
+Different providers may list the same product differently.
+
+Build ProductMatcher.
+
+It should use:
+
+- brand
+- model number
+- SKU/GTIN where available
+- product identifiers
+- normalized title
+- variant attributes
+
+Do NOT rely only on fuzzy title matching.
+
+Output:
+
+canonical_product_id
+
+and confidence.
+
+Example:
+
+{
+  match_confidence: 0.98
+}
+
+If confidence is low:
+
+DO NOT merge products.
+
+============================================================
+17. NORMALIZATION
+============================================================
+
+Normalize:
+
+- currency
+- prices
+- discount formats
+- ratings
+- review counts
+- delivery
+- availability
+- seller
+- variants
+- offers
+
+Keep the ORIGINAL provider data available for audit/debugging where permitted.
+
+Every important value should include provenance:
+
+source
+retrieved_at
+provider
+confidence
+
+============================================================
+18. RECOMMENDATION ENGINE
+============================================================
+
+Do NOT simply recommend the cheapest item.
+
+Build a deterministic RecommendationEngine.
+
+Inputs:
+
+price
+effective price
+product quality
+rating
+review confidence
+seller quality
+delivery
+return policy
+warranty
+offers
+user preferences
+payment benefits
+
+Output:
+
+RecommendationScore
+
+Example:
+
+overall_score
+price_score
+quality_score
+seller_score
+delivery_score
+review_score
+offer_score
+preference_score
+payment_score
+
+The weighting must be configurable.
+
+Do NOT let the LLM perform critical monetary calculations.
+
+Use deterministic code for:
+
+price arithmetic
+discounts
+cashback
+reward calculations
+ranking formulas
+eligibility checks
+
+The LLM can explain the result.
+
+============================================================
+19. PAYMENT INTELLIGENCE
+============================================================
+
+Implement Phase 1 as a deterministic service.
+
+Do NOT build a giant autonomous finance agent.
+
+Create:
+
+PaymentIntelligenceService
+
+Responsibilities:
+
+- identify available payment methods
+- calculate known verified offers
+- calculate card benefits when data exists
+- calculate effective price
+- identify applicable card
+- provide explanation
+
+Every benefit must have:
+
+source
+verified_at
+valid_from
+valid_until
+confidence
+
+Never claim a card benefit without verified data.
+
+If card data is unavailable:
+
+return:
+
+payment_intelligence_status = unavailable
+
+Do not hallucinate.
+
+============================================================
+20. EFFECTIVE VALUE
+============================================================
+
+Create a canonical calculation:
+
+effective_value =
+base_price
+- verified_instant_discount
+- verified_cashback
+- verified_payment_benefit
++ relevant_delivery_cost
++ other verified costs
+
+Do NOT subtract speculative rewards.
+
+Separate:
+
+verified
+estimated
+unknown
+
+in the response model.
+
+============================================================
+21. VERIFICATION
+============================================================
+
+Implement a verification node.
+
+Before final response:
+
+Check:
+
+- price exists
+- provider exists
+- product identity exists
+- availability status exists where applicable
+- recommendation inputs are valid
+- payment benefits are verified
+- timestamps are present
+- provider source is known
+
+If stale:
+
+refresh if possible.
+
+If refresh fails:
+
+mark as stale.
+
+Never silently present stale data as live.
+
+============================================================
+22. USER CONTEXT
+============================================================
+
+Phase 1 should support:
+
+Guest:
+
+anonymous session
+query
+temporary preferences
+
+Authenticated:
+
+user_id
+saved preferences
+saved searches
+payment profile
+favorite providers
+history
+
+DO NOT overbuild memory.
+
+Build a clean context interface:
+
+UserContextService
+
+Later this can support mobile personalization.
+
+============================================================
+23. API CONTRACT
+============================================================
+
+Create clean APIs for the existing frontend.
+
+At minimum:
+
+POST /api/v1/search
+POST /api/v1/compare
+POST /api/v1/recommend
+GET /api/v1/providers
+GET /api/v1/products/{id}
+POST /api/v1/preferences
+GET /api/v1/recommendations
+POST /api/v1/saved-searches
+
+Adapt these to the existing frontend's actual API architecture rather than blindly adding duplicate endpoints.
+
+If frontend already has API contracts, preserve them.
+
+============================================================
+24. STREAMING
+============================================================
+
+The existing UI should be able to receive meaningful execution progress.
+
+Example:
+
+SEARCH_STARTED
+PROVIDER_SEARCH_STARTED
+PROVIDER_RESULT_RECEIVED
+NORMALIZATION_STARTED
+MATCHING_STARTED
+RECOMMENDATION_STARTED
+PAYMENT_INTELLIGENCE_STARTED
+VERIFICATION_STARTED
+COMPLETED
+
+Do NOT expose raw internal chain-of-thought.
+
+Never stream hidden reasoning.
+
+Stream only safe execution events/status.
+
+============================================================
+25. RESPONSE CONTRACT
+============================================================
+
+Return structured results.
+
+Example:
+
+{
+  query,
+  category,
+  status,
+  providers,
+  products,
+  recommendations,
+  payment_intelligence,
+  evidence,
+  freshness,
+  warnings,
+  provider_handoffs,
+  execution_metadata
+}
+
+The frontend should not have to parse arbitrary LLM text to build UI.
+
+============================================================
+26. PROVIDER HANDOFF
+============================================================
+
+Common Master should NOT pretend to complete purchases in Phase 1.
+
+For Shopping:
+
+Common Master
+ ↓
+Recommendation
+ ↓
+View on provider
+ ↓
+Affiliate/deep link
+ ↓
+Provider checkout
+
+The provider owns:
+
+payment
+checkout
+fulfillment
+delivery
+order management
+
+unless a future authorized integration explicitly allows otherwise.
+
+============================================================
+27. AUTHORIZATION + SECURITY
+============================================================
+
+Implement:
+
+- environment-based secrets
+- secret references
+- provider credential isolation
+- authentication
+- authorization
+- rate limiting
+- request validation
+- tool permissions
+- audit logs
+- secure logging
+
+Never expose provider API keys to the frontend.
+
+Never expose secrets to the LLM.
+
+Never put secrets in logs.
+
+============================================================
+28. A2A
+============================================================
+
+DO NOT IMPLEMENT A2A IN PHASE 1.
+
+No internal agent-to-agent protocol.
+
+No A2A gateway.
+
+No A2A registry.
+
+No A2A messaging.
+
+Keep architecture extensible for future A2A.
+
+Internal orchestration is:
+
+LangGraph
++
+functions
++
+specialist agents
++
+MCP
+
+A2A may be added later if Common Master needs to communicate with an independently operated external agent.
+
+============================================================
+29. DATABASE
+============================================================
+
+Use the existing database if suitable.
+
+Otherwise use PostgreSQL.
+
+Initial entities:
+
+users
+sessions
+providers
+provider_capabilities
+products
+provider_products
+offers
+user_preferences
+saved_searches
+payment_profiles
+card_benefits
+workflow_runs
+tool_calls
+recommendations
+audit_events
+
+Use migrations.
+
+Use indexes intelligently.
+
+Do not create unnecessary tables.
+
+============================================================
+30. REDIS
+============================================================
+
+Use Redis for:
+
+- provider response caching
+- rate limiting
+- short-lived session state
+- locks
+- idempotency where appropriate
+
+Do not use Redis as the permanent source of truth.
+
+============================================================
+31. OBSERVABILITY
+============================================================
+
+Every request should have:
+
+request_id
+session_id
+user_id if authenticated
+workflow_id
+agent_run_id if agent used
+tool_call_id
+provider
+latency
+status
+error
+cost metadata where available
+
+Implement structured logs.
+
+Implement tracing hooks.
+
+Prepare for OpenTelemetry.
+
+Do not log sensitive credentials or personal data unnecessarily.
+
+============================================================
+32. ERROR HANDLING
+============================================================
+
+Provider failure must NOT crash the entire workflow.
+
+Example:
+
+Flipkart → success
+Amazon → timeout
+Myntra → unavailable
+
+Final result:
+
+Flipkart results returned.
+
+Warnings:
+
+Amazon unavailable.
+Myntra unavailable.
+
+Do NOT fabricate missing results.
+
+Implement:
+
+timeout
+retry
+backoff
+circuit breaker where appropriate
+provider health state
+
+============================================================
+33. COST AND LATENCY
+============================================================
+
+Optimize for:
+
+accuracy first
+then reasonable latency
+then cost
+
+Do not invoke LLM unnecessarily.
+
+Use:
+
+deterministic routing
+parallel provider calls
+caching
+structured outputs
+small model for classification where appropriate
+stronger model only for complex reasoning
+
+Do not sacrifice correctness for artificial speed.
+
+============================================================
+34. TESTING
+============================================================
+
+Build real tests.
+
+Unit tests:
+
+- provider adapters
+- normalization
+- product matching
+- ranking
+- effective price
+- payment calculations
+- complexity gate
+
+Integration tests:
+
+- API → LangGraph
+- LangGraph → MCP
+- MCP → adapter
+- adapter → mock provider
+
+End-to-end:
+
+User query
+→ Shopping workflow
+→ provider results
+→ recommendation
+→ frontend response
+
+Test provider failure.
+
+Test missing data.
+
+Test stale data.
+
+Test malformed provider response.
+
+Test duplicate products.
+
+Test invalid price.
+
+Test unavailable provider.
+
+============================================================
+35. SECURITY TESTS
+============================================================
+
+Verify:
+
+- frontend cannot access provider secrets
+- LLM cannot access arbitrary tools
+- unauthorized user cannot access another user's data
+- payment profile is protected
+- tool permissions are enforced
+- provider credentials are isolated
+- logs do not leak secrets
+
+============================================================
+36. PERFORMANCE TEST
+============================================================
+
+Test:
+
+simple query
+moderate query
+complex query
+provider timeout
+provider partial failure
+multiple provider fan-out
+
+Record:
+
+p50
+p95
+p99
+
+latency.
+
+Do not optimize prematurely, but establish a baseline.
+
+============================================================
+37. FRONTEND INTEGRATION
+============================================================
+
+DO NOT redesign the existing frontend.
+
+Use the existing Common Master design.
+
+Connect the existing Shopping page to the new backend.
+
+If the existing frontend currently uses mock data:
+
+replace it gradually with:
+
+frontend
+→ backend
+→ real workflow
+→ provider data
+
+Keep mock mode available for development.
+
+The existing UI should show:
+
+- search state
+- provider status
+- product comparison
+- best recommendation
+- reason
+- effective value
+- payment intelligence when available
+- freshness
+- warnings
+- provider handoff
+
+Do not expose technical internal architecture to normal users.
+
+No raw JSON.
+
+No raw MCP payloads.
+
+No chain-of-thought.
+
+============================================================
+38. UX RULE
+============================================================
+
+The user should feel:
+
+"I asked Common Master a question and it intelligently found the best option."
+
+The user should NOT feel:
+
+"I am watching a developer debugging an agent."
+
+Technical execution traces should be available only in appropriate developer/debug/admin surfaces.
+
+============================================================
+39. PROJECT STRUCTURE
+============================================================
+
+Adapt to the existing repository.
+
+If a backend does not exist, prefer a clean structure similar to:
+
+backend/
+  app/
+    api/
+    core/
+    config/
+    auth/
+    db/
+    models/
+    schemas/
+    workflows/
+      shopping/
+        graph.py
+        state.py
+        nodes/
+    agents/
+      shopping/
+    mcp/
+      client/
+      servers/
+        shopping/
+    providers/
+      base/
+      registry/
+      flipkart/
+      amazon/
+      mock/
+    recommendation/
+    payment/
+    matching/
+    normalization/
+    verification/
+    observability/
+    services/
+  tests/
+
+Do not blindly use this structure if the existing project already has a better established architecture.
+
+============================================================
+40. TECHNOLOGY PREFERENCE
+============================================================
+
+Prefer:
+
+Backend:
+Python + FastAPI
+
+Or the existing backend technology if already established and suitable.
+
+AI orchestration:
+LangGraph
+
+LLM integration:
+use the project's existing LLM abstraction if present.
+
+MCP:
+official MCP SDK / compatible production implementation
+
+Database:
+PostgreSQL
+
+Cache:
+Redis
+
+Validation:
+Pydantic / existing equivalent
+
+Observability:
+OpenTelemetry-compatible architecture
+
+Frontend:
+KEEP EXISTING STACK.
+
+Do not introduce unnecessary technologies.
+
+============================================================
+41. IMPORTANT: DO NOT OVERENGINEER PHASE 1
+============================================================
+
+Do NOT introduce:
+
+- Kubernetes unless already required
+- dozens of microservices
+- Kafka unless already required
+- Temporal unless an actual long-running workflow requires it
+- A2A
+- agent swarm
+- vector database just because this is an AI system
+- RAG unless the actual feature requires it
+- fine-tuning
+- complex memory systems
+
+A modular monolith + clean provider/MCP boundaries is preferred for Phase 1.
+
+The architecture must be scalable, but Phase 1 must remain buildable and debuggable.
+
+============================================================
+42. MOCK-FIRST DEVELOPMENT
+============================================================
+
+If provider credentials are not available:
+
+DO NOT STOP.
+
+Implement:
+
+MockShoppingProvider
+
+and demonstrate the COMPLETE workflow:
+
+User
+→ frontend
+→ API
+→ LangGraph
+→ complexity gate
+→ Shopping Agent when required
+→ MCP
+→ Mock Provider Adapter
+→ canonical schema
+→ product matching
+→ recommendation
+→ payment intelligence
+→ verification
+→ frontend
+
+Then make Flipkart integration production-ready behind configuration.
+
+Amazon remains disabled until authorized credentials exist.
+
+============================================================
+43. REAL DATA HONESTY
+============================================================
+
+Never display mock data as live.
+
+Every result must carry:
+
+source_type:
+live
+mock
+cached
+partner
+affiliate
+estimated
+
+And:
+
+retrieved_at
+
+If a result is estimated:
+
+UI must clearly label it.
+
+If provider data is unavailable:
+
+say so.
+
+Accuracy is more important than appearing impressive.
+
+============================================================
+44. ACCEPTANCE CRITERIA
+============================================================
+
+Phase 1 is COMPLETE only when all of the following work:
+
+1. Existing Shopping page connects to backend.
+
+2. User can submit:
+   "Best laptop under ₹1 lakh for AI development."
+
+3. Backend creates a typed LangGraph workflow.
+
+4. Query is validated.
+
+5. User context is loaded.
+
+6. Complexity gate works.
+
+7. Simple query can bypass agent.
+
+8. Complex query invokes Shopping Agent.
+
+9. Shopping Agent uses ONLY permitted MCP tools.
+
+10. MCP calls provider adapters.
+
+11. Provider adapter uses authorized API or mock provider.
+
+12. Provider data becomes canonical product data.
+
+13. Same products from multiple providers can be matched.
+
+14. Recommendation engine ranks products.
+
+15. Ranking is NOT based only on lowest price.
+
+16. Payment Intelligence can calculate verified benefits.
+
+17. Verification checks freshness and provenance.
+
+18. Partial provider failures are handled gracefully.
+
+19. Existing frontend displays structured results.
+
+20. User can click provider handoff.
+
+21. Guest flow works.
+
+22. Authenticated flow works if authentication already exists.
+
+23. No provider secret reaches frontend.
+
+24. No private provider API is used.
+
+25. No fake live provider data.
+
+26. A2A is NOT implemented.
+
+27. Tests exist.
+
+28. Logs/traces exist.
+
+29. README explains how to run the complete system.
+
+30. Environment setup is documented.
+
+============================================================
+45. DEMONSTRATION SCENARIOS
+============================================================
+
+After implementation, demonstrate these scenarios:
+
+SCENARIO 1:
+
+"iPhone 17"
+
+Expected:
+
+simple workflow
+→ direct search
+→ no Shopping Agent unless needed
+→ provider results
+→ normalization
+→ comparison
+
+SCENARIO 2:
+
+"Best laptop under ₹1 lakh for AI development"
+
+Expected:
+
+moderate/complex
+→ Shopping Agent
+→ provider tools
+→ comparison
+→ recommendation
+
+SCENARIO 3:
+
+"Find the best laptop under ₹1 lakh for AI development and tell me which one gives the best effective price with my card."
+
+Expected:
+
+Shopping Agent
+→ provider data
+→ product matching
+→ Payment Intelligence
+→ effective value
+→ recommendation
+
+SCENARIO 4:
+
+Provider unavailable.
+
+Expected:
+
+partial result
++
+clear warning
++
+NO fabricated data.
+
+SCENARIO 5:
+
+No real provider credentials.
+
+Expected:
+
+mock provider works
++
+UI clearly says development/mock data.
+
+============================================================
+46. WHAT YOU MUST NOT DO
+============================================================
+
+DO NOT:
+
+- rewrite the entire frontend
+- replace existing UI design
+- invent provider APIs
+- scrape private endpoints
+- use private tokens/cookies
+- expose secrets
+- make every operation an agent
+- use A2A
+- build an agent swarm
+- hallucinate prices
+- hallucinate discounts
+- hallucinate availability
+- claim unsupported provider integrations are live
+- hard-code API keys
+- use LLM for deterministic money calculations
+- allow an LLM to directly execute financial actions
+- create unnecessary microservices
+- create unnecessary infrastructure
+
+============================================================
+47. IMPLEMENTATION ORDER
+============================================================
+
+Execute in this exact order:
+
+STEP 1
+Inspect repository and existing frontend/backend.
+
+STEP 2
+Identify existing API contracts and integrate rather than duplicate.
+
+STEP 3
+Create/clean backend foundation.
+
+STEP 4
+Create canonical schemas.
+
+STEP 5
+Create ProviderRegistry.
+
+STEP 6
+Create ProviderAdapter interface.
+
+STEP 7
+Create MockShoppingProvider.
+
+STEP 8
+Create FlipkartAdapter structure and configuration.
+
+STEP 9
+Create AmazonAdapter structure but keep disabled unless credentials exist.
+
+STEP 10
+Create Shopping MCP Server.
+
+STEP 11
+Create MCP tools.
+
+STEP 12
+Create typed LangGraph state.
+
+STEP 13
+Create LangGraph Shopping workflow.
+
+STEP 14
+Create Complexity Gate.
+
+STEP 15
+Create Shopping Agent.
+
+STEP 16
+Create normalization.
+
+STEP 17
+Create ProductMatcher.
+
+STEP 18
+Create RecommendationEngine.
+
+STEP 19
+Create PaymentIntelligenceService.
+
+STEP 20
+Create Verification node.
+
+STEP 21
+Create API endpoints.
+
+STEP 22
+Connect existing frontend.
+
+STEP 23
+Add streaming execution events if the existing frontend supports streaming.
+
+STEP 24
+Add observability.
+
+STEP 25
+Add tests.
+
+STEP 26
+Run end-to-end tests.
+
+STEP 27
+Fix all errors.
+
+STEP 28
+Document setup.
+
+============================================================
+48. FINAL OUTPUT AFTER IMPLEMENTATION
+============================================================
+
+Do NOT just tell me what you would build.
+
+Actually build it.
+
+At the end provide:
+
+1. What was implemented.
+2. Files/modules created or changed.
+3. Existing frontend components reused.
+4. Backend architecture.
+5. LangGraph workflow.
+6. MCP tools.
+7. Provider integrations.
+8. What is live vs mock vs pending.
+9. Database schema.
+10. API endpoints.
+11. Environment variables required.
+12. Tests completed.
+13. Known limitations.
+14. Exact commands to run locally.
+15. Exact next steps for Phase 2.
+
+Most importantly:
+
+If something cannot be implemented because credentials/API access are unavailable, implement the correct abstraction and mock path instead of inventing an integration.
+
+============================================================
+49. FINAL ARCHITECTURAL PRINCIPLE
+============================================================
+
+Build Common Master around this rule:
+
+LLM decides intent and reasoning.
+
+LangGraph orchestrates.
+
+Functions perform deterministic work.
+
+Agents reason where reasoning is valuable.
+
+MCP exposes controlled tools.
+
+Provider adapters isolate external APIs.
+
+Recommendation Engine calculates decisions.
+
+Payment Intelligence calculates verified monetary benefits.
+
+Verification validates evidence.
+
+Backend controls security.
+
+Frontend displays the result.
+
+Providers perform the final transaction.
+
+A2A is future-only.
+
+The system must be:
+
+ACCURATE
+AUDITABLE
+PROVIDER-AGNOSTIC
+MODULAR
+SECURE
+FAST ENOUGH
+COST-CONSCIOUS
+EXTENSIBLE
+PRODUCTION-READY
+
+Start inspecting the repository NOW and proceed with implementation.
+Do not stop at a plan.

@@ -1,0 +1,16 @@
+import React from 'react';
+import { Pressable, StyleSheet, Switch, Text, View } from 'react-native';
+import { Feather } from '@expo/vector-icons';
+import { tc } from '../design/tokens';
+
+export function TogglePreference({ icon, title, body, value, onChange, disabled = false }: { icon: React.ComponentProps<typeof Feather>['name']; title: string; body: string; value: boolean; onChange(value: boolean): void; disabled?: boolean }) {
+  return <View style={[styles.toggle, disabled && styles.disabled]}><View style={styles.icon}><Feather name={icon} size={18} color={tc.color.iris} /></View><View style={styles.copy}><Text style={styles.title}>{title}</Text><Text style={styles.body}>{body}</Text></View><Switch accessibilityLabel={title} accessibilityHint={body} disabled={disabled} value={value} onValueChange={onChange} trackColor={{ false: tc.color.lineStrong, true: '#CEC5FF' }} thumbColor={value ? tc.color.iris : tc.color.surface} /></View>;
+}
+
+export function ChoiceCards({ values, selected, onChange }: { values: Array<{ key: string; title: string; body: string; icon: React.ComponentProps<typeof Feather>['name'] }>; selected: string; onChange(value: string): void }) {
+  return <View style={styles.choices}>{values.map(value => <Pressable key={value.key} accessibilityRole="button" accessibilityState={{ selected: selected === value.key }} onPress={() => onChange(value.key)} style={({ pressed }) => [styles.choice, selected === value.key && styles.choiceSelected, pressed && styles.pressed]}><View style={[styles.choiceIcon, selected === value.key && styles.choiceIconSelected]}><Feather name={value.icon} size={18} color={selected === value.key ? tc.color.white : tc.color.iris} /></View><View style={styles.choiceCopy}><Text style={styles.choiceTitle}>{value.title}</Text><Text style={styles.choiceBody}>{value.body}</Text></View>{selected === value.key ? <Feather name="check-circle" size={20} color={tc.color.iris} /> : null}</Pressable>)}</View>;
+}
+
+const styles = StyleSheet.create({
+  toggle: { minHeight: 78, borderRadius: tc.radius.md, borderWidth: 1, borderColor: tc.color.line, backgroundColor: tc.color.surface, padding: tc.space.sm, flexDirection: 'row', alignItems: 'center', gap: tc.space.sm, marginBottom: tc.space.xs }, disabled: { opacity: 0.5 }, icon: { width: 42, height: 42, borderRadius: 14, backgroundColor: tc.color.irisSoft, alignItems: 'center', justifyContent: 'center' }, copy: { flex: 1 }, title: { ...tc.type.label, fontSize: 14, color: tc.color.ink }, body: { ...tc.type.bodySmall, fontSize: 11, color: tc.color.muted, marginTop: 2 }, choices: { gap: tc.space.xs }, choice: { minHeight: 76, borderRadius: tc.radius.md, borderWidth: 1, borderColor: tc.color.line, backgroundColor: tc.color.surface, padding: tc.space.sm, flexDirection: 'row', alignItems: 'center', gap: tc.space.sm }, choiceSelected: { borderColor: '#C9BEFF', backgroundColor: '#FCFBFF' }, choiceIcon: { width: 40, height: 40, borderRadius: 14, backgroundColor: tc.color.irisSoft, alignItems: 'center', justifyContent: 'center' }, choiceIconSelected: { backgroundColor: tc.color.iris }, choiceCopy: { flex: 1 }, choiceTitle: { ...tc.type.label, fontSize: 14, color: tc.color.ink }, choiceBody: { ...tc.type.bodySmall, fontSize: 11, color: tc.color.muted, marginTop: 2 }, pressed: { opacity: 0.72 },
+});

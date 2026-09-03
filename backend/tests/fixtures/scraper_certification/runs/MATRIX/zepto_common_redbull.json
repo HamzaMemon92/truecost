@@ -1,0 +1,3388 @@
+{
+  "capture_version": "truecost.source.capture.v1",
+  "run_id": "zepto_common_redbull",
+  "case_id": "common_redbull",
+  "provider": "zepto",
+  "domain": "grocery",
+  "query": "Red Bull",
+  "captured_at": "2026-08-25T17:26:05.672526+00:00",
+  "execution_mode": "REAL_LIVE_SCRAPE",
+  "scraper_component": "ZeptoScraper",
+  "message_type": "SEARCH_SUCCESS",
+  "requested_location_profile": "default",
+  "observed_location_evidence": "NOT_AVAILABLE",
+  "location_verified": false,
+  "payload": {
+    "layout": [
+      {
+        "widgetId": "TITLE_WIDGET",
+        "widgetName": "SEARCH_TITLE_WIDGET",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "title",
+            "data": {
+              "items": [],
+              "title": "Showing results for \"tata salt 1 kg\"",
+              "queryTitle": "",
+              "searchQuery": "Tata Salt 1 kg",
+              "replacingTerm": "",
+              "searchKeyInTitle": "tata salt 1 kg",
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "viewMeta": {
+          "aspectRatio": 3.33,
+          "paddingTop": 1,
+          "paddingBottom": 1,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "backgroundColor": "#FFFFFF",
+          "adContainer": {
+            "marginHorizontal": 0,
+            "overflow": "",
+            "borderRadius": 0,
+            "backgroundColor": "",
+            "paddingBottom": 0
+          },
+          "productsList": {
+            "paddingHorizontal": 0,
+            "marginBottom": 0,
+            "separator": 0
+          },
+          "adAsset": {},
+          "backgroundGradient": {
+            "start": {
+              "x": 0,
+              "y": 0
+            },
+            "end": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "borderWidth": 0,
+          "borderColor": "",
+          "highlightColor": "",
+          "titleStyle": null,
+          "itemSpacing": 0,
+          "cardStyle": null,
+          "curveIcon": null,
+          "curveIconV2": null,
+          "headerStyle": null,
+          "listStyle": null,
+          "padding": null,
+          "itemPadding": null,
+          "imagePadding": null,
+          "titleIconImage": null,
+          "bodyStyle": null,
+          "subTitleLeadingIconImage": {
+            "id": "dd9db3ae-c295-40dc-aa55-23988e9aa8fd",
+            "name": "Red Bull",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "titleLeadingIconImage": {
+            "id": "db5bc8d3-3301-4f71-9f9c-5176f2449ba5",
+            "name": "Red Bull",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "tag": {
+            "text": "",
+            "variant": "",
+            "style": {
+              "color": "",
+              "paddingHorizontal": 0,
+              "paddingVertical": 0,
+              "borderWidth": 0,
+              "borderRadius": 0,
+              "borderColor": "",
+              "backgroundColor": "",
+              "lineHeight": 0
+            }
+          },
+          "card": {
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColor": "",
+            "backgroundColor": "",
+            "backgroundMode": "",
+            "firstColor": "",
+            "secondColor": "",
+            "padding": null
+          },
+          "overlayIconStyles": {},
+          "imageContainerStyle": {},
+          "productIconStyles": {},
+          "text": {
+            "unselectedColor": "",
+            "selectedColor": "",
+            "selectedVariant": "",
+            "unselectedVariant": "",
+            "selectedBackgroundColor": "",
+            "unselectedBackgroundColor": "",
+            "textSize": 0
+          }
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_0",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "5d8d4fd4-f29a-5725-8cb2-2ff9f442e159",
+                    "id": "3a7b21e9-8c6d-47ab-8f10-58f787c59e01",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Red Bull",
+                      "brandId": "9880fbe4-4a6e-4b88-954b-67342a59240a",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Himalayan Natives Himalayan Pink Salt (Powder) is a high-quality salt sourced from the pristine Himalayan mountains. This finely ground pink salt is packed with essential minerals and trace elements, making it a healthier alternative to regular table salt. Whether used in cooking, seasoning, or as a finishing touch on your favorite dishes, Himalayan Pink Salt adds a unique flavor and a subtle hint of pink color to your culinary creations."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "ba88ae49-a79e-4789-8373-4f369b4b9e43",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "Khanal Foods",
+                      "minimumRequiredAge": 0,
+                      "name": "Red Bull",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "250 ml",
+                      "fssaiLicense": "",
+                      "id": "69725e75-95e3-4a3e-8ad6-1e4a69833302",
+                      "images": [
+                        {
+                          "height": 1080,
+                          "hidePadding": true,
+                          "id": "4545c15c-bcbc-4fd2-9143-536cc646f2fe",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Red Bull",
+                          "path": "cms/product_variant/10fc9e4b-4cb0-499f-ae4b-0bea7378881d.jpeg",
+                          "videoPath": null,
+                          "width": 1080,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 125,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "8760",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "GRAM",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "b8a0b9f5-b8d7-45c1-b815-04684b337dc2",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 622
+                      }
+                    },
+                    "discountedSellingPrice": 7300,
+                    "discountPercent": 26,
+                    "discountAmount": 2600,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 125,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 12500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "42aaae32-6375-43ab-9653-e1be8df324be",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "c95a4ee9-845d-4220-8ce5-0661f377f0af",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "c74f5866-4c2c-4e56-b511-25eb957ffbe3",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "7cad2b96-a072-446b-b235-dc075528692d",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "2ecf5f4a-8b5c-450a-93fd-59fb22d13180",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 2600
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 7300,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "0e7d3eb7-ed2b-4de3-892d-60a18e39b780",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "19c952f7-323d-40a1-94b7-1aacd7bcce54",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 7300
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 125,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|ce4c5647026443e9819e53d210e18f05|2121|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|9880fbe4-4a6e-4b88-954b-67342a59240a|9880fbe4-4a6e-4b88-954b-67342a59240a||2386168|2386168|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||b8a0b9f5-b8d7-45c1-b815-04684b337dc2|6e9462d6-2835-47ec-ba8f-fb1ec0b3fd0b|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|epson salt|0|0|1|0",
+                  "position": 0,
+                  "l3_details": {
+                    "id": "04a280d1-91e1-4257-872e-7ff371e37d5b",
+                    "name": "Red Bull"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "7bb8beb2-9d81-54d1-9984-d33fd10e45c5",
+                    "id": "edd429ac-dfe9-4056-a33d-c140a6ddef28",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Red Bull",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt which assures purity and guarantees the right amount of iodine in the salt. Iodine helps in the proper mental development of children and prevents iodine deficiency disorders in adults."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "c6932017-ced8-43b5-8a61-6320247a0006",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "TCPL",
+                      "minimumRequiredAge": 0,
+                      "name": "Red Bull",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "250 ml",
+                      "fssaiLicense": "",
+                      "id": "2647084f-6948-456c-b6b3-7e3aa0abe925",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "b2cea902-3092-4cab-8f27-a94c5f5a5a0e",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Red Bull",
+                          "path": "cms/product_variant/1c70221b-4440-4d55-87e7-46fcce72fefd.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 2,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 125,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 31,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "14060d3c-17b1-4b56-8d2f-ddbed64443e7",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.9,
+                        "totalRatings": 479133
+                      }
+                    },
+                    "discountedSellingPrice": 2800,
+                    "discountPercent": 12,
+                    "discountAmount": 400,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 31,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 125,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 12500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "9a3a3e46-29ae-44b7-b898-611e7fa23a92",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "492d6ebb-4a03-42fe-8c48-48b308a261a1",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "2150a95d-3265-4c25-a491-3df10fc94e9e",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 999,
+                      "semanticScore": 999,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 400
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2800,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2800
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 125,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 1,
+                  "index": 0
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "caa4263d-a2a8-5fb4-9f07-454b6631cd34",
+                    "id": "e88db4dd-35c3-4077-b0b8-60f5bfaba3c5",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Red Bull",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt Himalayan Rock Salt is sourced directly from mountains and contains natural trace minerals such as calcium, magnesium and potassium. From nature\u2019s kitchen to yours enjoy the taste of free-flowing granules of Tata Salt Himalayan Rock Salt. This Sendha namak adds a fresh flavour burst to your everyday meals, meals for special occasions and to enhance the flavour of fasting foods."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "6a768326-b91f-4c19-a2a7-a9dd583b4eb7",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "Geo-Fresh Organic Private Limited, Plot No. 5 & 6, Survey No. 129(1), Sidhpur-Patan Highway, Village-Karan, TA-Sidhpur, District-Patan, Gujrat - 384151.",
+                      "manufacturerName": "Geo-Fresh Organic Private Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Red Bull",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "250 ml",
+                      "fssaiLicense": "",
+                      "id": "17b31f53-9f22-4caf-98d0-eb06e95e49b5",
+                      "images": [
+                        {
+                          "height": 900,
+                          "hidePadding": true,
+                          "id": "1c26bbfb-29c6-442c-8c39-7c1df20b75bf",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Red Bull",
+                          "path": "cms/product_variant/47ca6c43-cc8d-4e90-b234-6d45622ea2e0.jpeg",
+                          "videoPath": null,
+                          "width": 900,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 30,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 125,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 19,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "GRAM",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "77577303-f18c-40d2-a1a4-88e06e298818",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 17650
+                      }
+                    },
+                    "discountedSellingPrice": 5800,
+                    "discountPercent": 10,
+                    "discountAmount": 700,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 19,
+                    "quantity": 19,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 125,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 12500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "95abaf47-1289-4a9b-8a38-cbaaed4dd415",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "3be3637e-ed43-42a6-83fa-88e87418361f",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "75dde64d-2581-49b1-b3e1-48c3c2cce62e",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "ba3a07e5-26f4-4bd5-be52-4698d7a4b50d",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "f9c38e71-2547-4761-bc19-dab55f144db5",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 700
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 5800,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "2401baa0-81d4-44c1-a59c-0356bae924bd",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "def4691f-dd31-4860-b446-82e0e9c83df7",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 5800
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 125,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|ae9fde909aec4378a83f886d4c68e1a2|960|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|9de7f501-f1e0-466c-bf16-4bd8b0e1008d|9de7f501-f1e0-466c-bf16-4bd8b0e1008d||2005821|2005821|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||77577303-f18c-40d2-a1a4-88e06e298818|b2d5ef85-e2d9-426f-af07-97efe3c249b7|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|1kg|0|0|20|0",
+                  "position": 2,
+                  "l3_details": {
+                    "id": "0530b43a-0a00-4571-8424-f13075607937",
+                    "name": "Red Bull"
+                  }
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_3",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "52720575-8476-556c-9831-f4668c4983a9",
+                    "id": "fb0b9864-5a38-4041-94bf-3ea91cc0d077",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Red Bull",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Lite Low Sodium Salt 1 kg Tata Lite Low Sodium Salt has been a staple in kitchen for generations now. This salt was first manufactured by Tata in a vacuum-sealed pack",
+                        "around the year 1983. Salt is one of the most important ingredients we use in food and cooking. It also adds taste and flavour to any dish."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "10526264-e731-4f80-b7f9-d0f5d32106ae",
+                      "imported": true,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "Maheshwari Salt Trading Co., C 65, 66, SIPCOT Industrial Complex, Tuticorin, District-Thoothukkudi, Tamil Nadu 628 008. Lic. No. 10012042000657",
+                      "manufacturerName": "Tata Consumer Products Ltd",
+                      "minimumRequiredAge": 0,
+                      "name": "Red Bull",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "250 ml",
+                      "fssaiLicense": "",
+                      "id": "850212b8-726b-4378-8550-7c03aa00edea",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "cdbd5201-53f2-4efe-a965-2be699fa9975",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Red Bull",
+                          "path": "cms/product_variant/7460909f-aca5-4994-b3e4-d9d4b758ba45.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 2,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 125,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 8,
+                      "shelfLifeInHours": "13152",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "b5ecfae3-b8c0-418b-b20c-372fe62ba576",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.6,
+                        "totalRatings": 61557
+                      }
+                    },
+                    "discountedSellingPrice": 2200,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 8,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 125,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 12500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "043c49e2-2111-40f9-ad24-dcbdd3e097d1",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "51c3ec80-914b-4efb-b665-9bfb12ac3692",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "3dd4a453-a58e-4649-8f56-a4e81547e10f",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 998,
+                      "semanticScore": 998,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2200,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2200
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 125,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 3,
+                  "index": 1
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "224a404d-5a74-5338-8bc1-1499e6baed76",
+                    "id": "a375b325-7888-4fa8-ba08-c92a361578a9",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Red Bull",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt Himalayan Rock Salt is sourced directly from mountains and contains natural trace minerals such as calcium, magnesium and potassium. From nature\u2019s kitchen to yours enjoy the taste of free-flowing granules of Tata Salt Himalayan Rock Salt. This Sendha namak adds a fresh flavour burst to your everyday meals, meals for special occasions and to enhance the flavour of fasting foods."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "40bbd84b-843f-4c68-a7cd-9dfd30994419",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "Geo-Fresh Organic Private Limited, Plot No. 5 & 6, Survey No. 129(1), Sidhpur-Patan Highway, Village-Karan, TA-Sidhpur, District-Patan, Gujrat - 384151.",
+                      "manufacturerName": "Geo-Fresh Organic Private Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Red Bull",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "250 ml",
+                      "fssaiLicense": "",
+                      "id": "08b991c1-2b29-451c-87b0-5d7b28f7c870",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "ef253d2f-fe90-4ca0-8a6f-5844fcb2b67b",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Red Bull",
+                          "path": "cms/product_variant/97fa1bb7-ac6f-4750-9d9f-f8b832ffecef.jpg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 30,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 125,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 91,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "77577303-f18c-40d2-a1a4-88e06e298818",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.9,
+                        "totalRatings": 31822
+                      }
+                    },
+                    "discountedSellingPrice": 10400,
+                    "discountPercent": 13,
+                    "discountAmount": 1600,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 30,
+                    "quantity": 91,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 125,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 12500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7a2c1b92-03f8-49e7-9bac-8e89bd97e3d3",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "b10983fc-e94e-4b7e-ac56-bccf428a585d",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "bac94f72-c069-49b9-b5af-a6b2f8111cae",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "134fcbec-43dc-42f0-ba59-010be4cb321f",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "3e9f75e1-6328-4629-8b20-36bfe6b7a014",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 1600
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 10400,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "2f944265-2f2e-4aae-a63e-2e43c5c23877",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "3fc5fff3-3cbb-40a6-a0e7-36d19725faff",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 10400
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 125,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|f45f1c1eef9f4d818c0bfd3e751a98bc|960|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|9de7f501-f1e0-466c-bf16-4bd8b0e1008d|9de7f501-f1e0-466c-bf16-4bd8b0e1008d||2005821|2005821|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||77577303-f18c-40d2-a1a4-88e06e298818|c727ebd6-3bb2-41c5-8403-037b2b421ca2|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|1kg|0|0|20|0",
+                  "position": 4,
+                  "l3_details": {
+                    "id": "b2327f5e-5605-4cbb-a0cc-3f72b866ed1f",
+                    "name": "Red Bull"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "c831fbad-f358-5aae-a22c-277bc2db8974",
+                    "id": "0f809bbe-a03f-4419-8dc4-e17fc66280a9",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Red Bull",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "A stressful lifestyle coupled with altered food habits has led to an exponential increase in the occurrence of lifestyle diseases such as high blood pressure. Tata Salt Lite has 15% sodium compared to regular salt for a healthy lifestyle without compromising the taste of your dishes. The Tata Salt Lite low sodium also consists of Iodine which helps in the proper mental development of children and prevents iodine deficiency disorders in adults."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "1701f490-686a-4c44-8ba6-34bcbd13df95",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "(SB) M/s Shree Ram Brine Chem Industries,Plot No. 2, Survey No. 286, Paiki, Paiki-2, Northern East, Village: Chopadava, District-Kutch, Gujarat - 370 140.\n(CS) CHIRAI SALT (INDIA) PVT. LTD., D-2, Sector-12, Heavy Industrial Area, Gandhidham, Bhuj, District-Kutch, Gujarat-370 201.\n(WC) Western India Sea Brines Pvt. Ltd., Survey No. 281, Salt City, Village: Chopadva, Taluka: Bhachau, Bhuj, District-Kutch, Gujarat-370 140.\nRe-Packed by: (AH) Mehta Enterprise, C/o Sumar Logistics and Industrial Park. Shed \"0\", Gala No. 1 to 6, NH-8, Betdilat, Village Hariyala, District Kheda, Nadiad, Gujarat-387411.",
+                      "manufacturerName": "(SB) M/s Shree Ram Brine Chem Industries, (CS) CHIRAI SALT (INDIA) PVT. LTD, (WC) Western India Sea Brines Pvt. Ltd, Re-Packed by: (AH) Mehta Enterprise.",
+                      "minimumRequiredAge": 0,
+                      "name": "Red Bull",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "250 ml",
+                      "fssaiLicense": "",
+                      "id": "187efc83-fe3d-4844-b489-34ecfdaca6e4",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "63262eb6-dede-469e-aa4f-009f78cd8465",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Red Bull",
+                          "path": "cms/product_variant/1279c778-fb6f-4005-9b3f-23aaf6582467.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 2,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 125,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "1bde62f2-ddd2-43b5-af74-53f1795ab4b0",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 25894
+                      }
+                    },
+                    "discountedSellingPrice": 5500,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 125,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 12500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "a998da17-ad64-42d5-85ca-a3387142936d",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "f3c44b69-392d-4e5e-99b3-5b3ffa61befa",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "fd1d4d74-0faf-4be1-9a7b-c213be733269",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 997,
+                      "semanticScore": 997,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 5500,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 5500
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 125,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 5,
+                  "index": 2
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_6",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "9f9dbdcb-17da-5d97-9fbd-e6b0589a3be0",
+                    "id": "b79eb42b-9528-41c8-a6cf-c215f7a9e318",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Red Bull",
+                      "brandId": "40e97298-9299-462c-90c2-5deffd53a989",
+                      "countryOfOrigin": "India",
+                      "description": [],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "65d803b9-01f3-4e77-b432-3f19c5672863",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "Paras Spices",
+                      "minimumRequiredAge": 0,
+                      "name": "Red Bull",
+                      "pharmaceuticalInfo": {
+                        "isLicensed": false,
+                        "composition": "",
+                        "allergy": "",
+                        "usage": "",
+                        "disclaimer": ""
+                      },
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "250 ml",
+                      "fssaiLicense": "10014063000385",
+                      "id": "8d87cb60-5eeb-4f84-b5eb-46f189a4480f",
+                      "images": [
+                        {
+                          "height": 980,
+                          "hidePadding": true,
+                          "id": "975bd2f7-ca4a-45ca-8c44-672934a051aa",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Red Bull",
+                          "path": "cms/product_variant/e4c9629b-e1a5-487a-8584-c4d062b09c3e.jpeg",
+                          "videoPath": null,
+                          "width": 980,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 125,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 3,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "GRAM",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "fc57f2cc-0a2c-44b9-8239-acb390688d07",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.4,
+                        "totalRatings": 373
+                      }
+                    },
+                    "discountedSellingPrice": 4200,
+                    "discountPercent": 37,
+                    "discountAmount": 2500,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 3,
+                    "quantity": 3,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 125,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 12500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "167aaa3b-a000-4eea-9281-85dc7f622a80",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "2c3e0854-e3ff-41e6-b828-0a180b4f0aa2",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "9dccded4-42cc-4a4d-9bd8-c020373d2995",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "7f434ea5-5cea-48ac-bc31-734ed3f95bd7",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "860d229c-106b-44fb-9e91-9e50c3e3e303",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 2500
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 4200,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "25f4e025-6876-4a94-82f3-3ae81bd9cb49",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "6ce14608-710d-4e27-9e12-044e261c236a",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 4200
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 125,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|9867c2cd48d64d49b10d8a015c4fd431|1260|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|40e97298-9299-462c-90c2-5deffd53a989|40e97298-9299-462c-90c2-5deffd53a989||2422010|2422010|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||fc57f2cc-0a2c-44b9-8239-acb390688d07|e3233297-f244-494e-9236-6ae514cc1fad|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|pink rock salt|0|5|0|0",
+                  "position": 6,
+                  "l3_details": {
+                    "id": "65f11c67-f736-4f48-a110-bfcf11eac21f",
+                    "name": "Red Bull"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "6ae2efe5-ec0c-53b3-97e1-0541e74ba3d1",
+                    "id": "64fa3468-e761-401f-9ccd-d17517ac0727",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Red Bull",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt Superlite With 30% Low Sodium is a low-sodium salt option that contains 30% less sodium than regular salt. It is designed to provide the same great taste while helping to reduce sodium intake, making it ideal for those looking to manage their salt intake. This innovative salt formulation is crafted to deliver a balanced flavor profile without compromising on taste. Whether you're cooking your favorite dishes or seasoning your meals at the table."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "c702f749-1fba-48e1-8989-04bac1fd91c0",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "M/s Shree Ram Brine Chem Industries, Plot No 2 rvey No. 286, Paiki, Paiki-2. Northem East Jage: Chopadava, District-Kutch, Gujarat-370 140. Lic. No. 10020021006305",
+                      "manufacturerName": "Tata Consumer Products Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Red Bull",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "250 ml",
+                      "fssaiLicense": "",
+                      "id": "46eb55e2-61e4-45bb-8f70-a36de12205af",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "e2fe14ff-e63a-4c7f-afef-c420bccbc5ea",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Red Bull",
+                          "path": "cms/product_variant/86b3d35e-1e41-473e-aea3-e0f5c66dc279.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 125,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 2,
+                      "shelfLifeInHours": "17496",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "39ddc535-0151-4413-a720-eaf410a09cf5",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 4514
+                      }
+                    },
+                    "discountedSellingPrice": 7500,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 2,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 125,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 12500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "2b7f5cf1-0683-4e1d-b53c-ec189be9e111",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "ea948053-409c-4d4d-809c-493569f0b1eb",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "91c4006b-80de-4ae6-911c-eb2d73e666ce",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 996,
+                      "semanticScore": 996,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 7500,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 7500
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 125,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 7,
+                  "index": 3
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "c2bcfd8c-6b33-51ff-8f31-2075f1b09a82",
+                    "id": "b3998bd9-8b06-486e-ad6d-350ccfcce0ef",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Red Bull",
+                      "brandId": "963b50ed-3146-4744-8f4d-56876fdc8159",
+                      "countryOfOrigin": "India",
+                      "description": [],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "8ab15e39-7327-4b59-85a6-670357e8e095",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "ITC Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Red Bull",
+                      "pharmaceuticalInfo": {
+                        "isLicensed": false,
+                        "composition": "",
+                        "allergy": "",
+                        "usage": "",
+                        "disclaimer": ""
+                      },
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "250 ml",
+                      "fssaiLicense": "10012031000312",
+                      "id": "f81cf71a-2e61-4679-a524-d9e887c0a845",
+                      "images": [
+                        {
+                          "height": 1500,
+                          "hidePadding": true,
+                          "id": "bd7bb211-03d8-4b16-8abb-fff921d25e53",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Red Bull",
+                          "path": "cms/product_variant/e7a635a8-e280-449e-a910-3355750269e9.jpeg",
+                          "videoPath": null,
+                          "width": 1500,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 125,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 2,
+                      "shelfLifeInHours": "8760",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "492411d0-64e9-4edc-adfd-6b1f12a58743",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 1386
+                      }
+                    },
+                    "discountedSellingPrice": 2700,
+                    "discountPercent": 10,
+                    "discountAmount": 300,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 2,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 125,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 12500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "00af2705-c9a2-4aa4-842b-1ad9221d0f46",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "02e5e6de-f0e5-4d63-b681-adad22af4d13",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "4e296d5e-a242-4add-9b00-f7532ee800e9",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "2969c748-c6fa-491a-aa5d-8f0d2257a0a8",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "d2ce026b-519e-48e7-8e7a-8e615eb6d238",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 300
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2700,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "4e6a092a-eddb-47fb-9155-da09fd606a9f",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "4c42dabf-d06e-4592-a89c-16eb0d0ea865",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2700
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 125,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|ab705a0d151b4019938f79f2cbb9bd06|1650|1787673645658|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|963b50ed-3146-4744-8f4d-56876fdc8159|963b50ed-3146-4744-8f4d-56876fdc8159||2334729|2334729|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||492411d0-64e9-4edc-adfd-6b1f12a58743|4a5d1218-784d-47f0-9f51-c11db2c8321d|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|EXACT|tata salt|0|0|10|0",
+                  "position": 8,
+                  "l3_details": {
+                    "id": "e92cab95-5310-4888-a040-0a030cf0b0cb",
+                    "name": "Red Bull"
+                  }
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_9",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "0d0baccd-d4c4-5cdf-aab1-f59eed2b36b9",
+                    "id": "a86d6c54-8bd8-4a43-b3b8-6c359470c1b0",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Red Bull",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "<nil>"
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "5d0cbef6-d148-4f54-9eaa-6dad44db0004",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": null,
+                      "minimumRequiredAge": 0,
+                      "name": "Red Bull",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "250 ml",
+                      "fssaiLicense": "",
+                      "id": "4b680f7a-fb2a-4517-b14c-98f07e507e49",
+                      "images": [
+                        {
+                          "height": 1000,
+                          "hidePadding": true,
+                          "id": "9c1e2aab-80e1-4e0d-b4c3-b9436c29a442",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Red Bull",
+                          "path": "cms/product_variant/6fcca77c-d588-46f9-b0c3-a2911e1cac28.jpg",
+                          "videoPath": null,
+                          "width": 1000,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 125,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "17280",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "7263945f-acea-4e13-be0d-2e8653135b4f",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 3201
+                      }
+                    },
+                    "discountedSellingPrice": 3500,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 125,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 12500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "353aa3f8-4e1a-4a57-9855-520bbb9db447",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "e83522a4-ad51-4824-b7c9-cb65b2fff18e",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "5a4d6252-959c-4dee-81d0-7e8163bd5b70",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Red Bull",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 995,
+                      "semanticScore": 995,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 3500,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 3500
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 125,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 9,
+                  "index": 4
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "HOME_FOOTER",
+        "widgetName": "SEARCH_FOOTER",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    ],
+    "footer": {
+      "widget": {
+        "widgetId": "",
+        "widgetName": "",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    },
+    "header": null,
+    "selectedTabId": 0,
+    "algoliaQueryID": "",
+    "showCigaretteBanner": false,
+    "pageProductCount": 10,
+    "totalProductCount": 21,
+    "currentPage": 0,
+    "hasReachedEnd": true,
+    "userSessionId": "[REDACTED]",
+    "algoliaTimeOut": false,
+    "algoliaTypoTolerance": false,
+    "filters": {
+      "activeFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "allFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "topBrands": null
+    },
+    "showTobaccoConsentPopup": false,
+    "meta": {
+      "related_products_enabled": false,
+      "related_products_search_term_default": "tata salt 1 kg",
+      "total_organic_products": 5,
+      "oos_organic_products": 0,
+      "instock_organic_products": 5,
+      "total_related_products": 0,
+      "oos_related_products": 0,
+      "instock_related_products": 0,
+      "total_results": 5,
+      "total_oos_results": 0,
+      "total_instock_results": 5,
+      "related_products_reason": "CompatibleComponentsNotFound",
+      "qcl_meta": {
+        "qcl_correction_not_done_reason": "CompatibleComponentsNotFound",
+        "qcl_correction_done_v3": false
+      },
+      "inhouse_search_done": false,
+      "plp_primary_category_name_from_recall": "",
+      "plp_primary_category_mapping": "",
+      "plp_subcat_listing_logic": "",
+      "plp_experience_shown": false,
+      "plp_experience_not_shown_reason": "PlpExperimentNotEnabled",
+      "relevance_v2": {
+        "relevance_L1": [
+          {
+            "id": "88889bf5-30ab-43a0-8348-961b78efadd7",
+            "name": "Red Bull",
+            "score": 0,
+            "presentInNonOpsRelevance": true
+          }
+        ],
+        "relevance_L2": [
+          {
+            "id": "85a13404-8b4b-4489-86eb-8075bf596c0f",
+            "name": "Red Bull",
+            "score": 0,
+            "presentInNonOpsRelevance": true
+          }
+        ],
+        "relevance_L3": [
+          {
+            "id": "509852d7-6faf-4e25-9a42-a818e3f4c42d",
+            "name": "Red Bull",
+            "score": 0.189688,
+            "presentInNonOpsRelevance": true
+          }
+        ]
+      },
+      "relevance_L3_count": 1,
+      "relevance_brand": [
+        {
+          "id": "bf74b263-5429-4f41-a187-d611fdaf1593",
+          "name": "Red Bull",
+          "score": 1
+        }
+      ],
+      "relevance_variant_selected": 1,
+      "segmentations": [
+        "TOP_2L"
+      ],
+      "query_intent_done": true,
+      "ds_query_type": "narrow",
+      "ds_basket_building_flag": true,
+      "ds_basket_building_flag_data": "non-basket",
+      "filter_mode": 1,
+      "filter_state": "NO_FILTER_SELECTED",
+      "l3_superspan_results_count": 0,
+      "l3_span_results_count": 5,
+      "l3_partial_results_count": 0,
+      "l3_other_results_count": 0,
+      "l3_oos_superspan_results_count": 0,
+      "l3_oos_span_results_count": 0,
+      "l3_oos_partial_results_count": 0,
+      "l3_oos_other_results_count": 0,
+      "l3_instock_superspan_results_count": 0,
+      "l3_instock_span_results_count": 5,
+      "l3_instock_partial_results_count": 0,
+      "l3_instock_other_results_count": 0,
+      "oos_products_shown_count": 0,
+      "recommendations_instrumentation_info": {
+        "query_level_sku_recommendations_instrumentation_info": {},
+        "cross_sell_widget_instrumentation_info": {}
+      },
+      "is_scoped_search_enabled": false,
+      "scope_category": "",
+      "scope_subcategory": "",
+      "scoped_search_not_enabled_reason": "",
+      "oos_text_meta": "",
+      "source_search_term": "Tata Salt 1 kg",
+      "recall_type_detail": {
+        "recall_type": "ORGANIC_RECALL_WITH_NO_TYPO_AND_EXACT_MATCH",
+        "recall_display_title": "Showing results for \"tata salt 1 kg\""
+      },
+      "category_cohort_experiment_instrumentation_info": {
+        "highestConfidenceL1": "Masala, Dry Fruits & More",
+        "highestConfidenceL2": "Salt, Sugar & Jaggery",
+        "relevanceLevel": "L1",
+        "cohortRankingNotEnabledReason": "UserIdNotPresent",
+        "categoryBasedRankingEnabled": false,
+        "isAtcDone": true
+      },
+      "meds_with_similar_salts_info": {},
+      "is_liquidation_done": false,
+      "liquidation_not_done_reason": "OrganicProductsLessThan4",
+      "l3_understanding_meta": {},
+      "product_grid_meta_info": {
+        "isProductGridFeatureEnabled": true,
+        "productGridSize": 3,
+        "productGridVariantType": "V3_SMALL_ABS_DISCOUNT",
+        "searchExperienceType": "3_3_discount_abs",
+        "isSfsOverrideEnabled": false
+      },
+      "buy_again_v2_boost_info": {},
+      "qrl_rerank_info_v2": {
+        "ranking_segmentation_error_occurred": false,
+        "default_qrl_rerank_done": false,
+        "qrl_default_rerank_not_done_reason": "RankingNotEnabledForFallback",
+        "qrl_default_rerank_source": "query_reranking_rank9_variant",
+        "qrl_explore_rerank_source": "query_reranking_rank9_variant",
+        "qrl_vector_rerank_source": "semantic_query_reranking_rank1_variant",
+        "qrl_default_reranking_list_product_count": 0,
+        "qrl_explore_search_product_count": 0,
+        "qrl_vector_search_product_count": 0,
+        "feature_store_meta": {
+          "feature_store_enabled": false
+        },
+        "explore_re_rank_meta": {},
+        "user_personalization_meta": {
+          "is_user_personalized_ranking_done": false,
+          "total_user_personalized_ranked_product_count": 0,
+          "span_user_personalized_ranked_product_count": 0,
+          "partial_user_personalized_ranked_product_count": 0,
+          "other_user_personalized_ranked_product_count": 0
+        }
+      },
+      "unserviceable_store_deboosting_not_enabled_reason": "Both Dark store and superstores are unserviceable",
+      "store_stress_info": {
+        "storeIdUsedStressRanking": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+        "storeStressRankingNotEnabledReason": "user not enabled for marketplaceType: SUPER_SAVER",
+        "storeStressRankingEnabled": false,
+        "rankingVariant": null,
+        "storeStressInCache": 0,
+        "storeStressEnum": ""
+      },
+      "pt_and_attributes_meta": {
+        "search_term_contains_attributes": 1,
+        "search_term_number_of_attributes": 3,
+        "search_term_PT": [
+          "salt"
+        ],
+        "search_term_brand": [
+          "Tata"
+        ],
+        "pt_brand_source": "mongo",
+        "attribute_relevance_version": "v1",
+        "search_term_contains_brand": 1,
+        "search_term_attributes": [
+          "weight",
+          "brand",
+          "product_leafname"
+        ],
+        "search_term_attribute_values": {
+          "brand": {
+            "values": [
+              "Tata"
+            ]
+          },
+          "product_leafname": {
+            "values": [
+              "salt"
+            ]
+          },
+          "weight": "250 ml"
+        }
+      },
+      "vip_deals_meta": {
+        "total_vip_deal_atlas_boosted_cnt": 0
+      },
+      "autosuggestion_live_ranker_meta": {
+        "ctr_ranking_done": false,
+        "cvr_ranking_done": false
+      },
+      "autosuggestion_promotion_meta": {
+        "promotion_applied": false
+      },
+      "vip_deals_horizontal_card_widget_instrumentation_info": {
+        "deal_cards_loaded": 0
+      },
+      "special_event_instrumentation_info": {
+        "events": null,
+        "special_events_enabled": false,
+        "special_events_not_enabled_reason": "CompatibleComponentsNotFound"
+      },
+      "a_vector_recall_meta_info": {
+        "rt_vector_eligible_query": false,
+        "a_segmentation_applied": true,
+        "a_source_search_term": "Tata Salt 1 kg",
+        "a_query_segmentations": [
+          "TOP_2L"
+        ],
+        "a_query_segmentations_count": 1,
+        "top_segment": "TOP_2L",
+        "source_top_segment": "TOP_2L"
+      },
+      "explore_exploit_meta_info": {
+        "masterFlagEnabled": true,
+        "exploreExploitNotShownReason": "user_not_in_experiment_test_bucket"
+      },
+      "ads_banner_widget_instrumentation_info": {
+        "candidates_processed": 0
+      },
+      "consolidated_banner_widget_instrumentation": {
+        "widgets_added": [],
+        "widgets_rejected": [],
+        "conflicts_resolved": 0
+      },
+      "ads_meta": {
+        "deboosting": null,
+        "fly_wheel": null,
+        "organic_ads_count": 5,
+        "rp_ads_count": 11
+      },
+      "aisle_experience_instrumentation_info": {
+        "aisle_experience_shown": false,
+        "aisle_eligible_query": false,
+        "aisle_experience_not_shown_reason": "AisleExperienceExperimentNotEnabled"
+      },
+      "convo_commerce_widget_info": {
+        "is_convo_commerce_widget_enabled": false,
+        "convo_commerce_widget_not_shown_reason": "prompts list is empty"
+      },
+      "tertiary_store_deboosted_instrumentation": {
+        "tertiary_deboosting_default_done": false,
+        "tertiary_deboosting_explore_done": false,
+        "tertiary_deboosting_vector_done": false
+      },
+      "explore_expansion_instrumentation_info": {
+        "masterFlagEnabled": true,
+        "exploreExpansionNotShownReason": "experiment check failed",
+        "enabled": false
+      },
+      "model_meta_info": {
+        "head_or_tail_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "n1_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "overall_ranker_model_meta": {
+          "model_output_product_count": 0
+        }
+      },
+      "substitution_experience_info": {},
+      "buy_again_oos_info": {
+        "buy_again_oos_count": 0,
+        "buy_again_oos_pvids": "",
+        "buy_again_top_two_oos_count": 0
+      },
+      "hook_sku_oos_info": {
+        "hook_sku_oos_count": 0,
+        "hook_sku_oos_pvids": ""
+      },
+      "query_segmentation_info": {
+        "is_realtime_model_data_fetched": false,
+        "realtime_model_not_enabled_reason": "mongo_data_exists"
+      },
+      "atlas_fallback_reason": "empty_user",
+      "query_similarity_meta": {
+        "query_similarity_done": false,
+        "query_similarity_not_done_reason": "experiment_disabled",
+        "similar_query_pst_data_exist": false
+      },
+      "ads_organic_overlap_meta": {
+        "total_ad_count": 5
+      },
+      "assist_filters_meta": {}
+    },
+    "experiments": {
+      "OR2_MIGRATION_EXPERIMENT": {
+        "experimentName": "search_or2_migration",
+        "experimentId": "dummy_id_for_or2_migration_experiment",
+        "variantName": "test2"
+      },
+      "PVID_SEARCH_CATALOGUE_EXPERIMENT": {
+        "experimentName": "pvid_search_catalogue_experiment",
+        "experimentId": "2adb51f8-afec-43dd-b055-6aa48fce2d73",
+        "variantName": "test"
+      },
+      "SEMANTIC_EXPERIMENT_V4": {
+        "experimentName": "vector_recall_v8",
+        "experimentId": "479283b9-7a7f-4518-83c5-cd3900314c40",
+        "variantName": "semantic_variant_3"
+      }
+    },
+    "pageType": "normal",
+    "stickyHeaders": [
+      0
+    ],
+    "isProductGridEnabled": true,
+    "isFiltersRevampEnabled": false,
+    "pageMeta": {
+      "viewMeta": {},
+      "refreshResolver": {
+        "config": {
+          "appParams": {
+            "queryTerm": "Tata Salt 1 kg",
+            "pageType": "search",
+            "productGridSize": 3
+          }
+        },
+        "url": "cfs/api/v1/bulk-widget-data",
+        "subscriptions": [
+          "cart_change"
+        ],
+        "type": "cfs_upsell_resolver"
+      }
+    },
+    "nextPageParams": {
+      "filterMode": 1,
+      "pageNumber": 1
+    },
+    "filterMode": 1
+  },
+  "sanitization_log": [
+    {
+      "field": "payload.userSessionId",
+      "action": "REDACTED",
+      "reason": "session_id_pii",
+      "redacted_at": "2026-08-26T04:50:00Z"
+    }
+  ]
+}

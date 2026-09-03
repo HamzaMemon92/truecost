@@ -1,0 +1,33 @@
+{
+  "capture_version": "truecost.source.capture.v1",
+  "run_id": "run_d6af12c4",
+  "case_id": "makemytrip_automated",
+  "provider": "makemytrip",
+  "domain": "makemytrip.com",
+  "query": "DEL to BOM",
+  "captured_at": "2026-08-26T05:16:39.004547+00:00",
+  "execution_mode": "MOCK_SYNTHETIC",
+  "scraper_component": "makemytripScraper",
+  "source_url": null,
+  "source_component": null,
+  "query_or_context": {
+    "q": "DEL to BOM"
+  },
+  "payload": {
+    "items": [
+      {
+        "id": "AI-805",
+        "name": "Air India DEL-BOM",
+        "price": 5400,
+        "duration": "2h 10m"
+      },
+      {
+        "id": "6E-2032",
+        "name": "IndiGo DEL-BOM",
+        "price": 4800,
+        "duration": "2h 15m"
+      }
+    ]
+  },
+  "mock_synthetic_reason": "generated_by_headless_script_no_real_device"
+}

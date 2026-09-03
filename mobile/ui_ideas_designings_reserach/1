@@ -1,0 +1,1595 @@
+# TrueCost Elite Mobile UI/UX: The Best Design Direction and Execution Blueprint
+
+## Executive decision
+
+After reviewing current 2026 platform guidance, Apple Design Award winners, Material 3 Expressive, Fluent 2, React Native/Expo animation and image capabilities, accessibility standards, motion-performance guidance, provider-brand constraints, and the current state of your TrueCost repository, **I would not choose full glassmorphism, pure flat minimalism, or a dark futuristic “AI app” aesthetic.**
+
+The strongest direction for TrueCost is a **hybrid premium light system** that I would call **TrueCost Porcelain Intelligence**:
+
+> **Porcelain-white canvas + crisp content surfaces + deep ink typography + selective functional glass + editorial imagery + authentic provider identity + restrained category colors + expressive motion only at important decision moments.**
+
+This follows a very clear convergence in current best practice. Apple’s 2026 design principles emphasize purpose, simplicity, responsibility, craft, and delight rather than decoration for decoration’s sake. Apple’s current Liquid Glass guidance explicitly says glass should create a distinct functional layer for controls and navigation, should *not* be used throughout the content layer, and should be used sparingly. Google’s Material motion model similarly separates expressive motion for prominent/hero moments from standard motion for routine recurring interactions. citeturn10search3turn8search0turn8search5
+
+Apple’s 2026 award selections make the same point in practice. Tide Guide combines rich visualization, custom animation and Liquid Glass while remaining clear enough to communicate complicated environmental data; Apple’s awards broadly recognize applications where interaction and visuals reinforce the product’s purpose rather than compete with it. citeturn8search3turn8search4
+
+So I would **not** build:
+
+```text
+Glass card
+inside
+glass card
+inside
+animated gradient
+inside
+glowing product card
+with
+three looping animations
+```
+
+I would build:
+
+```text
+TRUECOST
+
+             quiet porcelain canvas
+
+        one beautiful decision surface
+
+                ↓
+
+     exact product / route / plan / fare
+
+                ↓
+
+        ✦ BEST OVERALL
+
+          Blinkit
+           ₹842
+
+         Save ₹116
+
+    All 8 items available
+    Compared 3 providers
+    Updated 4 min ago
+
+           Why this wins ›
+
+
+      other options underneath
+
+
+         floating glass nav
+```
+
+The “wow” comes from **hierarchy, motion choreography, imagery, typography and detail**, not visual overload.
+
+### My ranking of the possible directions
+
+| Direction | Initial wow | Clarity | Dense-data suitability | Performance risk | Longevity | TrueCost fit |
+|---|---:|---:|---:|---:|---:|---|
+| Heavy glassmorphism everywhere | 9/10 | 5/10 | 4/10 | High | 6/10 | ❌ |
+| Strict flat minimalism | 6/10 | 10/10 | 9/10 | Low | 9/10 | ⚠️ Too quiet |
+| Dark futuristic AI interface | 8/10 | 7/10 | 6/10 | Medium | 6/10 | ❌ Wrong trust tone |
+| Marketplace-style colorful cards | 7/10 | 7/10 | 7/10 | Low | 6/10 | ❌ Too generic |
+| **Porcelain + subtle depth + selective glass + editorial imagery** | **9.5/10** | **9.5/10** | **9/10** | **Controlled** | **9.5/10** | **✅ Best** |
+
+The decision is particularly appropriate for TrueCost because your own repository audit shows that this is not one simple shopping interface: the target architecture spans 32 providers across Grocery, Food, Pharmacy, Shopping, Mobility, Travel, Finance and Productivity/SaaS, while implementation maturity currently differs materially by category. Grocery has the deepest end-to-end stack and real replay evidence; Shopping has a stronger backend stack but no equivalent real capture corpus; most other categories currently have connectors/scrapers without the same MCP/workflow maturity. The UI therefore needs one powerful common design language **without pretending every domain has identical backend capability today**. fileciteturn0file4
+
+The design philosophy I would freeze is:
+
+```text
+ONE TRUECOST BRAND
+        +
+EIGHT DOMAIN-SPECIFIC DECISION EXPERIENCES
+        +
+ONE UNIVERSAL COMPARISON LANGUAGE
+        +
+ONE SIGNATURE MOTION SYSTEM
+        +
+ONE TRUST MODEL
+```
+
+Not:
+
+```text
+8 marketplace clones
+stitched behind
+one bottom navigation bar
+```
+
+## The design system TrueCost should own
+
+### The visual language
+
+The base should be **white-first but not sterile**.
+
+Instead of pure white covering every pixel, use tonal layering:
+
+```text
+Canvas / Porcelain
+#F7F8FC
+
+Paper
+#FFFFFF
+
+Secondary Surface
+#F2F4F8
+
+Primary Ink
+#111522
+
+Secondary Ink
+#62697A
+
+Muted Ink
+#8F95A3
+
+TrueCost Iris
+#685AF5
+
+Soft Iris
+#ECEAFF
+
+Value Mint
+#16B88A
+
+Soft Mint
+#E8F8F2
+
+Insight Sky
+#5AA9F8
+
+Soft Sky
+#EBF5FF
+
+Attention Amber
+#F2A73B
+
+Soft Amber
+#FFF5E5
+
+Critical Rose
+#E75A70
+
+Soft Rose
+#FDECEF
+```
+
+Those are **recommended starting tokens, not standards**. They should be finalized after actual emulator and physical-device contrast tests.
+
+Semantic color matters more than raw colors:
+
+```text
+IRIS
+→ TrueCost intelligence
+→ active state
+→ selected state
+→ recommendation context
+
+MINT
+→ saving
+→ positive value
+→ success
+
+AMBER
+→ uncertainty
+→ incomplete coverage
+→ stale information
+→ caution
+
+ROSE
+→ failure
+→ unavailable
+→ critical error
+
+INK
+→ information
+
+PORCELAIN
+→ calm visual foundation
+```
+
+Apple emphasizes hierarchy, readable typography and limiting unnecessary complexity; Fluent’s design-token system likewise separates raw/global values from semantic alias tokens so meaning remains consistent across components and themes. citeturn10search0turn12search2
+
+### Glass: use it like expensive material, not wallpaper
+
+This is where I would be very disciplined.
+
+**Use glass for:**
+
+- floating bottom navigation;
+- universal search lens;
+- floating filter controls;
+- transient bottom sheets;
+- map controls;
+- travel-media overlays;
+- selected contextual controls;
+- perhaps a compact comparison toolbar.
+
+**Do not use glass for:**
+
+- every grocery product;
+- medicine cards;
+- every provider row;
+- finance terms;
+- dense fare information;
+- every settings section;
+- every result container.
+
+Apple explicitly says Liquid Glass is intended for navigation/controls above content, warns against using it throughout the content layer, and recommends limiting custom glass to important functional elements. citeturn8search0
+
+For Android/Expo, this restraint is also technically sensible: Expo’s current `BlurView` is stable on Android, but efficient RenderNode-based blur requires Android 12/API 31 or newer; older Android versions can require less-efficient fallback behavior. citeturn13search1
+
+So TrueCost should have:
+
+```ts
+type SurfaceMaterial =
+  | 'paper'
+  | 'raised'
+  | 'tinted'
+  | 'glass-regular'
+  | 'glass-clear';
+```
+
+with automatic graceful fallback:
+
+```text
+Modern capable device
+→ actual blur
+
+Older / performance-constrained device
+→ translucent opaque surface
+
+User sees:
+same hierarchy
+
+User does NOT see:
+frame drops because we insisted on blur
+```
+
+### Typography
+
+I would make typography one of the strongest elements in the redesign.
+
+Apple’s HIG treats typography as a means of both readability and information hierarchy and recommends limiting typeface variety and avoiding excessively light weights for small text. Fluent similarly uses a semantic type ramp and native fonts on mobile platforms. citeturn10search0turn12search5
+
+Recommended TrueCost mobile ramp:
+
+| Token | Suggested size | Typical use |
+|---|---:|---|
+| `display` | 38–42 | rare marketing/onboarding |
+| `hero` | 32–36 | winner / major amount |
+| `pageTitle` | 28–30 | top-level screen |
+| `sectionTitle` | 20–22 | section hierarchy |
+| `cardTitle` | 17–18 | product/entity name |
+| `body` | 16–17 | normal reading |
+| `supporting` | 14–15 | metadata |
+| `caption` | 12–13 | timestamps/evidence |
+| `micro` | 11–12 | only noncritical secondary labels |
+
+Use roughly:
+
+```text
+Regular
+Medium
+Semibold
+
+Bold
+→ only major moments
+```
+
+Prices deserve their own optical hierarchy:
+
+```text
+Bad:
+INR 1249.0
+
+Good:
+₹1,249
+```
+
+The **TrueCost total** should be more prominent than the provider’s headline price when fees meaningfully change the decision.
+
+### Spacing and geometry
+
+Recommended spacing tokens:
+
+```text
+4
+8
+12
+16
+20
+24
+32
+40
+48
+64
+```
+
+Recommended geometry:
+
+```text
+Small control       12–14px radius
+Input/search        18–22px
+Standard card       20–24px
+Hero card           28–32px
+Bottom sheet        30–34px top radius
+Chips               full pill
+Provider logo tile  12–16px
+```
+
+The important principle is not the precise radius. It is **consistency**.
+
+Fluent’s current system similarly uses shapes, radius, elevation and semantic design tokens as a coherent visual vocabulary rather than screen-specific arbitrary values. citeturn12search2turn12search6turn12search10
+
+### A signature TrueCost object
+
+I strongly recommend designing **one ownable animated brand object**, not using generic AI sparkles everywhere.
+
+Call it the **TrueCost Lens**.
+
+```text
+IDLE
+
+       ◜  ◝
+        ◌
+       ◟  ◞
+
+
+UNDERSTANDING
+
+      ◜   ◝
+       ↘ ↙
+       ↗ ↖
+      ◟   ◞
+
+
+COMPARING
+
+     ◖    ◗
+       ⇆
+     ◖    ◗
+
+
+DECISION FOUND
+
+        ◉
+       ✦
+```
+
+Conceptually, two or three optical layers move toward alignment as TrueCost moves from uncertainty to a decision.
+
+Use it only in:
+
+```text
+Onboarding
+Universal Search
+Comparison loading
+Decision completion
+Special empty state
+```
+
+That gives users something distinctly **TrueCost**, instead of visually borrowing another company’s AI branding.
+
+## How I would design the eight categories
+
+The shared shell should be consistent, but the information hierarchy and imagery intensity need to change by domain.
+
+| Domain | Visual character | Imagery | What dominates | Signature motion |
+|---|---|---|---|---|
+| Grocery | Fresh, fast, compact | Medium | identity + basket total | basket assembles |
+| Food | Warm, editorial | High | dish + delivered total | offer reveal |
+| Pharmacy | Clinical, calm | Low | strength/form/pack | attribute confirmation |
+| Shopping | Editorial, premium | Very high | exact model + image | variant transform |
+| Mobility | Spatial, dynamic | Map-centric | route + fare/ETA | route draw |
+| Travel | Cinematic → precise | Very high in discovery | itinerary + total fare | route/timeline |
+| Finance | Restrained, authoritative | Low | cost/benefit/terms | controlled metric reveal |
+| SaaS | Structured, modern | Medium | plan + TCO | cadence/seat transform |
+
+### Grocery
+
+The strongest Grocery card is not a giant rectangle full of metadata.
+
+It is:
+
+```text
+╭────────────────────────────────────╮
+│                                    │
+│         [real product image]       │
+│                                    │
+│ Amul Taaza Toned Milk              │
+│ 500 ml • Pouch                     │
+│                                    │
+│ ₹34                                │
+│                                    │
+│ [Blinkit logo]    11 min           │
+│                                    │
+│ BEST PRICE                         │
+╰────────────────────────────────────╯
+```
+
+Critical identity attributes need to remain visible because your own Grocery certification work has shown that **variant and quantity identity are essential to avoiding false comparisons**. That means “500 ml,” “1 kg,” “pack of 6,” “Gold,” “Taaza,” etc. cannot be hidden merely for aesthetic cleanliness. fileciteturn0file4
+
+The 8-item basket should become one of TrueCost’s signature screens:
+
+```text
+YOUR WEEKLY BASKET
+
+8 of 8 matched
+
+
+╭────────────────────────────────────╮
+│ ✦ BEST COMPLETE BASKET             │
+│                                    │
+│ [BLINKIT]                          │
+│                                    │
+│            ₹842                    │
+│                                    │
+│        YOU SAVE ₹116               │
+│                                    │
+│ ✓ 8/8 available                    │
+│ ✓ 18 min estimate                  │
+│ ✓ Compared 3 providers             │
+│                                    │
+│ Why this wins                  ›    │
+╰────────────────────────────────────╯
+
+
+Other options
+
+Zepto                         ₹887
+BigBasket                     ₹916
+```
+
+The result itself is the hero.
+
+### Food delivery
+
+Food should use legitimate photography much more aggressively than Grocery.
+
+But the TrueCost differentiation is **not discovery alone**. It is showing the same restaurant/branch/menu configuration and revealing the delivered-cost tradeoff:
+
+```text
+[beautiful dish image]
+
+Behrouz Biryani
+Koramangala
+
+Lazeez Bhuna Murgh Biryani
+Serves 1
+
+
+BEST KNOWN TOTAL
+
+ZOMATO
+₹309 delivered
+34 min
+
+
+SWIGGY
+₹327 delivered
+28 min
+
+MAGICPIN
+₹291 + delivery not verified
+```
+
+The UI should visually communicate that ₹291 is **not automatically the cheapest final option** when a component is unknown.
+
+### Pharmacy
+
+This should intentionally have less visual spectacle.
+
+```text
+╭─────────────────────────────────╮
+│          [pack image]           │
+│                                 │
+│ Dolo 650                        │
+│ Paracetamol 650 mg              │
+│                                 │
+│ TABLET                          │
+│ 15 tablets                     │
+│ Micro Labs                     │
+│                                 │
+│ ₹31                             │
+╰─────────────────────────────────╯
+```
+
+I would make strength, dosage form and pack size visually stronger than discount badges.
+
+No confetti.
+
+No bouncing pill animation.
+
+No “🎉 cheapest medicine.”
+
+Here, “wow” should mean:
+
+> “I instantly understand that these are actually the same medicine configuration.”
+
+### Shopping
+
+Shopping should be **editorial**.
+
+```text
+             AIRPODS PRO
+
+       [large clean product image]
+
+
+Apple AirPods Pro
+2nd generation • USB-C
+
+
+              ₹19,990
+
+          BEST TRUECOST
+
+
+[Amazon]                      ₹19,990
+[Flipkart]                    ₹20,499
+
+
+             Compare ›
+```
+
+Apple’s 2025 Design Awards specifically praised Taobao for polished product interaction and useful side-by-side comparison; I would borrow that **principle of highly visual comparison**, not its visual styling. citeturn6search1
+
+Variant controls should feel tactile:
+
+```text
+Storage
+
+[128 GB]   256 GB   512 GB
+
+Color
+
+ ● Black    ○ Blue    ○ Pink
+```
+
+Changing variants should smoothly update the comparison while clearly signaling that a new SKU is being compared.
+
+### Mobility
+
+The top of the page should be spatial:
+
+```text
+╭────────────────────────────────────╮
+│             MAP                    │
+│                                    │
+│        ● MG Road                   │
+│        │                           │
+│        ╰───────────────●           │
+│                  Indiranagar       │
+╰────────────────────────────────────╯
+
+
+✦ BEST VALUE
+
+[RAPIDO]
+Cab
+
+₹116
+6 min pickup
+
+
+[UBER]
+Go
+₹139
+4 min
+
+
+[OLA]
+Mini
+₹128
+9 min
+```
+
+The route should draw once.
+
+Offers should arrive.
+
+The winner gets one controlled emphasis.
+
+Then **everything stops moving**.
+
+### Travel
+
+Travel is where we can use the most cinematic imagery.
+
+Discovery:
+
+```text
+       [beautiful destination image]
+
+
+DEL                         BOM
+Delhi   ─────── ✈ ───────  Mumbai
+
+
+12 Sep • 1 traveller • Economy
+
+       Search flights
+```
+
+But once results load, imagery should recede and precision should dominate:
+
+```text
+AIR INDIA
+
+18:10                  20:25
+DEL  ────────────────  BOM
+        2h 15m
+
+AI 2673
+Non-stop
+
+₹6,842
+
+
+Cabin bag       7 kg
+Check-in       15 kg
+Refundability  Partial
+```
+
+This is a perfect use case for selective clear glass over the rich hero image, which is aligned with Apple’s guidance that more transparent glass is best used over visually rich media backgrounds. citeturn8search0
+
+### Finance
+
+Finance should feel **expensive, quiet and serious**:
+
+```text
+HDFC
+
+REGALIA GOLD
+
+
+Annual fee
+₹2,500
+
+
+Reward
+4 pts / ₹150
+
+
+Forex markup
+2%
+
+
+Effective terms
+Last verified ...
+
+
+          Compare
+```
+
+The worst possible design would be:
+
+```text
+gold coins
++
+confetti
++
+huge "APPROVED!"
++
+countdown timer
++
+five glowing badges
+```
+
+Instead, use strong number typography and restrained dimensional card imagery.
+
+Stripe’s current product UI philosophy is a useful reference here: its mobile payment components emphasize structured inputs, error handling, accessibility, responsive mobile behavior and customization rather than decorative complexity. citeturn11search0turn11search2
+
+### Productivity / SaaS
+
+SaaS needs excellent information design:
+
+```text
+SLACK
+
+Pro
+
+
+5 seats
+Annual billing
+
+
+₹X,XXX / month equivalent
+
+₹XX,XXX / year
+
+
+Best for
+Small collaborative teams
+
+
+            Compare plans
+```
+
+A user should be able to change:
+
+```text
+1 seat → 5 seats → 20 seats
+monthly ↔ annual
+```
+
+and watch costs transform without the whole screen rerendering chaotically.
+
+## Motion, imagery, provider brands and frontend technology
+
+### The motion system
+
+I would use **four motion tiers**.
+
+These values are recommended TrueCost starting tokens and should be tuned on actual devices:
+
+| Token | Suggested duration | Use |
+|---|---:|---|
+| `instant` | 90–120 ms | icon/state response |
+| `micro` | 120–180 ms | button/chip/press |
+| `quick` | 180–240 ms | compact element |
+| `standard` | 260–340 ms | sheet/card/content change |
+| `expressive` | 380–520 ms | winner/search/major moment |
+
+Google’s current Material motion system explicitly separates expressive motion for hero/prominent interactions from standard motion for utilitarian recurring interactions; Fluent likewise describes good motion as functional, natural, consistent and appealing, with choreography directing attention rather than simply making things move. citeturn8search5turn12search0
+
+Recommended initial spring families:
+
+```ts
+export const motion = {
+  press: {
+    stiffness: 420,
+    damping: 30,
+    mass: 0.7,
+  },
+
+  card: {
+    stiffness: 300,
+    damping: 28,
+    mass: 0.9,
+  },
+
+  hero: {
+    stiffness: 220,
+    damping: 24,
+    mass: 1.0,
+  },
+} as const;
+```
+
+These are **design proposals**, not magic universal values.
+
+The recommendation reveal should be:
+
+```text
+results softly appear
+        ↓
+prices resolve
+        ↓
+non-winners settle
+        ↓
+winner rises 4–6 px
+        ↓
+iris edge/halo appears
+        ↓
+"Save ₹116" appears
+        ↓
+one subtle haptic
+        ↓
+everything becomes still
+```
+
+That is more premium than endless looping glow.
+
+For React Native, Reanimated is the strongest candidate for gesture-, layout- and scroll-driven premium interaction **if the project’s current React Native/Expo architecture is compatible with the current Reanimated 4 line**. Its current documentation recommends non-layout properties such as `transform` and `opacity` for performance and warns that excessive simultaneous component animation can reduce FPS, particularly on lower-end Android hardware. citeturn9search3turn9search6
+
+React Native’s built-in `Animated` remains perfectly suitable for simpler transitions and can move supported animation work to native with `useNativeDriver`, particularly for transforms and opacity. citeturn13search0turn13search2
+
+My stack recommendation is:
+
+| Technology | TrueCost role | Verdict |
+|---|---|---|
+| **Reanimated** | primary UI motion, gestures, scroll, winner interactions | **Primary** |
+| React Native Animated | simple/legacy transitions | Keep where adequate |
+| **Rive** | 1–3 signature branded interactive illustrations | Selective |
+| Lottie | passive pre-authored illustration if already available | Secondary |
+| Skia | genuinely custom data visualization/effects | Only when justified |
+| Framer Motion | web frontend only | Not native-app core |
+
+Rive is useful specifically for an owned `TrueCost Lens` because its state-machine runtime supports controlled state transitions and can stop advancing when it settles, avoiding perpetual unnecessary work. citeturn9search0turn9search8
+
+### Reduced motion is mandatory
+
+Premium motion must have two modes:
+
+```text
+FULL
+REDUCED
+```
+
+Apple recommends reducing automatic/repetitive movement when Reduce Motion is active, tightening springs, replacing large spatial transitions with fades, and avoiding animated depth/blur changes. citeturn9search2
+
+For example:
+
+```text
+Normal:
+winner rises
++
+background halo expands
++
+price animates
+
+Reduced motion:
+winner crossfades
++
+border/highlight appears
++
+price updates immediately
+```
+
+### Images
+
+Use images according to a hierarchy.
+
+**Exact entity imagery**:
+
+```text
+Grocery product
+Shopping product
+Medicine packaging
+Food item
+Hotel/room if relevant
+```
+
+only when tied to that actual underlying entity.
+
+**Editorial imagery**:
+
+```text
+Travel hero
+Food category hero
+Onboarding
+Category atmosphere
+```
+
+does not pretend to depict the exact offer.
+
+**TrueCost illustration**:
+
+```text
+No match
+No providers available
+Comparison completed
+Privacy
+Onboarding
+Empty state
+```
+
+Expo Image is a strong production fit because its current implementation provides disk/memory caching, BlurHash/ThumbHash placeholders, source transitions and controlled content fitting/positioning. citeturn13search4
+
+The desired image lifecycle is:
+
+```text
+known aspect ratio
+        ↓
+soft tonal placeholder
+        ↓
+BlurHash / ThumbHash
+        ↓
+real image crossfade
+        ↓
+cached high-resolution asset
+```
+
+Never:
+
+```text
+blank grey rectangle
+        ↓
+300 ms layout shift
+        ↓
+stretched image
+```
+
+### Real provider logos
+
+Yes: **use real provider identities where legally permitted and properly sourced.**
+
+But build this as a system, not random files copied from search results.
+
+```ts
+type ProviderBrand = {
+  id: string;
+  displayName: string;
+
+  logoAsset?: ImageSourcePropType;
+  logoSource?: string;
+
+  legalStatus:
+    | 'approved'
+    | 'official-public-asset'
+    | 'review-required'
+    | 'text-fallback';
+
+  lightSurfaceAsset?: ImageSourcePropType;
+  darkSurfaceAsset?: ImageSourcePropType;
+
+  minimumClearSpace?: number;
+  preferredBackground?: 'light' | 'dark' | 'either';
+
+  lastReviewedAt?: string;
+};
+```
+
+For each of your 32 providers, the asset registry should record:
+
+| Category | Provider | Official asset located | Usage terms reviewed | Light asset | Fallback |
+|---|---|---|---|---|---|
+| Grocery | Blinkit | Audit | Audit | Audit | `Blinkit` text |
+| Grocery | Zepto | Audit | Audit | Audit | `Zepto` text |
+| Grocery | Instamart | Audit | Audit | Audit | `Instamart` text |
+| Grocery | BigBasket | Audit | Audit | Audit | `BigBasket` text |
+| Food | Swiggy | Audit | Audit | Audit | `Swiggy` text |
+| Food | Zomato | Audit | Audit | Audit | `Zomato` text |
+| … | all remaining providers | Audit | Audit | Audit | provider name |
+
+Do not assume that because a logo is publicly visible it can be reused arbitrarily. Amazon’s published brand-use guidance, for example, restricts ordinary Amazon-logo usage in various third-party contexts and requires approval in some situations. citeturn10search1
+
+Most importantly:
+
+> **Animate the TrueCost container around the logo—not another company’s trademark itself.**
+
+Good:
+
+```text
+provider tile scales 0.97 → 1
+logo remains unchanged
+```
+
+Bad:
+
+```text
+Amazon logo spins
+Slack logo changes color
+Zomato logo stretches
+Uber mark gains glowing purple stroke
+```
+
+### Haptics
+
+Use haptics for:
+
+```text
+important selection
+basket optimization complete
+winner confirmation
+successful save
+meaningful warning/error
+```
+
+Not every tap.
+
+Expo currently exposes selection, impact and notification-style haptic feedback on Android and iOS, making this practical for a React Native/Expo application. citeturn13search3
+
+## The implementation program I recommend
+
+Do **not** give a coding agent the instruction:
+
+> “Make every page beautiful.”
+
+That almost guarantees inconsistent colors, duplicate cards and animations invented screen by screen.
+
+Do this as a product-design program.
+
+### Priority roadmap
+
+| Phase | Deliverable | Effort | Priority |
+|---|---|---:|---:|
+| Current UI capture/audit | complete screenshot baseline + screen inventory | Medium | P0 |
+| Design foundations | color/type/spacing/radius/elevation/motion tokens | Medium | P0 |
+| Provider + image system | official logo registry + `ProductImage` pipeline | Medium | P0 |
+| Shared primitives | surfaces, buttons, chips, price, status, badges | Medium | P0 |
+| Home + navigation | premium first impression + floating navigation | High | P0 |
+| Universal Search Lens | TrueCost signature interaction | High | P0 |
+| Recommendation Hero | winner, savings, coverage, freshness | High | P0 |
+| Comparison system | reusable cross-provider decision framework | High | P0 |
+| Grocery | full source-backed premium experience | High | P0 |
+| Shopping | editorial product comparison | High | P1 |
+| Mobility + Travel | spatial/cinematic flows | High | P1 |
+| Food + Pharmacy | category-tailored UI | High | P1 |
+| Finance + SaaS | structured domain experiences | High | P1 |
+| Empty/loading/error states | full-state design | Medium | P1 |
+| Motion refinement | signature transitions + reduced-motion variants | High | P1 |
+| Accessibility | scaling, TalkBack/VoiceOver, target sizes | Medium | P0 |
+| Performance | images, blur, list rendering, animation profiling | High | P0 |
+| Screenshot QA | before/after device evidence | Medium | P0 |
+
+The sequencing matters. Fluent’s current design system is explicitly token-based so design and implementation share semantic primitives, and this is the model I would follow rather than writing page-specific styles. citeturn12search2turn12search3
+
+### Build the five defining experiences before redesigning every category
+
+Perfect these first:
+
+```text
+HOME
+        ↓
+UNIVERSAL SEARCH
+        ↓
+RECOMMENDATION HERO
+        ↓
+COMPARISON
+        ↓
+WHY THIS WON / DETAILS
+```
+
+Everything else should inherit those patterns.
+
+```mermaid
+flowchart TD
+    H[Home] --> S[TrueCost Search Lens]
+    S --> U[Intent Understanding]
+    U --> D{Domain}
+    D --> G[Grocery Workspace]
+    D --> F[Food Workspace]
+    D --> P[Pharmacy Workspace]
+    D --> SH[Shopping Workspace]
+    D --> M[Mobility Workspace]
+    D --> T[Travel Workspace]
+    D --> FI[Finance Workspace]
+    D --> SA[SaaS Workspace]
+
+    G --> R[Recommendation Hero]
+    F --> R
+    P --> R
+    SH --> R
+    M --> R
+    T --> R
+    FI --> R
+    SA --> R
+
+    R --> C[Comparison]
+    C --> W[Why This Won]
+    W --> E[Evidence / Freshness / Cost Breakdown]
+```
+
+### Recommended component inventory
+
+| Component | Purpose | Priority |
+|---|---|---|
+| `TrueSurface` | standard opaque content surface | P0 |
+| `GlassSurface` | controlled glass material | P0 |
+| `TrueSearchLens` | universal intent interaction | P0 |
+| `TrueButton` | button family | P0 |
+| `TrueChip` | filters/selections | P0 |
+| `ProviderLogo` | legal/normalized logo rendering | P0 |
+| `ProviderIdentity` | provider logo + name + status | P0 |
+| `ProductImage` | cached entity image | P0 |
+| `Price` | standard provider amount | P0 |
+| `TrueCostTotal` | deterministic final-known total | P0 |
+| `RecommendationHero` | final decision payoff | P0 |
+| `ComparisonRow` | provider offer comparison | P0 |
+| `SavingsBadge` | value difference | P0 |
+| `CoverageBadge` | “3 of 4 providers” | P0 |
+| `FreshnessBadge` | freshness disclosure | P0 |
+| `UnknownValue` | clear missing-data representation | P0 |
+| `LoadingSkeleton` | loading structure | P1 |
+| `EmptyState` | no-result experience | P1 |
+| `ErrorState` | recoverable failure | P1 |
+| `TrueCostLens` | signature branded motion | P1 |
+| domain-specific cards | Grocery/Flight/Ride/etc. | P1 |
+
+### Shared component interfaces
+
+Do not begin by implementing all visual detail. First stabilize component contracts:
+
+```tsx
+type ProviderLogoProps = {
+  providerId: string;
+  size?: 'xs' | 'sm' | 'md' | 'lg';
+  showName?: boolean;
+  accessibilityLabel?: string;
+};
+
+export function ProviderLogo({
+  providerId,
+  size = 'md',
+  showName = false,
+  accessibilityLabel,
+}: ProviderLogoProps) {
+  const brand = providerBrandRegistry[providerId];
+
+  if (!brand?.logoAsset) {
+    return (
+      <ProviderFallback
+        name={brand?.displayName ?? providerId}
+        size={size}
+      />
+    );
+  }
+
+  return (
+    <View
+      testID={`provider-logo-${providerId}`}
+      accessibilityLabel={
+        accessibilityLabel ?? `${brand.displayName} provider`
+      }
+    >
+      <Image
+        source={brand.logoAsset}
+        contentFit="contain"
+        transition={120}
+      />
+      {showName ? <Text>{brand.displayName}</Text> : null}
+    </View>
+  );
+}
+```
+
+```tsx
+type ProductImageProps = {
+  uri?: string | null;
+  title: string;
+  blurhash?: string;
+  aspectRatio?: number;
+};
+
+export function ProductImage({
+  uri,
+  title,
+  blurhash,
+  aspectRatio = 1,
+}: ProductImageProps) {
+  if (!uri) {
+    return <ProductImageFallback title={title} />;
+  }
+
+  return (
+    <Image
+      testID="product-image"
+      source={{ uri }}
+      placeholder={blurhash ? { blurhash } : undefined}
+      contentFit="contain"
+      transition={180}
+      style={{ aspectRatio }}
+      accessibilityLabel={`${title} image`}
+    />
+  );
+}
+```
+
+```tsx
+type RecommendationHeroProps = {
+  providerId: string;
+  trueCost: number | null;
+  currency: 'INR';
+  savings?: number | null;
+  reason: string;
+  providerCount: number;
+  totalProviderCount?: number;
+  freshnessLabel?: string;
+  onExplain: () => void;
+};
+
+export function RecommendationHero(props: RecommendationHeroProps) {
+  return (
+    <TrueSurface
+      variant="hero"
+      testID="recommendation-hero"
+    >
+      <Text>BEST OVERALL</Text>
+
+      <ProviderLogo
+        providerId={props.providerId}
+        showName
+      />
+
+      <TrueCostTotal
+        amount={props.trueCost}
+        currency={props.currency}
+      />
+
+      {props.savings != null ? (
+        <SavingsBadge amount={props.savings} />
+      ) : null}
+
+      <Text>{props.reason}</Text>
+
+      <CoverageBadge
+        compared={props.providerCount}
+        total={props.totalProviderCount}
+      />
+
+      {props.freshnessLabel ? (
+        <FreshnessBadge label={props.freshnessLabel} />
+      ) : null}
+
+      <TrueButton
+        testID="why-this-won"
+        onPress={props.onExplain}
+      >
+        Why this wins
+      </TrueButton>
+    </TrueSurface>
+  );
+}
+```
+
+```tsx
+type ComparisonRowProps = {
+  providerId: string;
+  price: number | null;
+  trueCost: number | null;
+  eta?: string | null;
+  isWinner?: boolean;
+  isExact: boolean;
+  unknownFields?: string[];
+};
+
+export function ComparisonRow(props: ComparisonRowProps) {
+  // Non-EXACT matches must never masquerade as authoritative offers.
+  if (!props.isExact) return null;
+
+  return (
+    <Pressable
+      testID={`comparison-row-${props.providerId}`}
+      accessibilityRole="button"
+    >
+      <ProviderLogo
+        providerId={props.providerId}
+        showName
+      />
+
+      <Price amount={props.price} />
+
+      <TrueCostTotal amount={props.trueCost} />
+
+      {props.eta ? <Text>{props.eta}</Text> : null}
+
+      {props.unknownFields?.length ? (
+        <UnknownValue
+          fields={props.unknownFields}
+        />
+      ) : null}
+    </Pressable>
+  );
+}
+```
+
+The key architectural point is that the components receive **truth from your backend**. They do not manufacture commercial values for presentation.
+
+## Screenshot-driven QA, migration and success metrics
+
+### First capture the app before touching it
+
+Because the emulator/UI environment already exists in your workflow, the redesign should begin with screenshots of every current important state.
+
+Store:
+
+```text
+artifacts/ui_redesign/
+
+    home/
+        before.png
+        after.png
+
+    grocery/
+        results_before.png
+        results_after.png
+
+        comparison_before.png
+        comparison_after.png
+
+        basket_before.png
+        basket_after.png
+
+    shopping/
+    mobility/
+    travel/
+    food/
+    pharmacy/
+    finance/
+    saas/
+
+    loading/
+    empty/
+    errors/
+```
+
+ADB can capture an emulator/device framebuffer as part of the evidence run:
+
+```powershell
+adb devices
+
+adb -s emulator-5554 exec-out screencap -p > artifacts/ui_redesign/home/before.png
+```
+
+The visual review must happen on actual rendered screens because image loading, blur behavior, text scaling and animation performance depend on runtime/device conditions. Expo’s current blur implementation, for example, has Android-version-dependent performance behavior, and Reanimated’s documentation explicitly notes situations where large numbers of animations can affect FPS. citeturn13search1turn9search3
+
+### Maestro/test hooks
+
+Add stable accessibility/test identifiers at reusable component boundaries:
+
+```text
+home-screen
+home-search
+truecost-search-input
+
+category-grocery
+category-food
+category-pharmacy
+category-shopping
+category-mobility
+category-travel
+category-finance
+category-saas
+
+recommendation-hero
+truecost-total
+savings-badge
+coverage-badge
+freshness-badge
+why-this-won
+
+comparison-list
+comparison-row-blinkit
+comparison-row-zepto
+comparison-row-bigbasket
+
+provider-logo-blinkit
+
+basket-summary
+basket-matched-count
+basket-missing-count
+
+error-state
+empty-state
+retry-button
+```
+
+Conceptual Maestro flow:
+
+```yaml
+appId: com.anonymous.truecost
+
+---
+- launchApp
+
+- assertVisible:
+    id: "home-screen"
+
+- tapOn:
+    id: "category-grocery"
+
+- tapOn:
+    id: "home-search"
+
+- inputText: "Red Bull 250 ml"
+
+- pressKey: Enter
+
+- assertVisible:
+    id: "recommendation-hero"
+
+- assertVisible:
+    id: "truecost-total"
+
+- assertVisible:
+    id: "coverage-badge"
+
+- takeScreenshot: grocery_redbull_winner
+```
+
+Then cross-check screenshots and accessibility-tree values against the backend result.
+
+### Hard UI truth gates
+
+The UI should **never** become visually “better” by weakening backend truth.
+
+Your hard release counters should be:
+
+```text
+UI_WRONG_WINNER_COUNT = 0
+
+UI_WRONG_PRICE_COUNT = 0
+
+UI_WRONG_VARIANT_COUNT = 0
+
+UI_WRONG_QUANTITY_COUNT = 0
+
+REJECTED_SHOWN_AS_EXACT = 0
+
+PROBABLE_SHOWN_AS_EXACT = 0
+
+UNKNOWN_RENDERED_AS_ZERO = 0
+
+STALE_DATA_SHOWN_AS_LIVE = 0
+
+PROVIDER_COVERAGE_MISREPRESENTATION = 0
+
+UNAUTHORIZED_PROVIDER_BRAND_ASSET = 0
+
+P0_UI_ISSUES = 0
+```
+
+This is particularly important given the current repository state: some categories currently have substantially stronger real evidence/backend completeness than others. The redesigned UI should show beautiful unavailable/partial states rather than using synthetic content to make every category appear equally live. fileciteturn0file4
+
+### Accessibility targets
+
+A world-class redesign is not elite if it fails at larger type sizes or relies on animation/color alone.
+
+Apple recommends support for larger text, VoiceOver-compatible interfaces and reduced-motion behavior; Apple’s current accessibility guidance also notes 44×44 pt as its standard iOS control size, while Android guidance generally uses 48dp touch targets. citeturn9search2turn9search4
+
+For TrueCost I would standardize interactive mobile hit areas to **at least 48×48 logical units where practical**, even if the visible icon is smaller.
+
+Every state such as:
+
+```text
+BEST
+STALE
+UNAVAILABLE
+UNKNOWN
+EXACT
+```
+
+needs both text/icon/shape meaning, not color alone. Apple explicitly recommends supplementing color with distinct indicators for accessibility. citeturn9search2
+
+### Loading states
+
+Do not use one spinner for the entire app.
+
+A loading skeleton should resemble the structure that will replace it, which is also the pattern Fluent recommends for shimmer loading states; its guidance cautions against indefinite shimmer for long-running operations and disables its animation under reduced-motion settings. citeturn12search1turn12search7
+
+For example:
+
+```text
+Recommendation loading:
+
+╭────────────────────────────────╮
+│ ▓▓▓▓                           │
+│                                │
+│ ▓▓▓▓▓▓▓▓                       │
+│                                │
+│       ▓▓▓▓▓                    │
+│                                │
+│ ▓▓▓▓▓▓▓▓▓▓▓▓                   │
+╰────────────────────────────────╯
+```
+
+Then transition into the real hierarchy rather than jumping layouts.
+
+### Migration without breaking backend truth
+
+The migration should be layered:
+
+```mermaid
+flowchart TD
+    A[Existing Backend Contracts] --> B[Frontend Adapter Layer]
+    B --> C[Design-System Components]
+    C --> D[Domain Presentation]
+    D --> E[Motion / Imagery]
+    E --> F[UI Certification]
+
+    A -. do not rewrite for aesthetics .-> A
+```
+
+The implementation order I would enforce is:
+
+```text
+Keep backend contracts
+        ↓
+Introduce tokens
+        ↓
+Introduce primitives
+        ↓
+Wrap current screens
+        ↓
+Replace duplicated UI with shared components
+        ↓
+Redesign Home/Search
+        ↓
+Redesign Recommendation/Comparison
+        ↓
+Grocery
+        ↓
+Shopping
+        ↓
+Mobility/Travel
+        ↓
+remaining domains
+        ↓
+motion
+        ↓
+accessibility
+        ↓
+performance
+        ↓
+before/after screenshot QA
+```
+
+Do not rewrite the Entity Resolution engine because a variant badge looks inconvenient.
+
+Do not convert `null` into `0` because the card looks nicer with a number.
+
+Do not show a fake provider because four logos make a composition more symmetrical.
+
+Do not enable synchronous provider fetching because the loading animation looks better when fresh results arrive.
+
+### Post-release metrics
+
+The final redesign should be judged by behavior, not screenshots alone.
+
+Track:
+
+| Metric | Why it matters |
+|---|---|
+| Time to first useful result | speed of value |
+| Time to identify the recommended option | hierarchy effectiveness |
+| Search → comparison completion | journey quality |
+| Comparison → provider action | decision usefulness |
+| Search refinement rate | intent/search quality |
+| No-result recovery rate | empty-state effectiveness |
+| Backtracking rate | navigation confusion |
+| “Why this won” open rate | trust/explanation usage |
+| Provider-coverage disclosure interactions | uncertainty comprehension |
+| Wrong-price incidents | accuracy |
+| Wrong-variant incidents | identity safety |
+| Wrong-winner incidents | critical correctness |
+| Crash-free sessions | stability |
+| p95 screen-render latency | perceived responsiveness |
+| image-load latency | imagery quality |
+| dropped/janky frame rate during hero transitions | motion quality |
+| accessibility defects | inclusivity |
+| reduced-motion correctness | accessibility |
+| provider-logo fallback frequency | asset completeness |
+
+### The final recommendation
+
+I would make the TrueCost redesign around **five signature ideas**:
+
+**The Search Lens** — an unusually beautiful universal “ask TrueCost anything” entry point.
+
+**The Recommendation Hero** — the user instantly sees what won and why.
+
+**The Comparison Language** — every category shares the same conceptual logic while rendering domain-specific details.
+
+**The TrueCost Lens Motion** — one subtle, ownable visual symbol for understanding → comparing → decision.
+
+**Porcelain Intelligence** — white, calm, expensive surfaces with carefully rationed iris, mint, glass, imagery and motion.
+
+The final screen hierarchy should feel like:
+
+```text
+               WHAT YOU ASKED
+
+                      ↓
+
+              WHAT WE COMPARED
+
+                      ↓
+
+               ✦ WHAT WON ✦
+
+                      ↓
+
+                 WHY IT WON
+
+                      ↓
+
+            WHAT THE TRADEOFF IS
+
+                      ↓
+
+          WHAT DATA WE ACTUALLY KNOW
+```
+
+That structure directly supports the principles Apple now emphasizes—purpose, simplicity, responsibility, craft and delight—while Material and Fluent support the use of expressive motion, semantic tokens, hierarchy and platform-appropriate behavior. citeturn10search3turn8search5turn12search0turn12search2
+
+The goal is **not** to make someone say “wow, lots of effects.”
+
+The goal is:
+
+> **“Wow, this looks unbelievably polished—and I understood the best decision almost instantly.”**
+
+That is the direction I would choose for TrueCost.

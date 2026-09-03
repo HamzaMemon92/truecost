@@ -1,0 +1,35 @@
+{
+  "fixture_type": "synthetic",
+  "payload": {
+    "tab": {
+      "products": [
+        {
+          "id": "400001",
+          "desc": "Fruit Nuts & Seeds Crunchy Muesli",
+          "brand": {
+            "name": "Monsoon Harvest"
+          },
+          "w": "200 g",
+          "absolute_url": "https://www.bigbasket.com/pd/400001/fruit-nuts-seeds-crunchy-muesli/",
+          "availability": {
+            "short_eta": "19 mins",
+            "is_available": true
+          },
+          "pricing": {
+            "discount": {
+              "prim_price": {
+                "sp": 185
+              },
+              "mrp": 240
+            }
+          },
+          "images": [
+            {
+              "m": "https://example.test/bigbasket/monsoon-muesli.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

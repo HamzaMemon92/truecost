@@ -1,0 +1,40 @@
+{
+  "fixture_type": "synthetic",
+  "payload": {
+    "layout": [
+      {
+        "widgetId": "PRODUCT_GRID",
+        "data": {
+          "resolver": {
+            "data": {
+              "items": [
+                {
+                  "delivery_time": "10 mins",
+                  "productResponse": {
+                    "id": "zepto-product-1",
+                    "sellingPrice": 20500,
+                    "mrp": 44500,
+                    "productUrl": "https://www.zepto.com/pn/saffola-muesli-choco-crunch-with-flavour-pops/pvid/zepto-variant-1",
+                    "product": {
+                      "name": "Saffola Muesli Choco Crunch with Flavour Pops",
+                      "brand": "Saffola"
+                    },
+                    "productVariant": {
+                      "id": "zepto-variant-1",
+                      "formattedPacksize": "700 g",
+                      "images": [
+                        {
+                          "path": "production/tr:w-400/saffola-muesli.jpg"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

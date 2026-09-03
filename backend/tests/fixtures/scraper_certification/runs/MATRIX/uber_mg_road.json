@@ -1,0 +1,39 @@
+{
+  "capture_version": "truecost.source.capture.v1",
+  "run_id": "run_21e5c4dc",
+  "case_id": "uber_automated",
+  "provider": "uber",
+  "domain": "uber.com",
+  "query": "MG Road to Indiranagar",
+  "captured_at": "2026-08-26T05:16:39.004547+00:00",
+  "execution_mode": "MOCK_SYNTHETIC",
+  "scraper_component": "uberScraper",
+  "source_url": null,
+  "source_component": null,
+  "query_or_context": {
+    "q": "MG Road to Indiranagar"
+  },
+  "payload": {
+    "items": [
+      {
+        "id": "uber_go",
+        "name": "Uber Go",
+        "price": 245,
+        "eta_minutes": 4
+      },
+      {
+        "id": "uber_premier",
+        "name": "Premier",
+        "price": 310,
+        "eta_minutes": 6
+      },
+      {
+        "id": "uber_moto",
+        "name": "Moto",
+        "price": 85,
+        "eta_minutes": 2
+      }
+    ]
+  },
+  "mock_synthetic_reason": "generated_by_headless_script_no_real_device"
+}

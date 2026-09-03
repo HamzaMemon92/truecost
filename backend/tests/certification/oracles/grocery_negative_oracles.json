@@ -1,0 +1,27 @@
+[
+  {
+    "item1": "Amul Gold 500ml",
+    "item2": "Amul Taaza 500ml",
+    "expected_er": "REJECTED"
+  },
+  {
+    "item1": "Tata Salt 1kg",
+    "item2": "Tata Salt 500g",
+    "expected_er": "REJECTED"
+  },
+  {
+    "item1": "Coca-Cola 750ml",
+    "item2": "Coca-Cola 250ml",
+    "expected_er": "REJECTED"
+  },
+  {
+    "item1": "Maggi Noodles",
+    "item2": "Yippee Noodles",
+    "expected_er": "REJECTED"
+  },
+  {
+    "item1": "Amul Taaza Toned Milk",
+    "item2": "Amul Gold Full Cream Milk",
+    "expected_er": "REJECTED"
+  }
+]

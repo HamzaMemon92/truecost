@@ -1,0 +1,6 @@
+appId: com.anonymous.truecost
+---
+- launchApp
+- tapOn: "Profile"
+- tapOn: "Price watches"
+- assertVisible: "Watchlist"

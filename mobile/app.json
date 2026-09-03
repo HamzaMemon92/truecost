@@ -1,0 +1,84 @@
+{
+  "expo": {
+    "name": "TrueCost",
+    "slug": "truecost",
+    "scheme": "truecost",
+    "version": "1.0.0",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow TrueCost to use your location while you compare nearby services.",
+          "locationWhenInUsePermission": "Allow TrueCost to use your location while you compare nearby services.",
+          "isAndroidBackgroundLocationEnabled": false,
+          "isAndroidForegroundServiceEnabled": false
+        }
+      ],
+      [
+        "expo-secure-store",
+        {
+          "configureAndroidBackup": true
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow TrueCost to scan a barcode when you open Scan & Compare.",
+          "barcodeScannerEnabled": true,
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow TrueCost to select a package image you choose for comparison.",
+          "cameraPermission": "Allow TrueCost to capture a package image when you choose to scan.",
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "defaultChannel": "truecost-alerts"
+        }
+      ],
+      "expo-web-browser",
+      "@sentry/react-native",
+      "./plugins/withAndroidPackageQueries",
+      "expo-font"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Allow TrueCost to use your location while you compare nearby services.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Allow TrueCost to use your location while you compare nearby services."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#4F46E5",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "predictiveBackGestureEnabled": true,
+      "package": "com.anonymous.truecost"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

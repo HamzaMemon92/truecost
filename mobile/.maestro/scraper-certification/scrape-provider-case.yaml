@@ -1,0 +1,9 @@
+﻿appId: ${TRUECOST_APP_ID}
+---
+- clearState
+- launchApp:
+    clearState: true
+- openLink: ${DEEP_LINK}
+- extendedWaitUntil:
+    visible: "SCRAPER_CERT_CAPTURED"
+    timeout: 30000

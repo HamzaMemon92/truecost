@@ -1,0 +1,615 @@
+Yes — **LangGraph should be used in Phase 1**, but **LangChain and LangGraph have different jobs**. Your previous prompt mentions LangGraph and the Shopping Agent, but I would make the implementation requirement more explicit so Antigravity doesn't build a vague "AI agent."
+
+### The clean architecture is:
+
+```text
+                    USER
+                      │
+                      ▼
+               SHOPPING PAGE
+                      │
+                      ▼
+                   API/BFF
+                      │
+                      ▼
+             ┌─────────────────┐
+             │    LANGGRAPH    │
+             │ Shopping Graph  │
+             └────────┬────────┘
+                      │
+                      ▼
+               Validate Query
+                      │
+                      ▼
+               Load User Context
+                      │
+                      ▼
+              Complexity Gate
+                 /          \
+                /            \
+          SIMPLE              COMPLEX
+             │                  │
+             ▼                  ▼
+       Direct Functions     SHOPPING AGENT
+             │                  │
+             │            ┌─────┴──────┐
+             │            │ LangChain  │
+             │            │ tools/LLM  │
+             │            └─────┬──────┘
+             │                  │
+             │                  ▼
+             │             MCP Client
+             │                  │
+             └────────────┬─────┘
+                          ▼
+                   Provider Tools
+                          │
+                          ▼
+                 Amazon / Flipkart
+                          │
+                          ▼
+                    Normalize
+                          │
+                          ▼
+                  Product Matching
+                          │
+                          ▼
+                Recommendation Engine
+                          │
+                          ▼
+                 Payment Intelligence
+                          │
+                          ▼
+                     Verification
+                          │
+                          ▼
+                       RESULT
+```
+
+## So what does LangChain actually do?
+
+**LangChain is the agent/tool/LLM building layer.**
+
+For our Shopping Agent:
+
+```text
+Shopping Agent
+      │
+      ├── LLM
+      │
+      ├── LangChain tool abstraction
+      │
+      ├── MCP tools
+      │
+      ├── structured output
+      │
+      └── prompts
+```
+
+For example, the Shopping Agent might have access to:
+
+```text
+search_products
+get_product_details
+get_price
+get_offers
+get_reviews
+get_availability
+```
+
+But those shouldn't be arbitrary Python functions exposed directly to the model.
+
+They go through our controlled MCP layer.
+
+---
+
+# What does LangGraph do?
+
+**LangGraph is the orchestration/state-machine layer.**
+
+It decides:
+
+```text
+What happens first?
+       ↓
+What happens next?
+       ↓
+Does an agent need to be invoked?
+       ↓
+Which node runs?
+       ↓
+Do we need another tool call?
+       ↓
+Did verification fail?
+       ↓
+Should we retry/refresh?
+       ↓
+Can we produce the final result?
+```
+
+So:
+
+### LangChain
+
+> "How does the Shopping Agent reason and use tools?"
+
+### LangGraph
+
+> "How does the entire Shopping workflow execute?"
+
+That distinction should be explicitly written into the Antigravity prompt.
+
+---
+
+# And in Phase 1, we should NOT use LangGraph for everything
+
+For example:
+
+### Query:
+
+> iPhone 17
+
+Don't do:
+
+```text
+LangGraph
+ ↓
+LLM
+ ↓
+Agent
+ ↓
+LLM
+ ↓
+Tool
+ ↓
+LLM
+```
+
+Instead:
+
+```text
+LangGraph
+ ↓
+Validate
+ ↓
+Complexity = SIMPLE
+ ↓
+Provider Search
+ ↓
+Normalize
+ ↓
+Match
+ ↓
+Rank
+ ↓
+Response
+```
+
+Fast and deterministic.
+
+---
+
+### Query:
+
+> Best laptop under ₹1 lakh for AI development, good GPU and battery.
+
+Now:
+
+```text
+LangGraph
+ ↓
+Validate
+ ↓
+Complexity = COMPLEX
+ ↓
+Shopping Agent
+ ↓
+LangChain
+ ↓
+MCP tools
+ ↓
+Providers
+ ↓
+Normalize
+ ↓
+Match
+ ↓
+Recommendation
+ ↓
+Verify
+ ↓
+Response
+```
+
+That's where the agent earns its existence.
+
+---
+
+# I would therefore modify your Antigravity prompt
+
+Add this section directly after the LangGraph section:
+
+```text
+============================================================
+LANGCHAIN VS LANGGRAPH — IMPLEMENTATION RULE
+============================================================
+
+Use LangChain and LangGraph for DIFFERENT responsibilities.
+
+LANGCHAIN:
+
+LangChain is the building layer for the specialist agent.
+
+Use LangChain for:
+
+- LLM integration
+- agent/tool binding
+- structured output
+- tool invocation abstraction
+- prompt management where appropriate
+- MCP tool integration
+- model/tool message handling
+
+The Shopping Agent may be implemented using LangChain's agent/tool abstractions, but it MUST only access the tools explicitly provided to it.
+
+The Shopping Agent must NOT directly access provider credentials or arbitrary HTTP endpoints.
+
+LANGGRAPH:
+
+LangGraph is the orchestration layer for the complete Shopping workflow.
+
+Use LangGraph for:
+
+- typed workflow state
+- workflow nodes
+- conditional routing
+- complexity-based branching
+- specialist-agent invocation
+- retries
+- verification loops
+- provider fan-out
+- result aggregation
+- state transitions
+- controlled termination
+- streaming workflow events
+
+The LangGraph graph should contain deterministic functions as nodes wherever possible.
+
+Example:
+
+START
+ ↓
+validate_query
+ ↓
+load_context
+ ↓
+complexity_gate
+ ↓
+conditional_route
+
+SIMPLE:
+ ↓
+provider_search
+ ↓
+normalize
+ ↓
+match
+ ↓
+rank
+ ↓
+verify
+ ↓
+response
+
+COMPLEX:
+ ↓
+shopping_agent
+ ↓
+MCP/tool execution
+ ↓
+normalize
+ ↓
+match
+ ↓
+recommendation
+ ↓
+payment_intelligence
+ ↓
+verify
+ ↓
+rank
+ ↓
+response
+
+IMPORTANT:
+
+Do NOT implement every LangGraph node as an LLM agent.
+
+Most nodes should be deterministic functions.
+
+Do NOT implement every function as a LangChain tool.
+
+Only functions that need to be exposed to the agent should become agent tools.
+
+The architecture should therefore be:
+
+LangGraph
+    ↓
+Workflow Nodes
+    ↓
+Specialist Agent when required
+    ↓
+LangChain Agent/Tool Layer
+    ↓
+MCP Client
+    ↓
+MCP Server
+    ↓
+Provider Adapter
+    ↓
+Provider API
+
+============================================================
+PHASE 1 AGENT IMPLEMENTATION
+============================================================
+
+Build ONE real specialist agent:
+
+ShoppingAgent.
+
+The ShoppingAgent must be a bounded specialist, not a general autonomous agent.
+
+Its purpose is:
+
+- understand shopping requirements
+- extract constraints
+- reason about trade-offs
+- decide which authorized shopping tools are needed
+- retrieve evidence
+- compare products
+- produce structured recommendation candidates
+
+The agent must return structured data.
+
+Example:
+
+{
+    "requirements": {
+        "budget_max": 100000,
+        "category": "laptop",
+        "use_case": [
+            "AI development",
+            "Python",
+            "computer vision"
+        ],
+        "preferences": [
+            "GPU",
+            "battery"
+        ]
+    },
+    "selected_products": [],
+    "comparison_factors": [],
+    "recommendation_reason": "...",
+    "confidence": 0.0,
+    "evidence_required": true
+}
+
+The agent does NOT make the final financial calculation.
+
+The deterministic RecommendationEngine makes the final ranking.
+
+The deterministic PaymentIntelligenceService makes monetary calculations.
+
+The Verification node validates the evidence.
+
+============================================================
+AGENT TOOL BOUNDARY
+============================================================
+
+The ShoppingAgent MUST receive a capability-scoped tool set.
+
+Allowed Phase 1 capabilities:
+
+- product_search
+- product_details
+- price_lookup
+- offer_lookup
+- availability_lookup
+- review_lookup
+- provider_link
+
+Not allowed:
+
+- payment execution
+- user account mutation
+- arbitrary HTTP requests
+- secret access
+- database administration
+- arbitrary code execution
+- provider credential access
+- financial transaction execution
+
+Tool access must be enforced by the backend, not merely described in the prompt.
+
+============================================================
+AGENT INVOCATION RULE
+============================================================
+
+The ShoppingAgent is invoked by LangGraph only when the complexity gate determines that reasoning is useful.
+
+Examples:
+
+"iPhone 17"
+→ SIMPLE
+→ no ShoppingAgent required
+
+"Compare iPhone 17 and Galaxy S26"
+→ MODERATE
+→ ShoppingAgent may be invoked
+
+"Find me the best laptop under ₹1 lakh for AI development, prioritize GPU and battery and optimize my payment method"
+→ COMPLEX
+→ ShoppingAgent required
+
+This is a deterministic architectural decision, not an arbitrary LLM decision.
+
+============================================================
+AGENT LOOP
+============================================================
+
+When the ShoppingAgent is invoked:
+
+LangGraph
+ ↓
+ShoppingAgent
+ ↓
+Agent determines required information
+ ↓
+LangChain tool interface
+ ↓
+MCP Client
+ ↓
+MCP Server
+ ↓
+Provider Adapter
+ ↓
+Provider API
+ ↓
+Tool result
+ ↓
+ShoppingAgent evaluates evidence
+ ↓
+If more evidence is required:
+    request another permitted tool
+else:
+    return structured candidate analysis
+ ↓
+LangGraph continues
+ ↓
+Deterministic normalization/matching/ranking
+ ↓
+Verification
+ ↓
+Final response
+
+The agent MUST have a maximum iteration/tool-call budget.
+
+Do not allow an uncontrolled infinite agent loop.
+
+============================================================
+AGENT STATE
+============================================================
+
+LangGraph owns the workflow state.
+
+Do NOT put the entire workflow state inside the agent's prompt.
+
+Example state:
+
+ShoppingState:
+
+request_id
+session_id
+user_id
+category
+query
+user_context
+complexity
+agent_required
+requirements
+provider_results
+normalized_products
+matched_products
+recommendation_candidates
+payment_analysis
+verification_results
+warnings
+execution_events
+final_response
+status
+
+The ShoppingAgent receives only the relevant subset of state.
+
+LangGraph remains the source of truth for workflow execution.
+
+============================================================
+```
+
+That addition makes the architecture **much more precise**.
+
+---
+
+# One more thing: don't build a "LangChain agent" and then put LangGraph around it blindly
+
+A common mistake is:
+
+```text
+LangGraph
+   ↓
+LangChain Agent
+   ↓
+LangGraph
+   ↓
+LangChain Tool
+   ↓
+Agent
+```
+
+and suddenly nobody knows who controls what.
+
+Our architecture should have a clear hierarchy:
+
+```text
+                 LANGGRAPH
+             Workflow Authority
+                     │
+          ┌──────────┴──────────┐
+          │                     │
+   Deterministic Nodes     Specialist Agent
+          │                     │
+          │                LANGCHAIN
+          │              Agent/Tool Layer
+          │                     │
+          │                 MCP Client
+          │                     │
+          └──────────┬──────────┘
+                     ▼
+              MCP TOOL LAYER
+                     │
+                     ▼
+              PROVIDER ADAPTER
+                     │
+                     ▼
+               PROVIDER API
+```
+
+**LangGraph owns orchestration.**
+
+**LangChain helps construct the agent.**
+
+**MCP controls external tool access.**
+
+**Provider adapters control external integrations.**
+
+**Deterministic services control money, ranking, security and verification.**
+
+That's the architecture I would use.
+
+---
+
+## So, yes: Phase 1 uses both
+
+| Technology                | Phase 1? | Job                                        |
+| ------------------------- | -------- | ------------------------------------------ |
+| **LangGraph**             | ✅ YES    | Main Shopping workflow/orchestration       |
+| **LangChain**             | ✅ YES    | Shopping Agent + tool/LLM layer            |
+| **MCP**                   | ✅ YES    | Controlled provider tool interface         |
+| **Shopping Agent**        | ✅ YES    | Complex shopping reasoning                 |
+| **Recommendation Engine** | ✅ YES    | Deterministic ranking                      |
+| **Payment Intelligence**  | ✅ YES    | Deterministic monetary optimization        |
+| **Provider Adapters**     | ✅ YES    | Amazon/Flipkart/etc. integration isolation |
+| **A2A**                   | ❌ NO     | Future external-agent collaboration        |
+| Multi-agent swarm         | ❌ NO     | Unnecessary for Phase 1                    |
+| Autonomous purchasing     | ❌ NO     | Future                                     |
+
+So your Antigravity prompt **already had the correct high-level architecture**, but I would absolutely add the above section. Otherwise a coding agent could interpret "LangChain + LangGraph" too loosely and build a generic agent loop rather than the controlled architecture we actually want.

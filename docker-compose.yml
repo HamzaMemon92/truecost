@@ -1,0 +1,105 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: truecost
+      POSTGRES_USER: truecost
+      POSTGRES_PASSWORD: truecost-local-only
+    volumes:
+      - truecost-postgres:/var/lib/postgresql/data
+      - ./backend/scripts/init-broker-role.sql:/docker-entrypoint-initdb.d/10-broker-role.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U truecost -d truecost"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes: ["truecost-redis:/data"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  migrate:
+    build: ./backend
+    command: ["alembic", "upgrade", "head"]
+    environment:
+      APP_ENV: staging
+      DATABASE_URL: postgresql+psycopg://truecost:truecost-local-only@postgres:5432/truecost
+      REDIS_URL: redis://redis:6379/0
+      AUTH_SECRET_KEY: local-compose-auth-secret-change-before-deployment
+      AUTO_CREATE_SCHEMA: "false"
+      CORS_ORIGINS: https://localhost
+      TRUSTED_HOSTS: localhost,api
+      SMS_PROVIDER: twilio
+      TWILIO_ACCOUNT_SID: local-placeholder
+      TWILIO_AUTH_TOKEN: local-placeholder
+      TWILIO_FROM_NUMBER: +10000000000
+      TASK_EXECUTION_MODE: celery
+      PROVIDER_PREVIEW_ENABLED: "false"
+      EXPO_ACCESS_TOKEN: local-placeholder
+      PROVIDER_CONNECTION_BROKER_URL: https://broker:8010
+      PROVIDER_CONNECTION_BROKER_SECRET: local-compose-broker-secret-change-before-deploy
+    depends_on:
+      postgres: { condition: service_healthy }
+  api:
+    build: ./backend
+    environment: &api-env
+      APP_ENV: staging
+      DATABASE_URL: postgresql+psycopg://truecost_api:api-local-only@postgres:5432/truecost
+      REDIS_URL: redis://redis:6379/0
+      AUTH_SECRET_KEY: local-compose-auth-secret-change-before-deployment
+      AUTO_CREATE_SCHEMA: "false"
+      CORS_ORIGINS: https://localhost
+      TRUSTED_HOSTS: localhost,api
+      SMS_PROVIDER: twilio
+      TWILIO_ACCOUNT_SID: local-placeholder
+      TWILIO_AUTH_TOKEN: local-placeholder
+      TWILIO_FROM_NUMBER: +10000000000
+      TASK_EXECUTION_MODE: celery
+      PROVIDER_PREVIEW_ENABLED: "false"
+      EXPO_ACCESS_TOKEN: local-placeholder
+      PROVIDER_CONNECTION_BROKER_URL: https://broker:8010
+      PROVIDER_CONNECTION_BROKER_SECRET: local-compose-broker-secret-change-before-deploy
+    ports: ["8000:8000"]
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+      redis: { condition: service_healthy }
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health/live')"]
+      interval: 10s
+      timeout: 4s
+      retries: 10
+  worker:
+    build: ./backend
+    command: ["celery", "-A", "app.tasks.celery_app:celery_app", "worker", "--loglevel=INFO"]
+    environment: *api-env
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+      redis: { condition: service_healthy }
+  beat:
+    build: ./backend
+    command: ["celery", "-A", "app.tasks.celery_app:celery_app", "beat", "--loglevel=INFO", "--schedule=/tmp/celerybeat-schedule"]
+    environment: *api-env
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+      redis: { condition: service_healthy }
+  broker:
+    build: ./backend
+    command: ["uvicorn", "broker.main:app", "--host", "0.0.0.0", "--port", "8010"]
+    environment:
+      BROKER_DATABASE_URL: postgresql+psycopg://truecost_broker:broker-local-only@postgres:5432/truecost
+      BROKER_REDIS_URL: redis://redis:6379/1
+      BROKER_PUBLIC_URL: http://localhost:8010
+      BROKER_CALLBACK_SECRET: local-compose-broker-secret-change-before-deploy
+      BROKER_VAULT_ENCRYPTION_KEYS: ${BROKER_VAULT_ENCRYPTION_KEYS:?set BROKER_VAULT_ENCRYPTION_KEYS}
+      BROKER_ENABLED_PROVIDERS: ""
+    ports: ["8010:8010"]
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+      redis: { condition: service_healthy }
+volumes:
+  truecost-postgres:
+  truecost-redis:

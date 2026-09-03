@@ -1,0 +1,6 @@
+﻿appId: ${TRUECOST_APP_ID}
+---
+- runFlow:
+    file: scrape-provider-case.yaml
+    env:
+      RUN_ID: ${RUN_ID}

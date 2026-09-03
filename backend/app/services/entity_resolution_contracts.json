@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "contracts": [
+    {
+      "resolver_version": "shopping.product.v3",
+      "entity_type": "PRODUCT",
+      "category_aliases": ["shopping"],
+      "rollout_state": "authoritative_v3_candidate",
+      "critical": ["brand", "model_signature", "identity_numbers"],
+      "variant": ["storage", "color", "variant_signature"],
+      "informational": ["title_terms"],
+      "ignored_descriptive_terms": [
+        "with",
+        "for",
+        "and",
+        "the",
+        "new",
+        "latest",
+        "wireless",
+        "bluetooth",
+        "headphone",
+        "headphones",
+        "earphone",
+        "earphones",
+        "earbuds",
+        "tws"
+      ],
+      "llm_extractable": [
+        "storage",
+        "color",
+        "variant_signature",
+        "model_signature",
+        "identity_numbers",
+        "pack_size"
+      ]
+    },
+    {
+      "resolver_version": "grocery.sku.v3",
+      "entity_type": "GROCERY_SKU",
+      "category_aliases": ["grocery"],
+      "rollout_state": "authoritative_v3_candidate",
+      "critical": ["brand", "product_signature", "pack_size"],
+      "variant": ["variant_signature"],
+      "informational": ["title_terms"],
+      "ignored_descriptive_terms": [
+        "with",
+        "for",
+        "and",
+        "the",
+        "pack",
+        "pcs",
+        "piece",
+        "pieces"
+      ],
+      "llm_extractable": [
+        "variant_signature",
+        "product_signature",
+        "pack_size"
+      ]
+    }
+  ]
+}

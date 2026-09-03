@@ -1,0 +1,1 @@
+from app.connectors.bankbazaar import PaisaBazaarConnector

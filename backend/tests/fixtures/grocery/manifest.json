@@ -1,0 +1,94 @@
+{
+  "schema_version": "truecost.provider-fixture-manifest.v1",
+  "notes": "Current fixtures are synthetic and only prove harness behavior. Add captured fixtures before claiming live provider correctness.",
+  "fixtures": [
+    {
+      "provider": "blinkit",
+      "category": "Grocery",
+      "query": "Saffola Muesli Choco Crunch",
+      "pincode": "395009",
+      "latitude": 21.1959,
+      "longitude": 72.7933,
+      "captured_at": "2026-08-30T18:26:49+05:30",
+      "source": "synthetic",
+      "payload_file": "blinkit/surat_395009_saffola_muesli_synthetic.json",
+      "expected_products": [
+        {
+          "name_contains": "Saffola Muesli Choco Crunch",
+          "provider": "Blinkit",
+          "price": 195,
+          "original_price": 445,
+          "weight_volume": "700 g",
+          "deep_link_required": true
+        }
+      ],
+      "real_provider_notes": "Synthetic from observed UI example; replace with captured Blinkit payload before using as live proof."
+    },
+    {
+      "provider": "zepto",
+      "category": "Grocery",
+      "query": "Saffola Muesli Choco Crunch",
+      "pincode": "395009",
+      "latitude": 21.1959,
+      "longitude": 72.7933,
+      "captured_at": "2026-08-30T18:26:49+05:30",
+      "source": "synthetic",
+      "payload_file": "zepto/surat_395009_saffola_muesli_synthetic.json",
+      "expected_products": [
+        {
+          "name_contains": "Saffola Muesli Choco Crunch",
+          "provider": "Zepto",
+          "price": 205,
+          "original_price": 445,
+          "weight_volume": "700 g",
+          "deep_link_required": true
+        }
+      ],
+      "real_provider_notes": "Synthetic Zepto PRODUCT_GRID payload."
+    },
+    {
+      "provider": "swiggy",
+      "category": "Grocery",
+      "query": "Saffola Muesli Choco Crunch",
+      "pincode": "395009",
+      "latitude": 21.1959,
+      "longitude": 72.7933,
+      "captured_at": "2026-08-30T18:26:49+05:30",
+      "source": "synthetic",
+      "payload_file": "swiggy/surat_395009_saffola_muesli_synthetic.json",
+      "expected_products": [
+        {
+          "name_contains": "Saffola Muesli Choco Crunch",
+          "provider": "Swiggy Instamart",
+          "price": 318,
+          "original_price": 445,
+          "weight_volume": "700 g",
+          "deep_link_required": true
+        }
+      ],
+      "real_provider_notes": "Synthetic Instamart payload based on known connector fields; not proof against logged-in app price."
+    },
+    {
+      "provider": "bigbasket",
+      "category": "Grocery",
+      "query": "Fruit Nuts Seeds Crunchy Muesli",
+      "pincode": "395009",
+      "latitude": 21.1959,
+      "longitude": 72.7933,
+      "captured_at": "2026-08-30T18:26:49+05:30",
+      "source": "synthetic",
+      "payload_file": "bigbasket/surat_395009_monsoon_muesli_synthetic.json",
+      "expected_products": [
+        {
+          "name_contains": "Fruit Nuts & Seeds Crunchy Muesli",
+          "provider": "BigBasket",
+          "price": 185,
+          "original_price": 240,
+          "weight_volume": "200 g",
+          "deep_link_required": true
+        }
+      ],
+      "real_provider_notes": "Synthetic payload includes availability data, but current TrueCostProduct schema does not preserve availability on ProviderPrice."
+    }
+  ]
+}

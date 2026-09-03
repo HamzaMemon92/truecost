@@ -1,0 +1,19 @@
+{
+  "fixture_type": "synthetic",
+  "payload": {
+    "products": [
+      {
+        "id": "123456",
+        "nav_id": "123456",
+        "name": "Saffola Muesli Choco Crunch with Flavour Pops",
+        "brand": "Saffola",
+        "unit": "700 g",
+        "sp": 195,
+        "mrp": 445,
+        "delivery_time": "8 mins",
+        "img_url": "https://example.test/blinkit/saffola-muesli.jpg",
+        "url": "https://blinkit.com/prn/saffola-muesli-choco-crunch-with-flavour-pops/prid/123456"
+      }
+    ]
+  }
+}

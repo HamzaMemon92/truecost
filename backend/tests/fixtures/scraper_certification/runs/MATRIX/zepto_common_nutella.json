@@ -1,0 +1,3388 @@
+{
+  "capture_version": "truecost.source.capture.v1",
+  "run_id": "zepto_common_nutella",
+  "case_id": "common_nutella",
+  "provider": "zepto",
+  "domain": "grocery",
+  "query": "Nutella",
+  "captured_at": "2026-08-25T17:26:05.710803+00:00",
+  "execution_mode": "REAL_LIVE_SCRAPE",
+  "scraper_component": "ZeptoScraper",
+  "message_type": "SEARCH_SUCCESS",
+  "requested_location_profile": "default",
+  "observed_location_evidence": "NOT_AVAILABLE",
+  "location_verified": false,
+  "payload": {
+    "layout": [
+      {
+        "widgetId": "TITLE_WIDGET",
+        "widgetName": "SEARCH_TITLE_WIDGET",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "title",
+            "data": {
+              "items": [],
+              "title": "Showing results for \"tata salt 1 kg\"",
+              "queryTitle": "",
+              "searchQuery": "Tata Salt 1 kg",
+              "replacingTerm": "",
+              "searchKeyInTitle": "tata salt 1 kg",
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "viewMeta": {
+          "aspectRatio": 3.33,
+          "paddingTop": 1,
+          "paddingBottom": 1,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "backgroundColor": "#FFFFFF",
+          "adContainer": {
+            "marginHorizontal": 0,
+            "overflow": "",
+            "borderRadius": 0,
+            "backgroundColor": "",
+            "paddingBottom": 0
+          },
+          "productsList": {
+            "paddingHorizontal": 0,
+            "marginBottom": 0,
+            "separator": 0
+          },
+          "adAsset": {},
+          "backgroundGradient": {
+            "start": {
+              "x": 0,
+              "y": 0
+            },
+            "end": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "borderWidth": 0,
+          "borderColor": "",
+          "highlightColor": "",
+          "titleStyle": null,
+          "itemSpacing": 0,
+          "cardStyle": null,
+          "curveIcon": null,
+          "curveIconV2": null,
+          "headerStyle": null,
+          "listStyle": null,
+          "padding": null,
+          "itemPadding": null,
+          "imagePadding": null,
+          "titleIconImage": null,
+          "bodyStyle": null,
+          "subTitleLeadingIconImage": {
+            "id": "fe7cea93-4ad8-4157-b763-765b16c1e29d",
+            "name": "Nutella",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "titleLeadingIconImage": {
+            "id": "17ac4d59-ef84-4c3c-a55b-ae20b8218a38",
+            "name": "Nutella",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "tag": {
+            "text": "",
+            "variant": "",
+            "style": {
+              "color": "",
+              "paddingHorizontal": 0,
+              "paddingVertical": 0,
+              "borderWidth": 0,
+              "borderRadius": 0,
+              "borderColor": "",
+              "backgroundColor": "",
+              "lineHeight": 0
+            }
+          },
+          "card": {
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColor": "",
+            "backgroundColor": "",
+            "backgroundMode": "",
+            "firstColor": "",
+            "secondColor": "",
+            "padding": null
+          },
+          "overlayIconStyles": {},
+          "imageContainerStyle": {},
+          "productIconStyles": {},
+          "text": {
+            "unselectedColor": "",
+            "selectedColor": "",
+            "selectedVariant": "",
+            "unselectedVariant": "",
+            "selectedBackgroundColor": "",
+            "unselectedBackgroundColor": "",
+            "textSize": 0
+          }
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_0",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "5d8d4fd4-f29a-5725-8cb2-2ff9f442e159",
+                    "id": "6ae0d582-3255-492a-8a9f-5d5b4ca4805b",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Nutella",
+                      "brandId": "9880fbe4-4a6e-4b88-954b-67342a59240a",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Himalayan Natives Himalayan Pink Salt (Powder) is a high-quality salt sourced from the pristine Himalayan mountains. This finely ground pink salt is packed with essential minerals and trace elements, making it a healthier alternative to regular table salt. Whether used in cooking, seasoning, or as a finishing touch on your favorite dishes, Himalayan Pink Salt adds a unique flavor and a subtle hint of pink color to your culinary creations."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "a432bd75-351f-4b9d-b339-ec2a1853c4e8",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "Khanal Foods",
+                      "minimumRequiredAge": 0,
+                      "name": "Nutella",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "350 g",
+                      "fssaiLicense": "",
+                      "id": "dfa58eb9-6c83-4b29-aabd-3a90b8e5fbd7",
+                      "images": [
+                        {
+                          "height": 1080,
+                          "hidePadding": true,
+                          "id": "d3134fa6-71ae-4a89-9bd4-96c3f4412760",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Nutella",
+                          "path": "cms/product_variant/10fc9e4b-4cb0-499f-ae4b-0bea7378881d.jpeg",
+                          "videoPath": null,
+                          "width": 1080,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 360,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "8760",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "GRAM",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "b8a0b9f5-b8d7-45c1-b815-04684b337dc2",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 622
+                      }
+                    },
+                    "discountedSellingPrice": 7300,
+                    "discountPercent": 26,
+                    "discountAmount": 2600,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 360,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 36000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "98240115-b89d-41c2-aa9d-8003e9bfc1c5",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "01247786-ee09-4a39-a69f-f77705103420",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "dc5e6a18-6e74-44af-bf74-c7c615799159",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "228cb741-61c3-4c19-896f-3abe1bf69242",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "a140f49e-7f59-4df2-befb-dce2833d2c12",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 2600
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 7300,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "f0529d50-cb34-4a65-9533-1611fb7fe63a",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "4e7b2785-e36d-4e04-a951-b12388cd5d56",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 7300
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 360,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|ce4c5647026443e9819e53d210e18f05|2121|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|9880fbe4-4a6e-4b88-954b-67342a59240a|9880fbe4-4a6e-4b88-954b-67342a59240a||2386168|2386168|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||b8a0b9f5-b8d7-45c1-b815-04684b337dc2|6e9462d6-2835-47ec-ba8f-fb1ec0b3fd0b|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|epson salt|0|0|1|0",
+                  "position": 0,
+                  "l3_details": {
+                    "id": "ef243cdc-ae90-4fcf-b877-d46ef6c458a7",
+                    "name": "Nutella"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "7bb8beb2-9d81-54d1-9984-d33fd10e45c5",
+                    "id": "582ffb05-fa0f-4057-8016-e8811b0a8e68",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Nutella",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt which assures purity and guarantees the right amount of iodine in the salt. Iodine helps in the proper mental development of children and prevents iodine deficiency disorders in adults."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "3f2d54a6-1e20-4758-8873-44ac8ae4e030",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "TCPL",
+                      "minimumRequiredAge": 0,
+                      "name": "Nutella",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "350 g",
+                      "fssaiLicense": "",
+                      "id": "41271ab1-7634-40fd-8d2d-e140602f9441",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "7f09d3ac-f797-4811-8718-cb01c66af126",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Nutella",
+                          "path": "cms/product_variant/1c70221b-4440-4d55-87e7-46fcce72fefd.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 2,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 360,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 31,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "14060d3c-17b1-4b56-8d2f-ddbed64443e7",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.9,
+                        "totalRatings": 479133
+                      }
+                    },
+                    "discountedSellingPrice": 2800,
+                    "discountPercent": 12,
+                    "discountAmount": 400,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 31,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 360,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 36000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "afedafdf-4c19-4de7-8137-1b5ec4ddccb3",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "c17e7bb0-8223-47d0-9ab2-43493f287460",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "fa1d6319-ab12-48ba-a1c0-f82899a287e6",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 999,
+                      "semanticScore": 999,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 400
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2800,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2800
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 360,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 1,
+                  "index": 0
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "caa4263d-a2a8-5fb4-9f07-454b6631cd34",
+                    "id": "71389a35-1eb8-4b1b-87c8-43922aa1474c",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Nutella",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt Himalayan Rock Salt is sourced directly from mountains and contains natural trace minerals such as calcium, magnesium and potassium. From nature\u2019s kitchen to yours enjoy the taste of free-flowing granules of Tata Salt Himalayan Rock Salt. This Sendha namak adds a fresh flavour burst to your everyday meals, meals for special occasions and to enhance the flavour of fasting foods."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "2f4c52e8-e9ca-43d8-b8aa-1fe7b451dabf",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "Geo-Fresh Organic Private Limited, Plot No. 5 & 6, Survey No. 129(1), Sidhpur-Patan Highway, Village-Karan, TA-Sidhpur, District-Patan, Gujrat - 384151.",
+                      "manufacturerName": "Geo-Fresh Organic Private Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Nutella",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "350 g",
+                      "fssaiLicense": "",
+                      "id": "3e838870-2ca9-48d7-bcaf-e8a5e8514adf",
+                      "images": [
+                        {
+                          "height": 900,
+                          "hidePadding": true,
+                          "id": "47b3223d-37d2-4497-bb79-9d8e5fbf3cda",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Nutella",
+                          "path": "cms/product_variant/47ca6c43-cc8d-4e90-b234-6d45622ea2e0.jpeg",
+                          "videoPath": null,
+                          "width": 900,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 30,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 360,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 19,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "GRAM",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "77577303-f18c-40d2-a1a4-88e06e298818",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 17650
+                      }
+                    },
+                    "discountedSellingPrice": 5800,
+                    "discountPercent": 10,
+                    "discountAmount": 700,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 19,
+                    "quantity": 19,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 360,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 36000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "5a8d5b56-fd32-4803-9e37-f3dfb25d5671",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "8eaa0915-49e8-430d-b2a5-0d31c927f251",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "1134a37a-b24d-44cc-95e5-96cf98b48510",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "162e2c2c-1040-445d-8a0f-b472cbf14546",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "bb429ba5-d299-491c-be17-f362c51622df",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 700
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 5800,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "f2cf72ed-96f9-4c09-b1b9-e999441fe662",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "5bfce370-29ad-4ea8-87c2-7308f7e713d6",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 5800
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 360,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|ae9fde909aec4378a83f886d4c68e1a2|960|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|9de7f501-f1e0-466c-bf16-4bd8b0e1008d|9de7f501-f1e0-466c-bf16-4bd8b0e1008d||2005821|2005821|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||77577303-f18c-40d2-a1a4-88e06e298818|b2d5ef85-e2d9-426f-af07-97efe3c249b7|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|1kg|0|0|20|0",
+                  "position": 2,
+                  "l3_details": {
+                    "id": "e0c76ac1-bf90-4db6-8a79-6a6141c75cf2",
+                    "name": "Nutella"
+                  }
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_3",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "52720575-8476-556c-9831-f4668c4983a9",
+                    "id": "43c153b4-77fe-42c8-9395-ce046d6bae83",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Nutella",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Lite Low Sodium Salt 1 kg Tata Lite Low Sodium Salt has been a staple in kitchen for generations now. This salt was first manufactured by Tata in a vacuum-sealed pack",
+                        "around the year 1983. Salt is one of the most important ingredients we use in food and cooking. It also adds taste and flavour to any dish."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "10573939-d21a-43d3-a8ef-365aaf052615",
+                      "imported": true,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "Maheshwari Salt Trading Co., C 65, 66, SIPCOT Industrial Complex, Tuticorin, District-Thoothukkudi, Tamil Nadu 628 008. Lic. No. 10012042000657",
+                      "manufacturerName": "Tata Consumer Products Ltd",
+                      "minimumRequiredAge": 0,
+                      "name": "Nutella",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "350 g",
+                      "fssaiLicense": "",
+                      "id": "81fcf92e-2f52-4b5f-bbf9-bd58cd74dda7",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "a9584428-a1a9-4cee-a1d8-7d23c9ef6eda",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Nutella",
+                          "path": "cms/product_variant/7460909f-aca5-4994-b3e4-d9d4b758ba45.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 2,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 360,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 8,
+                      "shelfLifeInHours": "13152",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "b5ecfae3-b8c0-418b-b20c-372fe62ba576",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.6,
+                        "totalRatings": 61557
+                      }
+                    },
+                    "discountedSellingPrice": 2200,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 8,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 360,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 36000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "9bceb156-18f5-413d-a572-8d9c744cb73a",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "63be70c6-2957-4db0-b6d8-6a6074bd10f7",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "a6c5e634-c6c7-4dad-897b-f4c06f6e331d",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 998,
+                      "semanticScore": 998,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2200,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2200
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 360,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 3,
+                  "index": 1
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "224a404d-5a74-5338-8bc1-1499e6baed76",
+                    "id": "d3ccd808-9c22-4dca-80ed-84b2798fb08f",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Nutella",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt Himalayan Rock Salt is sourced directly from mountains and contains natural trace minerals such as calcium, magnesium and potassium. From nature\u2019s kitchen to yours enjoy the taste of free-flowing granules of Tata Salt Himalayan Rock Salt. This Sendha namak adds a fresh flavour burst to your everyday meals, meals for special occasions and to enhance the flavour of fasting foods."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "21390ac5-ea61-42cd-8d63-fe762ff176dc",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "Geo-Fresh Organic Private Limited, Plot No. 5 & 6, Survey No. 129(1), Sidhpur-Patan Highway, Village-Karan, TA-Sidhpur, District-Patan, Gujrat - 384151.",
+                      "manufacturerName": "Geo-Fresh Organic Private Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Nutella",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "350 g",
+                      "fssaiLicense": "",
+                      "id": "e7e8cb26-bc03-4fdb-bc42-3dfec9b789a0",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "06aa5ea6-b526-42c6-8b67-225df6fee9ab",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Nutella",
+                          "path": "cms/product_variant/97fa1bb7-ac6f-4750-9d9f-f8b832ffecef.jpg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 30,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 360,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 91,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "77577303-f18c-40d2-a1a4-88e06e298818",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.9,
+                        "totalRatings": 31822
+                      }
+                    },
+                    "discountedSellingPrice": 10400,
+                    "discountPercent": 13,
+                    "discountAmount": 1600,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 30,
+                    "quantity": 91,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 360,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 36000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "fb64cf1f-a285-4a27-ae12-44fefd077fae",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "ac2e207a-0421-43db-b5e2-f8903b3cc7cf",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "cbd6bc2b-9ac4-4396-85ab-38335901d5df",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "497ff70c-8b33-418b-b650-8eabd47b9303",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "e0aa2185-f2df-452e-a4ad-f1610ec6a695",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 1600
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 10400,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "62378e3a-19e1-4605-ac01-fc32a663f806",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "61f6500c-0ad0-4ade-9c73-b8b205899e83",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 10400
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 360,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|f45f1c1eef9f4d818c0bfd3e751a98bc|960|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|9de7f501-f1e0-466c-bf16-4bd8b0e1008d|9de7f501-f1e0-466c-bf16-4bd8b0e1008d||2005821|2005821|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||77577303-f18c-40d2-a1a4-88e06e298818|c727ebd6-3bb2-41c5-8403-037b2b421ca2|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|1kg|0|0|20|0",
+                  "position": 4,
+                  "l3_details": {
+                    "id": "a82a2b8b-3003-4e42-8371-85bcf2f95e25",
+                    "name": "Nutella"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "c831fbad-f358-5aae-a22c-277bc2db8974",
+                    "id": "66a0ec84-16ed-4e47-8c41-6f2a869ce629",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Nutella",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "A stressful lifestyle coupled with altered food habits has led to an exponential increase in the occurrence of lifestyle diseases such as high blood pressure. Tata Salt Lite has 15% sodium compared to regular salt for a healthy lifestyle without compromising the taste of your dishes. The Tata Salt Lite low sodium also consists of Iodine which helps in the proper mental development of children and prevents iodine deficiency disorders in adults."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "f39b5cbc-88d9-4581-a8d5-8ef2ec951605",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "(SB) M/s Shree Ram Brine Chem Industries,Plot No. 2, Survey No. 286, Paiki, Paiki-2, Northern East, Village: Chopadava, District-Kutch, Gujarat - 370 140.\n(CS) CHIRAI SALT (INDIA) PVT. LTD., D-2, Sector-12, Heavy Industrial Area, Gandhidham, Bhuj, District-Kutch, Gujarat-370 201.\n(WC) Western India Sea Brines Pvt. Ltd., Survey No. 281, Salt City, Village: Chopadva, Taluka: Bhachau, Bhuj, District-Kutch, Gujarat-370 140.\nRe-Packed by: (AH) Mehta Enterprise, C/o Sumar Logistics and Industrial Park. Shed \"0\", Gala No. 1 to 6, NH-8, Betdilat, Village Hariyala, District Kheda, Nadiad, Gujarat-387411.",
+                      "manufacturerName": "(SB) M/s Shree Ram Brine Chem Industries, (CS) CHIRAI SALT (INDIA) PVT. LTD, (WC) Western India Sea Brines Pvt. Ltd, Re-Packed by: (AH) Mehta Enterprise.",
+                      "minimumRequiredAge": 0,
+                      "name": "Nutella",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "350 g",
+                      "fssaiLicense": "",
+                      "id": "243a24b4-29c0-4708-932a-92d36465ba6d",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "73a5dba0-dfa4-42e5-ad45-3b134c942220",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Nutella",
+                          "path": "cms/product_variant/1279c778-fb6f-4005-9b3f-23aaf6582467.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 2,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 360,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "1bde62f2-ddd2-43b5-af74-53f1795ab4b0",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 25894
+                      }
+                    },
+                    "discountedSellingPrice": 5500,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 360,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 36000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "9be6cbe5-7a4b-4fff-8f27-3d1184ba666f",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "2de308e6-0ee6-43a9-a696-70bf3ca94f54",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "dc304dc5-7277-42af-8663-bb8715dd9801",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 997,
+                      "semanticScore": 997,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 5500,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 5500
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 360,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 5,
+                  "index": 2
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_6",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "9f9dbdcb-17da-5d97-9fbd-e6b0589a3be0",
+                    "id": "042c14c9-c277-4194-bbfe-f416c9d033cd",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Nutella",
+                      "brandId": "40e97298-9299-462c-90c2-5deffd53a989",
+                      "countryOfOrigin": "India",
+                      "description": [],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "48764a9a-a0bb-4754-a24c-af0156028244",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "Paras Spices",
+                      "minimumRequiredAge": 0,
+                      "name": "Nutella",
+                      "pharmaceuticalInfo": {
+                        "isLicensed": false,
+                        "composition": "",
+                        "allergy": "",
+                        "usage": "",
+                        "disclaimer": ""
+                      },
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "350 g",
+                      "fssaiLicense": "10014063000385",
+                      "id": "9d8bf806-335b-4892-825a-c0e89967dae8",
+                      "images": [
+                        {
+                          "height": 980,
+                          "hidePadding": true,
+                          "id": "07a9635d-598d-467f-973d-a23f2a427598",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Nutella",
+                          "path": "cms/product_variant/e4c9629b-e1a5-487a-8584-c4d062b09c3e.jpeg",
+                          "videoPath": null,
+                          "width": 980,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 360,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 3,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "GRAM",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "fc57f2cc-0a2c-44b9-8239-acb390688d07",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.4,
+                        "totalRatings": 373
+                      }
+                    },
+                    "discountedSellingPrice": 4200,
+                    "discountPercent": 37,
+                    "discountAmount": 2500,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 3,
+                    "quantity": 3,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 360,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 36000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "31f4f171-c228-4abc-8ec0-a4392760a335",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "1ee912fa-f519-4f71-861c-f5ca63bb7aa3",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "041d83a7-62b3-4163-866d-670a11223a14",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "51b30801-a7c4-4758-ad00-52fbb820eb70",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "120ed2a4-378c-48f0-b077-8e1313a8aaad",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 2500
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 4200,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "bd61f2ea-0aea-4b6f-87d4-2afdb7627916",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "85b1635b-01e0-4170-9803-6aa624fb8203",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 4200
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 360,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|9867c2cd48d64d49b10d8a015c4fd431|1260|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|40e97298-9299-462c-90c2-5deffd53a989|40e97298-9299-462c-90c2-5deffd53a989||2422010|2422010|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||fc57f2cc-0a2c-44b9-8239-acb390688d07|e3233297-f244-494e-9236-6ae514cc1fad|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|pink rock salt|0|5|0|0",
+                  "position": 6,
+                  "l3_details": {
+                    "id": "1adf0c08-8aed-4241-94e5-4b7d707b76e8",
+                    "name": "Nutella"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "6ae2efe5-ec0c-53b3-97e1-0541e74ba3d1",
+                    "id": "68e038a1-8dee-4c74-aeea-118e8f707248",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Nutella",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt Superlite With 30% Low Sodium is a low-sodium salt option that contains 30% less sodium than regular salt. It is designed to provide the same great taste while helping to reduce sodium intake, making it ideal for those looking to manage their salt intake. This innovative salt formulation is crafted to deliver a balanced flavor profile without compromising on taste. Whether you're cooking your favorite dishes or seasoning your meals at the table."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "2efb1026-ea11-41fc-8854-3d98fdf3269e",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "M/s Shree Ram Brine Chem Industries, Plot No 2 rvey No. 286, Paiki, Paiki-2. Northem East Jage: Chopadava, District-Kutch, Gujarat-370 140. Lic. No. 10020021006305",
+                      "manufacturerName": "Tata Consumer Products Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Nutella",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "350 g",
+                      "fssaiLicense": "",
+                      "id": "b59b1a8f-904c-4545-8559-9498ffe29734",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "8ed62c87-32f3-45d4-8376-0aa21f5f97d7",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Nutella",
+                          "path": "cms/product_variant/86b3d35e-1e41-473e-aea3-e0f5c66dc279.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 360,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 2,
+                      "shelfLifeInHours": "17496",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "39ddc535-0151-4413-a720-eaf410a09cf5",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 4514
+                      }
+                    },
+                    "discountedSellingPrice": 7500,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 2,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 360,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 36000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "36ffee51-5c6e-4215-9840-229704e6c21a",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "2028a254-675c-4306-a5fc-7d20430ba572",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "e7baae1e-cdc6-4ece-8272-93aec02cb275",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 996,
+                      "semanticScore": 996,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 7500,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 7500
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 360,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 7,
+                  "index": 3
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "c2bcfd8c-6b33-51ff-8f31-2075f1b09a82",
+                    "id": "a3c26565-05f9-4e92-af1f-4ab750583b7b",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Nutella",
+                      "brandId": "963b50ed-3146-4744-8f4d-56876fdc8159",
+                      "countryOfOrigin": "India",
+                      "description": [],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "1f9e89cb-dc1c-41b6-884f-584b41879696",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "ITC Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Nutella",
+                      "pharmaceuticalInfo": {
+                        "isLicensed": false,
+                        "composition": "",
+                        "allergy": "",
+                        "usage": "",
+                        "disclaimer": ""
+                      },
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "350 g",
+                      "fssaiLicense": "10012031000312",
+                      "id": "7e4f2a94-d181-4958-9d25-8845d7ca4b11",
+                      "images": [
+                        {
+                          "height": 1500,
+                          "hidePadding": true,
+                          "id": "44f6d1c6-144f-430e-905e-035749df305d",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Nutella",
+                          "path": "cms/product_variant/e7a635a8-e280-449e-a910-3355750269e9.jpeg",
+                          "videoPath": null,
+                          "width": 1500,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 360,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 2,
+                      "shelfLifeInHours": "8760",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "492411d0-64e9-4edc-adfd-6b1f12a58743",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 1386
+                      }
+                    },
+                    "discountedSellingPrice": 2700,
+                    "discountPercent": 10,
+                    "discountAmount": 300,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 2,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 360,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 36000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "38851c82-d516-428e-b8c8-f3236b398d1d",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "5464063d-efa6-4a9d-975b-0127971beb54",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "cd7df58b-a48e-45e4-99bf-6c78997db0b0",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "cafc0fa3-c7f7-442f-bd5c-030238ac118d",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "c6ed2fc1-2a51-4fd3-8316-f6d9fc61a80b",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 300
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2700,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "3b764f42-468f-4da2-b74d-5fdd74b3f149",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "84c9d87b-b9ad-4073-a170-c91fa1ad2652",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2700
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 360,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|ab705a0d151b4019938f79f2cbb9bd06|1650|1787673645658|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|963b50ed-3146-4744-8f4d-56876fdc8159|963b50ed-3146-4744-8f4d-56876fdc8159||2334729|2334729|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||492411d0-64e9-4edc-adfd-6b1f12a58743|4a5d1218-784d-47f0-9f51-c11db2c8321d|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|EXACT|tata salt|0|0|10|0",
+                  "position": 8,
+                  "l3_details": {
+                    "id": "e80c3fe6-8048-4340-bed6-2f08ae061d89",
+                    "name": "Nutella"
+                  }
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_9",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "0d0baccd-d4c4-5cdf-aab1-f59eed2b36b9",
+                    "id": "cc6e03b8-f01c-4507-b16a-a261224f3cb5",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Nutella",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "<nil>"
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "4ce732b7-63e8-4878-ba85-58bf43c55d6d",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": null,
+                      "minimumRequiredAge": 0,
+                      "name": "Nutella",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "350 g",
+                      "fssaiLicense": "",
+                      "id": "5350f5f2-3356-4422-b5e5-f6c784f9a63a",
+                      "images": [
+                        {
+                          "height": 1000,
+                          "hidePadding": true,
+                          "id": "3495a2b9-972a-4cdd-a38e-0c22c3b6dcd6",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Nutella",
+                          "path": "cms/product_variant/6fcca77c-d588-46f9-b0c3-a2911e1cac28.jpg",
+                          "videoPath": null,
+                          "width": 1000,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 360,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "17280",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "7263945f-acea-4e13-be0d-2e8653135b4f",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 3201
+                      }
+                    },
+                    "discountedSellingPrice": 3500,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 360,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 36000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "40c075a2-094b-447c-8c54-3fe3a792fc73",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "d6abb032-1be1-4971-a55e-eda5c39481cf",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "5d296f6e-ace7-41e9-93dc-ff76a99e3c9d",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Nutella",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 995,
+                      "semanticScore": 995,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 3500,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 3500
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 360,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 9,
+                  "index": 4
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "HOME_FOOTER",
+        "widgetName": "SEARCH_FOOTER",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    ],
+    "footer": {
+      "widget": {
+        "widgetId": "",
+        "widgetName": "",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    },
+    "header": null,
+    "selectedTabId": 0,
+    "algoliaQueryID": "",
+    "showCigaretteBanner": false,
+    "pageProductCount": 10,
+    "totalProductCount": 21,
+    "currentPage": 0,
+    "hasReachedEnd": true,
+    "userSessionId": "[REDACTED]",
+    "algoliaTimeOut": false,
+    "algoliaTypoTolerance": false,
+    "filters": {
+      "activeFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "allFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "topBrands": null
+    },
+    "showTobaccoConsentPopup": false,
+    "meta": {
+      "related_products_enabled": false,
+      "related_products_search_term_default": "tata salt 1 kg",
+      "total_organic_products": 5,
+      "oos_organic_products": 0,
+      "instock_organic_products": 5,
+      "total_related_products": 0,
+      "oos_related_products": 0,
+      "instock_related_products": 0,
+      "total_results": 5,
+      "total_oos_results": 0,
+      "total_instock_results": 5,
+      "related_products_reason": "CompatibleComponentsNotFound",
+      "qcl_meta": {
+        "qcl_correction_not_done_reason": "CompatibleComponentsNotFound",
+        "qcl_correction_done_v3": false
+      },
+      "inhouse_search_done": false,
+      "plp_primary_category_name_from_recall": "",
+      "plp_primary_category_mapping": "",
+      "plp_subcat_listing_logic": "",
+      "plp_experience_shown": false,
+      "plp_experience_not_shown_reason": "PlpExperimentNotEnabled",
+      "relevance_v2": {
+        "relevance_L1": [
+          {
+            "id": "9fd6eedc-0e87-4bfb-a66b-2432ed86b54a",
+            "name": "Nutella",
+            "score": 0,
+            "presentInNonOpsRelevance": true
+          }
+        ],
+        "relevance_L2": [
+          {
+            "id": "646a9674-fc27-4a0d-9cf6-a9eb422edf93",
+            "name": "Nutella",
+            "score": 0,
+            "presentInNonOpsRelevance": true
+          }
+        ],
+        "relevance_L3": [
+          {
+            "id": "5d20b96f-1be0-420f-a61d-b3477a895f93",
+            "name": "Nutella",
+            "score": 0.189688,
+            "presentInNonOpsRelevance": true
+          }
+        ]
+      },
+      "relevance_L3_count": 1,
+      "relevance_brand": [
+        {
+          "id": "5f49f1c6-e9c0-40a7-bef7-06314bfc5fc9",
+          "name": "Nutella",
+          "score": 1
+        }
+      ],
+      "relevance_variant_selected": 1,
+      "segmentations": [
+        "TOP_2L"
+      ],
+      "query_intent_done": true,
+      "ds_query_type": "narrow",
+      "ds_basket_building_flag": true,
+      "ds_basket_building_flag_data": "non-basket",
+      "filter_mode": 1,
+      "filter_state": "NO_FILTER_SELECTED",
+      "l3_superspan_results_count": 0,
+      "l3_span_results_count": 5,
+      "l3_partial_results_count": 0,
+      "l3_other_results_count": 0,
+      "l3_oos_superspan_results_count": 0,
+      "l3_oos_span_results_count": 0,
+      "l3_oos_partial_results_count": 0,
+      "l3_oos_other_results_count": 0,
+      "l3_instock_superspan_results_count": 0,
+      "l3_instock_span_results_count": 5,
+      "l3_instock_partial_results_count": 0,
+      "l3_instock_other_results_count": 0,
+      "oos_products_shown_count": 0,
+      "recommendations_instrumentation_info": {
+        "query_level_sku_recommendations_instrumentation_info": {},
+        "cross_sell_widget_instrumentation_info": {}
+      },
+      "is_scoped_search_enabled": false,
+      "scope_category": "",
+      "scope_subcategory": "",
+      "scoped_search_not_enabled_reason": "",
+      "oos_text_meta": "",
+      "source_search_term": "Tata Salt 1 kg",
+      "recall_type_detail": {
+        "recall_type": "ORGANIC_RECALL_WITH_NO_TYPO_AND_EXACT_MATCH",
+        "recall_display_title": "Showing results for \"tata salt 1 kg\""
+      },
+      "category_cohort_experiment_instrumentation_info": {
+        "highestConfidenceL1": "Masala, Dry Fruits & More",
+        "highestConfidenceL2": "Salt, Sugar & Jaggery",
+        "relevanceLevel": "L1",
+        "cohortRankingNotEnabledReason": "UserIdNotPresent",
+        "categoryBasedRankingEnabled": false,
+        "isAtcDone": true
+      },
+      "meds_with_similar_salts_info": {},
+      "is_liquidation_done": false,
+      "liquidation_not_done_reason": "OrganicProductsLessThan4",
+      "l3_understanding_meta": {},
+      "product_grid_meta_info": {
+        "isProductGridFeatureEnabled": true,
+        "productGridSize": 3,
+        "productGridVariantType": "V3_SMALL_ABS_DISCOUNT",
+        "searchExperienceType": "3_3_discount_abs",
+        "isSfsOverrideEnabled": false
+      },
+      "buy_again_v2_boost_info": {},
+      "qrl_rerank_info_v2": {
+        "ranking_segmentation_error_occurred": false,
+        "default_qrl_rerank_done": false,
+        "qrl_default_rerank_not_done_reason": "RankingNotEnabledForFallback",
+        "qrl_default_rerank_source": "query_reranking_rank9_variant",
+        "qrl_explore_rerank_source": "query_reranking_rank9_variant",
+        "qrl_vector_rerank_source": "semantic_query_reranking_rank1_variant",
+        "qrl_default_reranking_list_product_count": 0,
+        "qrl_explore_search_product_count": 0,
+        "qrl_vector_search_product_count": 0,
+        "feature_store_meta": {
+          "feature_store_enabled": false
+        },
+        "explore_re_rank_meta": {},
+        "user_personalization_meta": {
+          "is_user_personalized_ranking_done": false,
+          "total_user_personalized_ranked_product_count": 0,
+          "span_user_personalized_ranked_product_count": 0,
+          "partial_user_personalized_ranked_product_count": 0,
+          "other_user_personalized_ranked_product_count": 0
+        }
+      },
+      "unserviceable_store_deboosting_not_enabled_reason": "Both Dark store and superstores are unserviceable",
+      "store_stress_info": {
+        "storeIdUsedStressRanking": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+        "storeStressRankingNotEnabledReason": "user not enabled for marketplaceType: SUPER_SAVER",
+        "storeStressRankingEnabled": false,
+        "rankingVariant": null,
+        "storeStressInCache": 0,
+        "storeStressEnum": ""
+      },
+      "pt_and_attributes_meta": {
+        "search_term_contains_attributes": 1,
+        "search_term_number_of_attributes": 3,
+        "search_term_PT": [
+          "salt"
+        ],
+        "search_term_brand": [
+          "Tata"
+        ],
+        "pt_brand_source": "mongo",
+        "attribute_relevance_version": "v1",
+        "search_term_contains_brand": 1,
+        "search_term_attributes": [
+          "weight",
+          "brand",
+          "product_leafname"
+        ],
+        "search_term_attribute_values": {
+          "brand": {
+            "values": [
+              "Tata"
+            ]
+          },
+          "product_leafname": {
+            "values": [
+              "salt"
+            ]
+          },
+          "weight": "350 g"
+        }
+      },
+      "vip_deals_meta": {
+        "total_vip_deal_atlas_boosted_cnt": 0
+      },
+      "autosuggestion_live_ranker_meta": {
+        "ctr_ranking_done": false,
+        "cvr_ranking_done": false
+      },
+      "autosuggestion_promotion_meta": {
+        "promotion_applied": false
+      },
+      "vip_deals_horizontal_card_widget_instrumentation_info": {
+        "deal_cards_loaded": 0
+      },
+      "special_event_instrumentation_info": {
+        "events": null,
+        "special_events_enabled": false,
+        "special_events_not_enabled_reason": "CompatibleComponentsNotFound"
+      },
+      "a_vector_recall_meta_info": {
+        "rt_vector_eligible_query": false,
+        "a_segmentation_applied": true,
+        "a_source_search_term": "Tata Salt 1 kg",
+        "a_query_segmentations": [
+          "TOP_2L"
+        ],
+        "a_query_segmentations_count": 1,
+        "top_segment": "TOP_2L",
+        "source_top_segment": "TOP_2L"
+      },
+      "explore_exploit_meta_info": {
+        "masterFlagEnabled": true,
+        "exploreExploitNotShownReason": "user_not_in_experiment_test_bucket"
+      },
+      "ads_banner_widget_instrumentation_info": {
+        "candidates_processed": 0
+      },
+      "consolidated_banner_widget_instrumentation": {
+        "widgets_added": [],
+        "widgets_rejected": [],
+        "conflicts_resolved": 0
+      },
+      "ads_meta": {
+        "deboosting": null,
+        "fly_wheel": null,
+        "organic_ads_count": 5,
+        "rp_ads_count": 11
+      },
+      "aisle_experience_instrumentation_info": {
+        "aisle_experience_shown": false,
+        "aisle_eligible_query": false,
+        "aisle_experience_not_shown_reason": "AisleExperienceExperimentNotEnabled"
+      },
+      "convo_commerce_widget_info": {
+        "is_convo_commerce_widget_enabled": false,
+        "convo_commerce_widget_not_shown_reason": "prompts list is empty"
+      },
+      "tertiary_store_deboosted_instrumentation": {
+        "tertiary_deboosting_default_done": false,
+        "tertiary_deboosting_explore_done": false,
+        "tertiary_deboosting_vector_done": false
+      },
+      "explore_expansion_instrumentation_info": {
+        "masterFlagEnabled": true,
+        "exploreExpansionNotShownReason": "experiment check failed",
+        "enabled": false
+      },
+      "model_meta_info": {
+        "head_or_tail_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "n1_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "overall_ranker_model_meta": {
+          "model_output_product_count": 0
+        }
+      },
+      "substitution_experience_info": {},
+      "buy_again_oos_info": {
+        "buy_again_oos_count": 0,
+        "buy_again_oos_pvids": "",
+        "buy_again_top_two_oos_count": 0
+      },
+      "hook_sku_oos_info": {
+        "hook_sku_oos_count": 0,
+        "hook_sku_oos_pvids": ""
+      },
+      "query_segmentation_info": {
+        "is_realtime_model_data_fetched": false,
+        "realtime_model_not_enabled_reason": "mongo_data_exists"
+      },
+      "atlas_fallback_reason": "empty_user",
+      "query_similarity_meta": {
+        "query_similarity_done": false,
+        "query_similarity_not_done_reason": "experiment_disabled",
+        "similar_query_pst_data_exist": false
+      },
+      "ads_organic_overlap_meta": {
+        "total_ad_count": 5
+      },
+      "assist_filters_meta": {}
+    },
+    "experiments": {
+      "OR2_MIGRATION_EXPERIMENT": {
+        "experimentName": "search_or2_migration",
+        "experimentId": "dummy_id_for_or2_migration_experiment",
+        "variantName": "test2"
+      },
+      "PVID_SEARCH_CATALOGUE_EXPERIMENT": {
+        "experimentName": "pvid_search_catalogue_experiment",
+        "experimentId": "2adb51f8-afec-43dd-b055-6aa48fce2d73",
+        "variantName": "test"
+      },
+      "SEMANTIC_EXPERIMENT_V4": {
+        "experimentName": "vector_recall_v8",
+        "experimentId": "479283b9-7a7f-4518-83c5-cd3900314c40",
+        "variantName": "semantic_variant_3"
+      }
+    },
+    "pageType": "normal",
+    "stickyHeaders": [
+      0
+    ],
+    "isProductGridEnabled": true,
+    "isFiltersRevampEnabled": false,
+    "pageMeta": {
+      "viewMeta": {},
+      "refreshResolver": {
+        "config": {
+          "appParams": {
+            "queryTerm": "Tata Salt 1 kg",
+            "pageType": "search",
+            "productGridSize": 3
+          }
+        },
+        "url": "cfs/api/v1/bulk-widget-data",
+        "subscriptions": [
+          "cart_change"
+        ],
+        "type": "cfs_upsell_resolver"
+      }
+    },
+    "nextPageParams": {
+      "filterMode": 1,
+      "pageNumber": 1
+    },
+    "filterMode": 1
+  },
+  "sanitization_log": [
+    {
+      "field": "payload.userSessionId",
+      "action": "REDACTED",
+      "reason": "session_id_pii",
+      "redacted_at": "2026-08-26T04:50:00Z"
+    }
+  ]
+}

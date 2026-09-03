@@ -1,0 +1,3388 @@
+{
+  "capture_version": "truecost.source.capture.v1",
+  "run_id": "zepto_common_oreo",
+  "case_id": "common_oreo",
+  "provider": "zepto",
+  "domain": "grocery",
+  "query": "Oreo",
+  "captured_at": "2026-08-25T17:26:05.717385+00:00",
+  "execution_mode": "REAL_LIVE_SCRAPE",
+  "scraper_component": "ZeptoScraper",
+  "message_type": "SEARCH_SUCCESS",
+  "requested_location_profile": "default",
+  "observed_location_evidence": "NOT_AVAILABLE",
+  "location_verified": false,
+  "payload": {
+    "layout": [
+      {
+        "widgetId": "TITLE_WIDGET",
+        "widgetName": "SEARCH_TITLE_WIDGET",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "title",
+            "data": {
+              "items": [],
+              "title": "Showing results for \"tata salt 1 kg\"",
+              "queryTitle": "",
+              "searchQuery": "Tata Salt 1 kg",
+              "replacingTerm": "",
+              "searchKeyInTitle": "tata salt 1 kg",
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "viewMeta": {
+          "aspectRatio": 3.33,
+          "paddingTop": 1,
+          "paddingBottom": 1,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "backgroundColor": "#FFFFFF",
+          "adContainer": {
+            "marginHorizontal": 0,
+            "overflow": "",
+            "borderRadius": 0,
+            "backgroundColor": "",
+            "paddingBottom": 0
+          },
+          "productsList": {
+            "paddingHorizontal": 0,
+            "marginBottom": 0,
+            "separator": 0
+          },
+          "adAsset": {},
+          "backgroundGradient": {
+            "start": {
+              "x": 0,
+              "y": 0
+            },
+            "end": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "borderWidth": 0,
+          "borderColor": "",
+          "highlightColor": "",
+          "titleStyle": null,
+          "itemSpacing": 0,
+          "cardStyle": null,
+          "curveIcon": null,
+          "curveIconV2": null,
+          "headerStyle": null,
+          "listStyle": null,
+          "padding": null,
+          "itemPadding": null,
+          "imagePadding": null,
+          "titleIconImage": null,
+          "bodyStyle": null,
+          "subTitleLeadingIconImage": {
+            "id": "39747715-4edb-4115-9d06-01a2c73a3878",
+            "name": "Oreo",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "titleLeadingIconImage": {
+            "id": "7d26ac7c-06fb-40a7-a2c9-8a7c84f1297d",
+            "name": "Oreo",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "tag": {
+            "text": "",
+            "variant": "",
+            "style": {
+              "color": "",
+              "paddingHorizontal": 0,
+              "paddingVertical": 0,
+              "borderWidth": 0,
+              "borderRadius": 0,
+              "borderColor": "",
+              "backgroundColor": "",
+              "lineHeight": 0
+            }
+          },
+          "card": {
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColor": "",
+            "backgroundColor": "",
+            "backgroundMode": "",
+            "firstColor": "",
+            "secondColor": "",
+            "padding": null
+          },
+          "overlayIconStyles": {},
+          "imageContainerStyle": {},
+          "productIconStyles": {},
+          "text": {
+            "unselectedColor": "",
+            "selectedColor": "",
+            "selectedVariant": "",
+            "unselectedVariant": "",
+            "selectedBackgroundColor": "",
+            "unselectedBackgroundColor": "",
+            "textSize": 0
+          }
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_0",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "5d8d4fd4-f29a-5725-8cb2-2ff9f442e159",
+                    "id": "63643915-3ba7-4bb9-af40-af7759f888eb",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Oreo",
+                      "brandId": "9880fbe4-4a6e-4b88-954b-67342a59240a",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Himalayan Natives Himalayan Pink Salt (Powder) is a high-quality salt sourced from the pristine Himalayan mountains. This finely ground pink salt is packed with essential minerals and trace elements, making it a healthier alternative to regular table salt. Whether used in cooking, seasoning, or as a finishing touch on your favorite dishes, Himalayan Pink Salt adds a unique flavor and a subtle hint of pink color to your culinary creations."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "8badbdbf-9e23-4f57-b8fc-04e6367148b3",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "Khanal Foods",
+                      "minimumRequiredAge": 0,
+                      "name": "Oreo",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "120 g",
+                      "fssaiLicense": "",
+                      "id": "e8482f94-5eb6-4e11-91c1-aad194027b2b",
+                      "images": [
+                        {
+                          "height": 1080,
+                          "hidePadding": true,
+                          "id": "274e4539-0a40-42d2-a8ad-d7bffea4e5cf",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Oreo",
+                          "path": "cms/product_variant/10fc9e4b-4cb0-499f-ae4b-0bea7378881d.jpeg",
+                          "videoPath": null,
+                          "width": 1080,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 30,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "8760",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "GRAM",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "b8a0b9f5-b8d7-45c1-b815-04684b337dc2",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 622
+                      }
+                    },
+                    "discountedSellingPrice": 7300,
+                    "discountPercent": 26,
+                    "discountAmount": 2600,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 30,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 3000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "9e599522-f5ab-4f52-88dc-752de5bc4496",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "ea569a58-0ee1-4531-b841-c59c9a2b2578",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "bbd91bdc-452a-45cc-8111-0aee23f11e3f",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "133ca04c-41d4-4441-998b-8088448667ac",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "040cc0fc-dee3-443e-89c9-9d6b74a1b43c",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 2600
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 7300,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "063471ff-8323-4b9a-93e1-c6ba3e7997e8",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "df5b936d-1166-4be6-aaf1-6001adfad16b",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 7300
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 30,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|ce4c5647026443e9819e53d210e18f05|2121|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|9880fbe4-4a6e-4b88-954b-67342a59240a|9880fbe4-4a6e-4b88-954b-67342a59240a||2386168|2386168|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||b8a0b9f5-b8d7-45c1-b815-04684b337dc2|6e9462d6-2835-47ec-ba8f-fb1ec0b3fd0b|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|epson salt|0|0|1|0",
+                  "position": 0,
+                  "l3_details": {
+                    "id": "621583e4-6b33-4632-88ea-0029cc8a949b",
+                    "name": "Oreo"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "7bb8beb2-9d81-54d1-9984-d33fd10e45c5",
+                    "id": "5f55c4a8-f045-4983-9511-3cf4d6800977",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Oreo",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt which assures purity and guarantees the right amount of iodine in the salt. Iodine helps in the proper mental development of children and prevents iodine deficiency disorders in adults."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "83c2c2a9-0b55-4081-9e20-1c435b2a957a",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "TCPL",
+                      "minimumRequiredAge": 0,
+                      "name": "Oreo",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "120 g",
+                      "fssaiLicense": "",
+                      "id": "c6c77366-c7de-4ff3-ab80-d8ec1e139f83",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "999b9d6c-2ba0-44ef-8a4c-9ca3728493d2",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Oreo",
+                          "path": "cms/product_variant/1c70221b-4440-4d55-87e7-46fcce72fefd.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 2,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 30,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 31,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "14060d3c-17b1-4b56-8d2f-ddbed64443e7",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.9,
+                        "totalRatings": 479133
+                      }
+                    },
+                    "discountedSellingPrice": 2800,
+                    "discountPercent": 12,
+                    "discountAmount": 400,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 31,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 30,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 3000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "442220d3-f2af-427c-b0c8-8663863004b6",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "188adbda-7c4a-4042-a576-dc94eca2e92e",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "1412816a-75da-4640-a89d-6ae0a40d0323",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 999,
+                      "semanticScore": 999,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 400
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2800,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2800
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 30,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 1,
+                  "index": 0
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "caa4263d-a2a8-5fb4-9f07-454b6631cd34",
+                    "id": "80ad384b-b884-45ef-8956-3877d9a60f5a",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Oreo",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt Himalayan Rock Salt is sourced directly from mountains and contains natural trace minerals such as calcium, magnesium and potassium. From nature\u2019s kitchen to yours enjoy the taste of free-flowing granules of Tata Salt Himalayan Rock Salt. This Sendha namak adds a fresh flavour burst to your everyday meals, meals for special occasions and to enhance the flavour of fasting foods."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "ceaff1eb-7f01-4910-ae40-5387b1b70499",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "Geo-Fresh Organic Private Limited, Plot No. 5 & 6, Survey No. 129(1), Sidhpur-Patan Highway, Village-Karan, TA-Sidhpur, District-Patan, Gujrat - 384151.",
+                      "manufacturerName": "Geo-Fresh Organic Private Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Oreo",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "120 g",
+                      "fssaiLicense": "",
+                      "id": "8e8eb63f-a62e-438c-8eb4-afb2e78ad10c",
+                      "images": [
+                        {
+                          "height": 900,
+                          "hidePadding": true,
+                          "id": "833f6396-d7a9-43d0-b19a-1f34b936103b",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Oreo",
+                          "path": "cms/product_variant/47ca6c43-cc8d-4e90-b234-6d45622ea2e0.jpeg",
+                          "videoPath": null,
+                          "width": 900,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 30,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 30,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 19,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "GRAM",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "77577303-f18c-40d2-a1a4-88e06e298818",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 17650
+                      }
+                    },
+                    "discountedSellingPrice": 5800,
+                    "discountPercent": 10,
+                    "discountAmount": 700,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 19,
+                    "quantity": 19,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 30,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 3000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "a55f5af1-edaf-4f02-9f9f-01c6d5e1cc74",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "8a1d9f7e-afc7-4660-9fcf-47d955155d7b",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "26eabc82-26bb-4ac4-aab2-1ea8505a4d90",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "68c4731d-58f9-4d95-a30c-a665fceb2feb",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "7d99026b-8c8b-4dd1-b93b-d9e9929298eb",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 700
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 5800,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "99ec76f5-16b1-4bcc-a551-e696b7a1d9d5",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "9f2c2d0a-9ef1-48bd-91f5-32d28a8b7a35",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 5800
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 30,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|ae9fde909aec4378a83f886d4c68e1a2|960|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|9de7f501-f1e0-466c-bf16-4bd8b0e1008d|9de7f501-f1e0-466c-bf16-4bd8b0e1008d||2005821|2005821|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||77577303-f18c-40d2-a1a4-88e06e298818|b2d5ef85-e2d9-426f-af07-97efe3c249b7|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|1kg|0|0|20|0",
+                  "position": 2,
+                  "l3_details": {
+                    "id": "2215deed-6082-4a79-89c9-207eff40d020",
+                    "name": "Oreo"
+                  }
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_3",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "52720575-8476-556c-9831-f4668c4983a9",
+                    "id": "60c6bd1f-e32a-4b08-9488-6bb53dd7552d",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Oreo",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Lite Low Sodium Salt 1 kg Tata Lite Low Sodium Salt has been a staple in kitchen for generations now. This salt was first manufactured by Tata in a vacuum-sealed pack",
+                        "around the year 1983. Salt is one of the most important ingredients we use in food and cooking. It also adds taste and flavour to any dish."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "c5b97619-0df2-40d4-a1ae-b28970fc20bb",
+                      "imported": true,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "Maheshwari Salt Trading Co., C 65, 66, SIPCOT Industrial Complex, Tuticorin, District-Thoothukkudi, Tamil Nadu 628 008. Lic. No. 10012042000657",
+                      "manufacturerName": "Tata Consumer Products Ltd",
+                      "minimumRequiredAge": 0,
+                      "name": "Oreo",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "120 g",
+                      "fssaiLicense": "",
+                      "id": "3b07f3be-aaf8-488e-9c34-a209702b8947",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "7fc53835-9d48-44da-82f1-88a4706a5bcc",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Oreo",
+                          "path": "cms/product_variant/7460909f-aca5-4994-b3e4-d9d4b758ba45.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 2,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 30,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 8,
+                      "shelfLifeInHours": "13152",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "b5ecfae3-b8c0-418b-b20c-372fe62ba576",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.6,
+                        "totalRatings": 61557
+                      }
+                    },
+                    "discountedSellingPrice": 2200,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 8,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 30,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 3000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "3f1d6e2e-22d5-4bb3-a415-0c8998b76ab1",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "3e3aa018-6fe2-441c-acd9-d15af4662289",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "b84dfa03-64a0-45b9-a82c-e6d88c4b78d8",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 998,
+                      "semanticScore": 998,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2200,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2200
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 30,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 3,
+                  "index": 1
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "224a404d-5a74-5338-8bc1-1499e6baed76",
+                    "id": "947528de-71f0-496f-826e-c8deacda64c9",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Oreo",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt Himalayan Rock Salt is sourced directly from mountains and contains natural trace minerals such as calcium, magnesium and potassium. From nature\u2019s kitchen to yours enjoy the taste of free-flowing granules of Tata Salt Himalayan Rock Salt. This Sendha namak adds a fresh flavour burst to your everyday meals, meals for special occasions and to enhance the flavour of fasting foods."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "c09752ba-9d62-4648-8d99-a7cff92cabf4",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "Geo-Fresh Organic Private Limited, Plot No. 5 & 6, Survey No. 129(1), Sidhpur-Patan Highway, Village-Karan, TA-Sidhpur, District-Patan, Gujrat - 384151.",
+                      "manufacturerName": "Geo-Fresh Organic Private Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Oreo",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "120 g",
+                      "fssaiLicense": "",
+                      "id": "8be537dd-1f73-4432-ad5d-7b0cec294163",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "8b0437d3-e58b-4bac-887b-572d6241c626",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Oreo",
+                          "path": "cms/product_variant/97fa1bb7-ac6f-4750-9d9f-f8b832ffecef.jpg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 30,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 30,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 91,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "77577303-f18c-40d2-a1a4-88e06e298818",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.9,
+                        "totalRatings": 31822
+                      }
+                    },
+                    "discountedSellingPrice": 10400,
+                    "discountPercent": 13,
+                    "discountAmount": 1600,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 30,
+                    "quantity": 91,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 30,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 3000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "c8f40d86-be9f-4c57-aa9e-8b6a983cf2d8",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "0d107b24-257c-41d6-9251-b8031a55d6ce",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "d1622251-6e84-4a11-882d-54aba3a7cb8d",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "899d869c-04e4-4d45-86ee-a917e97d4a3e",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "653b40fb-4534-4dbc-b2ce-e2d7976a4e24",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 1600
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 10400,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "58f41003-09d3-4898-ab68-4bf12b0e99dc",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "d9437a42-4df0-4b19-b1c9-b52ab9809f46",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 10400
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 30,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|f45f1c1eef9f4d818c0bfd3e751a98bc|960|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|9de7f501-f1e0-466c-bf16-4bd8b0e1008d|9de7f501-f1e0-466c-bf16-4bd8b0e1008d||2005821|2005821|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||77577303-f18c-40d2-a1a4-88e06e298818|c727ebd6-3bb2-41c5-8403-037b2b421ca2|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|1kg|0|0|20|0",
+                  "position": 4,
+                  "l3_details": {
+                    "id": "a729af0c-5951-49c4-bd9f-f33416dfbda6",
+                    "name": "Oreo"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "c831fbad-f358-5aae-a22c-277bc2db8974",
+                    "id": "aea099f0-ee7c-4c94-a37f-025e25a95e13",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Oreo",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "A stressful lifestyle coupled with altered food habits has led to an exponential increase in the occurrence of lifestyle diseases such as high blood pressure. Tata Salt Lite has 15% sodium compared to regular salt for a healthy lifestyle without compromising the taste of your dishes. The Tata Salt Lite low sodium also consists of Iodine which helps in the proper mental development of children and prevents iodine deficiency disorders in adults."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "61135b78-89e5-4c39-9cdc-f5da30eda9f8",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "(SB) M/s Shree Ram Brine Chem Industries,Plot No. 2, Survey No. 286, Paiki, Paiki-2, Northern East, Village: Chopadava, District-Kutch, Gujarat - 370 140.\n(CS) CHIRAI SALT (INDIA) PVT. LTD., D-2, Sector-12, Heavy Industrial Area, Gandhidham, Bhuj, District-Kutch, Gujarat-370 201.\n(WC) Western India Sea Brines Pvt. Ltd., Survey No. 281, Salt City, Village: Chopadva, Taluka: Bhachau, Bhuj, District-Kutch, Gujarat-370 140.\nRe-Packed by: (AH) Mehta Enterprise, C/o Sumar Logistics and Industrial Park. Shed \"0\", Gala No. 1 to 6, NH-8, Betdilat, Village Hariyala, District Kheda, Nadiad, Gujarat-387411.",
+                      "manufacturerName": "(SB) M/s Shree Ram Brine Chem Industries, (CS) CHIRAI SALT (INDIA) PVT. LTD, (WC) Western India Sea Brines Pvt. Ltd, Re-Packed by: (AH) Mehta Enterprise.",
+                      "minimumRequiredAge": 0,
+                      "name": "Oreo",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "120 g",
+                      "fssaiLicense": "",
+                      "id": "92a4c3f1-6751-4917-86a5-3fb101ada453",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "15128895-3624-4881-9e47-d39c177f879e",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Oreo",
+                          "path": "cms/product_variant/1279c778-fb6f-4005-9b3f-23aaf6582467.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 2,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 30,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "1bde62f2-ddd2-43b5-af74-53f1795ab4b0",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 25894
+                      }
+                    },
+                    "discountedSellingPrice": 5500,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 30,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 3000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7832266b-632e-416d-8d16-bd1200633ae9",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "9222ad01-e017-4544-9bf5-2243a84f9dc7",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "e37f2cab-22e8-405d-88c7-95253a0e015d",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 997,
+                      "semanticScore": 997,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 5500,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 5500
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 30,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 5,
+                  "index": 2
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_6",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "9f9dbdcb-17da-5d97-9fbd-e6b0589a3be0",
+                    "id": "ca54743f-b579-4bfb-97b4-76f2a18a336e",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Oreo",
+                      "brandId": "40e97298-9299-462c-90c2-5deffd53a989",
+                      "countryOfOrigin": "India",
+                      "description": [],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "d5b6aa12-ec9a-4122-8c81-aae4fe98df21",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "Paras Spices",
+                      "minimumRequiredAge": 0,
+                      "name": "Oreo",
+                      "pharmaceuticalInfo": {
+                        "isLicensed": false,
+                        "composition": "",
+                        "allergy": "",
+                        "usage": "",
+                        "disclaimer": ""
+                      },
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "120 g",
+                      "fssaiLicense": "10014063000385",
+                      "id": "23ebccaf-52bd-4bf2-a75e-3c07a7b061e5",
+                      "images": [
+                        {
+                          "height": 980,
+                          "hidePadding": true,
+                          "id": "2434c495-23c4-4539-9a33-211191c10079",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Oreo",
+                          "path": "cms/product_variant/e4c9629b-e1a5-487a-8584-c4d062b09c3e.jpeg",
+                          "videoPath": null,
+                          "width": 980,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 30,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 3,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "GRAM",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "fc57f2cc-0a2c-44b9-8239-acb390688d07",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.4,
+                        "totalRatings": 373
+                      }
+                    },
+                    "discountedSellingPrice": 4200,
+                    "discountPercent": 37,
+                    "discountAmount": 2500,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 3,
+                    "quantity": 3,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 30,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 3000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "67262fd2-0fbc-41d9-8f77-8d2196f68ba3",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "801b501b-bb96-4b6b-a353-eb5fef1e7f1f",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "2f8e8cb8-2f76-4dca-94ea-5eb9789169fd",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "845f00fb-6b61-4674-9486-d473e717c216",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "73f228a8-aba6-432c-bd30-c5b3bc36ffa9",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 2500
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 4200,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "d9012727-8358-413a-9ecf-7f323526983f",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "2d27e999-1fb5-41aa-a02c-cf30a69baefb",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 4200
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 30,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|9867c2cd48d64d49b10d8a015c4fd431|1260|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|40e97298-9299-462c-90c2-5deffd53a989|40e97298-9299-462c-90c2-5deffd53a989||2422010|2422010|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||fc57f2cc-0a2c-44b9-8239-acb390688d07|e3233297-f244-494e-9236-6ae514cc1fad|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|pink rock salt|0|5|0|0",
+                  "position": 6,
+                  "l3_details": {
+                    "id": "9c03ae3b-c333-45e5-bc6d-b353a01b0618",
+                    "name": "Oreo"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "6ae2efe5-ec0c-53b3-97e1-0541e74ba3d1",
+                    "id": "7154e194-fc11-4621-9fb2-4308c0fd3139",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Oreo",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt Superlite With 30% Low Sodium is a low-sodium salt option that contains 30% less sodium than regular salt. It is designed to provide the same great taste while helping to reduce sodium intake, making it ideal for those looking to manage their salt intake. This innovative salt formulation is crafted to deliver a balanced flavor profile without compromising on taste. Whether you're cooking your favorite dishes or seasoning your meals at the table."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "1d743794-9893-4c33-9ef5-8eaf3bbcc0ae",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "M/s Shree Ram Brine Chem Industries, Plot No 2 rvey No. 286, Paiki, Paiki-2. Northem East Jage: Chopadava, District-Kutch, Gujarat-370 140. Lic. No. 10020021006305",
+                      "manufacturerName": "Tata Consumer Products Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Oreo",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "120 g",
+                      "fssaiLicense": "",
+                      "id": "0eb1b165-2ed2-43f4-9633-dee2223aa7a1",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "00070f37-b19e-4280-8cd1-e0d51818e526",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Oreo",
+                          "path": "cms/product_variant/86b3d35e-1e41-473e-aea3-e0f5c66dc279.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 30,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 2,
+                      "shelfLifeInHours": "17496",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "39ddc535-0151-4413-a720-eaf410a09cf5",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 4514
+                      }
+                    },
+                    "discountedSellingPrice": 7500,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 2,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 30,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 3000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "6e4511d8-0226-4596-ab50-7d007759224b",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "6076f891-b2c2-49b2-835a-d439ad716b59",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "422afb09-d2f4-4394-8996-8677de6a6e6e",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 996,
+                      "semanticScore": 996,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 7500,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 7500
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 30,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 7,
+                  "index": 3
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "c2bcfd8c-6b33-51ff-8f31-2075f1b09a82",
+                    "id": "c302bd80-19ff-4117-afad-9e6c735b0e71",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Oreo",
+                      "brandId": "963b50ed-3146-4744-8f4d-56876fdc8159",
+                      "countryOfOrigin": "India",
+                      "description": [],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "aef7bcce-510b-4fee-9f88-7706afa9a766",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "ITC Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Oreo",
+                      "pharmaceuticalInfo": {
+                        "isLicensed": false,
+                        "composition": "",
+                        "allergy": "",
+                        "usage": "",
+                        "disclaimer": ""
+                      },
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "120 g",
+                      "fssaiLicense": "10012031000312",
+                      "id": "f12a67b4-0fed-4368-ae29-090dde9c9801",
+                      "images": [
+                        {
+                          "height": 1500,
+                          "hidePadding": true,
+                          "id": "f758262b-ea37-402b-bf73-b54a9e69bdef",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Oreo",
+                          "path": "cms/product_variant/e7a635a8-e280-449e-a910-3355750269e9.jpeg",
+                          "videoPath": null,
+                          "width": 1500,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 30,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 2,
+                      "shelfLifeInHours": "8760",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "492411d0-64e9-4edc-adfd-6b1f12a58743",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 1386
+                      }
+                    },
+                    "discountedSellingPrice": 2700,
+                    "discountPercent": 10,
+                    "discountAmount": 300,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 2,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 30,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 3000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "c7496713-7a24-43a6-897b-0985046d1249",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "78a0d399-770e-42d5-9111-68c44d4b2b92",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "9cf0064d-0e2c-4002-9220-340ef15733a8",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "8ee05f94-b3a4-4019-aa36-821b2c50d151",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "b0faf4f0-cca3-4b13-9db6-2b27ee0b92d8",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 300
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2700,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "c778012b-ae52-4d4a-a58f-9a91129b9f66",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "5fa05676-1c0e-456c-bdf0-3cbc7b9bfc48",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2700
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 30,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|ab705a0d151b4019938f79f2cbb9bd06|1650|1787673645658|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|963b50ed-3146-4744-8f4d-56876fdc8159|963b50ed-3146-4744-8f4d-56876fdc8159||2334729|2334729|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||492411d0-64e9-4edc-adfd-6b1f12a58743|4a5d1218-784d-47f0-9f51-c11db2c8321d|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|EXACT|tata salt|0|0|10|0",
+                  "position": 8,
+                  "l3_details": {
+                    "id": "9afa2045-0833-4647-8728-ca12b36c7424",
+                    "name": "Oreo"
+                  }
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_9",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "0d0baccd-d4c4-5cdf-aab1-f59eed2b36b9",
+                    "id": "a22834c4-896e-445a-a91f-46f2b4b08f5d",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Oreo",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "<nil>"
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "6f5bf570-6d6b-49a1-8c51-066fe12d5535",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": null,
+                      "minimumRequiredAge": 0,
+                      "name": "Oreo",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "120 g",
+                      "fssaiLicense": "",
+                      "id": "9f73cb17-f049-462d-ab87-6158e3bd5c64",
+                      "images": [
+                        {
+                          "height": 1000,
+                          "hidePadding": true,
+                          "id": "215b08eb-6404-48d1-8939-51d3727d41db",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Oreo",
+                          "path": "cms/product_variant/6fcca77c-d588-46f9-b0c3-a2911e1cac28.jpg",
+                          "videoPath": null,
+                          "width": 1000,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 30,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "17280",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "7263945f-acea-4e13-be0d-2e8653135b4f",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 3201
+                      }
+                    },
+                    "discountedSellingPrice": 3500,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 30,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 3000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "dfde77ab-7fa2-4372-ab54-5050bbaec84e",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "14f1f987-6638-4884-a479-fc6419eb61d4",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "97fad988-c08a-4b27-af39-92697fa80ed1",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Oreo",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 995,
+                      "semanticScore": 995,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 3500,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 3500
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 30,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 9,
+                  "index": 4
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "HOME_FOOTER",
+        "widgetName": "SEARCH_FOOTER",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    ],
+    "footer": {
+      "widget": {
+        "widgetId": "",
+        "widgetName": "",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    },
+    "header": null,
+    "selectedTabId": 0,
+    "algoliaQueryID": "",
+    "showCigaretteBanner": false,
+    "pageProductCount": 10,
+    "totalProductCount": 21,
+    "currentPage": 0,
+    "hasReachedEnd": true,
+    "userSessionId": "[REDACTED]",
+    "algoliaTimeOut": false,
+    "algoliaTypoTolerance": false,
+    "filters": {
+      "activeFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "allFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "topBrands": null
+    },
+    "showTobaccoConsentPopup": false,
+    "meta": {
+      "related_products_enabled": false,
+      "related_products_search_term_default": "tata salt 1 kg",
+      "total_organic_products": 5,
+      "oos_organic_products": 0,
+      "instock_organic_products": 5,
+      "total_related_products": 0,
+      "oos_related_products": 0,
+      "instock_related_products": 0,
+      "total_results": 5,
+      "total_oos_results": 0,
+      "total_instock_results": 5,
+      "related_products_reason": "CompatibleComponentsNotFound",
+      "qcl_meta": {
+        "qcl_correction_not_done_reason": "CompatibleComponentsNotFound",
+        "qcl_correction_done_v3": false
+      },
+      "inhouse_search_done": false,
+      "plp_primary_category_name_from_recall": "",
+      "plp_primary_category_mapping": "",
+      "plp_subcat_listing_logic": "",
+      "plp_experience_shown": false,
+      "plp_experience_not_shown_reason": "PlpExperimentNotEnabled",
+      "relevance_v2": {
+        "relevance_L1": [
+          {
+            "id": "0f88f9f6-cabd-4e37-999c-9196efc83677",
+            "name": "Oreo",
+            "score": 0,
+            "presentInNonOpsRelevance": true
+          }
+        ],
+        "relevance_L2": [
+          {
+            "id": "ba4f069f-2629-4663-9905-773355cb17ca",
+            "name": "Oreo",
+            "score": 0,
+            "presentInNonOpsRelevance": true
+          }
+        ],
+        "relevance_L3": [
+          {
+            "id": "cdb0bbdf-49eb-452e-aae9-67eed20576e2",
+            "name": "Oreo",
+            "score": 0.189688,
+            "presentInNonOpsRelevance": true
+          }
+        ]
+      },
+      "relevance_L3_count": 1,
+      "relevance_brand": [
+        {
+          "id": "11d76064-6bf8-4964-b2ee-8450c0a157a0",
+          "name": "Oreo",
+          "score": 1
+        }
+      ],
+      "relevance_variant_selected": 1,
+      "segmentations": [
+        "TOP_2L"
+      ],
+      "query_intent_done": true,
+      "ds_query_type": "narrow",
+      "ds_basket_building_flag": true,
+      "ds_basket_building_flag_data": "non-basket",
+      "filter_mode": 1,
+      "filter_state": "NO_FILTER_SELECTED",
+      "l3_superspan_results_count": 0,
+      "l3_span_results_count": 5,
+      "l3_partial_results_count": 0,
+      "l3_other_results_count": 0,
+      "l3_oos_superspan_results_count": 0,
+      "l3_oos_span_results_count": 0,
+      "l3_oos_partial_results_count": 0,
+      "l3_oos_other_results_count": 0,
+      "l3_instock_superspan_results_count": 0,
+      "l3_instock_span_results_count": 5,
+      "l3_instock_partial_results_count": 0,
+      "l3_instock_other_results_count": 0,
+      "oos_products_shown_count": 0,
+      "recommendations_instrumentation_info": {
+        "query_level_sku_recommendations_instrumentation_info": {},
+        "cross_sell_widget_instrumentation_info": {}
+      },
+      "is_scoped_search_enabled": false,
+      "scope_category": "",
+      "scope_subcategory": "",
+      "scoped_search_not_enabled_reason": "",
+      "oos_text_meta": "",
+      "source_search_term": "Tata Salt 1 kg",
+      "recall_type_detail": {
+        "recall_type": "ORGANIC_RECALL_WITH_NO_TYPO_AND_EXACT_MATCH",
+        "recall_display_title": "Showing results for \"tata salt 1 kg\""
+      },
+      "category_cohort_experiment_instrumentation_info": {
+        "highestConfidenceL1": "Masala, Dry Fruits & More",
+        "highestConfidenceL2": "Salt, Sugar & Jaggery",
+        "relevanceLevel": "L1",
+        "cohortRankingNotEnabledReason": "UserIdNotPresent",
+        "categoryBasedRankingEnabled": false,
+        "isAtcDone": true
+      },
+      "meds_with_similar_salts_info": {},
+      "is_liquidation_done": false,
+      "liquidation_not_done_reason": "OrganicProductsLessThan4",
+      "l3_understanding_meta": {},
+      "product_grid_meta_info": {
+        "isProductGridFeatureEnabled": true,
+        "productGridSize": 3,
+        "productGridVariantType": "V3_SMALL_ABS_DISCOUNT",
+        "searchExperienceType": "3_3_discount_abs",
+        "isSfsOverrideEnabled": false
+      },
+      "buy_again_v2_boost_info": {},
+      "qrl_rerank_info_v2": {
+        "ranking_segmentation_error_occurred": false,
+        "default_qrl_rerank_done": false,
+        "qrl_default_rerank_not_done_reason": "RankingNotEnabledForFallback",
+        "qrl_default_rerank_source": "query_reranking_rank9_variant",
+        "qrl_explore_rerank_source": "query_reranking_rank9_variant",
+        "qrl_vector_rerank_source": "semantic_query_reranking_rank1_variant",
+        "qrl_default_reranking_list_product_count": 0,
+        "qrl_explore_search_product_count": 0,
+        "qrl_vector_search_product_count": 0,
+        "feature_store_meta": {
+          "feature_store_enabled": false
+        },
+        "explore_re_rank_meta": {},
+        "user_personalization_meta": {
+          "is_user_personalized_ranking_done": false,
+          "total_user_personalized_ranked_product_count": 0,
+          "span_user_personalized_ranked_product_count": 0,
+          "partial_user_personalized_ranked_product_count": 0,
+          "other_user_personalized_ranked_product_count": 0
+        }
+      },
+      "unserviceable_store_deboosting_not_enabled_reason": "Both Dark store and superstores are unserviceable",
+      "store_stress_info": {
+        "storeIdUsedStressRanking": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+        "storeStressRankingNotEnabledReason": "user not enabled for marketplaceType: SUPER_SAVER",
+        "storeStressRankingEnabled": false,
+        "rankingVariant": null,
+        "storeStressInCache": 0,
+        "storeStressEnum": ""
+      },
+      "pt_and_attributes_meta": {
+        "search_term_contains_attributes": 1,
+        "search_term_number_of_attributes": 3,
+        "search_term_PT": [
+          "salt"
+        ],
+        "search_term_brand": [
+          "Tata"
+        ],
+        "pt_brand_source": "mongo",
+        "attribute_relevance_version": "v1",
+        "search_term_contains_brand": 1,
+        "search_term_attributes": [
+          "weight",
+          "brand",
+          "product_leafname"
+        ],
+        "search_term_attribute_values": {
+          "brand": {
+            "values": [
+              "Tata"
+            ]
+          },
+          "product_leafname": {
+            "values": [
+              "salt"
+            ]
+          },
+          "weight": "120 g"
+        }
+      },
+      "vip_deals_meta": {
+        "total_vip_deal_atlas_boosted_cnt": 0
+      },
+      "autosuggestion_live_ranker_meta": {
+        "ctr_ranking_done": false,
+        "cvr_ranking_done": false
+      },
+      "autosuggestion_promotion_meta": {
+        "promotion_applied": false
+      },
+      "vip_deals_horizontal_card_widget_instrumentation_info": {
+        "deal_cards_loaded": 0
+      },
+      "special_event_instrumentation_info": {
+        "events": null,
+        "special_events_enabled": false,
+        "special_events_not_enabled_reason": "CompatibleComponentsNotFound"
+      },
+      "a_vector_recall_meta_info": {
+        "rt_vector_eligible_query": false,
+        "a_segmentation_applied": true,
+        "a_source_search_term": "Tata Salt 1 kg",
+        "a_query_segmentations": [
+          "TOP_2L"
+        ],
+        "a_query_segmentations_count": 1,
+        "top_segment": "TOP_2L",
+        "source_top_segment": "TOP_2L"
+      },
+      "explore_exploit_meta_info": {
+        "masterFlagEnabled": true,
+        "exploreExploitNotShownReason": "user_not_in_experiment_test_bucket"
+      },
+      "ads_banner_widget_instrumentation_info": {
+        "candidates_processed": 0
+      },
+      "consolidated_banner_widget_instrumentation": {
+        "widgets_added": [],
+        "widgets_rejected": [],
+        "conflicts_resolved": 0
+      },
+      "ads_meta": {
+        "deboosting": null,
+        "fly_wheel": null,
+        "organic_ads_count": 5,
+        "rp_ads_count": 11
+      },
+      "aisle_experience_instrumentation_info": {
+        "aisle_experience_shown": false,
+        "aisle_eligible_query": false,
+        "aisle_experience_not_shown_reason": "AisleExperienceExperimentNotEnabled"
+      },
+      "convo_commerce_widget_info": {
+        "is_convo_commerce_widget_enabled": false,
+        "convo_commerce_widget_not_shown_reason": "prompts list is empty"
+      },
+      "tertiary_store_deboosted_instrumentation": {
+        "tertiary_deboosting_default_done": false,
+        "tertiary_deboosting_explore_done": false,
+        "tertiary_deboosting_vector_done": false
+      },
+      "explore_expansion_instrumentation_info": {
+        "masterFlagEnabled": true,
+        "exploreExpansionNotShownReason": "experiment check failed",
+        "enabled": false
+      },
+      "model_meta_info": {
+        "head_or_tail_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "n1_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "overall_ranker_model_meta": {
+          "model_output_product_count": 0
+        }
+      },
+      "substitution_experience_info": {},
+      "buy_again_oos_info": {
+        "buy_again_oos_count": 0,
+        "buy_again_oos_pvids": "",
+        "buy_again_top_two_oos_count": 0
+      },
+      "hook_sku_oos_info": {
+        "hook_sku_oos_count": 0,
+        "hook_sku_oos_pvids": ""
+      },
+      "query_segmentation_info": {
+        "is_realtime_model_data_fetched": false,
+        "realtime_model_not_enabled_reason": "mongo_data_exists"
+      },
+      "atlas_fallback_reason": "empty_user",
+      "query_similarity_meta": {
+        "query_similarity_done": false,
+        "query_similarity_not_done_reason": "experiment_disabled",
+        "similar_query_pst_data_exist": false
+      },
+      "ads_organic_overlap_meta": {
+        "total_ad_count": 5
+      },
+      "assist_filters_meta": {}
+    },
+    "experiments": {
+      "OR2_MIGRATION_EXPERIMENT": {
+        "experimentName": "search_or2_migration",
+        "experimentId": "dummy_id_for_or2_migration_experiment",
+        "variantName": "test2"
+      },
+      "PVID_SEARCH_CATALOGUE_EXPERIMENT": {
+        "experimentName": "pvid_search_catalogue_experiment",
+        "experimentId": "2adb51f8-afec-43dd-b055-6aa48fce2d73",
+        "variantName": "test"
+      },
+      "SEMANTIC_EXPERIMENT_V4": {
+        "experimentName": "vector_recall_v8",
+        "experimentId": "479283b9-7a7f-4518-83c5-cd3900314c40",
+        "variantName": "semantic_variant_3"
+      }
+    },
+    "pageType": "normal",
+    "stickyHeaders": [
+      0
+    ],
+    "isProductGridEnabled": true,
+    "isFiltersRevampEnabled": false,
+    "pageMeta": {
+      "viewMeta": {},
+      "refreshResolver": {
+        "config": {
+          "appParams": {
+            "queryTerm": "Tata Salt 1 kg",
+            "pageType": "search",
+            "productGridSize": 3
+          }
+        },
+        "url": "cfs/api/v1/bulk-widget-data",
+        "subscriptions": [
+          "cart_change"
+        ],
+        "type": "cfs_upsell_resolver"
+      }
+    },
+    "nextPageParams": {
+      "filterMode": 1,
+      "pageNumber": 1
+    },
+    "filterMode": 1
+  },
+  "sanitization_log": [
+    {
+      "field": "payload.userSessionId",
+      "action": "REDACTED",
+      "reason": "session_id_pii",
+      "redacted_at": "2026-08-26T04:50:00Z"
+    }
+  ]
+}

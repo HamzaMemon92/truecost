@@ -1,0 +1,33 @@
+{
+  "capture_version": "truecost.source.capture.v1",
+  "run_id": "run_5742bd24",
+  "case_id": "amazon_automated",
+  "provider": "amazon",
+  "domain": "amazon.in",
+  "query": "Apple AirPods Pro",
+  "captured_at": "2026-08-26T05:16:39.004547+00:00",
+  "execution_mode": "MOCK_SYNTHETIC",
+  "scraper_component": "amazonScraper",
+  "source_url": null,
+  "source_component": null,
+  "query_or_context": {
+    "q": "Apple AirPods Pro"
+  },
+  "payload": {
+    "items": [
+      {
+        "id": "B0BDHWDR12",
+        "name": "Apple AirPods Pro (2nd Gen)",
+        "price": 24900,
+        "original_price": 26900
+      },
+      {
+        "id": "B09JQZ5DYM",
+        "name": "Apple AirPods (3rd Gen)",
+        "price": 19900,
+        "original_price": 20900
+      }
+    ]
+  },
+  "mock_synthetic_reason": "generated_by_headless_script_no_real_device"
+}

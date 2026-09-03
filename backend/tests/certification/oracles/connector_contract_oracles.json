@@ -1,0 +1,32 @@
+{
+  "blinkit": {
+    "min_items": 1,
+    "required_fields": [
+      "id",
+      "name",
+      "prices"
+    ],
+    "name_nonempty": true,
+    "price_positive": true
+  },
+  "zepto": {
+    "min_items": 1,
+    "required_fields": [
+      "id",
+      "name",
+      "prices"
+    ],
+    "name_nonempty": true,
+    "price_positive": true
+  },
+  "bigbasket": {
+    "min_items": 1,
+    "required_fields": [
+      "id",
+      "name",
+      "prices"
+    ],
+    "name_nonempty": true,
+    "price_positive": true
+  }
+}

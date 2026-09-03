@@ -1,0 +1,9 @@
+{
+  "cli": { "version": ">= 16.0.0", "appVersionSource": "remote" },
+  "build": {
+    "development": { "developmentClient": true, "distribution": "internal", "channel": "development", "env": { "EXPO_PUBLIC_APP_ENV": "development" } },
+    "preview": { "distribution": "internal", "channel": "preview", "env": { "EXPO_PUBLIC_APP_ENV": "staging", "EXPO_PUBLIC_API_URL": "https://staging-api.truecost.app" } },
+    "production": { "autoIncrement": true, "channel": "production", "env": { "EXPO_PUBLIC_APP_ENV": "production", "EXPO_PUBLIC_API_URL": "https://api.truecost.app" } }
+  },
+  "submit": { "production": {} }
+}

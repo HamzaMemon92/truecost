@@ -1,0 +1,322 @@
+[
+  {
+    "case_id": "matrix_1",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_1",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_2",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_2",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_3",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_3",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_4",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_4",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_5",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_5",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_6",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_6",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_7",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_7",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_8",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_8",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_9",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_9",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_10",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_10",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_11",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_11",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_12",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_12",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_13",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_13",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_14",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_14",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_15",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_15",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_16",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_16",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_17",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_17",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_18",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_18",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_19",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_19",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_20",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_20",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_21",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_21",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_22",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_22",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_23",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_23",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_24",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_24",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_25",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_25",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_26",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_26",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_27",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_27",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_28",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_28",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_29",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_29",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_30",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_30",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_31",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_31",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  },
+  {
+    "case_id": "matrix_32",
+    "provider": "blinkit",
+    "domain": "blinkit.com",
+    "query": "Red Bull",
+    "target_source_id": "tgt_32",
+    "target_raw_title": "Red Bull Energy Drink",
+    "expected_er": "EXACT",
+    "human_reason": "Clear match"
+  }
+]

@@ -1,0 +1,41 @@
+﻿provider,query,case_id,location_profile
+blinkit,amul taaza milk 500ml,blinkit_case_milk_exact,delhi
+blinkit,harvest gold white bread,blinkit_case_bread_exact,delhi
+blinkit,india gate basmati rice 1kg,blinkit_case_rice_exact,delhi
+blinkit,britannia good day cashew cookies,blinkit_case_biscuits_brand,delhi
+blinkit,surf excel easy wash detergent powder 1kg,blinkit_case_detergent_sku,delhi
+blinkit,coca cola 750ml,blinkit_case_softdrink_size,delhi
+blinkit,dove hair fall rescue shampoo,blinkit_case_personalcare_brand,delhi
+blinkit,maggi 2-minute noodles masala 70g,blinkit_case_noodles_exact,delhi
+blinkit,lays india's magic masala chips 50g,blinkit_case_chips_small,delhi
+blinkit,lays india's magic masala chips 90g,blinkit_case_chips_large,delhi
+zepto,amul taaza milk 500ml,zepto_case_milk_exact,delhi
+zepto,harvest gold white bread,zepto_case_bread_exact,delhi
+zepto,india gate basmati rice 1kg,zepto_case_rice_exact,delhi
+zepto,britannia good day cashew cookies,zepto_case_biscuits_brand,delhi
+zepto,surf excel easy wash detergent powder 1kg,zepto_case_detergent_sku,delhi
+zepto,coca cola 750ml,zepto_case_softdrink_size,delhi
+zepto,dove hair fall rescue shampoo,zepto_case_personalcare_brand,delhi
+zepto,maggi 2-minute noodles masala 70g,zepto_case_noodles_exact,delhi
+zepto,lays india's magic masala chips 50g,zepto_case_chips_small,delhi
+zepto,lays india's magic masala chips 90g,zepto_case_chips_large,delhi
+swiggy,amul taaza milk 500ml,swiggy_case_milk_exact,delhi
+swiggy,harvest gold white bread,swiggy_case_bread_exact,delhi
+swiggy,india gate basmati rice 1kg,swiggy_case_rice_exact,delhi
+swiggy,britannia good day cashew cookies,swiggy_case_biscuits_brand,delhi
+swiggy,surf excel easy wash detergent powder 1kg,swiggy_case_detergent_sku,delhi
+swiggy,coca cola 750ml,swiggy_case_softdrink_size,delhi
+swiggy,dove hair fall rescue shampoo,swiggy_case_personalcare_brand,delhi
+swiggy,maggi 2-minute noodles masala 70g,swiggy_case_noodles_exact,delhi
+swiggy,lays india's magic masala chips 50g,swiggy_case_chips_small,delhi
+swiggy,lays india's magic masala chips 90g,swiggy_case_chips_large,delhi
+bigbasket,amul taaza milk 500ml,bigbasket_case_milk_exact,delhi
+bigbasket,harvest gold white bread,bigbasket_case_bread_exact,delhi
+bigbasket,india gate basmati rice 1kg,bigbasket_case_rice_exact,delhi
+bigbasket,britannia good day cashew cookies,bigbasket_case_biscuits_brand,delhi
+bigbasket,surf excel easy wash detergent powder 1kg,bigbasket_case_detergent_sku,delhi
+bigbasket,coca cola 750ml,bigbasket_case_softdrink_size,delhi
+bigbasket,dove hair fall rescue shampoo,bigbasket_case_personalcare_brand,delhi
+bigbasket,maggi 2-minute noodles masala 70g,bigbasket_case_noodles_exact,delhi
+bigbasket,lays india's magic masala chips 50g,bigbasket_case_chips_small,delhi
+bigbasket,lays india's magic masala chips 90g,bigbasket_case_chips_large,delhi

@@ -1,0 +1,34 @@
+﻿[
+  {
+    "case_id": "grocery_exact_known_product",
+    "domain": "grocery",
+    "provider": "blinkit",
+    "query": "Amul Taaza Toned Fresh Milk",
+    "location_profile": "delhi",
+    "required": true
+  },
+  {
+    "case_id": "grocery_generic_category",
+    "domain": "grocery",
+    "provider": "zepto",
+    "query": "milk",
+    "location_profile": "delhi",
+    "required": true
+  },
+  {
+    "case_id": "grocery_brand_broad_intent",
+    "domain": "grocery",
+    "provider": "swiggy",
+    "query": "Amul",
+    "location_profile": "delhi",
+    "required": true
+  },
+  {
+    "case_id": "grocery_high_volume",
+    "domain": "grocery",
+    "provider": "bigbasket",
+    "query": "onion 1kg",
+    "location_profile": "delhi",
+    "required": true
+  }
+]

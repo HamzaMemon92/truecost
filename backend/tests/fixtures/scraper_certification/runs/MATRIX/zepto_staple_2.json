@@ -1,0 +1,491 @@
+{
+  "capture_version": "truecost.source.capture.v1",
+  "run_id": "zepto_staple_2",
+  "case_id": "staple_2",
+  "provider": "zepto",
+  "domain": "grocery",
+  "query": "Fortune Sunlite Refined Sunflower Oil 1L",
+  "captured_at": "2026-08-25T16:01:01.435Z",
+  "execution_mode": "REAL_LIVE_SCRAPE",
+  "scraper_component": "ZeptoScraper",
+  "message_type": "SEARCH_SUCCESS",
+  "requested_location_profile": "default",
+  "observed_location_evidence": "NOT_AVAILABLE",
+  "location_verified": false,
+  "payload": {
+    "layout": [
+      {
+        "widgetId": "TITLE_WIDGET",
+        "widgetName": "SEARCH_TITLE_WIDGET",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "title",
+            "data": {
+              "items": [],
+              "title": "Could not find any products for \"fortune sunlite refined sunflower oil 1l\"",
+              "queryTitle": "",
+              "searchQuery": "Fortune Sunlite Refined Sunflower Oil 1L",
+              "replacingTerm": "",
+              "searchKeyInTitle": "fortune sunlite refined sunflower oil 1l",
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "viewMeta": {
+          "aspectRatio": 3.33,
+          "paddingTop": 1,
+          "paddingBottom": 1,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "backgroundColor": "#FFFFFF",
+          "adContainer": {
+            "marginHorizontal": 0,
+            "overflow": "",
+            "borderRadius": 0,
+            "backgroundColor": "",
+            "paddingBottom": 0
+          },
+          "productsList": {
+            "paddingHorizontal": 0,
+            "marginBottom": 0,
+            "separator": 0
+          },
+          "adAsset": {},
+          "backgroundGradient": {
+            "start": {
+              "x": 0,
+              "y": 0
+            },
+            "end": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "borderWidth": 0,
+          "borderColor": "",
+          "highlightColor": "",
+          "titleStyle": null,
+          "itemSpacing": 0,
+          "cardStyle": null,
+          "curveIcon": null,
+          "curveIconV2": null,
+          "headerStyle": null,
+          "listStyle": null,
+          "padding": null,
+          "itemPadding": null,
+          "imagePadding": null,
+          "titleIconImage": null,
+          "bodyStyle": null,
+          "subTitleLeadingIconImage": {
+            "id": "",
+            "name": "",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "titleLeadingIconImage": {
+            "id": "",
+            "name": "",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "tag": {
+            "text": "",
+            "variant": "",
+            "style": {
+              "color": "",
+              "paddingHorizontal": 0,
+              "paddingVertical": 0,
+              "borderWidth": 0,
+              "borderRadius": 0,
+              "borderColor": "",
+              "backgroundColor": "",
+              "lineHeight": 0
+            }
+          },
+          "card": {
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColor": "",
+            "backgroundColor": "",
+            "backgroundMode": "",
+            "firstColor": "",
+            "secondColor": "",
+            "padding": null
+          },
+          "overlayIconStyles": {},
+          "imageContainerStyle": {},
+          "productIconStyles": {},
+          "text": {
+            "unselectedColor": "",
+            "selectedColor": "",
+            "selectedVariant": "",
+            "unselectedVariant": "",
+            "selectedBackgroundColor": "",
+            "unselectedBackgroundColor": "",
+            "textSize": 0
+          }
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "HOME_FOOTER",
+        "widgetName": "SEARCH_FOOTER",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    ],
+    "footer": {
+      "widget": {
+        "widgetId": "",
+        "widgetName": "",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    },
+    "header": null,
+    "selectedTabId": 0,
+    "algoliaQueryID": "",
+    "showCigaretteBanner": false,
+    "pageProductCount": 0,
+    "totalProductCount": 0,
+    "currentPage": 0,
+    "hasReachedEnd": true,
+    "userSessionId": "[REDACTED]",
+    "algoliaTimeOut": false,
+    "algoliaTypoTolerance": false,
+    "filters": {
+      "activeFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "allFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "topBrands": null
+    },
+    "showTobaccoConsentPopup": false,
+    "meta": {
+      "related_products_enabled": false,
+      "related_products_search_term_default": "fortune sunlite refined sunflower oil 1l",
+      "total_organic_products": 0,
+      "oos_organic_products": 0,
+      "instock_organic_products": 0,
+      "total_related_products": 0,
+      "oos_related_products": 0,
+      "instock_related_products": 0,
+      "total_results": 0,
+      "total_oos_results": 0,
+      "total_instock_results": 0,
+      "related_products_reason": "CompatibleComponentsNotFound",
+      "qcl_meta": {
+        "qcl_correction_not_done_reason": "CompatibleComponentsNotFound",
+        "qcl_correction_done_v3": false
+      },
+      "inhouse_search_done": false,
+      "plp_primary_category_name_from_recall": "",
+      "plp_primary_category_mapping": "",
+      "plp_subcat_listing_logic": "",
+      "plp_experience_shown": false,
+      "plp_experience_not_shown_reason": "PlpExperimentNotEnabled",
+      "relevance_v2": {},
+      "filtering_not_shown_reason": "RelevanceQueryNotInMongo",
+      "relevance_variant_selected": 1,
+      "segmentations": [
+        "TAIL_OF_TAIL_RTVS"
+      ],
+      "query_intent_done": true,
+      "ds_query_type": "narrow",
+      "ds_basket_building_flag": true,
+      "ds_basket_building_flag_data": "non-basket",
+      "filter_mode": 1,
+      "filter_state": "NO_FILTER_SELECTED",
+      "l3_superspan_results_count": 0,
+      "l3_span_results_count": 0,
+      "l3_partial_results_count": 0,
+      "l3_other_results_count": 0,
+      "l3_oos_superspan_results_count": 0,
+      "l3_oos_span_results_count": 0,
+      "l3_oos_partial_results_count": 0,
+      "l3_oos_other_results_count": 0,
+      "l3_instock_superspan_results_count": 0,
+      "l3_instock_span_results_count": 0,
+      "l3_instock_partial_results_count": 0,
+      "l3_instock_other_results_count": 0,
+      "oos_products_shown_count": 0,
+      "recommendations_instrumentation_info": {
+        "query_level_sku_recommendations_instrumentation_info": {},
+        "cross_sell_widget_instrumentation_info": {}
+      },
+      "is_scoped_search_enabled": false,
+      "scope_category": "",
+      "scope_subcategory": "",
+      "scoped_search_not_enabled_reason": "",
+      "oos_text_meta": "",
+      "source_search_term": "Fortune Sunlite Refined Sunflower Oil 1L",
+      "recall_type_detail": {
+        "recall_type": "ZERO_RECALL",
+        "recall_display_title": "Could not find any products for \"fortune sunlite refined sunflower oil 1l\""
+      },
+      "category_cohort_experiment_instrumentation_info": {
+        "cohortRankingNotEnabledReason": "Relevance Info is not present for this query",
+        "categoryBasedRankingEnabled": false,
+        "isAtcDone": true
+      },
+      "meds_with_similar_salts_info": {},
+      "is_liquidation_done": false,
+      "liquidation_not_done_reason": "OrganicProductsLessThan4",
+      "l3_understanding_meta": {},
+      "product_grid_meta_info": {
+        "isProductGridFeatureEnabled": true,
+        "productGridSize": 3,
+        "productGridVariantType": "V3_SMALL_ABS_DISCOUNT",
+        "searchExperienceType": "3_3_discount_abs",
+        "isSfsOverrideEnabled": false
+      },
+      "buy_again_v2_boost_info": {},
+      "qrl_rerank_info_v2": {
+        "ranking_segmentation_error_occurred": false,
+        "default_qrl_rerank_done": false,
+        "qrl_default_rerank_not_done_reason": "RankingNotEnabledForFallback",
+        "qrl_default_rerank_source": "query_reranking_rank9_variant",
+        "qrl_explore_rerank_source": "query_reranking_rank9_variant",
+        "qrl_vector_rerank_source": "semantic_query_reranking_rank1_variant",
+        "qrl_default_reranking_list_product_count": 0,
+        "qrl_explore_search_product_count": 0,
+        "qrl_vector_search_product_count": 0,
+        "feature_store_meta": {
+          "feature_store_enabled": false
+        },
+        "explore_re_rank_meta": {},
+        "user_personalization_meta": {
+          "is_user_personalized_ranking_done": false,
+          "total_user_personalized_ranked_product_count": 0,
+          "span_user_personalized_ranked_product_count": 0,
+          "partial_user_personalized_ranked_product_count": 0,
+          "other_user_personalized_ranked_product_count": 0
+        }
+      },
+      "unserviceable_store_deboosting_not_enabled_reason": "Both Dark store and superstores are unserviceable",
+      "store_stress_info": {
+        "storeIdUsedStressRanking": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+        "storeStressRankingNotEnabledReason": "user not enabled for marketplaceType: SUPER_SAVER",
+        "storeStressRankingEnabled": false,
+        "rankingVariant": null,
+        "storeStressInCache": 0,
+        "storeStressEnum": ""
+      },
+      "pt_and_attributes_meta": {
+        "search_term_contains_attributes": 0,
+        "search_term_number_of_attributes": 0,
+        "search_term_PT": null,
+        "search_term_brand": null,
+        "pt_brand_source": "",
+        "attribute_relevance_version": "",
+        "search_term_contains_brand": 0,
+        "search_term_attributes": null
+      },
+      "vip_deals_meta": {
+        "total_vip_deal_atlas_boosted_cnt": 0
+      },
+      "autosuggestion_live_ranker_meta": {
+        "ctr_ranking_done": false,
+        "cvr_ranking_done": false
+      },
+      "autosuggestion_promotion_meta": {
+        "promotion_applied": false
+      },
+      "vip_deals_horizontal_card_widget_instrumentation_info": {
+        "deal_cards_loaded": 0
+      },
+      "special_event_instrumentation_info": {
+        "events": null,
+        "special_events_enabled": false,
+        "special_events_not_enabled_reason": "CompatibleComponentsNotFound"
+      },
+      "a_vector_recall_meta_info": {
+        "rt_vector_eligible_query": false,
+        "a_segmentation_applied": true,
+        "a_source_search_term": "Fortune Sunlite Refined Sunflower Oil 1L",
+        "a_query_segmentations": [
+          "TAIL_OF_TAIL_RTVS"
+        ],
+        "a_query_segmentations_count": 1
+      },
+      "explore_exploit_meta_info": {
+        "masterFlagEnabled": true,
+        "exploreExploitNotShownReason": "query segment not valid for explore exploit in segmentations"
+      },
+      "ads_banner_widget_instrumentation_info": {
+        "candidates_processed": 0
+      },
+      "consolidated_banner_widget_instrumentation": {
+        "widgets_added": [],
+        "widgets_rejected": [],
+        "conflicts_resolved": 0
+      },
+      "ads_meta": {
+        "deboosting": null,
+        "fly_wheel": null
+      },
+      "aisle_experience_instrumentation_info": {
+        "aisle_experience_shown": false,
+        "aisle_eligible_query": false,
+        "aisle_experience_not_shown_reason": "AisleExperienceExperimentNotEnabled"
+      },
+      "convo_commerce_widget_info": {
+        "is_convo_commerce_widget_enabled": false,
+        "convo_commerce_widget_not_shown_reason": "prompts list is empty"
+      },
+      "tertiary_store_deboosted_instrumentation": {
+        "tertiary_deboosting_default_done": false,
+        "tertiary_deboosting_explore_done": false,
+        "tertiary_deboosting_vector_done": false
+      },
+      "explore_expansion_instrumentation_info": {
+        "masterFlagEnabled": true,
+        "exploreExpansionNotShownReason": "experiment check failed",
+        "enabled": false
+      },
+      "model_meta_info": {
+        "head_or_tail_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "n1_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "overall_ranker_model_meta": {
+          "model_output_product_count": 0
+        }
+      },
+      "substitution_experience_info": {},
+      "buy_again_oos_info": {
+        "buy_again_oos_count": 0,
+        "buy_again_oos_pvids": "",
+        "buy_again_top_two_oos_count": 0
+      },
+      "hook_sku_oos_info": {
+        "hook_sku_oos_count": 0,
+        "hook_sku_oos_pvids": ""
+      },
+      "query_segmentation_info": {
+        "is_realtime_model_data_fetched": false,
+        "realtime_model_not_enabled_reason": "user_not_in_experiment"
+      },
+      "atlas_fallback_reason": "empty_user",
+      "query_similarity_meta": {
+        "query_similarity_done": false,
+        "query_similarity_not_done_reason": "experiment_disabled",
+        "similar_query_pst_data_exist": false
+      },
+      "ads_organic_overlap_meta": {},
+      "assist_filters_meta": {}
+    },
+    "experiments": {
+      "OR2_MIGRATION_EXPERIMENT": {
+        "experimentName": "search_or2_migration",
+        "experimentId": "dummy_id_for_or2_migration_experiment",
+        "variantName": "test2"
+      },
+      "PVID_SEARCH_CATALOGUE_EXPERIMENT": {
+        "experimentName": "pvid_search_catalogue_experiment",
+        "experimentId": "2adb51f8-afec-43dd-b055-6aa48fce2d73",
+        "variantName": "test"
+      },
+      "SEMANTIC_EXPERIMENT_V4": {
+        "experimentName": "vector_recall_v8",
+        "experimentId": "479283b9-7a7f-4518-83c5-cd3900314c40",
+        "variantName": "semantic_variant_3"
+      }
+    },
+    "pageType": "normal",
+    "stickyHeaders": [
+      0
+    ],
+    "isProductGridEnabled": true,
+    "isFiltersRevampEnabled": false,
+    "pageMeta": {
+      "viewMeta": {},
+      "refreshResolver": {
+        "config": {
+          "appParams": {
+            "queryTerm": "Fortune Sunlite Refined Sunflower Oil 1L",
+            "pageType": "search",
+            "productGridSize": 3
+          }
+        },
+        "url": "cfs/api/v1/bulk-widget-data",
+        "subscriptions": [
+          "cart_change"
+        ],
+        "type": "cfs_upsell_resolver"
+      }
+    },
+    "nextPageParams": {
+      "filterMode": 1,
+      "pageNumber": 1
+    },
+    "filterMode": 1
+  },
+  "sanitization_log": [
+    {
+      "field": "payload.userSessionId",
+      "action": "REDACTED",
+      "reason": "session_id_pii",
+      "redacted_at": "2026-08-26T04:50:00Z"
+    }
+  ]
+}

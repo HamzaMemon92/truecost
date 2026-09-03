@@ -1,0 +1,2962 @@
+{
+  "capture_version": "truecost.source.capture.v1",
+  "run_id": "zepto_variant",
+  "case_id": "variant",
+  "provider": "zepto",
+  "domain": "grocery",
+  "query": "Amul Gold Milk 500ml",
+  "captured_at": "2026-08-25T16:00:22.795Z",
+  "execution_mode": "REAL_LIVE_SCRAPE",
+  "scraper_component": "ZeptoScraper",
+  "message_type": "SEARCH_SUCCESS",
+  "requested_location_profile": "default",
+  "observed_location_evidence": "NOT_AVAILABLE",
+  "location_verified": false,
+  "payload": {
+    "layout": [
+      {
+        "widgetId": "TITLE_WIDGET",
+        "widgetName": "SEARCH_TITLE_WIDGET",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "title",
+            "data": {
+              "items": [],
+              "title": "Showing results for \"amul gold milk 500ml\"",
+              "queryTitle": "",
+              "searchQuery": "Amul Gold Milk 500ml",
+              "replacingTerm": "",
+              "searchKeyInTitle": "amul gold milk 500ml",
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "viewMeta": {
+          "aspectRatio": 3.33,
+          "paddingTop": 1,
+          "paddingBottom": 1,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "backgroundColor": "#FFFFFF",
+          "adContainer": {
+            "marginHorizontal": 0,
+            "overflow": "",
+            "borderRadius": 0,
+            "backgroundColor": "",
+            "paddingBottom": 0
+          },
+          "productsList": {
+            "paddingHorizontal": 0,
+            "marginBottom": 0,
+            "separator": 0
+          },
+          "adAsset": {},
+          "backgroundGradient": {
+            "start": {
+              "x": 0,
+              "y": 0
+            },
+            "end": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "borderWidth": 0,
+          "borderColor": "",
+          "highlightColor": "",
+          "titleStyle": null,
+          "itemSpacing": 0,
+          "cardStyle": null,
+          "curveIcon": null,
+          "curveIconV2": null,
+          "headerStyle": null,
+          "listStyle": null,
+          "padding": null,
+          "itemPadding": null,
+          "imagePadding": null,
+          "titleIconImage": null,
+          "bodyStyle": null,
+          "subTitleLeadingIconImage": {
+            "id": "",
+            "name": "",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "titleLeadingIconImage": {
+            "id": "",
+            "name": "",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "tag": {
+            "text": "",
+            "variant": "",
+            "style": {
+              "color": "",
+              "paddingHorizontal": 0,
+              "paddingVertical": 0,
+              "borderWidth": 0,
+              "borderRadius": 0,
+              "borderColor": "",
+              "backgroundColor": "",
+              "lineHeight": 0
+            }
+          },
+          "card": {
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColor": "",
+            "backgroundColor": "",
+            "backgroundMode": "",
+            "firstColor": "",
+            "secondColor": "",
+            "padding": null
+          },
+          "overlayIconStyles": {},
+          "imageContainerStyle": {},
+          "productIconStyles": {},
+          "text": {
+            "unselectedColor": "",
+            "selectedColor": "",
+            "selectedVariant": "",
+            "unselectedVariant": "",
+            "selectedBackgroundColor": "",
+            "unselectedBackgroundColor": "",
+            "textSize": 0
+          }
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_0",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "f20c508d-9fe0-5d1d-a5bd-bd6b9b07a2a6",
+                    "id": "f20c508d-9fe0-5d1d-a5bd-bd6b9b07a2a6",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Amul",
+                      "brandId": "b27a7a24-66c5-495d-9fc0-ee6459536bb9",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Amul Lactose Free Milk comes with less than 0.01% lactose content and has all the goodness of protein",
+                        "calcium vitamins and pre-digested Lactose that helps in easy digestion of milk for lactose intolerant people."
+                      ],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "9dedbd3a-bc3e-471c-a68d-b9b6e3de4a31",
+                      "imported": false,
+                      "ingredients": "Toned Milk, Milk Solids, Enzyme (beta galactosidase)",
+                      "l3CategoryIds": [
+                        "a9bc35df-e28d-4c70-a21f-7dd57d6ae735"
+                      ],
+                      "manufacturerAddress": "Gujarat Co-Operative Milk Marketing Federation, Po Box 10, Amul Dairy Road, Anand 388 001, Gujarat, India.",
+                      "manufacturerName": "Gujarat Co-Operative Milk Marketing Federation",
+                      "minimumRequiredAge": 0,
+                      "name": "Amul Lactose Free Milk (Tetra Pack)",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "22964a2b-0439-4236-9950-0d71b532b243",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "1 pack (250 ml)",
+                      "fssaiLicense": "10014021001010",
+                      "id": "23037033-b0ab-4109-82b6-30f3a2a2cf84",
+                      "images": [
+                        {
+                          "height": 3000,
+                          "hidePadding": true,
+                          "id": "af236035-742e-4eb9-89ae-539382fef5f7",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "5d491c1a-25b5-4863-8dd8-0138202e6804.jpg",
+                          "path": "cms/product_variant/5d491c1a-25b5-4863-8dd8-0138202e6804.jpg",
+                          "videoPath": null,
+                          "width": 3000,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 10,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 2600,
+                      "packagingType": null,
+                      "packsize": 250,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 21,
+                      "shelfLifeInHours": "4344",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "MILLILITRE",
+                      "unlisted": false,
+                      "weightInGms": 250,
+                      "productId": "9dedbd3a-bc3e-471c-a68d-b9b6e3de4a31",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 250,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 43461
+                      }
+                    },
+                    "discountedSellingPrice": 2600,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 10,
+                    "quantity": 21,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 2600,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 2600,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Other",
+                      "debug_platform_query_matching_bucket": "other",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 998,
+                      "semanticScore": 998,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Dairy, Bread & Eggs",
+                    "primaryCategoryId": "4b938e02-7bde-4479-bc0a-2b54cb6bd5f5",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2600,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2600
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 0,
+                  "index": 1
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "a7e35744-f7c8-5241-92c8-125ed115a5d1",
+                    "id": "a7e35744-f7c8-5241-92c8-125ed115a5d1",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Amul",
+                      "brandId": "b27a7a24-66c5-495d-9fc0-ee6459536bb9",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Amul Taaza Homogenized Toned Milk is fully wholesome and entirely luscious. It has a low-fat",
+                        "low-carb",
+                        "low-calorie and standard protein content. It continues fresh for 2 days after opening if kept in refrigerator. No water or powder added",
+                        "no preservative / chemical",
+                        "easy to carry and use on traveling. It does not have germs as it is pasteurized and therefore hygienic."
+                      ],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "c357eded-620e-48a0-8a98-a5c6440a1c8d",
+                      "imported": false,
+                      "ingredients": "Toned Milk, Fat 3.0 % minimum, SNF 8.5 % minimum.",
+                      "l3CategoryIds": [
+                        "a9bc35df-e28d-4c70-a21f-7dd57d6ae735"
+                      ],
+                      "manufacturerAddress": "Gujarat Co-Operative Milk Marketing Federation, Po Box 10, Amul Dairy Road, Anand 388 001, Gujarat, India.",
+                      "manufacturerName": "Gujarat Co-Operative Milk Marketing Federation",
+                      "minimumRequiredAge": 0,
+                      "name": "Amul Taaza Homogenised Toned Milk (Tetra Pack)",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "22964a2b-0439-4236-9950-0d71b532b243",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "1 pack (200 ml)",
+                      "fssaiLicense": "",
+                      "id": "2a231315-2b07-4de0-af4a-3a4f9c48ad0c",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "13aafe5a-cfba-4de6-87d3-b70e92c43f43",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "860850ec-1695-463f-b983-b98f00ae9e24.jpeg",
+                          "path": "cms/product_variant/860850ec-1695-463f-b983-b98f00ae9e24.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 10,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 1700,
+                      "packagingType": null,
+                      "packsize": 200,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 152,
+                      "shelfLifeInHours": "4344",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "MILLILITRE",
+                      "unlisted": false,
+                      "weightInGms": 200,
+                      "productId": "c357eded-620e-48a0-8a98-a5c6440a1c8d",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 200,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.6,
+                        "totalRatings": 156599
+                      }
+                    },
+                    "discountedSellingPrice": 1700,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 10,
+                    "quantity": 152,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 1700,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 1700,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Other",
+                      "debug_platform_query_matching_bucket": "other",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 996,
+                      "semanticScore": 996,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Dairy, Bread & Eggs",
+                    "primaryCategoryId": "4b938e02-7bde-4479-bc0a-2b54cb6bd5f5",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 1700,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 1700
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 1,
+                  "index": 3
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "e001f6c5-8acc-5b3e-88a5-e6f91ed94bfb",
+                    "id": "e001f6c5-8acc-5b3e-88a5-e6f91ed94bfb",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Amul",
+                      "brandId": "b27a7a24-66c5-495d-9fc0-ee6459536bb9",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Pasteurised in state-of-the-art processing plants",
+                        "Amul Gold Milk (Tetra Pak) is very rich and creamy in texture. It is ideal for preparing tea",
+                        "coffee",
+                        "sweets",
+                        "khoya",
+                        "curd",
+                        "buttermilk",
+                        "ghee etc."
+                      ],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "68a292a4-0f9a-4ee9-8564-7de7da549c25",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "a9bc35df-e28d-4c70-a21f-7dd57d6ae735"
+                      ],
+                      "manufacturerAddress": "Gujarat Co-Operative Milk Marketing Federation, Po Box 10, Amul Dairy Road, Anand 388 001, Gujarat, India.",
+                      "manufacturerName": "Gujarat Co-Operative Milk Marketing Federation",
+                      "minimumRequiredAge": 0,
+                      "name": "Amul Gold Homogenised Standardised Milk (Tetra Pack)",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "22964a2b-0439-4236-9950-0d71b532b243",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "1 pack (1 L)",
+                      "fssaiLicense": "",
+                      "id": "ff393466-31a4-4aba-a51b-a787c39ef57e",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "f80bd200-5b10-43bc-a076-8d87a937eb3a",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "dbeabd64-f310-49c8-9032-e25fc098ea86.jpeg",
+                          "path": "cms/product_variant/dbeabd64-f310-49c8-9032-e25fc098ea86.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 10,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 8300,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 19,
+                      "shelfLifeInHours": "4344",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "LITER",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "68a292a4-0f9a-4ee9-8564-7de7da549c25",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.6,
+                        "totalRatings": 46011
+                      }
+                    },
+                    "discountedSellingPrice": 8300,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 10,
+                    "quantity": 19,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 8300,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 8300,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Other",
+                      "debug_platform_query_matching_bucket": "other",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 994,
+                      "semanticScore": 994,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Dairy, Bread & Eggs",
+                    "primaryCategoryId": "4b938e02-7bde-4479-bc0a-2b54cb6bd5f5",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 8300,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 8300
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 2,
+                  "index": 5
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_3",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "370b6f1f-188c-5a53-9572-9e31e89c6f26",
+                    "id": "370b6f1f-188c-5a53-9572-9e31e89c6f26",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Amul",
+                      "brandId": "b27a7a24-66c5-495d-9fc0-ee6459536bb9",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Amul is one of the best brands in the Indian food industry known for its dairy\"",
+                        "\"confectionary and other products. It brings in pure products that are also filled with flavour and good health. Amul Taazas Toned Milk is one such product that is made for the health conscious consumer. To be consumed the same day."
+                      ],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "62253912-474c-4fca-98d8-486d2817fdda",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "f395f647-61da-4818-83df-9f35d5fe6b5f"
+                      ],
+                      "manufacturerAddress": "Gujarat Co-Operative Milk Marketing Federation, Po Box 10, Amul Dairy Road, Anand 388 001, Gujarat, India.",
+                      "manufacturerName": "Gujarat Co-Operative Milk Marketing Federation",
+                      "minimumRequiredAge": 0,
+                      "name": "Amul Taaza Toned Fresh Milk | Pouch",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "22964a2b-0439-4236-9950-0d71b532b243",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "1 pack (500 ml)",
+                      "fssaiLicense": "",
+                      "id": "9d447ba5-1d35-46e1-bc64-e932135d026f",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "9ea7a916-38b3-4b68-9c61-f92b116c2987",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "2e8a0f88-1038-4fd3-8093-7085a49b473c.jpeg",
+                          "path": "cms/product_variant/2e8a0f88-1038-4fd3-8093-7085a49b473c.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 10,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 2900,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 5,
+                      "shelfLifeInHours": "72",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "MILLILITRE",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "62253912-474c-4fca-98d8-486d2817fdda",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.9,
+                        "totalRatings": 1176037
+                      }
+                    },
+                    "discountedSellingPrice": 2700,
+                    "discountPercent": 6,
+                    "discountAmount": 200,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 5,
+                    "quantity": 5,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 2900,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 2700,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Other",
+                      "debug_platform_query_matching_bucket": "other",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 993,
+                      "semanticScore": 993,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Dairy, Bread & Eggs",
+                    "primaryCategoryId": "4b938e02-7bde-4479-bc0a-2b54cb6bd5f5",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 200
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2700,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2700
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 3,
+                  "index": 6
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "7f1b564e-7b3a-5cce-9931-a9de4dabeba2",
+                    "id": "7f1b564e-7b3a-5cce-9931-a9de4dabeba2",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Amul",
+                      "brandId": "b27a7a24-66c5-495d-9fc0-ee6459536bb9",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        ""
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "aec03659-7edc-4714-ba2f-687afbec8563",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "bcc7359e-e7e0-45c1-9ec4-11d08de6d011"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "GCMMF",
+                      "minimumRequiredAge": 0,
+                      "name": "Amul Prolife Probiotic Buttermilk Bottle",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "3f31272f-bf35-4e1c-b1f9-cc44d38ca464",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "1 pc (500 ml)",
+                      "fssaiLicense": "",
+                      "id": "2dd8afcc-0d78-4286-9018-389b7ca0cdd1",
+                      "images": [
+                        {
+                          "height": 3000,
+                          "hidePadding": true,
+                          "id": "9af2334f-3db2-4023-8419-85f0a0b335a7",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "0e08f115-aa91-42fc-a722-a112c3a250ef.jpg",
+                          "path": "cms/product_variant/0e08f115-aa91-42fc-a722-a112c3a250ef.jpg",
+                          "videoPath": null,
+                          "width": 3000,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 50,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 3500,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 7,
+                      "shelfLifeInHours": "384",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "MILLILITRE",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "aec03659-7edc-4714-ba2f-687afbec8563",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 7358
+                      }
+                    },
+                    "discountedSellingPrice": 3000,
+                    "discountPercent": 14,
+                    "discountAmount": 500,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 7,
+                    "quantity": 7,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 3500,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 3000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Other",
+                      "debug_platform_query_matching_bucket": "other",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 992,
+                      "semanticScore": 992,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Dairy, Bread & Eggs",
+                    "primaryCategoryId": "4b938e02-7bde-4479-bc0a-2b54cb6bd5f5",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 500
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 3000,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 3000
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 4,
+                  "index": 7
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "04a72404-167e-5f85-b08d-1e5dcd3816d8",
+                    "id": "04a72404-167e-5f85-b08d-1e5dcd3816d8",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Go",
+                      "brandId": "09feadf7-fa94-499b-a426-6c22cb8e9f16",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Go Daily Double Tonned Milk Tetra Pouch"
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "d5080191-bf1c-46a1-ab3f-b74b4937c6e0",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "a9bc35df-e28d-4c70-a21f-7dd57d6ae735"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": null,
+                      "minimumRequiredAge": 0,
+                      "name": "Go Daily Double Tonned Milk Tetra Pack",
+                      "pharmaceuticalInfo": {
+                        "isLicensed": false,
+                        "composition": "",
+                        "allergy": "",
+                        "usage": "",
+                        "disclaimer": ""
+                      },
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "22964a2b-0439-4236-9950-0d71b532b243",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "1 pc (1 L)",
+                      "fssaiLicense": "",
+                      "id": "713177eb-8784-4890-8b5d-a3274e2e5058",
+                      "images": [
+                        {
+                          "height": 900,
+                          "hidePadding": true,
+                          "id": "05d8b427-587b-4469-8af6-914036b9b19d",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "43be4f98-e8c9-46e4-8e1f-45b27041ce70.jpg",
+                          "path": "cms/product_variant/43be4f98-e8c9-46e4-8e1f-45b27041ce70.jpg",
+                          "videoPath": null,
+                          "width": 900,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 10,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 7500,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "4320",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "LITER",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "d5080191-bf1c-46a1-ab3f-b74b4937c6e0",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.5,
+                        "totalRatings": 569
+                      }
+                    },
+                    "discountedSellingPrice": 6500,
+                    "discountPercent": 13,
+                    "discountAmount": 1000,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 7500,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 6500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Other",
+                      "debug_platform_query_matching_bucket": "other",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 990,
+                      "semanticScore": 990,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Dairy, Bread & Eggs",
+                    "primaryCategoryId": "4b938e02-7bde-4479-bc0a-2b54cb6bd5f5",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 1000
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 6500,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 6500
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 5,
+                  "index": 9
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_6",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "ce9ab222-94c3-5550-b990-a2e8c7feb78e",
+                    "id": "ce9ab222-94c3-5550-b990-a2e8c7feb78e",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Amul",
+                      "brandId": "b27a7a24-66c5-495d-9fc0-ee6459536bb9",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Amul Taaza Homogenized Toned Milk is fully wholesome and entirely luscious. It has a low-fat",
+                        "low-carb",
+                        "low-calorie and standard protein content. It continues fresh for 2 days after opening if kept in refrigerator. No water or powder added",
+                        "no preservative / chemical",
+                        "easy to carry and use on traveling. It does not have germs as it is pasteurized and therefore hygienic."
+                      ],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "c357eded-620e-48a0-8a98-a5c6440a1c8d",
+                      "imported": false,
+                      "ingredients": "Toned Milk, Fat 3.0 % minimum, SNF 8.5 % minimum.",
+                      "l3CategoryIds": [
+                        "a9bc35df-e28d-4c70-a21f-7dd57d6ae735"
+                      ],
+                      "manufacturerAddress": "Gujarat Co-Operative Milk Marketing Federation, Po Box 10, Amul Dairy Road, Anand 388 001, Gujarat, India.",
+                      "manufacturerName": "Gujarat Co-Operative Milk Marketing Federation",
+                      "minimumRequiredAge": 0,
+                      "name": "Amul Taaza Homogenised Toned Milk (Tetra Pack)",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "22964a2b-0439-4236-9950-0d71b532b243",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "1 pack (1 L)",
+                      "fssaiLicense": "10012021000071",
+                      "id": "84eae511-5edb-4a22-875e-5aa94976c2d6",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "381cce3d-c76e-4aef-be61-2100984ad4a1",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "6aa4c577-ebeb-4647-bb58-dcb9b07541ac.jpeg",
+                          "path": "cms/product_variant/6aa4c577-ebeb-4647-bb58-dcb9b07541ac.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 10,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 7700,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 45,
+                      "shelfLifeInHours": "4320",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "LITER",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "c357eded-620e-48a0-8a98-a5c6440a1c8d",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.9,
+                        "totalRatings": 88739
+                      }
+                    },
+                    "discountedSellingPrice": 7700,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 10,
+                    "quantity": 45,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 7700,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 7700,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Other",
+                      "debug_platform_query_matching_bucket": "other",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 988,
+                      "semanticScore": 988,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Dairy, Bread & Eggs",
+                    "primaryCategoryId": "4b938e02-7bde-4479-bc0a-2b54cb6bd5f5",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 7700,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 7700
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 6,
+                  "index": 11
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "c80cc321-8ea6-5c36-b76c-5712f6d0ba36",
+                    "id": "c80cc321-8ea6-5c36-b76c-5712f6d0ba36",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Heritage",
+                      "brandId": "02740572-600b-4e5b-9e31-6b52f07a8b13",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Heritage Toned Milk is low in fat and tasty and nutritious and is best suited for tea and coffee whitening and for curd setting. Its nutritive balance assists children stay fit and active all day long. To be consumed the same day."
+                      ],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "627f17ba-001b-4286-8055-b6434ccc404b",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "f395f647-61da-4818-83df-9f35d5fe6b5f"
+                      ],
+                      "manufacturerAddress": "Heritage Foods Ltd, 6-3-541/C, Panjagutta, Hyderabad-82.",
+                      "manufacturerName": "Heritage Foods Ltd",
+                      "minimumRequiredAge": 0,
+                      "name": "Heritage Toned Fresh Milk | Pouch",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "22964a2b-0439-4236-9950-0d71b532b243",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "1 pack (500 ml)",
+                      "fssaiLicense": "10014047000258",
+                      "id": "fdf82a8b-a576-417f-b6df-a40d37e25634",
+                      "images": [
+                        {
+                          "height": 2400,
+                          "hidePadding": true,
+                          "id": "75d4b88c-c31e-4911-bea4-3cebf40509ad",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "58207565-7da6-44ce-bed6-860ecd56ba23.jpeg",
+                          "path": "cms/product_variant/58207565-7da6-44ce-bed6-860ecd56ba23.jpeg",
+                          "videoPath": null,
+                          "width": 2400,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 10,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 2700,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 13,
+                      "shelfLifeInHours": "72",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "MILLILITRE",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "627f17ba-001b-4286-8055-b6434ccc404b",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 423635
+                      }
+                    },
+                    "discountedSellingPrice": 2700,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 10,
+                    "quantity": 13,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 2700,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 2700,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Other",
+                      "debug_platform_query_matching_bucket": "other",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 984,
+                      "semanticScore": 984,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Dairy, Bread & Eggs",
+                    "primaryCategoryId": "4b938e02-7bde-4479-bc0a-2b54cb6bd5f5",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2700,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2700
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 7,
+                  "index": 15
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "3157ea71-3734-5d45-b170-01d293ef24f7",
+                    "id": "3157ea71-3734-5d45-b170-01d293ef24f7",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Amul",
+                      "brandId": "b27a7a24-66c5-495d-9fc0-ee6459536bb9",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Amul Moti Toned Milk has 3.0 % fat and 8.5 % non-fat solids. It is perfect for whitening tea/coffee and for the preparation of solid curd."
+                      ],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "df8c145e-77c1-4ece-869e-4315133c44e0",
+                      "imported": true,
+                      "ingredients": "Homogenised Toned Milk.",
+                      "l3CategoryIds": [
+                        "a9bc35df-e28d-4c70-a21f-7dd57d6ae735"
+                      ],
+                      "manufacturerAddress": "Gujarat Co-Operative Milk Marketing Federation, Po Box 10, Amul Dairy Road, Anand 388 001, Gujarat, India.",
+                      "manufacturerName": "Gujarat Co-Operative Milk Marketing Federation",
+                      "minimumRequiredAge": 0,
+                      "name": "Amul Moti Toned Milk | 90 Days Shelf life",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "22964a2b-0439-4236-9950-0d71b532b243",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "1 pack (450 ml)",
+                      "fssaiLicense": "10012021000071",
+                      "id": "1638f685-befc-478e-95f8-2d92213866e7",
+                      "images": [
+                        {
+                          "height": 1500,
+                          "hidePadding": true,
+                          "id": "eca0eb0f-27bc-4434-9884-4655d61c2b9e",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "74226ac6-b295-4a42-89d3-93ad2d2c14c8.jpeg",
+                          "path": "cms/product_variant/74226ac6-b295-4a42-89d3-93ad2d2c14c8.jpeg",
+                          "videoPath": null,
+                          "width": 1500,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 10,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 3000,
+                      "packagingType": null,
+                      "packsize": 450,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 25,
+                      "shelfLifeInHours": "2160",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "MILLILITRE",
+                      "unlisted": false,
+                      "weightInGms": 450,
+                      "productId": "df8c145e-77c1-4ece-869e-4315133c44e0",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 450,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 174724
+                      }
+                    },
+                    "discountedSellingPrice": 3000,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 10,
+                    "quantity": 25,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 3000,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 3000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Other",
+                      "debug_platform_query_matching_bucket": "other",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 983,
+                      "semanticScore": 983,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Dairy, Bread & Eggs",
+                    "primaryCategoryId": "4b938e02-7bde-4479-bc0a-2b54cb6bd5f5",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 3000,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 3000
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 8,
+                  "index": 16
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "HOME_FOOTER",
+        "widgetName": "SEARCH_FOOTER",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    ],
+    "footer": {
+      "widget": {
+        "widgetId": "",
+        "widgetName": "",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    },
+    "header": null,
+    "selectedTabId": 0,
+    "algoliaQueryID": "",
+    "showCigaretteBanner": false,
+    "pageProductCount": 9,
+    "totalProductCount": 23,
+    "currentPage": 0,
+    "hasReachedEnd": true,
+    "userSessionId": "[REDACTED]",
+    "algoliaTimeOut": false,
+    "algoliaTypoTolerance": false,
+    "filters": {
+      "activeFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "allFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "topBrands": null
+    },
+    "showTobaccoConsentPopup": false,
+    "meta": {
+      "related_products_enabled": false,
+      "related_products_search_term_default": "amul gold milk 500ml",
+      "total_organic_products": 23,
+      "oos_organic_products": 0,
+      "instock_organic_products": 23,
+      "total_related_products": 0,
+      "oos_related_products": 0,
+      "instock_related_products": 0,
+      "total_results": 23,
+      "total_oos_results": 0,
+      "total_instock_results": 23,
+      "related_products_reason": "CompatibleComponentsNotFound",
+      "qcl_meta": {
+        "qcl_correction_not_done_reason": "CompatibleComponentsNotFound",
+        "qcl_correction_done_v3": false
+      },
+      "inhouse_search_done": false,
+      "plp_primary_category_name_from_recall": "",
+      "plp_primary_category_mapping": "",
+      "plp_subcat_listing_logic": "",
+      "plp_experience_shown": false,
+      "plp_experience_not_shown_reason": "PlpExperimentNotEnabled",
+      "relevance_v2": {
+        "relevance_L1": [
+          {
+            "id": "4b938e02-7bde-4479-bc0a-2b54cb6bd5f5",
+            "name": "Dairy, Bread & Eggs",
+            "score": 0.336,
+            "presentInNonOpsRelevance": true
+          }
+        ],
+        "relevance_L2": [
+          {
+            "id": "22964a2b-0439-4236-9950-0d71b532b243",
+            "name": "Milk",
+            "score": 0.318,
+            "presentInNonOpsRelevance": true
+          },
+          {
+            "id": "3f31272f-bf35-4e1c-b1f9-cc44d38ca464",
+            "name": "Milk Based Drinks",
+            "score": 0.594,
+            "presentInNonOpsRelevance": true
+          }
+        ],
+        "relevance_L3": [
+          {
+            "id": "a9bc35df-e28d-4c70-a21f-7dd57d6ae735",
+            "name": "Tetra Pack Milk",
+            "score": 0.15656,
+            "presentInNonOpsRelevance": true
+          },
+          {
+            "id": "f395f647-61da-4818-83df-9f35d5fe6b5f",
+            "name": "Toned Milk",
+            "score": 0.15744,
+            "presentInNonOpsRelevance": true
+          },
+          {
+            "id": "0785a36d-072a-4780-a196-6366f7a68822",
+            "name": "Fresh Cow Milk",
+            "score": 0.167592,
+            "presentInNonOpsRelevance": true
+          },
+          {
+            "id": "1de074c6-210e-43a5-bc60-214e938778d4",
+            "name": "Buttermilk",
+            "score": 0.396,
+            "presentInNonOpsRelevance": true
+          }
+        ]
+      },
+      "relevance_L3_count": 4,
+      "relevance_brand": [
+        {
+          "id": "b27a7a24-66c5-495d-9fc0-ee6459536bb9",
+          "name": "Amul",
+          "score": 1
+        }
+      ],
+      "relevance_variant_selected": 1,
+      "segmentations": [
+        "TOP_7L"
+      ],
+      "query_intent_done": true,
+      "ds_query_type": "very_narrow",
+      "ds_basket_building_flag": true,
+      "ds_basket_building_flag_data": "non-basket",
+      "filter_mode": 1,
+      "filter_state": "NO_FILTER_SELECTED",
+      "l3_superspan_results_count": 0,
+      "l3_span_results_count": 0,
+      "l3_partial_results_count": 0,
+      "l3_other_results_count": 23,
+      "l3_oos_superspan_results_count": 0,
+      "l3_oos_span_results_count": 0,
+      "l3_oos_partial_results_count": 0,
+      "l3_oos_other_results_count": 0,
+      "l3_instock_superspan_results_count": 0,
+      "l3_instock_span_results_count": 0,
+      "l3_instock_partial_results_count": 0,
+      "l3_instock_other_results_count": 23,
+      "oos_products_shown_count": 0,
+      "recommendations_instrumentation_info": {
+        "query_level_sku_recommendations_instrumentation_info": {},
+        "cross_sell_widget_instrumentation_info": {}
+      },
+      "is_scoped_search_enabled": false,
+      "scope_category": "",
+      "scope_subcategory": "",
+      "scoped_search_not_enabled_reason": "",
+      "oos_text_meta": "",
+      "source_search_term": "Amul Gold Milk 500ml",
+      "recall_type_detail": {
+        "recall_type": "ORGANIC_RECALL_WITH_NO_TYPO_AND_EXACT_MATCH",
+        "recall_display_title": "Showing results for \"amul gold milk 500ml\""
+      },
+      "category_cohort_experiment_instrumentation_info": {
+        "highestConfidenceL1": "Dairy, Bread & Eggs",
+        "highestConfidenceL2": "Milk",
+        "relevanceLevel": "L1",
+        "cohortRankingNotEnabledReason": "UserIdNotPresent",
+        "categoryBasedRankingEnabled": false,
+        "isAtcDone": true
+      },
+      "meds_with_similar_salts_info": {},
+      "is_liquidation_done": false,
+      "liquidation_not_done_reason": "OrganicProductsLessThan4",
+      "l3_understanding_meta": {},
+      "product_grid_meta_info": {
+        "isProductGridFeatureEnabled": true,
+        "productGridSize": 3,
+        "productGridVariantType": "V3_SMALL_ABS_DISCOUNT",
+        "searchExperienceType": "3_3_discount_abs",
+        "isSfsOverrideEnabled": false
+      },
+      "buy_again_v2_boost_info": {},
+      "qrl_rerank_info_v2": {
+        "ranking_segmentation_error_occurred": false,
+        "default_qrl_rerank_done": false,
+        "qrl_default_rerank_not_done_reason": "RankingNotEnabledForFallback",
+        "qrl_default_rerank_source": "query_reranking_rank9_variant",
+        "qrl_explore_rerank_source": "query_reranking_rank9_variant",
+        "qrl_vector_rerank_source": "semantic_query_reranking_rank1_variant",
+        "qrl_default_reranking_list_product_count": 0,
+        "qrl_explore_search_product_count": 0,
+        "qrl_vector_search_product_count": 0,
+        "feature_store_meta": {
+          "feature_store_enabled": false
+        },
+        "explore_re_rank_meta": {},
+        "user_personalization_meta": {
+          "is_user_personalized_ranking_done": false,
+          "total_user_personalized_ranked_product_count": 0,
+          "span_user_personalized_ranked_product_count": 0,
+          "partial_user_personalized_ranked_product_count": 0,
+          "other_user_personalized_ranked_product_count": 0
+        }
+      },
+      "unserviceable_store_deboosting_not_enabled_reason": "Both Dark store and superstores are unserviceable",
+      "store_stress_info": {
+        "storeIdUsedStressRanking": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+        "storeStressRankingNotEnabledReason": "user not enabled for marketplaceType: SUPER_SAVER",
+        "storeStressRankingEnabled": false,
+        "rankingVariant": null,
+        "storeStressInCache": 0,
+        "storeStressEnum": ""
+      },
+      "pt_and_attributes_meta": {
+        "search_term_contains_attributes": 1,
+        "search_term_number_of_attributes": 3,
+        "search_term_PT": [
+          "milk"
+        ],
+        "search_term_brand": [
+          "Amul"
+        ],
+        "pt_brand_source": "mongo",
+        "attribute_relevance_version": "v1",
+        "search_term_contains_brand": 1,
+        "search_term_attributes": [
+          "weight",
+          "brand",
+          "product_leafname"
+        ],
+        "search_term_attribute_values": {
+          "brand": {
+            "values": [
+              "Amul"
+            ]
+          },
+          "product_leafname": {
+            "values": [
+              "milk"
+            ]
+          },
+          "weight": {
+            "values": [
+              "500 ml"
+            ]
+          }
+        }
+      },
+      "vip_deals_meta": {
+        "total_vip_deal_atlas_boosted_cnt": 0
+      },
+      "autosuggestion_live_ranker_meta": {
+        "ctr_ranking_done": false,
+        "cvr_ranking_done": false
+      },
+      "autosuggestion_promotion_meta": {
+        "promotion_applied": false
+      },
+      "vip_deals_horizontal_card_widget_instrumentation_info": {
+        "deal_cards_loaded": 0
+      },
+      "special_event_instrumentation_info": {
+        "events": null,
+        "special_events_enabled": false,
+        "special_events_not_enabled_reason": "CompatibleComponentsNotFound"
+      },
+      "a_vector_recall_meta_info": {
+        "rt_vector_eligible_query": false,
+        "a_segmentation_applied": true,
+        "a_source_search_term": "Amul Gold Milk 500ml",
+        "a_query_segmentations": [
+          "TOP_7L"
+        ],
+        "a_query_segmentations_count": 1,
+        "top_segment": "TOP_7L",
+        "source_top_segment": "TOP_7L"
+      },
+      "explore_exploit_meta_info": {
+        "masterFlagEnabled": true,
+        "exploreExploitNotShownReason": "query segment not valid for explore exploit in segmentations"
+      },
+      "ads_banner_widget_instrumentation_info": {
+        "candidates_processed": 0
+      },
+      "consolidated_banner_widget_instrumentation": {
+        "widgets_added": [],
+        "widgets_rejected": [],
+        "conflicts_resolved": 0
+      },
+      "ads_meta": {
+        "deboosting": null,
+        "fly_wheel": null
+      },
+      "aisle_experience_instrumentation_info": {
+        "aisle_experience_shown": false,
+        "aisle_eligible_query": false,
+        "aisle_experience_not_shown_reason": "AisleExperienceExperimentNotEnabled"
+      },
+      "convo_commerce_widget_info": {
+        "is_convo_commerce_widget_enabled": false,
+        "convo_commerce_widget_not_shown_reason": "prompts list is empty"
+      },
+      "tertiary_store_deboosted_instrumentation": {
+        "tertiary_deboosting_default_done": false,
+        "tertiary_deboosting_explore_done": false,
+        "tertiary_deboosting_vector_done": false
+      },
+      "explore_expansion_instrumentation_info": {
+        "masterFlagEnabled": true,
+        "exploreExpansionNotShownReason": "experiment check failed",
+        "enabled": false
+      },
+      "model_meta_info": {
+        "head_or_tail_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "n1_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "overall_ranker_model_meta": {
+          "model_output_product_count": 0
+        }
+      },
+      "substitution_experience_info": {},
+      "buy_again_oos_info": {
+        "buy_again_oos_count": 0,
+        "buy_again_oos_pvids": "",
+        "buy_again_top_two_oos_count": 0
+      },
+      "hook_sku_oos_info": {
+        "hook_sku_oos_count": 0,
+        "hook_sku_oos_pvids": ""
+      },
+      "query_segmentation_info": {
+        "is_realtime_model_data_fetched": false,
+        "realtime_model_not_enabled_reason": "mongo_data_exists"
+      },
+      "atlas_fallback_reason": "empty_user",
+      "query_similarity_meta": {
+        "query_similarity_done": false,
+        "query_similarity_not_done_reason": "experiment_disabled",
+        "similar_query_pst_data_exist": false
+      },
+      "ads_organic_overlap_meta": {},
+      "assist_filters_meta": {}
+    },
+    "experiments": {
+      "OR2_MIGRATION_EXPERIMENT": {
+        "experimentName": "search_or2_migration",
+        "experimentId": "dummy_id_for_or2_migration_experiment",
+        "variantName": "test2"
+      },
+      "PVID_SEARCH_CATALOGUE_EXPERIMENT": {
+        "experimentName": "pvid_search_catalogue_experiment",
+        "experimentId": "2adb51f8-afec-43dd-b055-6aa48fce2d73",
+        "variantName": "test"
+      },
+      "SEMANTIC_EXPERIMENT_V4": {
+        "experimentName": "vector_recall_v8",
+        "experimentId": "479283b9-7a7f-4518-83c5-cd3900314c40",
+        "variantName": "semantic_variant_3"
+      }
+    },
+    "pageType": "normal",
+    "stickyHeaders": [
+      0
+    ],
+    "isProductGridEnabled": true,
+    "isFiltersRevampEnabled": false,
+    "pageMeta": {
+      "viewMeta": {},
+      "refreshResolver": {
+        "config": {
+          "appParams": {
+            "queryTerm": "Amul Gold Milk 500ml",
+            "pageType": "search",
+            "productGridSize": 3
+          }
+        },
+        "url": "cfs/api/v1/bulk-widget-data",
+        "subscriptions": [
+          "cart_change"
+        ],
+        "type": "cfs_upsell_resolver"
+      }
+    },
+    "nextPageParams": {
+      "filterMode": 1,
+      "pageNumber": 1
+    },
+    "filterMode": 1
+  },
+  "sanitization_log": [
+    {
+      "field": "payload.userSessionId",
+      "action": "REDACTED",
+      "reason": "session_id_pii",
+      "redacted_at": "2026-08-26T04:50:00Z"
+    }
+  ]
+}

@@ -1,0 +1,1640 @@
+# TRUECOST — WORLD-CLASS MOBILE PRODUCT TRANSFORMATION
+
+You have been given three TrueCost UI/UX research and design Markdown files.
+
+Read **ALL THREE FILES COMPLETELY before making any code or design changes**.
+
+Treat them as research inputs for one unified product design program.
+
+## YOUR ROLE
+
+Operate as one integrated elite product team consisting of:
+
+* Chief Design Officer
+* VP Product Design
+* Principal Mobile Product Designer
+* Principal UX Architect
+* Design Systems Director
+* Interaction Designer
+* Motion Design Director
+* Visual Designer
+* Brand Designer
+* Product Imagery Director
+* Principal React Native / Expo Engineer
+* Mobile Performance Engineer
+* Accessibility Specialist
+* UX Researcher
+* Product Manager
+* Visual QA Director
+* Consumer Commerce UX Expert
+* Fintech UX Expert
+* Travel UX Expert
+* Marketplace UX Expert
+
+Do not behave like a generic coding assistant.
+
+Do not think:
+
+> “How can I make these existing screens prettier?”
+
+Think:
+
+> “If TrueCost were my own company and I had one opportunity to create a globally respected, category-defining consumer mobile product, what system would I build?”
+
+---
+
+# PRODUCT AMBITION
+
+TrueCost must become one of the most polished, beautiful, intelligent and memorable consumer mobile experiences in its category.
+
+The desired first reaction is:
+
+> “WOW. What app is this?”
+
+Within seconds that must become:
+
+> “I instantly understand what this app does.”
+
+And after the first comparison:
+
+> “TrueCost just removed the difficult part of this decision for me.”
+
+The WOW must come from:
+
+* exceptional hierarchy
+* beautiful typography
+* world-class spacing
+* premium imagery
+* exceptional product photography
+* meaningful illustrations
+* elegant interaction design
+* premium microinteractions
+* purposeful motion
+* precise haptics
+* sophisticated depth
+* excellent transitions
+* outstanding information design
+* trustworthy recommendations
+* seamless perceived performance
+* attention to tiny details
+* strong brand identity
+
+NOT from:
+
+* random gradients
+* excessive glass
+* excessive shadows
+* excessive glowing objects
+* animations everywhere
+* gimmicks
+* clutter
+* giant cards everywhere
+* excessive decorative particles
+* copying another application
+
+---
+
+# TRUECOST PRODUCT PRINCIPLE
+
+TrueCost is not eight marketplaces placed inside one application.
+
+TrueCost is:
+
+> **ONE INTELLIGENT DECISION OPERATING SYSTEM**
+
+with:
+
+* one TrueCost brand
+* eight domain-specific experiences
+* one universal comparison language
+* one recommendation architecture
+* one trust system
+* one image system
+* one provider identity system
+* one motion system
+* one signature intelligence object
+
+The supported experience may include:
+
+* Grocery
+* Food Delivery
+* Pharmacy
+* Shopping / E-Commerce
+* Mobility / Rides
+* Travel / Flights
+* Finance
+* Productivity / SaaS
+
+The repository remains the source of truth regarding which capabilities are actually implemented.
+
+Never make an incomplete category visually pretend to have backend capabilities it does not have.
+
+---
+
+# CANONICAL DESIGN DIRECTION
+
+Unify the three research files into one system.
+
+Use:
+
+# TRUECOST PORCELAIN INTELLIGENCE
+
+as the canonical visual language.
+
+Core personality:
+
+* premium
+* intelligent
+* calm
+* warm
+* trustworthy
+* optimistic
+* sophisticated
+* precise
+* contemporary
+* distinctive
+* extremely polished
+
+The interface should be white-first but never sterile.
+
+Use tonal whites, excellent typography, subtle depth, carefully controlled shadows, selective glass, expressive imagery and TrueCost's own chromatic identity.
+
+Maintain a semantic palette centered around:
+
+* Porcelain → calm application foundation
+* Ink → information and typography
+* Iris → TrueCost intelligence / selection / recommendation
+* Mint → savings / positive value
+* Amber → uncertainty / incomplete / stale
+* Rose → failure / unavailable / critical
+
+Exact values from the research are starting tokens, not sacred values.
+
+Validate them on actual emulator/device screenshots and through contrast testing before freezing production tokens.
+
+---
+
+# FIVE SIGNATURE TRUECOST EXPERIENCES
+
+The entire redesign should revolve around five ownable ideas.
+
+## 1. TRUECOST SEARCH LENS
+
+Create an unusually beautiful universal entry point.
+
+The user should be able to express intent naturally:
+
+* “cheapest complete basket for these groceries”
+* “iPhone 15 128 GB black”
+* “cab to the airport”
+* “Delhi to Mumbai tomorrow evening”
+* “compare Slack plans for 12 people”
+
+The Search Lens should feel like the beginning of intelligence.
+
+It must not look like another generic chatbot input.
+
+The search interaction should transform elegantly into the appropriate decision workspace.
+
+---
+
+## 2. RECOMMENDATION HERO
+
+This is one of the most important components in the product.
+
+The user should understand the recommendation almost immediately.
+
+It must clearly answer:
+
+* what won?
+* provider
+* product/entity
+* final known TrueCost
+* saving
+* why it won
+* availability/coverage
+* relevant ETA
+* freshness
+* uncertainty
+* primary action
+
+The recommendation itself is the hero.
+
+Raw comparison data is secondary.
+
+---
+
+## 3. TRUECOST COMPARISON LANGUAGE
+
+Every domain should answer:
+
+* WHAT did we compare?
+* WHO did we compare?
+* WHICH option won?
+* HOW MUCH does it actually cost?
+* WHY did it win?
+* WHAT is the tradeoff?
+* HOW CURRENT is the evidence?
+* WHAT is unknown?
+* HOW COMPLETE is provider coverage?
+
+But visualize those questions differently by category.
+
+Never turn every comparison into the same generic table.
+
+---
+
+## 4. TRUECOST LENS
+
+Create an ownable visual + motion object representing intelligence resolving into certainty.
+
+Conceptual states:
+
+IDLE
+→ quiet / waiting
+
+UNDERSTANDING
+→ subtle layer movement
+
+COMPARING
+→ layers progressively organize / align
+
+DECISION FOUND
+→ controlled alignment into one confident final form
+
+UNKNOWN / ERROR
+→ quiet unresolved state
+
+Use selectively in:
+
+* onboarding
+* home/search
+* intent understanding
+* comparison processing
+* recommendation reveal
+* selected empty states
+
+Do NOT place it everywhere.
+
+Do NOT create another generic sparkle AI identity.
+
+---
+
+## 5. TRUECOST DECISION HALO
+
+Create a subtle visual treatment around an authoritative recommendation.
+
+Potential characteristics:
+
+* soft iris atmosphere
+* controlled light
+* subtle dimensionality
+* refined elevation
+* very restrained gradient
+
+Never make it a giant neon glow.
+
+It should communicate:
+
+> “This is the decision TrueCost reached.”
+
+---
+
+# BEFORE TOUCHING THE UI — COMPLETE AUDIT
+
+DO NOT immediately redesign screens.
+
+First perform a complete READ-ONLY audit of the existing application.
+
+Inspect:
+
+* navigation structure
+* every screen
+* every category flow
+* search
+* results
+* comparison
+* recommendation UI
+* product cards
+* provider cards
+* buttons
+* chips
+* inputs
+* forms
+* modals
+* bottom sheets
+* tabs
+* navigation bars
+* loading states
+* skeletons
+* empty states
+* errors
+* partial states
+* unavailable states
+* images
+* provider logos
+* icons
+* illustrations
+* typography
+* spacing
+* radii
+* borders
+* shadows
+* colors
+* animation
+* haptics
+* safe areas
+* keyboard behavior
+* accessibility
+* responsive behavior
+* long text behavior
+* small-screen behavior
+
+Also inspect the actual frontend stack:
+
+* package.json
+* Expo SDK
+* React Native version
+* React Navigation
+* Reanimated
+* Gesture Handler
+* expo-image
+* expo-blur
+* expo-haptics
+* Skia
+* Rive
+* Lottie
+* SVG libraries
+* caching
+* state management
+* existing design-system code
+
+Do not upgrade dependencies blindly.
+
+First understand compatibility.
+
+---
+
+# CAPTURE THE EXISTING APP
+
+Launch the REAL application.
+
+Use the available Android emulator/device.
+
+Capture BEFORE screenshots for every important screen.
+
+Include at minimum:
+
+* Home
+* Search
+* intent/search active state
+* results
+* comparison
+* Recommendation Hero / current equivalent
+* grocery product
+* grocery basket
+* shopping result
+* mobility
+* travel
+* food
+* pharmacy
+* finance
+* SaaS
+* loading
+* empty
+* partial data
+* unavailable
+* errors
+* provider detail / breakdown
+* relevant sheets
+
+Store evidence systematically.
+
+Do not declare that the current UI is understood only by reading JSX.
+
+Inspect the actual rendered pixels.
+
+---
+
+# CREATE A UX / VISUAL AUDIT
+
+For each major screen document:
+
+* user goal
+* main action
+* main information
+* secondary information
+* current visual focal point
+* required focal point
+* hierarchy problems
+* usability friction
+* information overload
+* trust problems
+* visual weaknesses
+* spacing problems
+* typography problems
+* imagery opportunities
+* motion opportunities
+* interaction opportunities
+* accessibility problems
+* performance risks
+
+Classify issues:
+
+P0 — wrong, misleading or broken
+P1 — serious UX / hierarchy issue
+P2 — major visual / polish issue
+P3 — optional refinement
+
+Do not redesign everything blindly.
+
+Know why every change is being made.
+
+---
+
+# DESIGN SYSTEM FIRST
+
+Before rebuilding category screens, establish reusable TrueCost foundations.
+
+Build/finalize:
+
+## Foundations
+
+* semantic colors
+* typography
+* spacing
+* radii
+* elevation
+* borders
+* opacity
+* icon sizing
+* content width
+* safe-area rules
+* grid/alignment
+* responsive behavior
+
+## Surface system
+
+Create reusable material roles such as:
+
+* canvas
+* paper
+* raised
+* tinted
+* glass regular
+* glass clear
+* overlay
+
+Glass must primarily belong to:
+
+* floating navigation
+* Search Lens
+* floating filters
+* contextual controls
+* map controls
+* media overlays
+* transient sheets
+* selected interactive objects
+
+Do NOT apply blur to every card.
+
+If actual blur damages performance, gracefully fall back to a premium translucent/opaque treatment.
+
+Performance is more important than being able to claim that something uses blur.
+
+---
+
+# TYPOGRAPHY
+
+Typography should become one of TrueCost's strongest characteristics.
+
+Create semantic roles including:
+
+* display
+* hero
+* pageTitle
+* sectionTitle
+* cardTitle
+* body
+* supporting
+* caption
+* micro
+* priceHero
+* priceStandard
+* numeric
+
+Use only a small number of font weights.
+
+Prices should look exceptionally good.
+
+Prefer:
+
+₹1,249
+
+not:
+
+INR 1249.0
+
+Establish excellent tabular/numeric alignment where useful.
+
+TrueCost final known cost should visually dominate a misleading provider headline price when fees materially change the decision.
+
+---
+
+# IMAGERY SYSTEM
+
+Imagery is a MAJOR part of the redesign.
+
+Do not merely add decorative images.
+
+Create a deliberate image system.
+
+## Level A — exact entity imagery
+
+Use legitimate source imagery where it helps identify the actual item:
+
+* Grocery packshots
+* Shopping products
+* Medicine packaging
+* Food/dishes
+* Hotels
+* provider-authorized assets
+* other catalog entities
+
+Never use a generic approximation where it could falsely imply an exact product.
+
+## Level B — premium editorial imagery
+
+Use art-directed/editorial imagery for:
+
+* Travel
+* Food discovery
+* onboarding
+* Home
+* category transitions
+* emotional discovery moments
+
+Images should feel art-directed, not like cheap stock photography.
+
+## Level C — TrueCost illustration
+
+Develop a distinctive illustration language for:
+
+* empty states
+* no results
+* uncertainty
+* unavailable comparisons
+* onboarding
+* explanation
+* privacy
+* savings
+* partial coverage
+* system states
+
+The illustration style must feel recognizably TrueCost.
+
+---
+
+# IMAGE QUALITY
+
+Every important image should:
+
+* have correct aspect ratio
+* be sharp on high-density screens
+* use appropriate contain/cover treatment
+* load progressively
+* use caching
+* use placeholders
+* avoid layout jumps
+* avoid sudden ugly image pop-in
+* include a graceful error fallback
+
+Where supported, use:
+
+placeholder
+→ BlurHash / ThumbHash
+→ short fade
+→ cached high-quality image
+
+Never ship:
+
+* stretched products
+* pixelated provider marks
+* broken-image icons
+* random low-quality stock imagery
+* inconsistent image crop behavior
+
+---
+
+# PROVIDER BRAND SYSTEM
+
+Create a centralized:
+
+ProviderBrandRegistry
+
+Every supported provider should contain:
+
+* provider ID
+* display name
+* approved logo asset
+* official/legitimate source
+* aspect ratio
+* optical sizing rules
+* light-surface variant
+* dark-surface variant where allowed
+* background requirements
+* safe-space requirements
+* accessibility label
+* fallback
+* trademark/brand restrictions
+
+Never pull random logos from image search.
+
+Never redraw provider trademarks.
+
+Never stretch them.
+
+Never recolor them unless permitted.
+
+Never crop them badly.
+
+Never apply prohibited effects directly to provider artwork.
+
+TrueCost consistency should come from the **ProviderIdentity container**, not from deforming other companies' brands.
+
+---
+
+# MOTION DESIGN
+
+Motion should make TrueCost feel alive and intelligent.
+
+It must never become exhausting.
+
+Build semantic motion families:
+
+MICRO
+buttons, chip selection, toggles, quantity controls
+
+QUICK
+small state changes, provider selection
+
+STANDARD
+sheet transitions, result transformation, screen-content changes
+
+EXPRESSIVE
+Search Lens transformation, recommendation reveal, basket optimization, major decision moments
+
+Use motion to explain:
+
+* what changed
+* what was selected
+* where information came from
+* which result won
+* how the comparison resolved
+* how one context transforms into another
+
+Use:
+
+* spring interaction
+* scale
+* opacity
+* transforms
+* shared spatial continuity where reliable
+* subtle stagger
+* number transitions
+* container morphs
+* route drawing
+* controlled hero reveals
+
+Avoid:
+
+* endless looping animation
+* animation on every card
+* bouncing icons everywhere
+* long delays before actions
+* decorative particle storms
+* 3D effects without product purpose
+
+Everything should settle.
+
+The interface must become visually quiet after the important moment occurs.
+
+---
+
+# HAPTICS
+
+Use haptics only where they strengthen meaning:
+
+* meaningful selection
+* recommendation confirmation
+* major success
+* serious error
+* selected important controls
+
+Do not vibrate on every tap.
+
+---
+
+# CATEGORY ART DIRECTION
+
+Maintain one shared TrueCost system while allowing each domain to communicate differently.
+
+## Grocery
+
+Character:
+
+* bright
+* fresh
+* fast
+* highly scannable
+
+Prioritize:
+
+* real product identity
+* variant
+* quantity
+* basket completeness
+* total
+* delivery
+* provider
+
+Potential signature experience:
+
+basket items quietly resolving into the best complete provider option.
+
+---
+
+## Food
+
+Character:
+
+* warm
+* editorial
+* appetizing
+* image-rich
+
+Prioritize:
+
+* actual dish
+* restaurant/branch identity
+* delivered total
+* ETA
+* fee transparency
+
+Do not hide the true delivered cost behind an attractive menu price.
+
+---
+
+## Pharmacy
+
+Character:
+
+* clinical
+* calm
+* precise
+* trustworthy
+
+Prioritize:
+
+* exact medicine
+* strength
+* form
+* pack size
+* manufacturer
+* prescription information
+* price
+
+Minimal decorative motion.
+
+No celebratory animation for medicine pricing.
+
+Clarity is the premium experience.
+
+---
+
+## Shopping
+
+Character:
+
+* editorial
+* highly visual
+* premium
+
+Prioritize:
+
+* large product image
+* exact model
+* storage
+* generation
+* color
+* variant
+* seller
+* final cost
+
+Variant changes should transform the comparison elegantly without creating identity ambiguity.
+
+---
+
+## Mobility
+
+Character:
+
+* spatial
+* responsive
+* dynamic
+
+Prioritize:
+
+* route
+* origin
+* destination
+* fare
+* pickup ETA
+* ride class
+
+Potential sequence:
+
+origin
+→ destination
+→ route draw
+→ provider quotes
+→ winner emphasis
+→ stillness
+
+---
+
+## Travel
+
+Character:
+
+* cinematic during discovery
+* precise during results
+
+Use excellent destination imagery where useful.
+
+After results appear, imagery should recede and itinerary precision should dominate.
+
+Prioritize:
+
+* airport codes
+* departure
+* arrival
+* duration
+* stops
+* baggage
+* refundability
+* fare family
+* final cost
+
+---
+
+## Finance
+
+Character:
+
+* quiet
+* premium
+* authoritative
+* highly trustworthy
+
+Prioritize:
+
+* actual terms
+* fees
+* benefits
+* eligibility
+* known effective value
+* verification/freshness
+
+Avoid casino aesthetics.
+
+No spinning coins.
+
+No misleading celebratory approval treatment.
+
+---
+
+## SaaS / Productivity
+
+Character:
+
+* structured
+* clean
+* sophisticated
+
+Prioritize:
+
+* plan
+* seats
+* monthly vs annual
+* annual TCO
+* features
+* tradeoffs
+
+Allow controls such as seats and billing cadence to transform relevant numbers smoothly.
+
+---
+
+# HOME SCREEN
+
+The Home screen should NOT look like a marketplace dashboard.
+
+Do not show dozens of competing cards.
+
+The primary visual gravity should be:
+
+# THE TRUECOST SEARCH LENS
+
+The user should immediately understand:
+
+> “Tell TrueCost what you need and it will work out the best way to get it.”
+
+Secondary content can include:
+
+* category shortcuts
+* recent decisions
+* useful TrueCost insights
+* saved/repeated comparisons
+
+The Home experience should be visually calm and extremely premium.
+
+---
+
+# INFORMATION HIERARCHY
+
+Every important decision screen should approximately answer in this order:
+
+WHAT YOU ASKED
+
+↓
+
+WHAT TRUECOST UNDERSTOOD
+
+↓
+
+WHAT WAS COMPARED
+
+↓
+
+WHAT WON
+
+↓
+
+TRUECOST FINAL KNOWN COST
+
+↓
+
+WHY IT WON
+
+↓
+
+WHAT THE TRADEOFF IS
+
+↓
+
+WHAT WE KNOW / DON'T KNOW
+
+↓
+
+FRESHNESS / COVERAGE / EVIDENCE
+
+Progressive disclosure is critical.
+
+A user should not need to read the entire screen to understand the decision.
+
+Power users must still be able to inspect deeper information.
+
+---
+
+# DATA TRUTH — ABSOLUTE RULE
+
+NEVER sacrifice truth for visual beauty.
+
+If:
+
+price = null
+
+Do NOT display:
+
+₹0
+
+Display something truthful such as:
+
+Unavailable
+Not verified
+Unknown
+
+If provider data is unavailable:
+
+do not fabricate a quote.
+
+If entity matching is rejected:
+
+do not visually claim “Same Product.”
+
+If only some providers were compared:
+
+do not say “Best everywhere.”
+
+Use language such as:
+
+Best known option
+Best among 3 compared providers
+
+where appropriate.
+
+If one fee is unknown:
+
+do not silently assume zero.
+
+Unknown must remain unknown.
+
+A beautiful false statement is a P0 failure.
+
+---
+
+# TRUST UI
+
+Trust must be visible, not hidden in legal text.
+
+Where appropriate show:
+
+* providers compared
+* provider coverage
+* last updated / freshness
+* exact / probable / uncertain matching state
+* known vs unknown costs
+* unavailable provider
+* partial evidence
+* why the recommendation won
+* tradeoff
+* relevant assumptions
+
+Do this elegantly.
+
+Do not turn every card into an engineering diagnostics screen.
+
+Use progressive disclosure.
+
+---
+
+# ACCESSIBILITY FROM DAY ONE
+
+Accessibility is NOT a final cleanup phase.
+
+Every component must support it from the moment it is created.
+
+Validate:
+
+* appropriate minimum interactive target size
+* font scaling
+* screen reader labels
+* logical reading order
+* contrast
+* no color-only meaning
+* Reduce Motion
+* reduced transparency where appropriate
+* keyboard/focus behavior
+* safe areas
+* gesture areas
+* long content
+* small screens
+* dynamic text
+
+States such as:
+
+BEST
+UNKNOWN
+STALE
+UNAVAILABLE
+ERROR
+EXACT
+
+must not rely only on color.
+
+---
+
+# PERFORMANCE FROM DAY ONE
+
+Performance is part of the visual design.
+
+Target a smooth 60fps baseline and excellent high-refresh behavior where hardware supports it.
+
+Prefer:
+
+* transforms
+* opacity
+* UI-thread animation
+* virtualization
+* efficient lists
+* image caching
+* lazy loading
+* memoization where justified
+* measured blur usage
+* optimized assets
+
+Avoid:
+
+* dozens of simultaneously animated elements
+* expensive continuous blur
+* unnecessary JS-thread synchronization
+* huge image assets
+* layout recalculation every frame
+* effects that reduce interaction responsiveness
+
+Do not certify performance from development/debug behavior alone.
+
+Use production/release-like builds where practical.
+
+---
+
+# PROTECT EXISTING WORKING SYSTEMS
+
+This is primarily a frontend/product-design transformation.
+
+Do NOT casually rewrite:
+
+* backend architecture
+* entity resolution
+* provider acquisition
+* comparison mathematics
+* pricing algorithms
+* basket logic
+* MCP
+* LangGraph
+* scrapers
+* networking contracts
+* deterministic engines
+* certification architecture
+
+Preserve working contracts.
+
+Adapt presentation to backend truth.
+
+Do not change backend behavior merely because a prettier mockup would be easier to build.
+
+---
+
+# IMPLEMENTATION STRATEGY
+
+Do NOT perform one enormous rewrite.
+
+Execute progressively.
+
+## PHASE 1 — AUDIT
+
+Complete repository and rendered-app audit.
+
+Produce:
+
+* screen inventory
+* UX/design audit
+* component inventory
+* current screenshot baseline
+* frontend dependency audit
+* issue priority list
+
+NO redesign implementation before this is complete.
+
+---
+
+## PHASE 2 — DESIGN CONSTITUTION
+
+Freeze:
+
+* TrueCost Porcelain Intelligence
+* semantic palette
+* typography
+* spacing
+* geometry
+* surfaces
+* provider identity rules
+* image rules
+* motion principles
+* accessibility requirements
+* truth vocabulary
+
+---
+
+## PHASE 3 — PRIMITIVES
+
+Build reusable primitives:
+
+* Surface
+* GlassSurface
+* Text
+* Price
+* Button
+* IconButton
+* Chip
+* Input
+* SearchLens
+* ProductImage
+* ProviderLogo
+* ProviderIdentity
+* Badge
+* CoverageIndicator
+* FreshnessIndicator
+* StatusIndicator
+* BottomSheet
+* Navigation shell
+* EmptyState
+* Skeleton
+
+---
+
+## PHASE 4 — SIGNATURE PROTOTYPE
+
+Before redesigning all categories, make these experiences exceptional:
+
+1. Home
+2. Search Lens
+3. Recommendation Hero
+4. Comparison
+5. Why This Won / evidence breakdown
+
+These five surfaces define TrueCost.
+
+Do not scale mediocre patterns across eight categories.
+
+First make the core interaction language excellent.
+
+---
+
+## PHASE 5 — VALIDATE CORE EXPERIENCE
+
+Run the actual app.
+
+Capture screenshots.
+
+Check whether the user can immediately understand:
+
+* what they asked
+* what TrueCost understood
+* what was compared
+* what won
+* true final known cost
+* why it won
+* tradeoff
+* coverage
+* freshness
+* uncertainty
+
+If this is not clear in seconds, improve the design before expanding it.
+
+---
+
+## PHASE 6 — CATEGORY IMPLEMENTATION
+
+Proceed according to actual backend maturity.
+
+Strong suggested order:
+
+1. Grocery
+2. Shopping
+3. Mobility
+4. Travel
+5. Food
+6. Pharmacy
+7. Finance
+8. Productivity / SaaS
+
+But inspect the repository and modify this order if actual production readiness indicates otherwise.
+
+Do NOT make an immature category appear fully supported merely because its design has been completed.
+
+---
+
+## PHASE 7 — MOTION / BRAND POLISH
+
+Once primary structure works:
+
+* refine TrueCost Lens
+* refine Decision Halo
+* refine Search Lens transformation
+* refine winner reveal
+* refine numbers
+* refine route motion
+* refine basket motion
+* refine transitions
+* refine haptics
+* refine category moments
+
+Never polish broken hierarchy.
+
+---
+
+# VISUAL QA LOOP
+
+After EVERY major redesigned flow:
+
+1. Run the actual application.
+2. Navigate through the full flow.
+3. Capture screenshots.
+4. Compare BEFORE vs AFTER.
+5. Inspect actual pixels.
+6. Identify visible defects.
+7. Fix them.
+8. Re-run.
+9. Re-capture.
+10. Repeat until the screen is genuinely excellent.
+
+Do not declare success because the JSX looks clean.
+
+The final rendered interface is the product.
+
+---
+
+# TEST REAL-WORLD EDGE CASES
+
+Test:
+
+* long product names
+* tiny product names
+* missing images
+* broken image URLs
+* slow image loading
+* large numbers
+* ₹0 legitimate values
+* null prices
+* unavailable providers
+* 1 provider result
+* many providers
+* partial provider coverage
+* stale evidence
+* rejected identity match
+* uncertain identity match
+* 1-item grocery basket
+* large grocery basket
+* long flight itinerary
+* long finance terms
+* keyboard open
+* small phone
+* large phone
+* font scaling
+* screen reader
+* reduced motion
+* reduced transparency
+* offline/error states
+* loading
+* slow response
+* orientation behavior if supported
+
+The beautiful happy-path screenshot is not enough.
+
+---
+
+# QUALITY SCORECARD
+
+After redesigning each major screen, score honestly:
+
+VISUAL_HIERARCHY /10
+PREMIUM_FEEL /10
+READABILITY /10
+BRAND_DISTINCTIVENESS /10
+INTERACTION_CLARITY /10
+IMAGE_QUALITY /10
+MOTION_QUALITY /10
+INFORMATION_DESIGN /10
+TRUST /10
+CONSISTENCY /10
+ACCESSIBILITY /10
+PERFORMANCE /10
+WOW_FACTOR /10
+
+Do not fake scores.
+
+Anything under 8/10 requires another pass.
+
+Signature experiences should aspire to 9+/10.
+
+But:
+
+beautiful + incorrect = FAIL
+
+beautiful + confusing = FAIL
+
+beautiful + inaccessible = FAIL
+
+beautiful + janky = FAIL
+
+beautiful + copied = FAIL
+
+The target is:
+
+# BEAUTIFUL + CLEAR + FAST + ACCESSIBLE + TRUSTWORTHY + DISTINCTIVE
+
+---
+
+# HARD DATA-TRUTH RELEASE GATES
+
+The following must be zero:
+
+UI_WRONG_WINNER_COUNT = 0
+
+UI_WRONG_PRICE_COUNT = 0
+
+UI_WRONG_VARIANT_COUNT = 0
+
+UI_WRONG_QUANTITY_COUNT = 0
+
+UNKNOWN_RENDERED_AS_ZERO = 0
+
+REJECTED_SHOWN_AS_EXACT = 0
+
+STALE_DATA_SHOWN_AS_LIVE = 0
+
+PROVIDER_COVERAGE_MISREPRESENTATION = 0
+
+UNAUTHORIZED_PROVIDER_ASSET = 0
+
+P0_UI_ISSUES = 0
+
+No visual improvement justifies failing these gates.
+
+---
+
+# CODE QUALITY
+
+The redesign must create a maintainable system.
+
+Avoid one-off styling.
+
+Avoid giant screen files.
+
+Avoid copy-pasted visual logic.
+
+Avoid category-specific reinvention of foundational components.
+
+Prefer:
+
+tokens
+→ primitives
+→ components
+→ patterns
+→ category compositions
+→ screens
+
+Create reusable APIs rather than magic values scattered throughout JSX.
+
+Use TypeScript properly.
+
+Preserve architecture unless there is a genuine documented reason to change it.
+
+---
+
+# DO NOT COPY
+
+Study design principles from excellent products.
+
+Do not clone:
+
+* Apple
+* Airbnb
+* Uber
+* Zomato
+* Amazon
+* Gemini
+* Linear
+* Stripe
+* award-winning applications
+* Dribbble concepts
+
+The finished app must make people think:
+
+> “That is TrueCost.”
+
+Not:
+
+> “That looks like Apple/Gemini/Airbnb.”
+
+---
+
+# CRITICAL DESIGN QUESTION
+
+For every screen ask:
+
+> What is the ONE most important thing the user should notice?
+
+If there are five competing focal points, redesign the hierarchy.
+
+Use one strong visual moment per screen.
+
+---
+
+# FINAL PRODUCT TEST
+
+The final experience should feel approximately like:
+
+USER ASKS
+
+↓
+
+TRUECOST UNDERSTANDS
+
+↓
+
+TRUECOST QUIETLY DOES COMPLEX WORK
+
+↓
+
+TRUECOST PRESENTS ONE BEAUTIFULLY CLEAR DECISION
+
+↓
+
+USER IMMEDIATELY UNDERSTANDS WHY
+
+↓
+
+DEEPER EVIDENCE REMAINS AVAILABLE
+
+The user should not feel that they are operating:
+
+* a database
+* a scraper
+* an AI workflow
+* a comparison spreadsheet
+* eight marketplaces
+
+They should feel:
+
+> “I told TrueCost what I wanted.
+
+> It understood me.
+
+> It checked the possibilities.
+
+> It found the tradeoffs.
+
+> It showed me what matters.
+
+> Now the decision is obvious.”
+
+---
+
+# YOUR FIRST ACTION
+
+Do NOT modify source files yet.
+
+First:
+
+1. Read all three supplied Markdown design files completely.
+2. Inspect the repository and current mobile frontend.
+3. Launch the current mobile application if the environment allows it.
+4. Capture/inspect the existing UI.
+5. Produce a concise but comprehensive audit.
+6. Explain what is already good and should be preserved.
+7. Identify the highest-impact UX/design problems.
+8. Identify technical constraints.
+9. Define the proposed unified TrueCost design system.
+10. Define the implementation sequence.
+
+ONLY THEN begin implementation.
+
+Once implementation begins, continue through the work systematically.
+
+Do not stop after creating a few attractive screens.
+
+Do not call the redesign complete until the shared system, primary flows, major states, accessibility, performance and actual rendered visual QA have all been addressed.
+
+# FINAL STANDARD
+
+Do not stop when TrueCost is:
+
+clean.
+
+Do not stop when TrueCost is:
+
+modern.
+
+Do not stop when TrueCost is:
+
+pretty.
+
+Build something:
+
+exceptionally crafted
+beautiful
+memorable
+fast
+clear
+calm
+intelligent
+trustworthy
+image-rich where appropriate
+precise where required
+motion-rich where meaningful
+accessible
+distinctive
+production-quality
+recognizably TrueCost
+
+The goal is not:
+
+> “This is a good React Native UI.”
+
+The goal is:
+
+> **“This feels like a serious global consumer technology company created its own design language.”**
+
+Build that TrueCost.

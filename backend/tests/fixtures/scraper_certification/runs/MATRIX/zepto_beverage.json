@@ -1,0 +1,2072 @@
+{
+  "capture_version": "truecost.source.capture.v1",
+  "run_id": "zepto_beverage",
+  "case_id": "beverage",
+  "provider": "zepto",
+  "domain": "grocery",
+  "query": "Coca-Cola Original Taste 750 ml",
+  "captured_at": "2026-08-25T15:59:42.302Z",
+  "execution_mode": "REAL_LIVE_SCRAPE",
+  "scraper_component": "ZeptoScraper",
+  "message_type": "SEARCH_SUCCESS",
+  "requested_location_profile": "default",
+  "observed_location_evidence": "NOT_AVAILABLE",
+  "location_verified": false,
+  "payload": {
+    "layout": [
+      {
+        "widgetId": "TITLE_WIDGET",
+        "widgetName": "SEARCH_TITLE_WIDGET",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "title",
+            "data": {
+              "items": [],
+              "title": "Could not find any products for \"coca-cola original taste 750 ml\"",
+              "queryTitle": "",
+              "searchQuery": "Coca-Cola Original Taste 750 ml",
+              "replacingTerm": "",
+              "searchKeyInTitle": "coca-cola original taste 750 ml",
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "viewMeta": {
+          "aspectRatio": 3.33,
+          "paddingTop": 1,
+          "paddingBottom": 1,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "backgroundColor": "#FFFFFF",
+          "adContainer": {
+            "marginHorizontal": 0,
+            "overflow": "",
+            "borderRadius": 0,
+            "backgroundColor": "",
+            "paddingBottom": 0
+          },
+          "productsList": {
+            "paddingHorizontal": 0,
+            "marginBottom": 0,
+            "separator": 0
+          },
+          "adAsset": {},
+          "backgroundGradient": {
+            "start": {
+              "x": 0,
+              "y": 0
+            },
+            "end": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "borderWidth": 0,
+          "borderColor": "",
+          "highlightColor": "",
+          "titleStyle": null,
+          "itemSpacing": 0,
+          "cardStyle": null,
+          "curveIcon": null,
+          "curveIconV2": null,
+          "headerStyle": null,
+          "listStyle": null,
+          "padding": null,
+          "itemPadding": null,
+          "imagePadding": null,
+          "titleIconImage": null,
+          "bodyStyle": null,
+          "subTitleLeadingIconImage": {
+            "id": "",
+            "name": "",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "titleLeadingIconImage": {
+            "id": "",
+            "name": "",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "tag": {
+            "text": "",
+            "variant": "",
+            "style": {
+              "color": "",
+              "paddingHorizontal": 0,
+              "paddingVertical": 0,
+              "borderWidth": 0,
+              "borderRadius": 0,
+              "borderColor": "",
+              "backgroundColor": "",
+              "lineHeight": 0
+            }
+          },
+          "card": {
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColor": "",
+            "backgroundColor": "",
+            "backgroundMode": "",
+            "firstColor": "",
+            "secondColor": "",
+            "padding": null
+          },
+          "overlayIconStyles": {},
+          "imageContainerStyle": {},
+          "productIconStyles": {},
+          "text": {
+            "unselectedColor": "",
+            "selectedColor": "",
+            "selectedVariant": "",
+            "unselectedVariant": "",
+            "selectedBackgroundColor": "",
+            "unselectedBackgroundColor": "",
+            "textSize": 0
+          }
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_0",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "7ab675d3-3a1d-5b6b-a8b1-6ceb5d62224f",
+                    "id": "7ab675d3-3a1d-5b6b-a8b1-6ceb5d62224f",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Coca Cola",
+                      "brandId": "6062dbab-393a-42b1-9fbc-91866190fd3f",
+                      "countryOfOrigin": null,
+                      "description": [
+                        "Coca Cola Soft Drink Combo  "
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "07071b35-546b-4733-9468-e497377676aa",
+                      "imported": true,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "27194065-c702-467f-b697-cf3f5ebd8ec1"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": null,
+                      "minimumRequiredAge": 0,
+                      "name": "Coca-Cola PET | Cola Sparkling Soft Drink | The Coca-Cola Company | Combo",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "dff3658b-c351-4e7f-8196-e98d0c66d99e",
+                      "productType": "\u0004"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "750 ml X 4",
+                      "fssaiLicense": "",
+                      "id": "39e7adf9-74d9-4b29-a12e-0a4897ec7f0b",
+                      "images": [
+                        {
+                          "height": 1500,
+                          "hidePadding": true,
+                          "id": "e7fbf8bf-0ab0-4f45-be2d-f04d0454e8a6",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "1362b35d-b497-44e0-bb05-af411939b0ee.jpeg",
+                          "path": "cms/product_variant/1362b35d-b497-44e0-bb05-af411939b0ee.jpeg",
+                          "videoPath": null,
+                          "width": 1500,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 3,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 16000,
+                      "packagingType": null,
+                      "packsize": 3000,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 61,
+                      "shelfLifeInHours": "0",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "MILLILITRE",
+                      "unlisted": false,
+                      "weightInGms": 3000,
+                      "productId": "07071b35-546b-4733-9468-e497377676aa",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 3000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      }
+                    },
+                    "discountedSellingPrice": 14000,
+                    "discountPercent": 12,
+                    "discountAmount": 2000,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 3,
+                    "quantity": 61,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 16000,
+                    "productType": "BUNDLE",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 14000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "764c51c8-4a17-492f-9e95-095d2316b037",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "159424cf-72c4-43af-938a-29ea5f300540",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "P3 - Ad.png",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Cold Drinks & Juices",
+                    "primaryCategoryId": "947a72ae-b371-45cb-ad3a-778c05b64399",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 2000
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 14000,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "764c51c8-4a17-492f-9e95-095d2316b037",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "159424cf-72c4-43af-938a-29ea5f300540",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "P3 - Ad.png",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ],
+                      "slot3": [
+                        {
+                          "id": "b77b07cb-73ee-4050-a7b2-5484c9e7966b",
+                          "tagType": "DISCOUNT",
+                          "tagName": "Product Discount",
+                          "position": "P0",
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "e85a9963-d784-4e71-aeb2-184808f18ba7",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/1f09407a-3f51-4772-9860-197d23fbd8cd-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 14000
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Soft Drinks",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "dff3658b-c351-4e7f-8196-e98d0c66d99e",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|89de330d482042aaa23d1a30df136b08|2430|1787673586161|5e81d61a-bfb9-4e05-892a-f711c9125f5b|||CPC|6062dbab-393a-42b1-9fbc-91866190fd3f|6062dbab-393a-42b1-9fbc-91866190fd3f||2344049|2344049|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||07071b35-546b-4733-9468-e497377676aa|39e7adf9-74d9-4b29-a12e-0a4897ec7f0b|947a72ae-b371-45cb-ad3a-778c05b64399|dff3658b-c351-4e7f-8196-e98d0c66d99e|K_INFO|PHRASE|coca-cola|0|0|0|0",
+                  "position": 0,
+                  "l3_details": {
+                    "id": "27194065-c702-467f-b697-cf3f5ebd8ec1",
+                    "name": "Bundle"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "5ca72f35-33b5-5d9f-82bf-9efbd1dac8a5",
+                    "id": "5ca72f35-33b5-5d9f-82bf-9efbd1dac8a5",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Coca Cola",
+                      "brandId": "6062dbab-393a-42b1-9fbc-91866190fd3f",
+                      "countryOfOrigin": null,
+                      "description": [
+                        "Coca-Cola Soft Drink Combo   "
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "b87a4ce6-1f92-41b5-8a06-4f54f751b5ca",
+                      "imported": true,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "27194065-c702-467f-b697-cf3f5ebd8ec1"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": null,
+                      "minimumRequiredAge": 0,
+                      "name": "Coca-Cola PET | Cola Sparkling Soft Drink | The Coca-Cola Company | Combo",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "dff3658b-c351-4e7f-8196-e98d0c66d99e",
+                      "productType": "\u0004"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "750 ml X 6",
+                      "fssaiLicense": "",
+                      "id": "06110a94-8445-413f-89b9-531f469b980f",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "c0096041-153e-4b23-b323-45fc55bd057a",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "5e68b02b-5bab-475d-a187-398a48e10dff.jpg",
+                          "path": "cms/product_variant/5e68b02b-5bab-475d-a187-398a48e10dff.jpg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 2,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 24000,
+                      "packagingType": null,
+                      "packsize": 4500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 40,
+                      "shelfLifeInHours": "0",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "MILLILITRE",
+                      "unlisted": false,
+                      "weightInGms": 4500,
+                      "productId": "b87a4ce6-1f92-41b5-8a06-4f54f751b5ca",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 4500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      }
+                    },
+                    "discountedSellingPrice": 21000,
+                    "discountPercent": 12,
+                    "discountAmount": 3000,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 40,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 24000,
+                    "productType": "BUNDLE",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 21000,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "764c51c8-4a17-492f-9e95-095d2316b037",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "159424cf-72c4-43af-938a-29ea5f300540",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "P3 - Ad.png",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Cold Drinks & Juices",
+                    "primaryCategoryId": "947a72ae-b371-45cb-ad3a-778c05b64399",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 3000
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 21000,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "764c51c8-4a17-492f-9e95-095d2316b037",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "159424cf-72c4-43af-938a-29ea5f300540",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "P3 - Ad.png",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ],
+                      "slot3": [
+                        {
+                          "id": "b77b07cb-73ee-4050-a7b2-5484c9e7966b",
+                          "tagType": "DISCOUNT",
+                          "tagName": "Product Discount",
+                          "position": "P0",
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "e85a9963-d784-4e71-aeb2-184808f18ba7",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/1f09407a-3f51-4772-9860-197d23fbd8cd-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 21000
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Soft Drinks",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "dff3658b-c351-4e7f-8196-e98d0c66d99e",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|2eabaa063afb4b469f9856090e87c856|2187|1787673586161|5e81d61a-bfb9-4e05-892a-f711c9125f5b|||CPC|6062dbab-393a-42b1-9fbc-91866190fd3f|6062dbab-393a-42b1-9fbc-91866190fd3f||2344049|2344049|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||b87a4ce6-1f92-41b5-8a06-4f54f751b5ca|06110a94-8445-413f-89b9-531f469b980f|947a72ae-b371-45cb-ad3a-778c05b64399|dff3658b-c351-4e7f-8196-e98d0c66d99e|K_INFO|PHRASE|cocacola|0|0|0|0",
+                  "position": 1,
+                  "l3_details": {
+                    "id": "27194065-c702-467f-b697-cf3f5ebd8ec1",
+                    "name": "Bundle"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "99daf568-0b30-5f79-9221-baae514759b6",
+                    "id": "99daf568-0b30-5f79-9221-baae514759b6",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Coca Cola",
+                      "brandId": "6062dbab-393a-42b1-9fbc-91866190fd3f",
+                      "countryOfOrigin": null,
+                      "description": [
+                        "Coca-Cola Soft Drink Combo"
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "9752c83f-030c-446c-8b41-283bbaa2d2dd",
+                      "imported": true,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "27194065-c702-467f-b697-cf3f5ebd8ec1"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": null,
+                      "minimumRequiredAge": 0,
+                      "name": "Coca-Cola PET | Cola Sparkling Soft Drink | The Coca-Cola Company | Combo",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "dff3658b-c351-4e7f-8196-e98d0c66d99e",
+                      "productType": "\u0004"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "1.25 L X 3",
+                      "fssaiLicense": "",
+                      "id": "3e75c220-b2f0-4b37-90c4-5c475ac84c7c",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "9a48786d-a86b-4019-833f-6fe22c3502e0",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "40085d0b-5e63-4655-b4e5-0604cd25bdc2.jpg",
+                          "path": "cms/product_variant/40085d0b-5e63-4655-b4e5-0604cd25bdc2.jpg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 4,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 21000,
+                      "packagingType": null,
+                      "packsize": 3.8,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "0",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "LITER",
+                      "unlisted": false,
+                      "weightInGms": 3750,
+                      "productId": "9752c83f-030c-446c-8b41-283bbaa2d2dd",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 3750,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      }
+                    },
+                    "discountedSellingPrice": 18600,
+                    "discountPercent": 11,
+                    "discountAmount": 2400,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 21000,
+                    "productType": "BUNDLE",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 18600,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "764c51c8-4a17-492f-9e95-095d2316b037",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "159424cf-72c4-43af-938a-29ea5f300540",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "P3 - Ad.png",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Cold Drinks & Juices",
+                    "primaryCategoryId": "947a72ae-b371-45cb-ad3a-778c05b64399",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 2400
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 18600,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "764c51c8-4a17-492f-9e95-095d2316b037",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "159424cf-72c4-43af-938a-29ea5f300540",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "P3 - Ad.png",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ],
+                      "slot3": [
+                        {
+                          "id": "b77b07cb-73ee-4050-a7b2-5484c9e7966b",
+                          "tagType": "DISCOUNT",
+                          "tagName": "Product Discount",
+                          "position": "P0",
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "e85a9963-d784-4e71-aeb2-184808f18ba7",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/1f09407a-3f51-4772-9860-197d23fbd8cd-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 18600
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Soft Drinks",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "dff3658b-c351-4e7f-8196-e98d0c66d99e",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|fd160f435a974ef59091f5333d217c95|1350|1787673586161|5e81d61a-bfb9-4e05-892a-f711c9125f5b|||CPC|6062dbab-393a-42b1-9fbc-91866190fd3f|6062dbab-393a-42b1-9fbc-91866190fd3f||2344049|2344049|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||9752c83f-030c-446c-8b41-283bbaa2d2dd|3e75c220-b2f0-4b37-90c4-5c475ac84c7c|947a72ae-b371-45cb-ad3a-778c05b64399|dff3658b-c351-4e7f-8196-e98d0c66d99e|K_INFO|PHRASE|coke1l|0|0|0|0",
+                  "position": 2,
+                  "l3_details": {
+                    "id": "6a27824a-bffd-493a-b890-465c08611738",
+                    "name": "Cola Drink"
+                  }
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_3",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "5bde6ad8-9155-5e68-8984-ece63935fc52",
+                    "id": "5bde6ad8-9155-5e68-8984-ece63935fc52",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Thums Up",
+                      "brandId": "5720fa23-aa68-4959-b201-5eee9a3b9663",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Thums Up Delight your guests with Thums Up. It is the perfect drink for any weather. Gatherings are incomplete without it. One glass is never enough!"
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "d48a5ed5-97c8-423d-acfd-0b867f19f3d9",
+                      "imported": false,
+                      "ingredients": "Carbonated Water, Sugar, Acidity Regulator (338), Caffeine. Contains Permitted Natural Colour (150D) And Added Flavours (Natural, Nature - Identical And Artificial Flavouring Substances - Cola Flavour).",
+                      "l3CategoryIds": [
+                        "6a27824a-bffd-493a-b890-465c08611738"
+                      ],
+                      "manufacturerAddress": "Hindustan Coca Cola Beverages Pvt LtdPlot No 18, Bidadi Industrial Area, Bidadi Hobli, Bangalore Rural, Karnataka - 562109.",
+                      "manufacturerName": "Coca-Cola India Pvt Ltd",
+                      "minimumRequiredAge": 0,
+                      "name": "Thums Up | Cola Sparkling Soft Drink Pet Bottle | The Coca-Cola Company",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "dff3658b-c351-4e7f-8196-e98d0c66d99e",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "1 pack (8 x 250 ml)",
+                      "fssaiLicense": "",
+                      "id": "8cee55a0-73ab-4301-96cc-90219adcb7e0",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "89b0af09-cf37-4490-bbca-2f6621592493",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "eb07e51a-e63e-4810-972f-044507d7068a.jpeg",
+                          "path": "cms/product_variant/eb07e51a-e63e-4810-972f-044507d7068a.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 3,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 16000,
+                      "packagingType": null,
+                      "packsize": 2,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 7,
+                      "shelfLifeInHours": "5904",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "LITER",
+                      "unlisted": false,
+                      "weightInGms": 250,
+                      "productId": "d48a5ed5-97c8-423d-acfd-0b867f19f3d9",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 250,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 32286
+                      }
+                    },
+                    "discountedSellingPrice": 15600,
+                    "discountPercent": 2,
+                    "discountAmount": 400,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 3,
+                    "quantity": 7,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 16000,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 15600,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "764c51c8-4a17-492f-9e95-095d2316b037",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "159424cf-72c4-43af-938a-29ea5f300540",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "P3 - Ad.png",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Cold Drinks & Juices",
+                    "primaryCategoryId": "947a72ae-b371-45cb-ad3a-778c05b64399",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 400
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 15600,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "764c51c8-4a17-492f-9e95-095d2316b037",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "159424cf-72c4-43af-938a-29ea5f300540",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "P3 - Ad.png",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 15600
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Soft Drinks",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "dff3658b-c351-4e7f-8196-e98d0c66d99e",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|165b361f3011419fbd7965ca948db3ea|1050|1787673586161|5e81d61a-bfb9-4e05-892a-f711c9125f5b|||CPC|5720fa23-aa68-4959-b201-5eee9a3b9663|5720fa23-aa68-4959-b201-5eee9a3b9663||2007429|2007429|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||d48a5ed5-97c8-423d-acfd-0b867f19f3d9|8cee55a0-73ab-4301-96cc-90219adcb7e0|947a72ae-b371-45cb-ad3a-778c05b64399|dff3658b-c351-4e7f-8196-e98d0c66d99e|K_INFO|PHRASE|coca cola cold|0|5|0|0",
+                  "position": 3,
+                  "l3_details": {
+                    "id": "6a27824a-bffd-493a-b890-465c08611738",
+                    "name": "Cola Drink"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "75c5165b-05e5-5551-9347-594232d32de7",
+                    "id": "75c5165b-05e5-5551-9347-594232d32de7",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Thums Up",
+                      "brandId": "5720fa23-aa68-4959-b201-5eee9a3b9663",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Thums Up Delight your guests with Thums Up. It is the perfect drink for any weather. Gatherings are incomplete without it. One glass is never enough!"
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "d48a5ed5-97c8-423d-acfd-0b867f19f3d9",
+                      "imported": false,
+                      "ingredients": "Carbonated Water, Sugar, Acidity Regulator (338), Caffeine. Contains Permitted Natural Colour (150D) And Added Flavours (Natural, Nature - Identical And Artificial Flavouring Substances - Cola Flavour).",
+                      "l3CategoryIds": [
+                        "6a27824a-bffd-493a-b890-465c08611738"
+                      ],
+                      "manufacturerAddress": "Hindustan Coca Cola Beverages Pvt LtdPlot No 18, Bidadi Industrial Area, Bidadi Hobli, Bangalore Rural, Karnataka - 562109.",
+                      "manufacturerName": "Coca-Cola India Pvt Ltd",
+                      "minimumRequiredAge": 0,
+                      "name": "Thums Up | Cola Sparkling Soft Drink Pet Bottle | The Coca-Cola Company",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "dff3658b-c351-4e7f-8196-e98d0c66d99e",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "1 pc (2.25 L)",
+                      "fssaiLicense": "",
+                      "id": "23690dfe-3437-4828-96ba-3deef24f19be",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "4b005956-8ac6-4aa5-bfb9-d4f9e197bfb7",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "139f4f61-6a51-46f2-b603-3bb9f2ddf1e6.jpeg",
+                          "path": "cms/product_variant/139f4f61-6a51-46f2-b603-3bb9f2ddf1e6.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 25,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 9000,
+                      "packagingType": null,
+                      "packsize": 2.3,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 22,
+                      "shelfLifeInHours": "4440",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "LITER",
+                      "unlisted": false,
+                      "weightInGms": 2250,
+                      "productId": "d48a5ed5-97c8-423d-acfd-0b867f19f3d9",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 2250,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.5,
+                        "totalRatings": 89947
+                      }
+                    },
+                    "discountedSellingPrice": 7700,
+                    "discountPercent": 14,
+                    "discountAmount": 1300,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 22,
+                    "quantity": 22,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 9000,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 7700,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "479ac2d1-b3e0-494c-bda4-300d124c4b88",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7f9897d0-a247-4079-af59-da82a6ae7592",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "P0 - Discount.png",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "764c51c8-4a17-492f-9e95-095d2316b037",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "159424cf-72c4-43af-938a-29ea5f300540",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "P3 - Ad.png",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Cold Drinks & Juices",
+                    "primaryCategoryId": "947a72ae-b371-45cb-ad3a-778c05b64399",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 1300
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 7700,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "764c51c8-4a17-492f-9e95-095d2316b037",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "159424cf-72c4-43af-938a-29ea5f300540",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "P3 - Ad.png",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 7700
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Soft Drinks",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "dff3658b-c351-4e7f-8196-e98d0c66d99e",
+                    "l4Attributes": null,
+                    "price": {
+                      "percentageDifference": 0,
+                      "mrp": 0,
+                      "sp": 0
+                    },
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|5eddd8429e354c90994bece81e8f5004|1000|1787673586143|5e81d61a-bfb9-4e05-892a-f711c9125f5b|||CPC|5720fa23-aa68-4959-b201-5eee9a3b9663|5720fa23-aa68-4959-b201-5eee9a3b9663||2007429|2007429|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||d48a5ed5-97c8-423d-acfd-0b867f19f3d9|23690dfe-3437-4828-96ba-3deef24f19be|947a72ae-b371-45cb-ad3a-778c05b64399|dff3658b-c351-4e7f-8196-e98d0c66d99e|K_INFO|PHRASE|coca cola cold|0|0|0|0",
+                  "position": 4,
+                  "l3_details": {
+                    "id": "6a27824a-bffd-493a-b890-465c08611738",
+                    "name": "Cola Drink"
+                  }
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "HOME_FOOTER",
+        "widgetName": "SEARCH_FOOTER",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    ],
+    "footer": {
+      "widget": {
+        "widgetId": "",
+        "widgetName": "",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    },
+    "header": null,
+    "selectedTabId": 0,
+    "algoliaQueryID": "",
+    "showCigaretteBanner": false,
+    "pageProductCount": 5,
+    "totalProductCount": 5,
+    "currentPage": 0,
+    "hasReachedEnd": true,
+    "userSessionId": "[REDACTED]",
+    "algoliaTimeOut": false,
+    "algoliaTypoTolerance": false,
+    "filters": {
+      "activeFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "allFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "topBrands": null
+    },
+    "showTobaccoConsentPopup": false,
+    "meta": {
+      "related_products_enabled": false,
+      "related_products_search_term_default": "coca-cola original taste 750 ml",
+      "total_organic_products": 0,
+      "oos_organic_products": 0,
+      "instock_organic_products": 0,
+      "total_related_products": 0,
+      "oos_related_products": 0,
+      "instock_related_products": 0,
+      "total_results": 0,
+      "total_oos_results": 0,
+      "total_instock_results": 0,
+      "related_products_reason": "CompatibleComponentsNotFound",
+      "qcl_meta": {
+        "qcl_correction_not_done_reason": "CompatibleComponentsNotFound",
+        "qcl_correction_done_v3": false
+      },
+      "inhouse_search_done": false,
+      "plp_primary_category_name_from_recall": "",
+      "plp_primary_category_mapping": "",
+      "plp_subcat_listing_logic": "",
+      "plp_experience_shown": false,
+      "plp_experience_not_shown_reason": "PlpExperimentNotEnabled",
+      "relevance_v2": {},
+      "filtering_not_shown_reason": "RelevanceQueryNotInMongo",
+      "relevance_variant_selected": 1,
+      "query_intent_done": true,
+      "ds_basket_building_flag": true,
+      "filter_mode": 1,
+      "filter_state": "NO_FILTER_SELECTED",
+      "l3_superspan_results_count": 0,
+      "l3_span_results_count": 0,
+      "l3_partial_results_count": 0,
+      "l3_other_results_count": 0,
+      "l3_oos_superspan_results_count": 0,
+      "l3_oos_span_results_count": 0,
+      "l3_oos_partial_results_count": 0,
+      "l3_oos_other_results_count": 0,
+      "l3_instock_superspan_results_count": 0,
+      "l3_instock_span_results_count": 0,
+      "l3_instock_partial_results_count": 0,
+      "l3_instock_other_results_count": 0,
+      "oos_products_shown_count": 0,
+      "recommendations_instrumentation_info": {
+        "query_level_sku_recommendations_instrumentation_info": {},
+        "cross_sell_widget_instrumentation_info": {}
+      },
+      "is_scoped_search_enabled": false,
+      "scope_category": "",
+      "scope_subcategory": "",
+      "scoped_search_not_enabled_reason": "",
+      "oos_text_meta": "",
+      "source_search_term": "Coca-Cola Original Taste 750 ml",
+      "recall_type_detail": {
+        "recall_type": "ZERO_RECALL",
+        "recall_display_title": "Could not find any products for \"coca-cola original taste 750 ml\""
+      },
+      "category_cohort_experiment_instrumentation_info": {
+        "cohortRankingNotEnabledReason": "Relevance Info is not present for this query",
+        "categoryBasedRankingEnabled": false,
+        "isAtcDone": true
+      },
+      "meds_with_similar_salts_info": {},
+      "is_liquidation_done": false,
+      "liquidation_not_done_reason": "OrganicProductsLessThan4",
+      "l3_understanding_meta": {},
+      "product_grid_meta_info": {
+        "isProductGridFeatureEnabled": true,
+        "productGridSize": 3,
+        "productGridVariantType": "V3_SMALL_ABS_DISCOUNT",
+        "searchExperienceType": "3_3_discount_abs",
+        "isSfsOverrideEnabled": false
+      },
+      "buy_again_v2_boost_info": {},
+      "qrl_rerank_info_v2": {
+        "ranking_segmentation_error_occurred": false,
+        "default_qrl_rerank_done": false,
+        "qrl_default_rerank_not_done_reason": "RankingNotEnabledForFallback",
+        "qrl_default_rerank_source": "query_reranking_rank9_variant",
+        "qrl_explore_rerank_source": "query_reranking_rank9_variant",
+        "qrl_vector_rerank_source": "semantic_query_reranking_rank1_variant",
+        "qrl_default_reranking_list_product_count": 0,
+        "qrl_explore_search_product_count": 0,
+        "qrl_vector_search_product_count": 0,
+        "feature_store_meta": {
+          "feature_store_enabled": false
+        },
+        "explore_re_rank_meta": {},
+        "user_personalization_meta": {
+          "is_user_personalized_ranking_done": false,
+          "total_user_personalized_ranked_product_count": 0,
+          "span_user_personalized_ranked_product_count": 0,
+          "partial_user_personalized_ranked_product_count": 0,
+          "other_user_personalized_ranked_product_count": 0
+        }
+      },
+      "unserviceable_store_deboosting_not_enabled_reason": "Both Dark store and superstores are unserviceable",
+      "store_stress_info": {
+        "storeIdUsedStressRanking": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+        "storeStressRankingNotEnabledReason": "user not enabled for marketplaceType: SUPER_SAVER",
+        "storeStressRankingEnabled": false,
+        "rankingVariant": null,
+        "storeStressInCache": 0,
+        "storeStressEnum": ""
+      },
+      "pt_and_attributes_meta": {
+        "search_term_contains_attributes": 0,
+        "search_term_number_of_attributes": 0,
+        "search_term_PT": null,
+        "search_term_brand": null,
+        "pt_brand_source": "",
+        "attribute_relevance_version": "",
+        "search_term_contains_brand": 0,
+        "search_term_attributes": null
+      },
+      "vip_deals_meta": {
+        "total_vip_deal_atlas_boosted_cnt": 0
+      },
+      "autosuggestion_live_ranker_meta": {
+        "ctr_ranking_done": false,
+        "cvr_ranking_done": false
+      },
+      "autosuggestion_promotion_meta": {
+        "promotion_applied": false
+      },
+      "vip_deals_horizontal_card_widget_instrumentation_info": {
+        "deal_cards_loaded": 0
+      },
+      "special_event_instrumentation_info": {
+        "events": null,
+        "special_events_enabled": false,
+        "special_events_not_enabled_reason": "CompatibleComponentsNotFound"
+      },
+      "a_vector_recall_meta_info": {
+        "rt_vector_eligible_query": false,
+        "a_segmentation_applied": true,
+        "a_source_search_term": "Coca-Cola Original Taste 750 ml"
+      },
+      "explore_exploit_meta_info": {
+        "masterFlagEnabled": true,
+        "exploreExploitNotShownReason": "query segment not valid for explore exploit in segmentations"
+      },
+      "ads_banner_widget_instrumentation_info": {
+        "candidates_processed": 0
+      },
+      "consolidated_banner_widget_instrumentation": {
+        "widgets_added": [],
+        "widgets_rejected": [],
+        "conflicts_resolved": 0
+      },
+      "ads_meta": {
+        "deboosting": null,
+        "fly_wheel": null,
+        "organic_ads_count": 5
+      },
+      "aisle_experience_instrumentation_info": {
+        "aisle_experience_shown": false,
+        "aisle_eligible_query": false,
+        "aisle_experience_not_shown_reason": "AisleExperienceExperimentNotEnabled"
+      },
+      "convo_commerce_widget_info": {
+        "is_convo_commerce_widget_enabled": false,
+        "convo_commerce_widget_not_shown_reason": "prompts list is empty"
+      },
+      "tertiary_store_deboosted_instrumentation": {
+        "tertiary_deboosting_default_done": false,
+        "tertiary_deboosting_explore_done": false,
+        "tertiary_deboosting_vector_done": false
+      },
+      "explore_expansion_instrumentation_info": {
+        "masterFlagEnabled": true,
+        "exploreExpansionNotShownReason": "experiment check failed",
+        "enabled": false
+      },
+      "model_meta_info": {
+        "head_or_tail_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "n1_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "overall_ranker_model_meta": {
+          "model_output_product_count": 0
+        }
+      },
+      "substitution_experience_info": {},
+      "buy_again_oos_info": {
+        "buy_again_oos_count": 0,
+        "buy_again_oos_pvids": "",
+        "buy_again_top_two_oos_count": 0
+      },
+      "hook_sku_oos_info": {
+        "hook_sku_oos_count": 0,
+        "hook_sku_oos_pvids": ""
+      },
+      "query_segmentation_info": {
+        "is_realtime_model_data_fetched": false,
+        "realtime_model_not_enabled_reason": "user_not_in_experiment"
+      },
+      "atlas_fallback_reason": "empty_user",
+      "query_similarity_meta": {
+        "query_similarity_done": false,
+        "query_similarity_not_done_reason": "experiment_disabled",
+        "similar_query_pst_data_exist": false
+      },
+      "ads_organic_overlap_meta": {
+        "total_ad_count": 5
+      },
+      "assist_filters_meta": {}
+    },
+    "experiments": {
+      "OR2_MIGRATION_EXPERIMENT": {
+        "experimentName": "search_or2_migration",
+        "experimentId": "dummy_id_for_or2_migration_experiment",
+        "variantName": "test2"
+      },
+      "PVID_SEARCH_CATALOGUE_EXPERIMENT": {
+        "experimentName": "pvid_search_catalogue_experiment",
+        "experimentId": "2adb51f8-afec-43dd-b055-6aa48fce2d73",
+        "variantName": "test"
+      },
+      "SEMANTIC_EXPERIMENT_V4": {
+        "experimentName": "vector_recall_v8",
+        "experimentId": "479283b9-7a7f-4518-83c5-cd3900314c40",
+        "variantName": "semantic_variant_3"
+      }
+    },
+    "pageType": "normal",
+    "stickyHeaders": [
+      0
+    ],
+    "isProductGridEnabled": true,
+    "isFiltersRevampEnabled": false,
+    "pageMeta": {
+      "viewMeta": {},
+      "refreshResolver": {
+        "config": {
+          "appParams": {
+            "queryTerm": "Coca-Cola Original Taste 750 ml",
+            "pageType": "search",
+            "productGridSize": 3
+          }
+        },
+        "url": "cfs/api/v1/bulk-widget-data",
+        "subscriptions": [
+          "cart_change"
+        ],
+        "type": "cfs_upsell_resolver"
+      }
+    },
+    "nextPageParams": {
+      "filterMode": 1,
+      "pageNumber": 1
+    },
+    "filterMode": 1
+  },
+  "sanitization_log": [
+    {
+      "field": "payload.userSessionId",
+      "action": "REDACTED",
+      "reason": "session_id_pii",
+      "redacted_at": "2026-08-26T04:50:00Z"
+    }
+  ]
+}

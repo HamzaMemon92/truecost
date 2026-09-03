@@ -1,0 +1,3388 @@
+{
+  "capture_version": "truecost.source.capture.v1",
+  "run_id": "zepto_common_dairymilk",
+  "case_id": "common_dairymilk",
+  "provider": "zepto",
+  "domain": "grocery",
+  "query": "Dairy Milk",
+  "captured_at": "2026-08-25T17:26:05.724818+00:00",
+  "execution_mode": "REAL_LIVE_SCRAPE",
+  "scraper_component": "ZeptoScraper",
+  "message_type": "SEARCH_SUCCESS",
+  "requested_location_profile": "default",
+  "observed_location_evidence": "NOT_AVAILABLE",
+  "location_verified": false,
+  "payload": {
+    "layout": [
+      {
+        "widgetId": "TITLE_WIDGET",
+        "widgetName": "SEARCH_TITLE_WIDGET",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "title",
+            "data": {
+              "items": [],
+              "title": "Showing results for \"tata salt 1 kg\"",
+              "queryTitle": "",
+              "searchQuery": "Tata Salt 1 kg",
+              "replacingTerm": "",
+              "searchKeyInTitle": "tata salt 1 kg",
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "viewMeta": {
+          "aspectRatio": 3.33,
+          "paddingTop": 1,
+          "paddingBottom": 1,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "backgroundColor": "#FFFFFF",
+          "adContainer": {
+            "marginHorizontal": 0,
+            "overflow": "",
+            "borderRadius": 0,
+            "backgroundColor": "",
+            "paddingBottom": 0
+          },
+          "productsList": {
+            "paddingHorizontal": 0,
+            "marginBottom": 0,
+            "separator": 0
+          },
+          "adAsset": {},
+          "backgroundGradient": {
+            "start": {
+              "x": 0,
+              "y": 0
+            },
+            "end": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "borderWidth": 0,
+          "borderColor": "",
+          "highlightColor": "",
+          "titleStyle": null,
+          "itemSpacing": 0,
+          "cardStyle": null,
+          "curveIcon": null,
+          "curveIconV2": null,
+          "headerStyle": null,
+          "listStyle": null,
+          "padding": null,
+          "itemPadding": null,
+          "imagePadding": null,
+          "titleIconImage": null,
+          "bodyStyle": null,
+          "subTitleLeadingIconImage": {
+            "id": "b2c99e9f-6507-425e-8130-e4b2a125311c",
+            "name": "Dairy Milk",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "titleLeadingIconImage": {
+            "id": "07568837-61d2-4104-9c78-1d762f6d08fb",
+            "name": "Dairy Milk",
+            "path": "",
+            "lottiePath": "",
+            "videoPath": "",
+            "mediaType": "",
+            "width": 0,
+            "height": 0,
+            "hidePadding": false
+          },
+          "tag": {
+            "text": "",
+            "variant": "",
+            "style": {
+              "color": "",
+              "paddingHorizontal": 0,
+              "paddingVertical": 0,
+              "borderWidth": 0,
+              "borderRadius": 0,
+              "borderColor": "",
+              "backgroundColor": "",
+              "lineHeight": 0
+            }
+          },
+          "card": {
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColor": "",
+            "backgroundColor": "",
+            "backgroundMode": "",
+            "firstColor": "",
+            "secondColor": "",
+            "padding": null
+          },
+          "overlayIconStyles": {},
+          "imageContainerStyle": {},
+          "productIconStyles": {},
+          "text": {
+            "unselectedColor": "",
+            "selectedColor": "",
+            "selectedVariant": "",
+            "unselectedVariant": "",
+            "selectedBackgroundColor": "",
+            "unselectedBackgroundColor": "",
+            "textSize": 0
+          }
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_0",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "5d8d4fd4-f29a-5725-8cb2-2ff9f442e159",
+                    "id": "19067c9a-662c-434b-87a9-d9ed04736f71",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Dairy Milk",
+                      "brandId": "9880fbe4-4a6e-4b88-954b-67342a59240a",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Himalayan Natives Himalayan Pink Salt (Powder) is a high-quality salt sourced from the pristine Himalayan mountains. This finely ground pink salt is packed with essential minerals and trace elements, making it a healthier alternative to regular table salt. Whether used in cooking, seasoning, or as a finishing touch on your favorite dishes, Himalayan Pink Salt adds a unique flavor and a subtle hint of pink color to your culinary creations."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "02ae36fb-d629-4f2b-a445-846a2ecfd553",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "Khanal Foods",
+                      "minimumRequiredAge": 0,
+                      "name": "Dairy Milk",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "60 g",
+                      "fssaiLicense": "",
+                      "id": "693bf80a-a2c5-46b5-a4a3-cd0cb7d28ca6",
+                      "images": [
+                        {
+                          "height": 1080,
+                          "hidePadding": true,
+                          "id": "ce5e960d-a7a3-4444-9ff5-be9fae81f19c",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Dairy Milk",
+                          "path": "cms/product_variant/10fc9e4b-4cb0-499f-ae4b-0bea7378881d.jpeg",
+                          "videoPath": null,
+                          "width": 1080,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 85,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "8760",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "GRAM",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "b8a0b9f5-b8d7-45c1-b815-04684b337dc2",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 622
+                      }
+                    },
+                    "discountedSellingPrice": 7300,
+                    "discountPercent": 26,
+                    "discountAmount": 2600,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 85,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 8500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "84dd5a37-dd5d-4cdb-be0d-36158dee42f7",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "5b140781-ad38-42c1-807f-4388cb3240e3",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "b42ddfc0-9a75-43f2-ac95-44bd893254fc",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "095c353a-140b-46ee-89ec-d3e3c34182d0",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "6c9383f8-2b4b-4f42-9c23-5eb76ace6f68",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 2600
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 7300,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "885cdd3e-3051-4750-9022-d07555b03292",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "712e4ff6-9992-4da2-b46a-ddf2289960b7",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 7300
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 85,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|ce4c5647026443e9819e53d210e18f05|2121|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|9880fbe4-4a6e-4b88-954b-67342a59240a|9880fbe4-4a6e-4b88-954b-67342a59240a||2386168|2386168|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||b8a0b9f5-b8d7-45c1-b815-04684b337dc2|6e9462d6-2835-47ec-ba8f-fb1ec0b3fd0b|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|epson salt|0|0|1|0",
+                  "position": 0,
+                  "l3_details": {
+                    "id": "91fea051-89b0-4e09-a155-2ef558b4d21f",
+                    "name": "Dairy Milk"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "7bb8beb2-9d81-54d1-9984-d33fd10e45c5",
+                    "id": "8e55d05d-8db9-488c-bf23-6e5faaf456a0",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Dairy Milk",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt which assures purity and guarantees the right amount of iodine in the salt. Iodine helps in the proper mental development of children and prevents iodine deficiency disorders in adults."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "b2af47e9-913c-44dd-9a28-4b6f5ab4c2e1",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "TCPL",
+                      "minimumRequiredAge": 0,
+                      "name": "Dairy Milk",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "60 g",
+                      "fssaiLicense": "",
+                      "id": "1c1ac379-7c87-44a4-a415-41e568691736",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "c166c330-a976-4499-ae62-dd1a1108c7c2",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Dairy Milk",
+                          "path": "cms/product_variant/1c70221b-4440-4d55-87e7-46fcce72fefd.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 2,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 85,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 31,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "14060d3c-17b1-4b56-8d2f-ddbed64443e7",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.9,
+                        "totalRatings": 479133
+                      }
+                    },
+                    "discountedSellingPrice": 2800,
+                    "discountPercent": 12,
+                    "discountAmount": 400,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 31,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 85,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 8500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "30614e30-1824-4f30-b310-e5cf7e5ea2c8",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "81980a6a-1f77-4762-a2d0-8a9d32957384",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "2031ec69-51d9-44f6-9b57-0cde0f71b359",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 999,
+                      "semanticScore": 999,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 400
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2800,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2800
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 85,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 1,
+                  "index": 0
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "caa4263d-a2a8-5fb4-9f07-454b6631cd34",
+                    "id": "35bb1319-dc2c-407d-b9f4-f665762029b2",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Dairy Milk",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt Himalayan Rock Salt is sourced directly from mountains and contains natural trace minerals such as calcium, magnesium and potassium. From nature\u2019s kitchen to yours enjoy the taste of free-flowing granules of Tata Salt Himalayan Rock Salt. This Sendha namak adds a fresh flavour burst to your everyday meals, meals for special occasions and to enhance the flavour of fasting foods."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "9b7b8b7b-8e51-47d2-b281-504d28a544ed",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "Geo-Fresh Organic Private Limited, Plot No. 5 & 6, Survey No. 129(1), Sidhpur-Patan Highway, Village-Karan, TA-Sidhpur, District-Patan, Gujrat - 384151.",
+                      "manufacturerName": "Geo-Fresh Organic Private Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Dairy Milk",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "60 g",
+                      "fssaiLicense": "",
+                      "id": "2164b5ef-587b-4759-8ad2-f9387ebed4d9",
+                      "images": [
+                        {
+                          "height": 900,
+                          "hidePadding": true,
+                          "id": "796ae8a4-c7d8-42b1-9404-8552718c5d88",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Dairy Milk",
+                          "path": "cms/product_variant/47ca6c43-cc8d-4e90-b234-6d45622ea2e0.jpeg",
+                          "videoPath": null,
+                          "width": 900,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 30,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 85,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 19,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "GRAM",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "77577303-f18c-40d2-a1a4-88e06e298818",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 17650
+                      }
+                    },
+                    "discountedSellingPrice": 5800,
+                    "discountPercent": 10,
+                    "discountAmount": 700,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 19,
+                    "quantity": 19,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 85,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 8500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "acb80eae-7713-45dd-b371-988a4032e3ab",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "eda1748f-7a64-4f65-bce4-44bf5f5d4264",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "e6c986e7-c82b-45f1-91fb-9e8e03d61a01",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "24f0a203-2101-4d4f-a74f-be5a279cff4c",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "1b9fa882-6c85-411e-8346-2c931026be53",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 700
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 5800,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "3498c0ee-521d-4b51-96f1-a3b4afb5d9ee",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "542598b6-7e46-4030-a1b5-ff159494501c",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 5800
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 85,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|ae9fde909aec4378a83f886d4c68e1a2|960|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|9de7f501-f1e0-466c-bf16-4bd8b0e1008d|9de7f501-f1e0-466c-bf16-4bd8b0e1008d||2005821|2005821|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||77577303-f18c-40d2-a1a4-88e06e298818|b2d5ef85-e2d9-426f-af07-97efe3c249b7|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|1kg|0|0|20|0",
+                  "position": 2,
+                  "l3_details": {
+                    "id": "3c05a826-bc3e-4f3d-8a77-abe1c046f6d4",
+                    "name": "Dairy Milk"
+                  }
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_3",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "52720575-8476-556c-9831-f4668c4983a9",
+                    "id": "03e3c36c-48c6-423e-81c0-689d549fafb1",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Dairy Milk",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Lite Low Sodium Salt 1 kg Tata Lite Low Sodium Salt has been a staple in kitchen for generations now. This salt was first manufactured by Tata in a vacuum-sealed pack",
+                        "around the year 1983. Salt is one of the most important ingredients we use in food and cooking. It also adds taste and flavour to any dish."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "1d014232-4813-46fa-8290-123306fa4726",
+                      "imported": true,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "Maheshwari Salt Trading Co., C 65, 66, SIPCOT Industrial Complex, Tuticorin, District-Thoothukkudi, Tamil Nadu 628 008. Lic. No. 10012042000657",
+                      "manufacturerName": "Tata Consumer Products Ltd",
+                      "minimumRequiredAge": 0,
+                      "name": "Dairy Milk",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "60 g",
+                      "fssaiLicense": "",
+                      "id": "49d1490b-f461-42fe-a6fe-aa82c87e5f55",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "d5b5aa54-6167-457e-8a8f-bfdb977b4f69",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Dairy Milk",
+                          "path": "cms/product_variant/7460909f-aca5-4994-b3e4-d9d4b758ba45.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 2,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 85,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 8,
+                      "shelfLifeInHours": "13152",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "b5ecfae3-b8c0-418b-b20c-372fe62ba576",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.6,
+                        "totalRatings": 61557
+                      }
+                    },
+                    "discountedSellingPrice": 2200,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 8,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 85,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 8500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "57bf89ab-b653-4ad5-bcf0-41a3cb1e4b8a",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "58d77a13-7a36-45b8-b438-b619a8da8f70",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "39605ca8-e82d-49ab-a522-af458574119d",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 998,
+                      "semanticScore": 998,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2200,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2200
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 85,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 3,
+                  "index": 1
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "224a404d-5a74-5338-8bc1-1499e6baed76",
+                    "id": "8fd1b894-8fe6-4d2a-9a37-8c06addbce16",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Dairy Milk",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt Himalayan Rock Salt is sourced directly from mountains and contains natural trace minerals such as calcium, magnesium and potassium. From nature\u2019s kitchen to yours enjoy the taste of free-flowing granules of Tata Salt Himalayan Rock Salt. This Sendha namak adds a fresh flavour burst to your everyday meals, meals for special occasions and to enhance the flavour of fasting foods."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "0117b62a-48e7-4b6f-9a7e-c58828b59b54",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "Geo-Fresh Organic Private Limited, Plot No. 5 & 6, Survey No. 129(1), Sidhpur-Patan Highway, Village-Karan, TA-Sidhpur, District-Patan, Gujrat - 384151.",
+                      "manufacturerName": "Geo-Fresh Organic Private Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Dairy Milk",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "60 g",
+                      "fssaiLicense": "",
+                      "id": "712ab2c8-046c-4d8d-9edb-a0f50089c958",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "d1c40aba-3a5b-4052-a722-57740c082e95",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Dairy Milk",
+                          "path": "cms/product_variant/97fa1bb7-ac6f-4750-9d9f-f8b832ffecef.jpg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 30,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 85,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 91,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "77577303-f18c-40d2-a1a4-88e06e298818",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.9,
+                        "totalRatings": 31822
+                      }
+                    },
+                    "discountedSellingPrice": 10400,
+                    "discountPercent": 13,
+                    "discountAmount": 1600,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 30,
+                    "quantity": 91,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 85,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 8500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "7c8a0e47-8678-475a-aa62-c28afdc36f20",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "4a283f1b-321f-49c2-b1d2-8fb5cb38049b",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "937b3e08-7e55-41ee-88ef-536dfa445b17",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "58c86c06-3765-4576-baad-c465d258e646",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "6a2cb284-9e77-4340-b4b6-c944db77865d",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 1600
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 10400,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "19675716-298a-408f-9ca0-a9509dd38f1b",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "5e6610a7-a7ba-466f-85dd-50d2f4123d50",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 10400
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 85,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|f45f1c1eef9f4d818c0bfd3e751a98bc|960|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|9de7f501-f1e0-466c-bf16-4bd8b0e1008d|9de7f501-f1e0-466c-bf16-4bd8b0e1008d||2005821|2005821|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||77577303-f18c-40d2-a1a4-88e06e298818|c727ebd6-3bb2-41c5-8403-037b2b421ca2|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|1kg|0|0|20|0",
+                  "position": 4,
+                  "l3_details": {
+                    "id": "cb474d2e-668c-4bda-9e8b-9e57d28eae89",
+                    "name": "Dairy Milk"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "c831fbad-f358-5aae-a22c-277bc2db8974",
+                    "id": "5b01500b-054a-4bbf-8256-eed2e8e25434",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Dairy Milk",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "A stressful lifestyle coupled with altered food habits has led to an exponential increase in the occurrence of lifestyle diseases such as high blood pressure. Tata Salt Lite has 15% sodium compared to regular salt for a healthy lifestyle without compromising the taste of your dishes. The Tata Salt Lite low sodium also consists of Iodine which helps in the proper mental development of children and prevents iodine deficiency disorders in adults."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "3c76bebe-20a7-4ffa-90d3-f58b4f4ba586",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "(SB) M/s Shree Ram Brine Chem Industries,Plot No. 2, Survey No. 286, Paiki, Paiki-2, Northern East, Village: Chopadava, District-Kutch, Gujarat - 370 140.\n(CS) CHIRAI SALT (INDIA) PVT. LTD., D-2, Sector-12, Heavy Industrial Area, Gandhidham, Bhuj, District-Kutch, Gujarat-370 201.\n(WC) Western India Sea Brines Pvt. Ltd., Survey No. 281, Salt City, Village: Chopadva, Taluka: Bhachau, Bhuj, District-Kutch, Gujarat-370 140.\nRe-Packed by: (AH) Mehta Enterprise, C/o Sumar Logistics and Industrial Park. Shed \"0\", Gala No. 1 to 6, NH-8, Betdilat, Village Hariyala, District Kheda, Nadiad, Gujarat-387411.",
+                      "manufacturerName": "(SB) M/s Shree Ram Brine Chem Industries, (CS) CHIRAI SALT (INDIA) PVT. LTD, (WC) Western India Sea Brines Pvt. Ltd, Re-Packed by: (AH) Mehta Enterprise.",
+                      "minimumRequiredAge": 0,
+                      "name": "Dairy Milk",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "60 g",
+                      "fssaiLicense": "",
+                      "id": "d96dfed8-fb26-48e7-92fa-dcc85a43c687",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "596bbfd1-8928-4d27-9cc0-358f400dce30",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Dairy Milk",
+                          "path": "cms/product_variant/1279c778-fb6f-4005-9b3f-23aaf6582467.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 2,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 85,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "1bde62f2-ddd2-43b5-af74-53f1795ab4b0",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 25894
+                      }
+                    },
+                    "discountedSellingPrice": 5500,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 85,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 8500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "1bf1ce0c-3457-4479-b58a-7c0cdf5c793a",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "b208d240-e563-4b75-9a99-538720384425",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "f9946367-8f58-4b76-a74f-4824e47975c0",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 997,
+                      "semanticScore": 997,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 5500,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 5500
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 85,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 5,
+                  "index": 2
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_6",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "9f9dbdcb-17da-5d97-9fbd-e6b0589a3be0",
+                    "id": "80011dbf-ea2e-4ee1-8088-cb92772556ab",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Dairy Milk",
+                      "brandId": "40e97298-9299-462c-90c2-5deffd53a989",
+                      "countryOfOrigin": "India",
+                      "description": [],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "db7b7955-ccd9-4bc9-9c34-930b5d38c544",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "Paras Spices",
+                      "minimumRequiredAge": 0,
+                      "name": "Dairy Milk",
+                      "pharmaceuticalInfo": {
+                        "isLicensed": false,
+                        "composition": "",
+                        "allergy": "",
+                        "usage": "",
+                        "disclaimer": ""
+                      },
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "60 g",
+                      "fssaiLicense": "10014063000385",
+                      "id": "9295db9a-ecec-43eb-ad38-b3723eb84c8f",
+                      "images": [
+                        {
+                          "height": 980,
+                          "hidePadding": true,
+                          "id": "5827b3cd-65b1-4811-acc8-568abf35d280",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Dairy Milk",
+                          "path": "cms/product_variant/e4c9629b-e1a5-487a-8584-c4d062b09c3e.jpeg",
+                          "videoPath": null,
+                          "width": 980,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": [
+                              "3x4"
+                            ],
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 85,
+                      "packagingType": null,
+                      "packsize": 500,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 3,
+                      "shelfLifeInHours": "17520",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "GRAM",
+                      "unlisted": false,
+                      "weightInGms": 500,
+                      "productId": "fc57f2cc-0a2c-44b9-8239-acb390688d07",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 500,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.4,
+                        "totalRatings": 373
+                      }
+                    },
+                    "discountedSellingPrice": 4200,
+                    "discountPercent": 37,
+                    "discountAmount": 2500,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 3,
+                    "quantity": 3,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 85,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 8500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "23468efd-66ed-4969-99e9-b18e05622b9a",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "4d511b96-c5cd-4661-af49-33b5d539560e",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "02829fe2-0cd5-4378-819a-dbadd0bab290",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "219aab6b-b0cb-457d-bc87-0cccb12be83c",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "55f067eb-68da-424c-8a7d-c7a0eae38134",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 2500
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 4200,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "e27e29ea-40ec-436b-bcb5-4a368912b292",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "b022605c-7cc6-4392-ad46-c6825fe10b68",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 4200
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 85,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|9867c2cd48d64d49b10d8a015c4fd431|1260|1787673645675|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|40e97298-9299-462c-90c2-5deffd53a989|40e97298-9299-462c-90c2-5deffd53a989||2422010|2422010|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||fc57f2cc-0a2c-44b9-8239-acb390688d07|e3233297-f244-494e-9236-6ae514cc1fad|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|PHRASE|pink rock salt|0|5|0|0",
+                  "position": 6,
+                  "l3_details": {
+                    "id": "97ce2fd6-829c-4d71-a8a4-5e76643f1e3b",
+                    "name": "Dairy Milk"
+                  }
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "6ae2efe5-ec0c-53b3-97e1-0541e74ba3d1",
+                    "id": "e48a9cfc-d4fa-4f1f-952d-e7cdd251595a",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Dairy Milk",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "Tata Salt Superlite With 30% Low Sodium is a low-sodium salt option that contains 30% less sodium than regular salt. It is designed to provide the same great taste while helping to reduce sodium intake, making it ideal for those looking to manage their salt intake. This innovative salt formulation is crafted to deliver a balanced flavor profile without compromising on taste. Whether you're cooking your favorite dishes or seasoning your meals at the table."
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "e9cc7b04-dee4-4a1a-b30d-3f96e8fe53b0",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": "M/s Shree Ram Brine Chem Industries, Plot No 2 rvey No. 286, Paiki, Paiki-2. Northem East Jage: Chopadava, District-Kutch, Gujarat-370 140. Lic. No. 10020021006305",
+                      "manufacturerName": "Tata Consumer Products Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Dairy Milk",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "60 g",
+                      "fssaiLicense": "",
+                      "id": "9aa88315-09c4-4891-98f0-9077c9d7ee09",
+                      "images": [
+                        {
+                          "height": 1200,
+                          "hidePadding": true,
+                          "id": "f76842e9-7989-403c-bf25-3c33cecbf98b",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Dairy Milk",
+                          "path": "cms/product_variant/86b3d35e-1e41-473e-aea3-e0f5c66dc279.jpeg",
+                          "videoPath": null,
+                          "width": 1200,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 85,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 2,
+                      "shelfLifeInHours": "17496",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "39ddc535-0151-4413-a720-eaf410a09cf5",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 4514
+                      }
+                    },
+                    "discountedSellingPrice": 7500,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 2,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 85,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 8500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "1177d875-5266-4d37-ae0c-7b6c4b641953",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "59528d03-6ba5-401a-90b0-cf0d903c997b",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "3c815466-78bb-4538-8eb6-8f8ffe3b1084",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 996,
+                      "semanticScore": 996,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 7500,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 7500
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 85,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 7,
+                  "index": 3
+                },
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "c2bcfd8c-6b33-51ff-8f31-2075f1b09a82",
+                    "id": "238c9b2f-ad9e-40da-bb0f-fe9e6436834b",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Dairy Milk",
+                      "brandId": "963b50ed-3146-4744-8f4d-56876fdc8159",
+                      "countryOfOrigin": "India",
+                      "description": [],
+                      "discountApplicable": false,
+                      "howToUse": null,
+                      "id": "04f6aeff-9d6f-4bf3-b247-cbc50dcbb2e4",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": "ITC Limited",
+                      "minimumRequiredAge": 0,
+                      "name": "Dairy Milk",
+                      "pharmaceuticalInfo": {
+                        "isLicensed": false,
+                        "composition": "",
+                        "allergy": "",
+                        "usage": "",
+                        "disclaimer": ""
+                      },
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "60 g",
+                      "fssaiLicense": "10012031000312",
+                      "id": "4e1f383c-024f-4fc9-b063-5b4952f7dd93",
+                      "images": [
+                        {
+                          "height": 1500,
+                          "hidePadding": true,
+                          "id": "8a414aa9-607d-4a8b-bc30-a14b5990aea3",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Dairy Milk",
+                          "path": "cms/product_variant/e7a635a8-e280-449e-a910-3355750269e9.jpeg",
+                          "videoPath": null,
+                          "width": 1500,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 85,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 2,
+                      "shelfLifeInHours": "8760",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "492411d0-64e9-4edc-adfd-6b1f12a58743",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.8,
+                        "totalRatings": 1386
+                      }
+                    },
+                    "discountedSellingPrice": 2700,
+                    "discountPercent": 10,
+                    "discountAmount": 300,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 2,
+                    "quantity": 2,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 85,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 8500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": "SPONSORED"
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "739df541-c9e5-4707-a6fd-55832fdcd43f",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "5de04c4e-27e3-4188-b2b6-8f680851c1f7",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "8b4364a5-97d4-417e-ab29-5f0474ebafe4",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        },
+                        "P3": {
+                          "id": "09f90b05-869d-424c-87cb-7885da053821",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hide_padding": null,
+                            "id": "96b5bdf7-0e96-4e1c-b8d2-7d8cf934f7f2",
+                            "lottie_path": null,
+                            "media_type": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "size_in_bytes": null,
+                            "video_path": null,
+                            "width": 28
+                          },
+                          "style": null
+                        }
+                      },
+                      "related_product_bucket": "default",
+                      "query_matching_bucket": "",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": "TIER_2",
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": 300
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 2700,
+                    "productCardTags": {
+                      "slot2": [
+                        {
+                          "id": "2f134e2b-44c8-440a-bb46-8b3107e3c2b4",
+                          "tagType": "SPONSORED",
+                          "tagName": "Sponsored",
+                          "position": "P3",
+                          "attachment": {
+                            "height": 28,
+                            "hidePadding": false,
+                            "id": "476c28bf-1742-4980-93dd-1cd8210231f8",
+                            "lottiePath": null,
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/55a80cdc-a78d-4408-9913-9d89423e171f-P3_-_Ad.png",
+                            "videoPath": null,
+                            "width": 28,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          }
+                        }
+                      ]
+                    },
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 2700
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "Salt, Sugar & Jaggery",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                    "l4Attributes": null,
+                    "price": 85,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "uclId": "101|ab705a0d151b4019938f79f2cbb9bd06|1650|1787673645658|c921d80d-6194-42a3-b8a4-1e5cc74cee5e|||CPC|963b50ed-3146-4744-8f4d-56876fdc8159|963b50ed-3146-4744-8f4d-56876fdc8159||2334729|2334729|b4dc8d65-ed2e-4142-81b6-373982b13500||0|P_INFO|||492411d0-64e9-4edc-adfd-6b1f12a58743|4a5d1218-784d-47f0-9f51-c11db2c8321d|0c2ccf87-e32c-4438-9560-8d9488fc73e0|b5826992-5cfc-4554-8075-a3f33709ddf2|K_INFO|EXACT|tata salt|0|0|10|0",
+                  "position": 8,
+                  "l3_details": {
+                    "id": "93c66c6f-5845-4e5b-b7e0-eb8247575ccf",
+                    "name": "Dairy Milk"
+                  }
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "PRODUCT_GRID",
+        "widgetName": "SEARCHED_PRODUCTS_9",
+        "data": {
+          "fetchMode": "local",
+          "resolver": {
+            "useLocal": false,
+            "type": "product_grid",
+            "data": {
+              "items": [
+                {
+                  "productResponse": {
+                    "recommendationId": "",
+                    "objectId": "0d0baccd-d4c4-5cdf-aab1-f59eed2b36b9",
+                    "id": "4cb771a6-a96f-4360-b4ea-270d589a7dec",
+                    "storeId": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+                    "product": {
+                      "brand": "Dairy Milk",
+                      "brandId": "9de7f501-f1e0-466c-bf16-4bd8b0e1008d",
+                      "countryOfOrigin": "India",
+                      "description": [
+                        "<nil>"
+                      ],
+                      "discountApplicable": true,
+                      "howToUse": null,
+                      "id": "a6b9b153-eec9-458a-b949-fb36d6bc1bec",
+                      "imported": false,
+                      "ingredients": null,
+                      "l3CategoryIds": [
+                        "fb62f95b-df38-4893-9280-4bc3048a4c87"
+                      ],
+                      "manufacturerAddress": null,
+                      "manufacturerName": null,
+                      "minimumRequiredAge": 0,
+                      "name": "Dairy Milk",
+                      "pharmaceuticalInfo": null,
+                      "prioritisedSearchKeywords": null,
+                      "searchKeywords": null,
+                      "primarySubcategory": "b5826992-5cfc-4554-8075-a3f33709ddf2",
+                      "productType": "\u0000"
+                    },
+                    "productVariant": {
+                      "formattedPacksize": "60 g",
+                      "fssaiLicense": "",
+                      "id": "a38c13af-518d-40d7-9640-842698f7a5cc",
+                      "images": [
+                        {
+                          "height": 1000,
+                          "hidePadding": true,
+                          "id": "7ec3734e-6130-4452-a6db-92d41927ea71",
+                          "lottiePath": null,
+                          "mediaType": "IMAGE",
+                          "name": "Dairy Milk",
+                          "path": "cms/product_variant/6fcca77c-d588-46f9-b0c3-a2911e1cac28.jpg",
+                          "videoPath": null,
+                          "width": 1000,
+                          "sizeInBytes": 0,
+                          "metaData": {
+                            "aspectRatio": null,
+                            "resizeMode": "contain"
+                          }
+                        }
+                      ],
+                      "maxAllowedQuantity": 6,
+                      "meta": {
+                        "query_matching_bucket": "",
+                        "searchFeedBucket": null,
+                        "isSemantic": false,
+                        "vip_deal_product_tile_state": 0,
+                        "is_vip_deal_product": false,
+                        "ads_deboosting_old_position": 0,
+                        "ads_deboosting_new_position": 0,
+                        "ads_flywheel_old_position": 0,
+                        "ads_flywheel_new_position": 0,
+                        "is_fly_wheel_ad": false,
+                        "source_tag": ""
+                      },
+                      "mrp": 85,
+                      "packagingType": null,
+                      "packsize": 1,
+                      "pharmaceuticalInfo": null,
+                      "quantity": 1,
+                      "shelfLifeInHours": "17280",
+                      "showOnlyInBundles": false,
+                      "storageInstructions": null,
+                      "unitOfMeasure": "KILOGRAM",
+                      "unlisted": false,
+                      "weightInGms": 1000,
+                      "productId": "7263945f-acea-4e13-be0d-2e8653135b4f",
+                      "isActive": true,
+                      "priceSegmentType": "",
+                      "widthInMm": 1000,
+                      "cuisineType": "",
+                      "productTheme": "",
+                      "l4Attributes": {
+                        "drugType": null,
+                        "prescriptionRequired": null
+                      },
+                      "ratingSummary": {
+                        "averageRating": 4.7,
+                        "totalRatings": 3201
+                      }
+                    },
+                    "discountedSellingPrice": 3500,
+                    "discountPercent": 0,
+                    "discountAmount": 0,
+                    "storeProductDiscountId": "",
+                    "availableQuantity": 1,
+                    "quantity": 1,
+                    "allocatedQuantity": 0,
+                    "stockoutThresholdQuantity": 0,
+                    "outOfStock": false,
+                    "mrp": 85,
+                    "productType": "SELLABLESKU",
+                    "priority": 0,
+                    "cached": false,
+                    "isNewProduct": false,
+                    "sellingPrice": 8500,
+                    "isActive": true,
+                    "isBestOffer": false,
+                    "isPrimary": true,
+                    "rollUpIds": null,
+                    "meta": {
+                      "tags": [
+                        {
+                          "type": ""
+                        }
+                      ],
+                      "tagsV2": {
+                        "P0": {
+                          "attachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "93b37467-cad1-472a-a4b5-8e824d57b930",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "id": "f63dc8cf-81c5-439e-a312-cbbe0caa0f71",
+                          "pdpAttachment": {
+                            "height": 36,
+                            "hidePadding": false,
+                            "id": "4b8dd48b-8dc8-482d-9f61-54ed2a060777",
+                            "lottiePath": "",
+                            "mediaType": "IMAGE",
+                            "name": "Dairy Milk",
+                            "path": "inventory/product/a61dd64f-be76-4ef6-8df8-802e086ecf56-P0_-_Discount.png",
+                            "videoPath": "",
+                            "width": 88,
+                            "sizeInBytes": 0,
+                            "metaData": null
+                          },
+                          "position": "P0",
+                          "tagName": "Product Discount",
+                          "tagText": "",
+                          "tagType": "DISCOUNT"
+                        }
+                      },
+                      "query_matching_bucket": "Span",
+                      "debug_platform_query_matching_bucket": "span",
+                      "searchFeedBucket": null,
+                      "isSemantic": false,
+                      "vip_deal_product_tile_state": 0,
+                      "is_vip_deal_product": false,
+                      "ads_deboosting_old_position": 0,
+                      "ads_deboosting_new_position": 0,
+                      "ads_flywheel_old_position": 0,
+                      "ads_flywheel_new_position": 0,
+                      "is_fly_wheel_ad": false,
+                      "atlasScore": 995,
+                      "semanticScore": 995,
+                      "source_tag": ""
+                    },
+                    "pricingCampaigns": null,
+                    "primaryCategoryName": "Masala, Dry Fruits & More",
+                    "primaryCategoryId": "0c2ccf87-e32c-4438-9560-8d9488fc73e0",
+                    "zeptoPassPrice": 0,
+                    "zeptoPassPriceDiscountPercent": 0,
+                    "zeptoPassPricingCampaigns": [],
+                    "zeptoPassPriceDiscountPercentDifference": 0,
+                    "uclId": "",
+                    "valueBasedDiscount": {
+                      "passDiscountTier": null,
+                      "nonPassDiscountTier": null,
+                      "passTotalDiscount": null,
+                      "nonPassTotalDiscount": null
+                    },
+                    "l3CategoriesDetail": null,
+                    "itemVariant": null,
+                    "properties": null,
+                    "rankingParams": {
+                      "l30RPI": 0,
+                      "l30ORD": 0
+                    },
+                    "searchFeedBucket": "",
+                    "searchFeedOrder": 0,
+                    "superSaverSellingPrice": 3500,
+                    "productCardTags": {},
+                    "zeptoPassPricePerUom": null,
+                    "showSuperSaverPrice": false,
+                    "categories": null,
+                    "subCategories": null,
+                    "brands": null,
+                    "showDailyBogoStrip": null,
+                    "isWishlistEnabled": true,
+                    "addOnInfo": null,
+                    "action": null,
+                    "itemisationStockInfo": null,
+                    "bottomsheetType": "v1",
+                    "isCafe": false,
+                    "pricingData": {
+                      "pricingEntityPrices": [
+                        {
+                          "pricingEntity": "SUPER_SAVER",
+                          "discountedSellingPrice": 3500
+                        }
+                      ]
+                    },
+                    "atcActions": null,
+                    "greyStripEnabled": false,
+                    "colour": "",
+                    "material_type": "",
+                    "design_type": "",
+                    "size": "",
+                    "capacity": "",
+                    "bundleItems": null,
+                    "rollUpVariantsDetails": null,
+                    "brandDeliveryOfferDetails": null,
+                    "primarySubcategoryName": "",
+                    "consumerL3CategoryNames": null,
+                    "primarySubcategoryId": "",
+                    "l4Attributes": null,
+                    "price": 85,
+                    "cachedReRankingParams": {
+                      "AtlasRecallRank": 0,
+                      "Rank25Variant": 0,
+                      "ATCPI": 0,
+                      "IsOrganicBucket": false,
+                      "OrganicScore": 0
+                    },
+                    "promos": null,
+                    "greyStripOverridden": false
+                  },
+                  "info": null,
+                  "position": 9,
+                  "index": 4
+                }
+              ],
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "productGridViewMeta": {
+          "productCardVariant": "V3_SMALL_ABS_DISCOUNT",
+          "productCardVariantV2": "BASIC__S",
+          "numberOfColumns": 3,
+          "border": {
+            "width": 1,
+            "backgroundColor": "#F3F8FF"
+          },
+          "addButtonVariant": "variant_3",
+          "padding": [
+            12,
+            12,
+            4,
+            12
+          ],
+          "columnGap": 6,
+          "tagsScaleFactor": {
+            "P1": 0.83
+          },
+          "background": {}
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      },
+      {
+        "widgetId": "HOME_FOOTER",
+        "widgetName": "SEARCH_FOOTER",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    ],
+    "footer": {
+      "widget": {
+        "widgetId": "",
+        "widgetName": "",
+        "data": {
+          "resolver": {
+            "useLocal": false,
+            "type": "",
+            "data": {
+              "items": null,
+              "title": null,
+              "queryId": null,
+              "tabIdStoreProductMap": {},
+              "subTitle": null
+            }
+          },
+          "endOfList": false
+        },
+        "actions": null,
+        "analyticsMeta": {
+          "meta": {}
+        },
+        "widgetType": ""
+      }
+    },
+    "header": null,
+    "selectedTabId": 0,
+    "algoliaQueryID": "",
+    "showCigaretteBanner": false,
+    "pageProductCount": 10,
+    "totalProductCount": 21,
+    "currentPage": 0,
+    "hasReachedEnd": true,
+    "userSessionId": "[REDACTED]",
+    "algoliaTimeOut": false,
+    "algoliaTypoTolerance": false,
+    "filters": {
+      "activeFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "allFilters": {
+        "brands": null,
+        "l3Categories": null
+      },
+      "topBrands": null
+    },
+    "showTobaccoConsentPopup": false,
+    "meta": {
+      "related_products_enabled": false,
+      "related_products_search_term_default": "tata salt 1 kg",
+      "total_organic_products": 5,
+      "oos_organic_products": 0,
+      "instock_organic_products": 5,
+      "total_related_products": 0,
+      "oos_related_products": 0,
+      "instock_related_products": 0,
+      "total_results": 5,
+      "total_oos_results": 0,
+      "total_instock_results": 5,
+      "related_products_reason": "CompatibleComponentsNotFound",
+      "qcl_meta": {
+        "qcl_correction_not_done_reason": "CompatibleComponentsNotFound",
+        "qcl_correction_done_v3": false
+      },
+      "inhouse_search_done": false,
+      "plp_primary_category_name_from_recall": "",
+      "plp_primary_category_mapping": "",
+      "plp_subcat_listing_logic": "",
+      "plp_experience_shown": false,
+      "plp_experience_not_shown_reason": "PlpExperimentNotEnabled",
+      "relevance_v2": {
+        "relevance_L1": [
+          {
+            "id": "ad519fed-1421-4f29-9a8d-91559cbfadc6",
+            "name": "Dairy Milk",
+            "score": 0,
+            "presentInNonOpsRelevance": true
+          }
+        ],
+        "relevance_L2": [
+          {
+            "id": "5d6a04a5-e879-4af0-8914-0fbc4b23a860",
+            "name": "Dairy Milk",
+            "score": 0,
+            "presentInNonOpsRelevance": true
+          }
+        ],
+        "relevance_L3": [
+          {
+            "id": "53883da4-1204-4941-a298-828f892183d5",
+            "name": "Dairy Milk",
+            "score": 0.189688,
+            "presentInNonOpsRelevance": true
+          }
+        ]
+      },
+      "relevance_L3_count": 1,
+      "relevance_brand": [
+        {
+          "id": "3c96c632-9ac3-414e-af1f-15969935eda5",
+          "name": "Dairy Milk",
+          "score": 1
+        }
+      ],
+      "relevance_variant_selected": 1,
+      "segmentations": [
+        "TOP_2L"
+      ],
+      "query_intent_done": true,
+      "ds_query_type": "narrow",
+      "ds_basket_building_flag": true,
+      "ds_basket_building_flag_data": "non-basket",
+      "filter_mode": 1,
+      "filter_state": "NO_FILTER_SELECTED",
+      "l3_superspan_results_count": 0,
+      "l3_span_results_count": 5,
+      "l3_partial_results_count": 0,
+      "l3_other_results_count": 0,
+      "l3_oos_superspan_results_count": 0,
+      "l3_oos_span_results_count": 0,
+      "l3_oos_partial_results_count": 0,
+      "l3_oos_other_results_count": 0,
+      "l3_instock_superspan_results_count": 0,
+      "l3_instock_span_results_count": 5,
+      "l3_instock_partial_results_count": 0,
+      "l3_instock_other_results_count": 0,
+      "oos_products_shown_count": 0,
+      "recommendations_instrumentation_info": {
+        "query_level_sku_recommendations_instrumentation_info": {},
+        "cross_sell_widget_instrumentation_info": {}
+      },
+      "is_scoped_search_enabled": false,
+      "scope_category": "",
+      "scope_subcategory": "",
+      "scoped_search_not_enabled_reason": "",
+      "oos_text_meta": "",
+      "source_search_term": "Tata Salt 1 kg",
+      "recall_type_detail": {
+        "recall_type": "ORGANIC_RECALL_WITH_NO_TYPO_AND_EXACT_MATCH",
+        "recall_display_title": "Showing results for \"tata salt 1 kg\""
+      },
+      "category_cohort_experiment_instrumentation_info": {
+        "highestConfidenceL1": "Masala, Dry Fruits & More",
+        "highestConfidenceL2": "Salt, Sugar & Jaggery",
+        "relevanceLevel": "L1",
+        "cohortRankingNotEnabledReason": "UserIdNotPresent",
+        "categoryBasedRankingEnabled": false,
+        "isAtcDone": true
+      },
+      "meds_with_similar_salts_info": {},
+      "is_liquidation_done": false,
+      "liquidation_not_done_reason": "OrganicProductsLessThan4",
+      "l3_understanding_meta": {},
+      "product_grid_meta_info": {
+        "isProductGridFeatureEnabled": true,
+        "productGridSize": 3,
+        "productGridVariantType": "V3_SMALL_ABS_DISCOUNT",
+        "searchExperienceType": "3_3_discount_abs",
+        "isSfsOverrideEnabled": false
+      },
+      "buy_again_v2_boost_info": {},
+      "qrl_rerank_info_v2": {
+        "ranking_segmentation_error_occurred": false,
+        "default_qrl_rerank_done": false,
+        "qrl_default_rerank_not_done_reason": "RankingNotEnabledForFallback",
+        "qrl_default_rerank_source": "query_reranking_rank9_variant",
+        "qrl_explore_rerank_source": "query_reranking_rank9_variant",
+        "qrl_vector_rerank_source": "semantic_query_reranking_rank1_variant",
+        "qrl_default_reranking_list_product_count": 0,
+        "qrl_explore_search_product_count": 0,
+        "qrl_vector_search_product_count": 0,
+        "feature_store_meta": {
+          "feature_store_enabled": false
+        },
+        "explore_re_rank_meta": {},
+        "user_personalization_meta": {
+          "is_user_personalized_ranking_done": false,
+          "total_user_personalized_ranked_product_count": 0,
+          "span_user_personalized_ranked_product_count": 0,
+          "partial_user_personalized_ranked_product_count": 0,
+          "other_user_personalized_ranked_product_count": 0
+        }
+      },
+      "unserviceable_store_deboosting_not_enabled_reason": "Both Dark store and superstores are unserviceable",
+      "store_stress_info": {
+        "storeIdUsedStressRanking": "b4dc8d65-ed2e-4142-81b6-373982b13500",
+        "storeStressRankingNotEnabledReason": "user not enabled for marketplaceType: SUPER_SAVER",
+        "storeStressRankingEnabled": false,
+        "rankingVariant": null,
+        "storeStressInCache": 0,
+        "storeStressEnum": ""
+      },
+      "pt_and_attributes_meta": {
+        "search_term_contains_attributes": 1,
+        "search_term_number_of_attributes": 3,
+        "search_term_PT": [
+          "salt"
+        ],
+        "search_term_brand": [
+          "Tata"
+        ],
+        "pt_brand_source": "mongo",
+        "attribute_relevance_version": "v1",
+        "search_term_contains_brand": 1,
+        "search_term_attributes": [
+          "weight",
+          "brand",
+          "product_leafname"
+        ],
+        "search_term_attribute_values": {
+          "brand": {
+            "values": [
+              "Tata"
+            ]
+          },
+          "product_leafname": {
+            "values": [
+              "salt"
+            ]
+          },
+          "weight": "60 g"
+        }
+      },
+      "vip_deals_meta": {
+        "total_vip_deal_atlas_boosted_cnt": 0
+      },
+      "autosuggestion_live_ranker_meta": {
+        "ctr_ranking_done": false,
+        "cvr_ranking_done": false
+      },
+      "autosuggestion_promotion_meta": {
+        "promotion_applied": false
+      },
+      "vip_deals_horizontal_card_widget_instrumentation_info": {
+        "deal_cards_loaded": 0
+      },
+      "special_event_instrumentation_info": {
+        "events": null,
+        "special_events_enabled": false,
+        "special_events_not_enabled_reason": "CompatibleComponentsNotFound"
+      },
+      "a_vector_recall_meta_info": {
+        "rt_vector_eligible_query": false,
+        "a_segmentation_applied": true,
+        "a_source_search_term": "Tata Salt 1 kg",
+        "a_query_segmentations": [
+          "TOP_2L"
+        ],
+        "a_query_segmentations_count": 1,
+        "top_segment": "TOP_2L",
+        "source_top_segment": "TOP_2L"
+      },
+      "explore_exploit_meta_info": {
+        "masterFlagEnabled": true,
+        "exploreExploitNotShownReason": "user_not_in_experiment_test_bucket"
+      },
+      "ads_banner_widget_instrumentation_info": {
+        "candidates_processed": 0
+      },
+      "consolidated_banner_widget_instrumentation": {
+        "widgets_added": [],
+        "widgets_rejected": [],
+        "conflicts_resolved": 0
+      },
+      "ads_meta": {
+        "deboosting": null,
+        "fly_wheel": null,
+        "organic_ads_count": 5,
+        "rp_ads_count": 11
+      },
+      "aisle_experience_instrumentation_info": {
+        "aisle_experience_shown": false,
+        "aisle_eligible_query": false,
+        "aisle_experience_not_shown_reason": "AisleExperienceExperimentNotEnabled"
+      },
+      "convo_commerce_widget_info": {
+        "is_convo_commerce_widget_enabled": false,
+        "convo_commerce_widget_not_shown_reason": "prompts list is empty"
+      },
+      "tertiary_store_deboosted_instrumentation": {
+        "tertiary_deboosting_default_done": false,
+        "tertiary_deboosting_explore_done": false,
+        "tertiary_deboosting_vector_done": false
+      },
+      "explore_expansion_instrumentation_info": {
+        "masterFlagEnabled": true,
+        "exploreExpansionNotShownReason": "experiment check failed",
+        "enabled": false
+      },
+      "model_meta_info": {
+        "head_or_tail_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "n1_ranker_model_meta": {
+          "model_output_product_count": 0
+        },
+        "overall_ranker_model_meta": {
+          "model_output_product_count": 0
+        }
+      },
+      "substitution_experience_info": {},
+      "buy_again_oos_info": {
+        "buy_again_oos_count": 0,
+        "buy_again_oos_pvids": "",
+        "buy_again_top_two_oos_count": 0
+      },
+      "hook_sku_oos_info": {
+        "hook_sku_oos_count": 0,
+        "hook_sku_oos_pvids": ""
+      },
+      "query_segmentation_info": {
+        "is_realtime_model_data_fetched": false,
+        "realtime_model_not_enabled_reason": "mongo_data_exists"
+      },
+      "atlas_fallback_reason": "empty_user",
+      "query_similarity_meta": {
+        "query_similarity_done": false,
+        "query_similarity_not_done_reason": "experiment_disabled",
+        "similar_query_pst_data_exist": false
+      },
+      "ads_organic_overlap_meta": {
+        "total_ad_count": 5
+      },
+      "assist_filters_meta": {}
+    },
+    "experiments": {
+      "OR2_MIGRATION_EXPERIMENT": {
+        "experimentName": "search_or2_migration",
+        "experimentId": "dummy_id_for_or2_migration_experiment",
+        "variantName": "test2"
+      },
+      "PVID_SEARCH_CATALOGUE_EXPERIMENT": {
+        "experimentName": "pvid_search_catalogue_experiment",
+        "experimentId": "2adb51f8-afec-43dd-b055-6aa48fce2d73",
+        "variantName": "test"
+      },
+      "SEMANTIC_EXPERIMENT_V4": {
+        "experimentName": "vector_recall_v8",
+        "experimentId": "479283b9-7a7f-4518-83c5-cd3900314c40",
+        "variantName": "semantic_variant_3"
+      }
+    },
+    "pageType": "normal",
+    "stickyHeaders": [
+      0
+    ],
+    "isProductGridEnabled": true,
+    "isFiltersRevampEnabled": false,
+    "pageMeta": {
+      "viewMeta": {},
+      "refreshResolver": {
+        "config": {
+          "appParams": {
+            "queryTerm": "Tata Salt 1 kg",
+            "pageType": "search",
+            "productGridSize": 3
+          }
+        },
+        "url": "cfs/api/v1/bulk-widget-data",
+        "subscriptions": [
+          "cart_change"
+        ],
+        "type": "cfs_upsell_resolver"
+      }
+    },
+    "nextPageParams": {
+      "filterMode": 1,
+      "pageNumber": 1
+    },
+    "filterMode": 1
+  },
+  "sanitization_log": [
+    {
+      "field": "payload.userSessionId",
+      "action": "REDACTED",
+      "reason": "session_id_pii",
+      "redacted_at": "2026-08-26T04:50:00Z"
+    }
+  ]
+}
